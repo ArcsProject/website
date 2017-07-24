@@ -10,7 +10,7 @@
             <div class="media-body">
                 <h4>{{$ctrl.event.date | date: 'fullDate'}}<span ng-if="$ctrl.event.startTime && $ctrl.event.endTime">, {{$ctrl.event.startTime | date: 'shortTime'}} - {{$ctrl.event.endTime | date: 'shortTime'}}</span></h4>
                 <p ng-repeat="line in $ctrl.event.description">{{line}}</p>
-                <a href="locationLink">{{$ctrl.event.location}}</a>
+                <a href="{{$ctrl.event.locationLink}}" target="_blank">{{$ctrl.event.location}}</a>
             </div>
         </div>
     </div>
