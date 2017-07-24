@@ -1,0 +1,17 @@
+﻿<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{$ctrl.event.name}}</h3>
+    </div>
+    <div class="panel-body">
+        <div class="media">
+            <div class="media-left">
+                <img class="media-object" src="../Resources/Images/{{$ctrl.event.imagePath}}" alt="Image for {{$ctrl.event.name}}">
+            </div>
+            <div class="media-body">
+                <h4>{{$ctrl.event.date | date: 'fullDate'}}<span ng-if="$ctrl.event.startTime && $ctrl.event.endTime">, {{$ctrl.event.startTime | date: 'shortTime'}} - {{$ctrl.event.endTime | date: 'shortTime'}}</span></h4>
+                <p ng-repeat="line in $ctrl.event.description">{{line}}</p>
+                <a href="locationLink">{{$ctrl.event.location}}</a>
+            </div>
+        </div>
+    </div>
+</div>

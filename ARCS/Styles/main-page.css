@@ -1,0 +1,23 @@
+﻿body .navbar-brand > img {
+  height: 60px;
+  margin-top: -25px;
+}
+body .tagline {
+  text-align: center;
+}
+body .fb-like {
+  float: right;
+}
+body .spacer {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+body .sponsor-image {
+  height: 100px;
+}
+body .panel .panel-title {
+  font-size: 16px;
+}
+body .jumbotron-image {
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+﻿<div class="container">
+    <h2>Staff</h2>
+    <h3>Board Members</h3>
+    <p>Our Board of Directors assembles American citizens of Romanian descent and Americans of many cultural and professional backgrounds with valuable lifetime experience and expertise in non-profit management, community outreach programs, and cross-cultural dialogue.</p>
+    <div ng-repeat="member in boardMembers">
+        <div class="media">
+            <div class="media-left">
+                <img class="media-object" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">{{member.name}}<span class="spacer">|</span>{{member.title}}</h4>
+                <h5><a ng-href="mailto:{{member.email}}">{{member.email}}</a></h5>
+                <p>{{member.details}}</p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <h3>Advisory Board</h3>
+    <div ng-repeat="member in advisoryBoard">
+        <div class="media">
+            <div class="media-left">
+                <img class="media-object" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">{{member.name}}<span class="spacer">|</span>{{member.title}}</h4>
+                <h5 ng-if="member.email"><a ng-href="mailto:{{member.email}}">{{member.email}}</a></h5>
+                <p>{{member.details}}</p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <h3>Alumni</h3>
+    <div ng-repeat="member in alumni">
+        <div class="media">
+            <div class="media-left">
+                <img class="media-object" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+            </div>
+            <div class="media-body">
+                <h4 class="media-heading">{{member.name}}</h4>
+                <h5 ng-if="member.email"><a ng-href="mailto:{{member.email}}">{{member.email}}</a></h5>
+                <p>{{member.details}}</p>
+            </div>
+        </div>
+        <hr />
+    </div>
+</div>
