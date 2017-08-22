@@ -3,8 +3,9 @@
     controller: EventsController
 });
 
-function EventsController($scope) {
+function EventsController($scope, $stateParams) {
     $scope.filters = [
+        "All",
         "Film",
         "Stage",
         "Community",
@@ -13,51 +14,54 @@ function EventsController($scope) {
 
     $scope.events = [
         {
-            name: "Sample work event",
-            description: ["Description"],
-            date: new Date(2017, 8, 20),
-            startTime: new Date(2017, 8, 20, 17, 30),
-            endTime: new Date(2017, 8, 20, 19, 30),
-            location: "Egyptian Theatre",
-            locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Egyptian",
-            tags: ["work"],
-            imagePath: ""
+            name: "Lucian Ban - Songs from Afar",
+            description: ["Fusion concert where American jazz meets classical and Folk Romanian music"],
+            date: new Date(2017, 10, 10),
+            startTime: new Date(2017, 8, 20, 19, 30),
+            location: "Seattle Art Museum",
+            locationLink: "https://www.google.com/maps/place/Seattle+Art+Museum/",
+            tags: ["stage"],
+            imagePath: "lucian-ban.jpg"
         },
         {
-            name: "Sample community event",
-            description: ["Description"],
-            date: new Date(2017, 8, 25),
-            location: "Egyptian Theatre",
-            locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Egyptian",
-            tags: ["community"],
-            imagePath: ""
+            name: "Romanian Film Festival",
+            description: ["The fourth edition of the Romanian Film Festival"],
+            date: new Date(2017, 10, 17),
+            location: "SIFF Cinema Uptown",
+            locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
+            tags: ["community", "film", "stage"],
+            imagePath: "rffs_0_0.png"
         },
         {
-            name: "Sample stage event",
-            description: ["Description"],
-            date: new Date(2017, 8, 27),
-            location: "Egyptian Theatre",
-            locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Egyptian",
-            tags: ["stage"]
+            name: "Romanian Film Festival",
+            description: ["The fourth edition of the Romanian Film Festival"],
+            date: new Date(2017, 10, 18),
+            location: "SIFF Cinema Uptown",
+            locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown/",
+            tags: ["community", "film", "stage"],
+            imagePath: "rffs_0_0.png"
         },
         {
-            name: "Sample film event",
-            description: ["Description"],
-            date: new Date(2017, 8, 30),
-            location: "Egyptian Theatre",
-            locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Egyptian",
-            tags: ["film"]
+            name: "Romanian Film Festival",
+            description: ["The fourth edition of the Romanian Film Festival"],
+            date: new Date(2017, 10, 19),
+            location: "SIFF Cinema Uptown",
+            locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
+            tags: ["community", "film", "stage"],
+            imagePath: "rffs_0_0.png"
         }
     ];
 
     $scope.setSelectedFilter = function (filter) {
         $scope.selectedFilter = filter;
     }
+
+    $scope.setSelectedFilter($stateParams["filterBy"] ? $stateParams["filterBy"] : "All");
 };
 
 angular.module("arcsApp").filter("eventsFilter", function () {
     return function (events, selectedFilter) {
-        if (!selectedFilter) {
+        if (!selectedFilter || selectedFilter === "All") {
             return events;
         }
 

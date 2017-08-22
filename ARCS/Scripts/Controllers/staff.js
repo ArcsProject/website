@@ -86,9 +86,8 @@ function StaffController($scope) {
         {
             name: "Marchette DuBois",
             imagePath: "MarchetteDuBois.jpg",
-            details: "Marchette DuBois is a coordinator for Balkan and Romanian music and culture networks in the greater Seattle region. Her band <a href=\"http://bucharestdrinkingteam.com\" target=\"_blank\">Bucharest Drinking Team</a> performs a large repertoire of songs from Eastern Europe. A native of New York, she studied music at SUNY Potsdam. Marchette learned Romanian in Cluj and at the University of Washington and has travelled throughout the Balkans in search for new tunes and inspiration.Marchette will bring to ARCS her music and passion, firsthand knowledge of the region and expertise in community outreach and cultural project planning."
+            details: "Marchette DuBois is a coordinator for Balkan and Romanian music and culture networks in the greater Seattle region. Her band Bucharest Drinking Team performs a large repertoire of songs from Eastern Europe. A native of New York, she studied music at SUNY Potsdam. Marchette learned Romanian in Cluj and at the University of Washington and has travelled throughout the Balkans in search for new tunes and inspiration.Marchette will bring to ARCS her music and passion, firsthand knowledge of the region and expertise in community outreach and cultural project planning."
         }
     ];
 }
 ;
-//# sourceMappingURL=staff.js.map

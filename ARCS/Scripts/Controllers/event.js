@@ -4,4 +4,3 @@ angular.module("arcsApp").component("event", {
         event: "="
     }
 });
-//# sourceMappingURL=event.js.map

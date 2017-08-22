@@ -1,1 +1,35 @@
-﻿
+﻿<div class="container partners">
+    <h2>Partners</h2>
+    <h3>Sponsors</h3>
+    <div class="row">
+        <div class="col-xs-6 col-md-3" ng-repeat="partner in sponsors">
+            <a href="{{partner.link}}" class="thumbnail" target="_blank">
+                <img ng-src="../Resources/Images/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image">
+            </a>
+        </div>
+    </div>
+    <h3>Local and National Partners and Supporters</h3>
+    <div class="row list-group">
+        <a ng-repeat="partner in partners" href="{{partner.link}}" class="list-group-item" target="_blank">{{partner.name}}</a>
+    </div>
+    <h3>Local and International Artists, Friends, and Supporters</h3>
+    <div class="row list-group">
+        <a ng-repeat="partner in artists" href="{{partner.link}}" class="list-group-item" target="_blank">{{partner.name}}</a>
+    </div>
+    <h3>Local Romanian Churches</h3>
+    <div class="row list-group">
+        <a ng-repeat="partner in churches" href="{{partner.link}}" class="list-group-item" target="_blank">{{partner.name}}</a>
+    </div>
+    <h3>Local Romanian Associations</h3>
+    <div class="row list-group">
+        <a ng-repeat="partner in artists" href="{{partner.link}}" class="list-group-item" target="_blank">{{partner.name}}</a>
+    </div>
+    <h3>Local Businesses</h3>
+    <div class="row list-group">
+        <a ng-repeat="partner in businesses" href="{{partner.link}}" class="list-group-item" target="_blank">{{partner.name}}</a>
+    </div>
+    <h3>International Resources</h3>
+    <div class="row list-group">
+        <a ng-repeat="partner in international" href="{{partner.link}}" class="list-group-item" target="_blank">{{partner.name}}</a>        
+    </div>
+</div>

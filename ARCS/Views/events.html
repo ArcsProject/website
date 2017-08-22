@@ -1,6 +1,6 @@
 ﻿<div class="container">
     <h2>Events</h2>
-    <div class="dropdown">
+    <div class="dropdown events-dropdown">
         <button class="btn btn-primary dropdown-toggle" type="button" id="filter-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             Filter Events
             <span class="caret"></span>
@@ -8,8 +8,8 @@
         <ul class="dropdown-menu" aria-labelledby="filter-dropdown">
             <li role="menuitem" ng-repeat="filter in filters"><a href="#" ng-click="setSelectedFilter(filter)">{{filter}}</a></li>
         </ul>
-        <label>Selected filter: {{selectedFilter ? selectedFilter : "None"}}</label>
+        <label>Selected filter: {{selectedFilter ? selectedFilter : "All"}} events</label>
     </div>
-
+    
     <event event="event" ng-repeat="event in events | orderBy: 'date' | eventsFilter: selectedFilter"></event>
 </div>

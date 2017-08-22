@@ -45,4 +45,3 @@ function FilmFestivalController($scope) {
     ];
 }
 ;
-//# sourceMappingURL=film-festival.js.map

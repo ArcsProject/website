@@ -25,7 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <ApplicationInsightsResourceId>/subscriptions/7a97b205-845b-4802-9eb7-49a049f32ad9/resourcegroups/Default-ApplicationInsights-EastUS/providers/microsoft.insights/components/ARCS</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/7a97b205-845b-4802-9eb7-49a049f32ad9/resourcegroups/arcsproject/providers/microsoft.insights/components/ARCS</ApplicationInsightsResourceId>
     <TypeScriptToolsVersion>2.0</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -74,6 +74,10 @@
       <HintPath>..\packages\Microsoft.ApplicationInsights.2.2.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.ApplicationInsights.TraceListener, Version=2.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.TraceListener.2.2.0\lib\net45\Microsoft.ApplicationInsights.TraceListener.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
@@ -98,13 +102,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Images\4culture.png" />
+    <Content Include="Resources\Images\absurdity.png" />
     <Content Include="Resources\Images\AlexandraDorca.jpg" />
     <Content Include="Resources\Images\AlexandrinaMaicaneanu.jpg" />
     <Content Include="Resources\Images\AngelaDraghicescu.jpg" />
+    <Content Include="Resources\Images\bass.jpg" />
+    <Content Include="Resources\Images\carti.jpg" />
     <Content Include="Resources\Images\DanaCozmei.jpg" />
     <Content Include="Resources\Images\DaniellaDrader.jpg" />
     <Content Include="Resources\Images\film-festival-poster.jpg" />
     <Content Include="Resources\Images\GloriaMan.jpg" />
+    <Content Include="Resources\Images\grads.jpg" />
     <Content Include="Resources\Images\IleanaMarin.jpg" />
     <Content Include="Resources\Images\IoanaMiron.jpg" />
     <Content Include="Resources\Images\JimAugerot.jpg" />
@@ -112,17 +120,22 @@
     <Content Include="Resources\Images\MarchetteDuBois.jpg" />
     <Content Include="Resources\Images\MariaGerea.jpg" />
     <Content Include="Resources\Images\OtiliaBaraboi.jpg" />
+    <Content Include="Resources\Images\paint.jpg" />
     <Content Include="Resources\Images\rciny_logo_Kb.png" />
     <Content Include="Resources\Images\RO-WAneedle.png" />
     <Content Include="Resources\Images\siff.jpg" />
     <Content Include="Resources\Images\siff.png" />
     <Content Include="Resources\Images\uw.png" />
+    <Content Include="Scripts\External\angular-appinsights.min.js" />
     <Content Include="Scripts\External\angular-ui-router.min.js" />
     <Content Include="Scripts\External\angular.min.js" />
     <Content Include="Scripts\External\jquery.min.js" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Resources\Images\logo.png" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
@@ -154,18 +167,23 @@
     <Content Include="Styles\main-page.min.css">
       <DependentUpon>main-page.css</DependentUpon>
     </Content>
+    <Content Include="Views\contact.html" />
+    <Content Include="Views\donate.html" />
     <Content Include="Views\event.html" />
     <Content Include="Views\events.html" />
     <Content Include="Views\film-festival.html" />
     <Content Include="Views\jumbotron.html" />
     <Content Include="Views\main.html" />
+    <Content Include="Views\mission-statement.html" />
     <Content Include="Views\navbar.html" />
+    <Content Include="Views\press.html" />
     <Content Include="Views\staff.html" />
     <Content Include="Views\mission.html" />
     <Content Include="Views\partners.html" />
-    <Content Include="Views\sponsors.html" />
     <Content Include="Views\thumbnails.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -175,10 +193,15 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\arcs.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\event.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\events.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival.ts" />
-    <TypeScriptCompile Include="Scripts\Controllers\sponsors.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\mission-statement.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\mission.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\partners.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\press.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\staff.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-component-router.d.ts" />

@@ -12,6 +12,13 @@
     <link href="Styles/main-page.css" rel="stylesheet">
 
     <base href="/" />
+
+    <script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+        function i(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o='script',s='AuthenticatedUserContext',h='start',c='stop',l='Track',a=l+'Event',v=l+'Page',y=u.createElement(o),r,f;y.src=config.url||'https://az416426.vo.msecnd.net/scripts/a/ai.0.js';u.getElementsByTagName(o)[0].parentNode.appendChild(y);try{t.cookie=u.cookie}catch(p){}for(t.queue=[],t.version='1.0',r=['Event','Exception','Metric','PageView','Trace','Dependency'];r.length;)i('track'+r.pop());return i('set'+s),i('clear'+s),i(h+a),i(c+a),i(h+v),i(c+v),i('flush'),config.disableExceptionTracking||(r='onerror',i('_'+r),f=e[r],e[r]=function(config,i,u,e,o){var s=f&&f(config,i,u,e,o);return s!==!0&&t['_'+r](config,i,u,e,o),s}),t
+        }({});
+        window.appInsights=appInsights;
+    </script>
 </head>
 <body ng-app="arcsApp">
     <!-- Required SDK for facebook integration. -->
@@ -31,23 +38,44 @@
     <ui-view></ui-view>
 
     <footer>
-        <div class="container">
-            <span>Copyright information</span>
-            <button type="button" class="btn btn-default">Contact Us</button>
-            <div class="fb-like" data-href="https://www.facebook.com/ARCSPROJECT/" data-width="250" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
-        </div>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row center-text">
+                    <div class="col-md-3">
+                        <p>Copyright &copy; 2016 American Romanian Cultural Society</p>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" type="button" class="btn btn-default" ui-sref="contact">Contact Us</a>
+                        <p>We'd love to hear from you!</p>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" type="button" class="btn btn-default" ui-sref="press">Press</a>
+                        <p>Looking for more information?</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="fb-like" data-href="https://www.facebook.com/ARCSPROJECT/" data-width="250" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>        
     </footer>
 
     <script src="Scripts/External/jquery.min.js"></script>
     <script src="Scripts/External/bootstrap.min.js"></script>
     <script src="Scripts/External/angular.min.js"></script>
     <script src="Scripts/External/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="Scripts/External/angular-appinsights.min.js"></script>
 
     <script src="Scripts/arcs.js"></script>
+    <script src="Scripts/Controllers/contact.js"></script>
+    <script src="Scripts/Controllers/donate.js"></script>
     <script src="Scripts/Controllers/event.js"></script>
     <script src="Scripts/Controllers/events.js"></script>
     <script src="Scripts/Controllers/film-festival.js"></script>
+    <script src="Scripts/Controllers/mission.js"></script>
+    <script src="Scripts/Controllers/mission-statement.js"></script>
+    <script src="Scripts/Controllers/partners.js"></script>
+    <script src="Scripts/Controllers/press.js"></script>
     <script src="Scripts/Controllers/staff.js"></script>
-    <script src="Scripts/Controllers/sponsors.js"></script>
 </body>
 </html>

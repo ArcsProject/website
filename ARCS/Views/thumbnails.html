@@ -1,12 +1,12 @@
-﻿<div class="container-fluid">
+﻿<div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-3">
             <div class="thumbnail">
                 <img src="" alt="">
                 <div class="caption">
                     <h3>ARCS in film</h3>
-                    <p>Information about ARCS in film.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Learn more</a></p>
+                    <p>Film events</p>
+                    <p><a ui-sref="events({filterBy: 'Film'})" class="btn btn-primary" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -15,8 +15,8 @@
                 <img src="" alt="">
                 <div class="caption">
                     <h3>ARCS on stage</h3>
-                    <p>Information about ARCS on stage.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Learn more</a></p>
+                    <p>Stage events</p>
+                    <p><a ui-sref="events({filterBy: 'Stage'})" class="btn btn-primary" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -25,8 +25,8 @@
                 <img src="" alt="">
                 <div class="caption">
                     <h3>ARCS at work</h3>
-                    <p>Information about ARCS at work.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Learn more</a></p>
+                    <p>Work events</p>
+                    <p><a ui-sref="events({filterBy: 'Work'})" class="btn btn-primary" role="button">Learn more</a></p>
                 </div>
             </div>
         </div>
@@ -34,9 +34,22 @@
             <div class="thumbnail">
                 <img src="" alt="">
                 <div class="caption">
-                    <h3>Communication</h3>
-                    <p>Join our email list!</p>
-                    <p><a href="#" class="btn btn-default" role="button">Learn more</a></p>
+                    <h3>Connect with ARCS</h3>
+                    <p>Communication</p>
+                    <p>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="contact-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Contact
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="filter-dropdown">
+                                <li role="menuitem"><a href="mailto:contact@arcsproject.org?subject=Mailing%20List">Join our mailing list</a></li>
+                                <li role="menuitem"><a ui-sref="contact">Contact us</a></li>
+                                <li role="menuitem"><a ui-sref="donate">Donate to ARCS</a></li>
+                                <li role="menuitem"><a href="https://www.facebook.com/ARCSPROJECT/" target="_blank">Visit us on Facebook</a></li>
+                            </ul>
+                        </div>
+                    </p>
                 </div>
             </div>
         </div>
