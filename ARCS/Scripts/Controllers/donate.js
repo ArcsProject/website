@@ -56,6 +56,11 @@ function DonateController($scope) {
             dollars: "Custom amount",
             level: "",
             benefits: ""
+        },
+        {
+            dollars: "$1000",
+            level: "Partner",
+            benefits: "Become a Festival Partner and join our team! If you are a local business, this is a wonderful opportunity to enhance your visibility within our diverse multicultural community."
         }
     ];
     $scope.setSelectedFilmFestivalAmount = function (amount) {

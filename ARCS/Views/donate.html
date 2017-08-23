@@ -16,6 +16,14 @@
                     <button ng-repeat="purpose in purposes" ng-click="setSelectedPurpose(purpose)" ng-class="{'active': selectedPurpose == purpose}" class="list-group-item">{{purpose}}</button>
                 </div>
             </div>
+            <div class="progress" ng-if="selectedPurpose == 'Romanian Film Festival'">
+                <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="6275" aria-valuemin="0" aria-valuemax="15000" style="width: 42%">
+                    $6,275 / $15,000
+                </div>
+            </div>
+            <p>
+                Check out the <a ui-sref="film-festival">Film Festival</a> page to see donors, events, and more!
+            </p>
             <p>
                 Checks are welcome. Please address them to:<br />
                 <span class="address">American Romanian Cultural Society</span><br />
@@ -59,7 +67,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-6">
             <p>
                 <a href="mailto:contact@arcsproject.org?subject=Mailing%20List">Email us</a> if you would like to get involved in any way:
                 <ul>
@@ -68,6 +76,10 @@
                     <li>Participate in the organization of a current event</li>
                     <li>Volunteer (many companies might remunerate the work you do for ARCS)</li>
                 </ul>
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <p>
                 You can also:
                 <ul>
                     <li>Spread the word about the <a ui-sref="film-festival">Romanian Film Festival</a></li>
