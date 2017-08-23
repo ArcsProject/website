@@ -19,12 +19,59 @@
             <img src="../Resources/Images/siff.jpg" alt="SIFF Cinema Uptown">
         </div>
         <div class="col-sm-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.129774620879!2d-122.35923238436895!3d47.62360857918578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901546d31fd5ff%3A0x66ddf48da16f8726!2sSIFF+Cinema+Uptown!5e0!3m2!1sen!2sus!4v1500855895683" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.129774620879!2d-122.35923238436895!3d47.62360857918578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901546d31fd5ff%3A0x66ddf48da16f8726!2sSIFF+Cinema+Uptown!5e0!3m2!1sen!2sus!4v1500855895683" width="400" height="300" frameborder="0" style="border:0"></iframe>
         </div>
     </div>
     <h2>Who?</h2>
     <h3>Guests</h3>
     <h3>Supporters</h3>
     <h2>Events</h2>
+    <h3>Private Donors</h3>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level ARCS ($500+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsARCS">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level A ($250+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsA">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level R ($100+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsR">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level C ($50+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsC">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level S ($25+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsS">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <event event="event" ng-repeat="event in events | orderBy: 'date'"></event>
 </div>

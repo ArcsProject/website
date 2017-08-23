@@ -3,5 +3,8 @@ angular.module("arcsApp").component("contact", {
     controller: ContactController
 });
 function ContactController($scope) {
+    $scope.submitInformation = function () {
+        $scope.sent = true;
+    };
 }
 ;

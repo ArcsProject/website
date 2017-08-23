@@ -4,4 +4,7 @@
 });
 
 function ContactController($scope) {
+    $scope.submitInformation = function() {
+        $scope.sent = true;
+    }
 };

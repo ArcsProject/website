@@ -40,11 +40,14 @@ body .partners .list-group {
   padding-left: 15px;
   padding-right: 15px;
 }
-body .mission .media-left {
+body .media-left {
   min-width: 225px;
 }
-body .mission .media-object {
+body .media-object {
   margin: auto;
+}
+body .address {
+  padding-left: 36px;
 }
 body footer {
   margin-top: 100px;

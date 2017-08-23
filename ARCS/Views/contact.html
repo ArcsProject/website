@@ -1,3 +1,40 @@
 ﻿<div class="container">
-    <h2>Contact (Coming soon!)</h2>
+    <h2>Contact Us</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <p>We'd love to hear from you!</p>
+            <p>
+                To get in touch with us, you can:
+                <ul>
+                    <li>Fill out the form on this page</li>
+                    <li>Email us directly at <a href="mailto:contact@arcsproject.org?subject=Contact%20with%20ARCS">contact@arcsproject.org</a></li>
+                    <li>Email a board member directly by going to the <a ui-sref="staff">Staff page</a></li>
+                    <li>Visit us on <a href="https://www.facebook.com/ARCSPROJECT/" target="_blank">Facebook</a></li>
+                </ul>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="name">Name (optional):</label>
+                <input type="text" id="name" class="form-control" ng-model="name" ng-disabled="sent">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address (optional):</label>
+                <input type="text" id="email" class="form-control" ng-model="email" ng-disabled="sent">
+            </div>
+            <div class="checkbox" ng-if="email">
+                <label><input type="checkbox" ng-model="mailingList" ng-disabled="sent">Please check this box if you'd like to be added to our mailing list. We promise to never sell or misuse your information.</label>
+            </div>
+            <div class="form-group">
+                <label for="comment">Comments:</label>
+                <textarea class="form-control" rows="5" id="comment" ng-model="comments" ng-disabled="sent"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="button" ng-click="submitInformation()" class="btn btn-primary" ng-disabled="sent || !comments">Submit</button>
+            </div>
+            <div class="form-group" ng-if="sent">
+                <label>Thanks for reaching out to us! We'll read your message and respond (if applicable) as soon as possible.</label>
+            </div>
+        </div>
+    </div>
 </div>

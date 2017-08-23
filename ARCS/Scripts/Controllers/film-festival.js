@@ -43,5 +43,30 @@ function FilmFestivalController($scope) {
             tags: ["film"]
         }
     ];
+    $scope.donorsARCS = [
+        "Roxana Arama",
+        "Alina Popa"
+    ];
+    $scope.donorsA = [
+        "Mary Sherhart",
+        "Alexandra Dorca",
+        "Dana Elena Cozmei",
+        "Gabriel Ghizila",
+        "Irina si Cristi Salvan"
+    ];
+    $scope.donorsR = [
+        "Radu Palanca",
+        "Stefan Saroiu",
+        "Elena si Adrian Fanaru",
+        "Ovidiu Constantin",
+        "Carl Winter",
+        "Elena Boris"
+    ];
+    $scope.donorsC = [
+        "Lisa Friedli"
+    ];
+    $scope.donorsS = [
+        "Maryna Ajaja"
+    ];
 }
 ;

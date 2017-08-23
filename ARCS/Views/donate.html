@@ -1,3 +1,79 @@
 ﻿<div class="container">
-    <h2>Donate (Coming soon!)</h2>
+    <h2>Support Us</h2>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>ARCS is a community building effort that relies heavily on the commitment of its volunteers. The members of our Board of Directors all serve on a volunteer basis. All of our events are planned, organized, and promoted by volunteers.</p>
+            <p>
+                <b>Please support our efforts by donating. No amount is too small! Remember to inquire about matching plans with your employer. Thank you!</b>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label for="purpose">Purpose:</label>
+                <div class="list-group">
+                    <button ng-repeat="purpose in purposes" ng-click="setSelectedPurpose(purpose)" ng-class="{'active': selectedPurpose == purpose}" class="list-group-item">{{purpose}}</button>
+                </div>
+            </div>
+            <p>
+                Checks are welcome. Please address them to:<br />
+                <span class="address">American Romanian Cultural Society</span><br />
+                <span class="address">1931 E Lynn St</span><br />
+                <span class="address">Seattle, WA 98112</span><br />
+            </p>
+        </div>
+        <div class="col-sm-8">
+            <div class="form-group">
+                <label for="purpose">Amount:</label>
+                <div class="list-group" ng-if="selectedPurpose != 'Romanian Film Festival'">
+                    <button ng-repeat="amount in amounts" ng-click="setSelectedAmount(amount)" ng-class="{'active': selectedAmount == amount}" class="list-group-item">{{amount}}</button>
+                </div>
+                <div class="list-group" ng-if="selectedPurpose == 'Romanian Film Festival'">
+                    <button ng-repeat="amount in filmFestivalAmounts" ng-click="setSelectedFilmFestivalAmount(amount)" ng-class="{'active': selectedFilmFestivalAmount == amount}" class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <h5>{{amount.dollars}}</h5>
+                                <h6>{{amount.level}}</h6>
+                            </div>
+                            <div class="col-sm-10">
+                                <p>{{amount.benefits}}</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="form-group" ng-if="selectedAmount == 'Custom amount' || selectedFilmFestivalAmount.dollars == 'Custom amount'">
+                <div class="input-group">
+                    <span class="input-group-addon">$</span>
+                    <input type="text" class="form-control" ng-model="amount">
+                </div>
+            </div>
+            <div class="checkbox">
+                <label><input type="checkbox" ng-model="recurring">Please check this box if you'd like to make this a recurring donation.</label>
+            </div>
+            <div class="form-group">
+                <label for="honor">In Honor Of (optional):</label>
+                <input type="text" id="honor" class="form-control" ng-model="honor">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>
+                <a href="mailto:contact@arcsproject.org?subject=Mailing%20List">Email us</a> if you would like to get involved in any way:
+                <ul>
+                    <li>Suggest a future ARCS event</li>
+                    <li>Contribute your ideas to the planning of a future event</li>
+                    <li>Participate in the organization of a current event</li>
+                    <li>Volunteer (many companies might remunerate the work you do for ARCS)</li>
+                </ul>
+                You can also:
+                <ul>
+                    <li>Spread the word about the <a ui-sref="film-festival">Romanian Film Festival</a></li>
+                    <li>Like us on <a href="https://www.facebook.com/ARCSPROJECT/" target="_blank">Facebook</a></li>
+                </ul>
+            </p>
+        </div>
+    </div>
 </div>
