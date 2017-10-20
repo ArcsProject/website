@@ -1,0 +1,19 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{$ctrl.film.name}} (By {{$ctrl.film.artist}})</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="media-object film" src="../Resources/Images/{{$ctrl.film.imagePath}}" alt="Image for {{$ctrl.film.name}}">
+            </div>
+            <div class="col-sm-9">
+                <h4 ng-if="$ctrl.film.time">{{$ctrl.film.time}}</h4>
+                <p ng-if="$ctrl.film.guests"><b>Guests in attendance:</b> {{$ctrl.film.guests}}</p>
+                <p ng-repeat="line in $ctrl.film.description" ng-bind-html="line"></p>
+                <p><b>Length:</b> {{$ctrl.film.length}}</p>
+                <p>{{$ctrl.film.year}}, {{$ctrl.film.genres}}</p>
+            </div>
+        </div>
+    </div>
+</div>

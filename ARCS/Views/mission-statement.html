@@ -3,11 +3,12 @@
         <h3 class="panel-title">{{$ctrl.statement.title}}</h3>
     </div>
     <div class="panel-body">
-        <div class="media">
-            <div class="media-left">
+        <div class="row">
+            <div class="col-sm-3">
                 <img class="media-object" src="../Resources/Images/{{$ctrl.statement.imagePath}}" alt="Image for {{$ctrl.statement.title}}">
+                <p ng-if="$ctrl.statement.credit">Photo by {{$ctrl.statement.credit}}</p>
             </div>
-            <div class="media-body">
+            <div class="col-sm-9">
                 <p ng-repeat="line in $ctrl.statement.description">{{line}}</p>
             </div>
         </div>

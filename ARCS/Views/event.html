@@ -1,14 +1,23 @@
 ﻿<div class="panel panel-primary">
     <div class="panel-heading">
-        <h3 class="panel-title">{{$ctrl.event.name}}</h3>
+        <div class="row">
+            <div class="col-xs-9">
+                <h3 class="panel-title">{{$ctrl.event.name}}</h3>
+            </div>
+            <div class="col-xs-3">
+                <button ng-if="$ctrl.event.moreInfoPath" class="btn btn-info btn-sm event-button" ui-sref="{{$ctrl.event.moreInfoPath}}">More Info</button>
+                <a ng-if="$ctrl.event.links" class="btn btn-info btn-sm event-button" ng-repeat="link in $ctrl.event.links" href="{{link.href}}" target="_blank">{{link.text}}</a>
+            </div>
+        </div>
     </div>
     <div class="panel-body">
         <div class="media">
-            <div class="media-left">
-                <img class="media-object" src="../Resources/Images/{{$ctrl.event.imagePath}}" alt="Image for {{$ctrl.event.name}}">
+            <div class="col-sm-3">
+                <img ng-if="$ctrl.event.imagePath" class="media-object" src="../Resources/Images/{{$ctrl.event.imagePath}}" alt="Image for {{$ctrl.event.name}}">
             </div>
-            <div class="media-body">
-                <h4>{{$ctrl.event.date | date: 'fullDate'}}<span ng-if="$ctrl.event.startTime">, {{$ctrl.event.startTime | date: 'shortTime'}}</span><span ng-if="$ctrl.event.endTime"> - {{$ctrl.event.endTime | date: 'shortTime'}}</span></h4>
+            <div class="col-sm-9">
+                <h4 ng-if="$ctrl.event.date">{{$ctrl.event.date | date: 'fullDate'}}<span ng-if="$ctrl.event.startTime">, {{$ctrl.event.startTime | date: 'shortTime'}}</span><span ng-if="$ctrl.event.endTime"> - {{$ctrl.event.endTime | date: 'shortTime'}}</span></h4>
+                <h4 ng-if="$ctrl.event.startDate">{{$ctrl.event.startDate | date: 'fullDate'}}<span ng-if="$ctrl.event.endDate"> - {{$ctrl.event.endDate | date: 'fullDate'}}</span></h4>
                 <p ng-repeat="line in $ctrl.event.description">{{line}}</p>
                 <a href="{{$ctrl.event.locationLink}}" target="_blank">{{$ctrl.event.location}}</a>
             </div>

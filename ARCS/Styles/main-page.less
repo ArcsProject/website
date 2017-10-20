@@ -3,13 +3,42 @@
     background-image: url("../Resources/Images/absurdity.png");
 
     #donate-button {
-        padding-top: 6px;
-        padding-bottom: 6px;
+        font-size: 16px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        display: inline-block;
     }
 
     .navbar-brand > img {
-        height: 60px;
+        height: 70px;
         margin-top: -25px;
+    }
+
+    .navbar-toggle {
+        padding: 14px 10px;
+    }
+
+    .navbar-default .navbar-nav>li>a.navbar-btn:hover, .navbar-default .navbar-nav>li>a.navbar-btn:focus {
+        color: #ffffff;
+        background-color: #511c39;
+        border-color: #491933;
+    }
+
+    @media (min-width: 768px) {
+        .navbar-nav>li>a {
+            font-size: 16px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .navbar-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .extra-margin {
+        margin-top: 50px;
     }
 
     .events-dropdown {
@@ -18,6 +47,24 @@
 
     .tagline {
         text-align: center;
+        font-size: 48px;
+        padding-top: 12px;
+    }
+
+    .mission-statement {
+        text-align: center;
+        padding: 24px 10%;
+    }
+
+    .event-button {
+        float: right;
+        margin-left: 10px;
+    }
+
+    @media (max-width: 768px) {
+        a.event-button:not(:first-child) {
+            margin-top: 10px;
+        }
     }
 
     .spacer {
@@ -33,6 +80,10 @@
         font-size: 16px;
     }
 
+    .jumbotron {
+        background-color: lightgrey;
+    }
+
     .jumbotron-image {
         width: 100%;
     }
@@ -45,30 +96,61 @@
             justify-content: center;
             text-align: center;
         }
+    }
 
-        .list-group {
-            padding-left: 15px;
-            padding-right: 15px;
-        }
+    .list-group {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .media-left {
         min-width: 225px;
     }
 
+    .guest, .film {
+        max-width: 200px;
+    }
+
     .media-object {
         margin: auto;
+        max-width: 100%;
+        padding-bottom: 15px;
     }
 
     .address {
         padding-left: 36px;
     }
 
+    .map {
+        justify-content: center;
+        display: flex;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .poster {
+        max-width: 100%;
+    }
+
     footer {
         margin-top: 100px;
+    }
 
-        .center-text {
-            text-align: center;
-        }
+    .piticot-row {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .modal-body img {
+        max-width: 100%;
+    }
+
+    .press-image {
+        max-height: 100%;
+    }
+
+    .center-text {
+        text-align: center;
     }
 }

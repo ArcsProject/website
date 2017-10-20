@@ -25,37 +25,7 @@ function PartnersController($scope) {
             imagePath: "RO-WAneedle.png"
         }
     ];
-    $scope.partners = [
-        {
-            name: "Romanian Cultural Institute in New York",
-            link: "http://www.icrny.org"
-        },
-        {
-            name: "4Culture",
-            link: "http://www.4culture.org"
-        },
-        {
-            name: "Seattle Office of Arts and Culture",
-            link: "http://www.seattle.gov/arts/"
-        },
-        {
-            name: "Slavic Languages and Literature Department at the University of Washington",
-            link: "http://slavic.washington.edu"
-        },
-        {
-            name: "The Ellison Center for Russian, Eastern European, and Central Asian Studies at the University of Washington",
-            link: "http://ellisoncenter.washington.edu"
-        },
-        {
-            name: "Alianta, Friends of the Romanian-American Alliance, Washington DC",
-            link: "http://alianta.org"
-        }
-    ];
     $scope.artists = [
-        {
-            name: "Bucharest Drinking Team",
-            link: "http://www.bucharestdrinkingteam.com"
-        },
         {
             name: "Romanian Folkloric Ensemble \"Datina Seattle\"",
             link: "https://www.facebook.com/datinaseattle"
@@ -67,6 +37,22 @@ function PartnersController($scope) {
         {
             name: "Artist Daniel Ursache",
             link: "http://www.danielursache.com"
+        },
+        {
+            name: "Photographer Daniel Man",
+            link: "http://www.danielmanphoto.com"
+        },
+        {
+            name: "Photographers Daniel and Timea Zilcsak (Northwest Clicks)",
+            link: "https://nwclicks.com"
+        },
+        {
+            name: "Alliance Francaise Seattle",
+            link: "http://afseattle.org"
+        },
+        {
+            name: "Alianța",
+            link: "https://alianta.org"
         }
     ];
     $scope.churches = [
@@ -113,6 +99,22 @@ function PartnersController($scope) {
         {
             name: "Pannonia Smokehouse",
             link: "http://www.carpatiasausage.com/"
+        },
+        {
+            name: "Nadia Schmieder",
+            link: "http://www.youragentnadia.com/"
+        },
+        {
+            name: "Tradu Terra",
+            link: "http://www.traduterra.com/"
+        },
+        {
+            name: "Advanced Dentistry at Century Square",
+            link: "http://www.drlarhs.com/"
+        },
+        {
+            name: "Seattle2Europe",
+            link: "https://www.facebook.com/Seattle2Europe/"
         }
     ];
     $scope.international = [
@@ -123,3 +125,4 @@ function PartnersController($scope) {
     ];
 }
 ;
+//# sourceMappingURL=partners.js.map

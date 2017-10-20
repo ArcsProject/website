@@ -1,0 +1,88 @@
+﻿<div class="container">
+    <p>The Romanian Film Festival in Seattle and Earshot Jazz Festival proudly present</p>
+    <h2>Lucian Ban and Elevation - Songs From Afar</h2>
+    <h4>Opening the concert: Romanian Rhapsody No. 1 by George Enescu</h4>
+    <div class="row">
+        <div class="col-sm-6">
+            <h4>November 10th at Seattle Art Museum</h4>
+            <a href="https://www.earshot.org/event/lucian-ban-trio-songs-afar-angela-draghicescu/" class="btn btn-primary" target="_blank">Buy Tickets</a>
+            <h3>Audio excerpts from album Songs From Afar</h3>
+            <ul>
+                <li><a href="https://soundcloud.com/soundluc/03-doina-1b-edit-3" target="_blank">Transylvanian Sorrow Song</a></li>
+                <li><a href="https://soundcloud.com/soundluc/hanks-spiritual-excerpt" target="_blank">Spiritual</a></li>
+                <li><a href="https://soundcloud.com/soundluc/transylvanian-wedding-song-john" target="_blank">Transylvanian Wedding Song</a></li>
+            </ul>
+            <h3>More Info</h3>
+            <p>Part of Earshot Jazz Festival 2017 and conceived as a send off for the Romanian Film Festival in Seattle, Songs from Afar presents the only West Coast appearance of Transylvanian traditional singer <b>Gavril Tărmure</b> performing along saxophonist <b>Abraham Burton</b>, pianist <b>Lucian Ban</b>, violist <b>Mat Maneri</b>, bassist <b>Brad Jones</b> and special guest star the legendary drummer <b>Billy Hart</b>, in a unique amalgamation of Transylvanian folk with jazz and improvisation that truly spans continents and styles.</p>
+            <p>Talking about Songs from Afar, the Transylvanian expat pianist & leader of Elevation Lucian Ban says: <i>“Songs from afar is very personal for me because the album is intimately tied to my Romanian cultural heritage and to the jazz influences that help me find out more about where I come from – and where I’m going.  It's not only the ancient Transylvanian folk songs that we approach in this recording, it’s also how the other pieces and improvisations reflect the constant search for musical meaning"</i>.</p>
+            <p>Internationally renowned pianist Angela Draghicescu and her Seattle-based guests will pay tribute to famed composer George Enescu with a new arrangement of the Romanian Rhapsody.</p>
+        </div>
+        <div class="col-sm-6">
+            <img class="poster" src="../Resources/Images/28_Poster_2017_11X17=CONCERT_no-bleed.jpg" alt="Songs from Afar poster" />
+            <p>Poster by Daniel Ursache</p>
+        </div>
+    </div>
+    <h3>Elevation</h3>
+    <p>Sunnyside Records released Lucian Ban’s second album with ELEVATION “Songs From Afar” in 2016 to rave reviews and acclaim.</p>
+    <p>Talking about his second album with Elevation and his 3rd appearance for Sunnyside Records Lucian Ban says: “Songs from afar is very personal for me because the album is intimately tied to my Romanian cultural heritage and to the jazz influences that help me find out more about where I come from – and where I’m going.  It's not only the ancient Transylvanian folk songs that we approach in this recording, it’s also how the other pieces and improvisations reflect the constant search for musical meaning"</p>
+    <p>Aside from the Transylvanian folk songs six other original compositions by the pianist and a solo piano tribute to South African master pianist Abdullah Ibrahim round up a stunning body of music for the new Elevation album. Songs From Afar represents two traditions, two musical worlds, and many musical elements coming together to fashion a unique identity that truly spans continents and styles.</p>
+    <p>Lucian Ban first album with Elevation “Mystery” (Sunnyside 2013), recorded live in New York won multiple BEST ALBUM OF THE YEAR,  and the quartet led by the Transylvanian expat pianist features Abraham Burton on tenor saxophone and the powerhouse rhythm section of John Hebert on  bass and Eric McPherson on drums. For Songs from Afar Lucian Ban has invited long time collaborator and violist extraordinaire Mat Maneri – with whom the pianist recorded for ECM Records the acclaimed Transylvanian Concert album - to participate on several numbers along with Transylvanian traditional folk singer Gavril Tarmure whose voice soars on the ancient folk songs.</p>
+    <div ng-repeat="member in elevation">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="media-object" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+                <p ng-if="member.credit">Photo by {{member.credit}}</p>
+            </div>
+            <div class="col-sm-9">
+                <h4 class="media-heading">{{member.name}}<span class="spacer" ng-if="member.title">|</span>{{member.title}}</h4>
+                <p ng-repeat="line in member.details" ng-bind-html="line"></p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <h4>YouTube Videos</h4>
+    <div class="row">
+        <div class="col-sm-4">
+            <p>Syndrome @ Bimhuis, Amsterdam</p>
+            <iframe src="https://www.youtube.com/embed/10ZqVGA5Amo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-4">
+            <p>Freeflow, live in NYC</p>
+            <iframe src="https://www.youtube.com/embed/eYKVAVH0IKk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-4">
+            <p>Farewell, @ TM Festival</p>
+            <iframe src="https://www.youtube.com/embed/sekOZoN38sQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <h3>Romanian Rhapsody No. 1 by George Enescu</h3>
+    <p>Angela Drăghicescu and her guest musicians come together to present a unique and rarely performed arrangement of Enescu's Romanian Rhapsody No. 1 by Jacques Enoch.</p>
+    <p>The Romanian Rhapsodies, for orchestra, are one of George Enescu's best-known compositions. Regarded as Romania's most important musician, Enescu wrote both rhapsodies in 1901, and first performed them together in 1903. The two rhapsodies, and particularly the first, have long held a permanent place in the repertory of every major orchestra. They employ elements of Romanian folk tunes and vivid rhythms, and an air of spontaneity. The rhapsodies have become two of Enescu's most famous compositions representing the essence of the Romanian spirit.</p>
+    <div ng-repeat="member in ensemble">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="media-object" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+            </div>
+            <div class="col-sm-9">
+                <h4 class="media-heading">{{member.name}}<span class="spacer" ng-if="member.title">|</span>{{member.title}}</h4>
+                <p ng-repeat="line in member.details">{{line}}</p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <h3>Reviews</h3>
+    <div class="row">
+        <div class="col-sm-4" ng-repeat="review in reviews">
+            <div class="well">
+                <p>"{{review.text}}"</p>
+                <p ng-if="review.source">--{{review.source}}</p>
+            </div>
+        </div>
+    </div>
+    <h3>Links</h3>
+    <ul>
+        <li>Sunnyside Records Songs from Afar <a href="http://sunnysidezone.com/album/songs-from-afar" target="_blank">album page</a></li>
+        <li>Watch a <a href="https://www.youtube.com/watch?v=7LWZVEAJOUQ" target="_blank">short video</a> of ELEVATION with Transylvanian traditional folk singer Gavril Tarmure</li>
+        <li><a href="https://www.youtube.com/watch?v=24L8nIf_1Bg" target="_blank">Album video trailer</a></li>
+    </ul>
+</div>

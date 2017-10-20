@@ -11,5 +11,5 @@
         <label>Selected filter: {{selectedFilter ? selectedFilter : "All"}} events</label>
     </div>
     
-    <event event="event" ng-repeat="event in events | orderBy: 'date' | eventsFilter: selectedFilter"></event>
+    <event event="event" ng-repeat="event in events | eventsFilter: selectedFilter"></event>
 </div>

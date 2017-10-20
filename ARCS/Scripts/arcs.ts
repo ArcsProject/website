@@ -33,6 +33,12 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         }
     };
 
+    states["past-events"] = {
+        name: "past-events",
+        url: "^/past-events",
+        template: "<past-events></past-events>"
+    };
+
     states["film-festival"] = {
         name: "film-festival",
         url: "^/film-festival",
@@ -57,6 +63,18 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         template: "<press></press>"
     };
 
+    states["piticot"] = {
+        name: "piticot",
+        url: "^/piticot",
+        template: "<piticot></piticot>"
+    };
+
+    states["high-school"] = {
+        name: "high-school",
+        url: "^/high-school",
+        template: "<high-school></high-school>"
+    };
+
     states["donate"] = {
         name: "donate",
         url: "^/donate",
@@ -67,6 +85,12 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         name: "contact",
         url: "^/contact",
         template: "<contact></contact>"
+    };
+
+    states["songs-from-afar"] = {
+        name: "songs-from-afar",
+        url: "^/songs-from-afar",
+        template: "<songs-from-afar></songs-from-afar>"
     };
 
     $urlRouterProvider.otherwise("/");

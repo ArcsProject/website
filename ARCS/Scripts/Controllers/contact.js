@@ -8,3 +8,4 @@ function ContactController($scope) {
     };
 }
 ;
+//# sourceMappingURL=contact.js.map

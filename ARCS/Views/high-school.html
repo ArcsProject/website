@@ -1,0 +1,196 @@
+﻿<div class="container">
+    <h2>Romanian in High School</h2>
+    <div class="piticot-row row">
+        <div class="col-sm-7">
+            <p>"Romanian in HS" is a unique program in the US. While open to any high school student, the program is designed specifically for Romanian heritage students who aim at perfecting their communication skills in Romanian in order to earn the Washington State Seal of Biliteracy and the 4 credits required for college admission. By encouraging students to continue to college, providing volunteering opportunities within the Romanian community, and by offering mentorship opportunities, the program is a novel approach to ethnic community engagement for Seattle area Romanians.</p>
+            <h3>2017-2018</h3>
+            <p>
+                The Romanian in HS Program will resume with a language competence test that will decide the group placement of students. This school year we will offer two courses:
+                <ul>
+                    <li>An intensive course of 6 sessions that will prepare advanced students for taking the official language exam ALTA at the beginning of 2018</li>
+                    <li>A regular course of 12 sessions that will prepare intermediate students for taking the official language exam ALTA at the end of April 2018</li>
+                </ul>
+            </p>
+            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfzu3xhogwQdumn1I0V_OfZqLEIr0fYV5zJBXBhpLkC_9gUHw/viewform?c=0&w=1" target="_blank">Preliminary Registration</a></p>
+        </div>
+        <div class="col-sm-5">
+            <img class="poster" src="../Resources/Images/highschool1.jpg" />
+        </div>
+    </div>
+    <h3>Instructors</h3>
+    <div ng-repeat="instructor in instructors">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="media-object" src="../Resources/Images/{{instructor.imagePath}}" alt="Image of {{instructor.name}}">
+            </div>
+            <div class="col-sm-9">
+                <h4 class="media-heading">{{instructor.name}}</h4>
+                <h5><a ng-href="mailto:{{instructor.email}}">{{instructor.email}}</a></h5>
+                <p>{{instructor.details}}</p>
+            </div>
+        </div>
+    </div>
+    <h3>Substitute Teachers</h3>
+    <div ng-repeat="instructor in substitutes">
+        <div class="row">
+            <div class="col-sm-3">
+                <img ng-if="instructor.imagePath" class="media-object" src="../Resources/Images/{{instructor.imagePath}}" alt="Image of {{instructor.name}}">
+            </div>
+            <div class="col-sm-9">
+                <h4 class="media-heading">{{instructor.name}}</h4>
+                <h5 ng-if="instructor.email"><a ng-href="mailto:{{instructor.email}}">{{instructor.email}}</a></h5>
+                <p>{{instructor.details}}</p>
+            </div>
+        </div>
+    </div>
+    <h3>Administrator</h3>
+    <div class="row">
+        <div class="col-sm-3">
+            <img class="media-object"src="../Resources/Images/IulianCalinov.png" alt="Image of Iulian Calinov" />
+        </div>
+        <div class="col-sm-9">
+            <h4 class="media-heading">Iulian Calinov</h4>
+            <h5><a href="mailto:iulianc@gmail.com">iulianc@gmail.com</a></h5>
+            <p>Iulian Calinov was born in Bucharest Romania. Iulian holds a masters degree in Electrical Engineering from the Politechnic University of Bucharest and a Masters of Business Administration in Corporate Financa jointly from Bucharest School of Economics and Université du Québec à Montréal. Iulian has worked as an Assistant Professor with the Politechnica University of Bucharest for 6 years after graduation, teaching Control Theory, Digital Control, Microprocessor Systems, Electric Drives and Microeconomics. After a brief stint as a Treasurer for Philip Moris in Romania, Iulian moved to the United Stated to work for Microsoft in Redmond, WA in 1998. Currently, Iulian is a Principal Program Manager with Microsoft, and serves the Romanian community in Seattle as a Honorary Consul on Romania as well as the Secretary of Romanian American Society of Washington State.</p>
+        </div>
+    </div>
+    <h3>Intensive Course</h3>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Who?</div>
+                <div class="panel-body">
+                    Students placed in the program at the test on September 23
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">How much?</div>
+                <div class="panel-body">
+                    <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="item_name" value="Romanian in High School - Intensive Course" />
+                        <input type="hidden" name="amount" value="200" />
+                        <input type="hidden" name="cmd" value="_donations">
+                        <input type="hidden" name="business" value="otilia.baraboi@arcsproject.org">
+                        <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        <input type="submit" class="btn btn-info" value="$200 (PayPal)" /><br /><br />
+                        <p>Click to enroll now!</p>
+                    </form>
+                    <p>Financial aid is available. Please apply, as all applications are considered. We will not turn anyone away.</p>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">When?</div>
+                <ul class="list-group">
+                    <li class="list-group-item">October 14, 10:00 AM - 1:00 PM</li>
+                    <li class="list-group-item">October 28, 10:00 AM - 1:00 PM</li>
+                    <li class="list-group-item">November 11, 10:00 AM - 1:00 PM</li>
+                    <li class="list-group-item">December 2, 10:00 AM - 1:00 PM</li>
+                    <li class="list-group-item">January 13, 10:00 AM - 1:00 PM</li>
+                    <li class="list-group-item">January 27, 10:00 AM - 1:00 PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Where?</div>
+                <div class="panel-body">
+                    University of Washington, Communications Building 226
+                    <div class="row map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2687.453193002911!2d-122.3065842!3d47.6561918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfdcd1acd1e5380c1!2sCommunications+Building+(CMU)!5e0!3m2!1sen!2sus!4v1504679352350" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <p>
+                Checks are welcome. Please address them to:<br />
+                <span class="address">American Romanian Cultural Society</span><br />
+                <span class="address">1931 E Lynn St</span><br />
+                <span class="address">Seattle, WA 98112</span><br />
+            </p>
+        </div>
+    </div>
+    <p>A course packet will be available for a $20 fee.</p>
+    <p>We recommend that you start talking with your HS counselor about the ALTA test sometime at the beginning of November to make sure that you will be offered the official test at the beginning of 2018.</p>
+    <h3>Standard Course</h3>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Who?</div>
+                <div class="panel-body">
+                    Students placed in the program at the test on September 23
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">How much?</div>
+                <div class="panel-body">
+                    <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="item_name" value="Romanian in High School - Standard Course" />
+                        <input type="hidden" name="amount" value="300" />
+                        <input type="hidden" name="cmd" value="_donations">
+                        <input type="hidden" name="business" value="otilia.baraboi@arcsproject.org">
+                        <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        <input type="submit" class="btn btn-info" value="$300 (PayPal)" /><br /><br />
+                        Click to enroll now!
+                    </form><br />
+                    <p><b>Note:</b> A total of $400 to be paid in two installments as follows: $300 by December 1, 2017 and the remaining $100 by January 13, 2018</p>
+                    <p>Financial aid is available. Please apply, as all applications are considered. We will not turn anyone away.</p>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">When?</div>
+                <ul class="list-group">
+                    <li class="list-group-item">October 7, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">October 21, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">November 4, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">November 18, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">December 2, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">January 13, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">January 27, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">February 10, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">February 24, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">March 10, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">March 24, 10:00 AM - 12:00 PM</li>
+                    <li class="list-group-item">April 7, 10:00 AM - 12:00 PM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Where?</div>
+                <div class="panel-body">
+                    University of Washington, Communications Building 228
+                    <div class="row map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2687.453193002911!2d-122.3065842!3d47.6561918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfdcd1acd1e5380c1!2sCommunications+Building+(CMU)!5e0!3m2!1sen!2sus!4v1504679352350" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <p>
+                Checks are welcome. Please address them to:<br />
+                <span class="address">American Romanian Cultural Society</span><br />
+                <span class="address">1931 E Lynn St</span><br />
+                <span class="address">Seattle, WA 98112</span><br />
+            </p>
+        </div>
+    </div>
+    <p>A course packet will be available for a $20 fee.</p>
+    <p>We recommend that you start talking with your HS counselor about the ALTA test sometime in January to make sure that you will be offered the official test in April 2018.</p>
+
+    <div class="piticot-row row">
+        <div class="col-sm-7">
+            <h3>Announcement</h3>
+            <p>Welcome to "Româna la Liceu"!<p>
+            <p>After a successful first year with over forty students getting Romanian language credits on their high school transcripts, "Româna La Liceu" continues this year in an improved format designed to make it more effective for students that are already proficient in Romanian.</p>
+            <p>The teaching team formed by instructors Ileana Marin and Otilia Baraboi, and substitute instructors Nadia Schmieder, Mariana Oltean, and Madalina Tonciu, wish you a successful year.<p>
+            <p>Unique in the US, the program “Româna la Liceu”, launched last year with great success, will continue this year with two components: an intensive course of 6 sessions scheduled from October to January and a standard course of 12 sessions from October to April.<p>
+            <p>The course is conceived to address the heritage students of Romanian in a context dominated by English. The teaching will combine traditional methods (comprehension of written texts and grammar) with more recent ones (integrative and project-based).<p>
+            <p>We invite you to confirm your participation in the evaluation of your level of Romanian by September 10. The evaluation will take place on September 23, from 9:30 AM - 12:30 PM on the University of Washington campus. The classroom will be announced at a later date. The only goal of this evaluation is the placement of the student in the proper course.<p>
+            <p>Please, those of you have not yet paid the registration, do so as soon as possible. Send the $20 fee before September 15 by PayPal or check.<p>
+            <p>We would also like to have the email address through which the student will access the online course materials uploaded on CANVAS.<p>
+            <p>Looking forward to meeting you!<br />Team "Româna la Liceu"</p>
+        </div>
+        <div class="col-sm-5">
+            <img class="poster" src="../Resources/Images/highschool2.jpg" />
+        </div>
+    </div>
+
+    <p>Please spread the word about our program and like us on <a href="https://www.facebook.com/RomanaLaLiceu/" target="_blank">Facebook</a> to stay tuned for more updates and other opportunities to practice Romanian.</p>
+</div>

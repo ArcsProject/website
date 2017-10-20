@@ -6,36 +6,49 @@
 function MissionController($scope) {
     $scope.statements = [
         {
-            title: "Visual Arts (Film, Photography, Painting)",
+            title: "Romanian Film Festival",
             description: [
-                "Organize an annual Romanian Film Festival in the Seattle area that will focus on today's internationally acclaimed \"New Romanian Cinema\"",
-                "Sponsor and support the participation of Romanian movies and artists in the Seattle International Film Festival (SIFF)",
-                "Promote visual artists (painters, photographers, sculptors, etc) of Romanian nationality or descent, as well as international artists whose work fits into our mission and cultural agenda"
+                "Since 2014, ARCS has been organizing the Romanian Film Festival in Seattle, a successful community building project in collaboration with Seattle International Film Festival. Hosted at SIFF Cinema Uptown, the event has been gathering around 2500 viewers of diverse cultural background each year."
             ],
-            imagePath: "paint.jpg"
+            imagePath: "Romanian Film Festival(photo by Daniel Man).jpg",
+            credit: "Daniel Man"
         },
         {
-            title: "Performing Arts (Music, Theater, Dance)",
+            title: "Stage",
             description: [
-                "Organize and promote performances of Eastern European folk music and dance that will reflect the ethnic diversity of the area, as well as the reciprocal influences between various ethnic groups",
-                "Organize and promote classical music concerts of Romanian composers, as well as modern dance or classical ballet performances",
-                "Popularize Romanian theater by working with the Seattle and King County network of theaters and actors to enhance the number of productions of plays written by Romanian born playwrights, as well as by inviting non-local Romanian, American, or other international productions, of Romanian plays"
+                "ARCS has been collaborating with Benaroya Hall, Seattle Art Museum, Kirkland Performance Center and Nesholm Family Lecture Hall (McCaw Hall), to organize and promote classical, traditional, or jazz music concerts and performances promoting the work of Romanian composers, artists and musicians."
             ],
-            imagePath: "bass.jpg"
+            imagePath: "Music.jpg (photo by Daniel Zilcsak).jpg",
+            credit: "Daniel Zilcsak"
         },
         {
-            title: "Literature",
+            title: "Education - Romanian in High School",
             description: [
-                "Initiate translation projects and the publication of contemporary Romanian writers, as well as the promotion of any American or Romanian- American writers whose works explore issues related to immigration, cross-cultural identity, bilingualism, exile and integration, pertaining to the experience of the Romanian diaspora in the US"
+                "The course was conceived to address the heritage students of Romanian in a context dominated by English. The teaching will combine traditional methods (comprehension of written texts and grammar) with more recent ones (integrative and project-based)."
             ],
-            imagePath: "carti.jpg"
+            imagePath: "Romanian in High School 2.jpg"
         },
         {
-            title: "Education",
+            title: "Education - Club Piticot",
             description: [
-                "Organize conferences and lectures that will generate discussion forums for those interested in Romanian history, politics and culture, in view of increasing awareness of the valuable place that the American Romanian cultural heritage holds among the diverse ethnic communities of the Pacific Northwest and North America at large"
+                "This program supports children (between 3 and 13) and their families to develop communication skills in Romanian and preserve their heritage, while fostering cultural sensitivity and appreciation for all the rich cultures of the Pacific Northwest."
             ],
-            imagePath: "grads.jpg"
+            imagePath: "Club-Piticot2.jpg"
+        },
+        {
+            title: "Education - Book Readings",
+            description: [
+                "ARCS promotes contemporary Romanian, American or Romanian- American writers whose works, in English or in Romanian, nurture our linguistic and cultural heritage."
+            ],
+            imagePath: "Florin Lazarescu (Photo by Daniel Zilcsak).jpg",
+            credit: "Daniel Zilcsak"
+        },
+        {
+            title: "Community",
+            description: [
+                "ARCS reaches out to various professional groups within the Seattle area to promote its mission, values and share opportunities of connection."
+            ],
+            imagePath: "ARCS at work.jpg"
         }
     ];
 };

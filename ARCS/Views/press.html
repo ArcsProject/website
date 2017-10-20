@@ -1,6 +1,34 @@
 ﻿<div class="container partners">
-    <h2>Press (Coming soon!)</h2>
+    <h2>Press</h2>
     <h3>Releases (PDF)</h3>
+    <p><a href="../Resources/Press/Romanian Film Fest Press Release.pdf" target="_blank">Seattle’s Romanian Film Festival</a></p>
+    <p><a href="../Resources/Press/Fall 2017 Events Press Release.pdf" target="_blank">American Romanian Cultural Society Sponsors Film, Jazz, Book, Architecture & Children’s Events This Fall</a></p>
     <h3>Images</h3>
+    <div class="row">
+        <div class="col-md-2 col-sm-4 col-xs-6" ng-repeat="img in pressImages">
+            <a ng-click="setSelectedImg(img)" href="" class="thumbnail" data-toggle="modal" data-target="#pressImgModal">
+                <img class="press-image" src="../Resources/Press/{{img.src}}" alt="Press image for {{img.title}}" />
+            </a>
+        </div>
+    </div>
+
+    <div id="pressImgModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">{{selectedImg.title}}</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="../Resources/Press/{{selectedImg.src}}" alt="Press image for {{selectedImg.title}}" />
+                    <p ng-if="selectedImg.credit">Photo by {{selectedImg.credit}}</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" href="../Resources/Press/{{selectedImg.src}}" target="_blank">Full-Size</a>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <h3>Archives</h3>
 </div>

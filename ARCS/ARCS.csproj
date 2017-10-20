@@ -101,31 +101,100 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Images\28_Poster_2017_11X17=CONCERT_no-bleed.jpg" />
+    <Content Include="Resources\Images\28_Poster_2017_11X17=FNL_no-bleed.jpg" />
     <Content Include="Resources\Images\4culture.png" />
+    <Content Include="Resources\Images\9780252082276.jpg" />
+    <Content Include="Resources\Images\Aaron Conitz, jpg.jpg" />
     <Content Include="Resources\Images\absurdity.png" />
+    <Content Include="Resources\Images\ad-logo.jpg" />
+    <Content Include="Resources\Images\Afis Restul e tacere.jpg" />
     <Content Include="Resources\Images\AlexandraDorca.jpg" />
     <Content Include="Resources\Images\AlexandrinaMaicaneanu.jpg" />
+    <Content Include="Resources\Images\AndiVasluianu5.jpg" />
     <Content Include="Resources\Images\AngelaDraghicescu.jpg" />
+    <Content Include="Resources\Images\ARCS at work.jpg" />
+    <Content Include="Resources\Images\ARCS on Stage %28Photo Costica Usanu%29.jpg" />
+    <Content Include="Resources\Images\back-home.jpg" />
+    <Content Include="Resources\Images\ban.png" />
     <Content Include="Resources\Images\bass.jpg" />
+    <Content Include="Resources\Images\Billy Hart %28ECM Records%29.jpg" />
+    <Content Include="Resources\Images\BogdanDarev.jpg" />
+    <Content Include="Resources\Images\breaking-news.jpg" />
+    <Content Include="Resources\Images\Brittany Boulding, jpg.jpg" />
+    <Content Include="Resources\Images\burton.png" />
     <Content Include="Resources\Images\carti.jpg" />
+    <Content Include="Resources\Images\Club-Piticot2.jpg" />
+    <Content Include="Resources\Images\concert.jpg" />
+    <Content Include="Resources\Images\c_mile_end_mare.jpg" />
     <Content Include="Resources\Images\DanaCozmei.jpg" />
     <Content Include="Resources\Images\DaniellaDrader.jpg" />
+    <Content Include="Resources\Images\DanielMan.jpg" />
+    <Content Include="Resources\Images\Education %28Photo by Daniel Man%29.jpg" />
+    <Content Include="Resources\Images\edwards.png" />
+    <Content Include="Resources\Images\fest.jpg" />
     <Content Include="Resources\Images\film-festival-poster.jpg" />
+    <Content Include="Resources\Images\Florin Lazarescu %28Photo by Daniel Zilcsak%29.jpg" />
     <Content Include="Resources\Images\GloriaMan.jpg" />
     <Content Include="Resources\Images\grads.jpg" />
+    <Content Include="Resources\Images\highschool1.jpg" />
+    <Content Include="Resources\Images\highschool2.jpg" />
     <Content Include="Resources\Images\IleanaMarin.jpg" />
+    <Content Include="Resources\Images\IMGL9962.jpg" />
+    <Content Include="Resources\Images\IMG_20170904_182543.jpg" />
     <Content Include="Resources\Images\IoanaMiron.jpg" />
+    <Content Include="Resources\Images\Iulia Rugina_2017_foto credit Claudiu Dumitru.jpg" />
+    <Content Include="Resources\Images\IulianCalinov.png" />
     <Content Include="Resources\Images\JimAugerot.jpg" />
+    <Content Include="Resources\Images\jones.png" />
+    <Content Include="Resources\Images\Logo-Schmieder.jpg" />
     <Content Include="Resources\Images\LoriWalls.jpg" />
+    <Content Include="Resources\Images\lucian-ban-poster.png" />
+    <Content Include="Resources\Images\lucian-ban.jpg" />
+    <Content Include="Resources\Images\Mary with Flowers in Varna.jpg" />
+    <Content Include="Resources\Images\photo pn.jpg" />
+    <Content Include="Resources\Images\Poster_NGK copy.png" />
+    <Content Include="Resources\Images\sieranevada_36000482_ps_1_s-high.jpg" />
+    <Content Include="Resources\Images\ThisBabaFBprofile.jpg" />
+    <Content Include="Resources\Images\thisbabamovie- Poster .jpg" />
+    <Content Include="Resources\Images\two lottery tickets - english poster.jpg" />
+    <Content Include="Resources\Press\Lucian_BAN_press_3.jpg" />
     <Content Include="Resources\Images\MarchetteDuBois.jpg" />
+    <Content Include="Resources\Images\MARIA SAMPEN.jpg" />
     <Content Include="Resources\Images\MariaGerea.jpg" />
+    <Content Include="Resources\Images\MarianaOltean.jpg" />
+    <Content Include="Resources\Images\Mat Maneri.jpg" />
+    <Content Include="Resources\Images\monica_filimon.jpg" />
+    <Content Include="Resources\Images\Music.jpg %28photo by Daniel Zilcsak%29.jpg" />
+    <Content Include="Resources\Images\NadiaSchmieder.jpg" />
+    <Content Include="Resources\Images\nwdental.png" />
     <Content Include="Resources\Images\OtiliaBaraboi.jpg" />
     <Content Include="Resources\Images\paint.jpg" />
+    <Content Include="Resources\Images\piticot.jpg" />
+    <Content Include="Resources\Images\Poster R Royalty Seattle 2.png" />
+    <Content Include="Resources\Images\Rajan Krishnawami, cello .jpg" />
     <Content Include="Resources\Images\rciny_logo_Kb.png" />
+    <Content Include="Resources\Images\RFFSPoster2017_11X17=FINAL.jpg" />
+    <Content Include="Resources\Images\rffs_0_0.png" />
+    <Content Include="Resources\Images\RFFS_Poster_2017_11X17=BAN.jpg" />
     <Content Include="Resources\Images\RO-WAneedle.png" />
+    <Content Include="Resources\Images\Romanian Film Festival%28photo by Daniel Man%29.jpg" />
+    <Content Include="Resources\Images\Romanian in High School 2.jpg" />
     <Content Include="Resources\Images\siff.jpg" />
     <Content Include="Resources\Images\siff.png" />
+    <Content Include="Resources\Images\Steve Schermer.jpg" />
+    <Content Include="Resources\Images\TraduTerra.png" />
     <Content Include="Resources\Images\uw.png" />
+    <Content Include="Resources\Press\%28c%29 Acasa la Tata, regia Andrei Cohn. Mandragora %281%29.jpg" />
+    <Content Include="Resources\Press\%28c%29 Acasa la Tata, regia Andrei Cohn. Mandragora %282%29.jpg" />
+    <Content Include="Resources\Press\%28c%29 Acasa la Tata, regia Andrei Cohn. Mandragora %283%29.jpg" />
+    <Content Include="Resources\Press\%28c%29 Acasa la Tata, regia Andrei Cohn. Mandragora %284%29.jpg" />
+    <Content Include="Resources\Press\%28c%29 Acasa la Tata, regia Andrei Cohn. Mandragora %286%29.jpg" />
+    <Content Include="Resources\Press\BREAKING_NEWS-stills-001.jpg" />
+    <Content Include="Resources\Press\BREAKING_NEWS-stills-002.jpg" />
+    <Content Include="Resources\Press\BREAKING_NEWS-stills-003.jpg" />
+    <Content Include="Resources\Press\BREAKING_NEWS-stills-004.jpg" />
+    <Content Include="Resources\Press\BREAKING_NEWS-stills-005.jpg" />
     <Content Include="Scripts\External\angular-appinsights.min.js" />
     <Content Include="Scripts\External\angular-ui-router.min.js" />
     <Content Include="Scripts\External\angular.min.js" />
@@ -152,6 +221,10 @@
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
+    <Content Include="Views\past-events.html" />
+    <Content Include="Views\film.html" />
+    <Content Include="Resources\Press\Fall 2017 Events Press Release.pdf" />
+    <Content Include="Resources\Press\Romanian Film Fest Press Release.pdf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -172,11 +245,14 @@
     <Content Include="Views\event.html" />
     <Content Include="Views\events.html" />
     <Content Include="Views\film-festival.html" />
+    <Content Include="Views\high-school.html" />
     <Content Include="Views\jumbotron.html" />
     <Content Include="Views\main.html" />
     <Content Include="Views\mission-statement.html" />
     <Content Include="Views\navbar.html" />
+    <Content Include="Views\piticot.html" />
     <Content Include="Views\press.html" />
+    <Content Include="Views\songs-from-afar.html" />
     <Content Include="Views\staff.html" />
     <Content Include="Views\mission.html" />
     <Content Include="Views\partners.html" />
@@ -195,13 +271,18 @@
     <TypeScriptCompile Include="Scripts\arcs.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\past-events.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\film.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\event.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\events.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\high-school.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\mission-statement.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\mission.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\partners.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\piticot.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\press.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\songs-from-afar.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\staff.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-component-router.d.ts" />
