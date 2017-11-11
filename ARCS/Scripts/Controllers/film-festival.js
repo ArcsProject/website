@@ -50,18 +50,22 @@ function FilmFestivalController($scope, $sce) {
         "Ramona & Marian Pungan",
         "Jeffrey Gossett",
         "Dana Elena Cozmei",
-        "Elena & Cosmin Catrinescu"
+        "Elena & Cosmin Catrinescu",
+        "Irina & Cristi Salvan",
+        "Daniel & Claudia Pravăț",
+        "Alexandrina Măicăneanu & Radu Simionescu",
+        "Ileana Marin & Jim Augerot",
+        "Vasi Rusu (in memory of Eugenia Lup)",
+        "Pierre Loebel",
+        "Souren Aghajanyan"
     ];
     $scope.donorsA = [
         "Mary Sherhart",
         "Alexandra Dorca & Richard Pavy",
         "Gabriel Ghizila",
-        "Irina & Cristi Salvan",
         "Carmen Rautu",
         "Andrei Marinescu",
-        "Alexandrina Măicăneanu & Radu Simionescu",
         "Alexey Palladin",
-        "Daniel & Claudia Pravăț",
         "Ioana Miron",
         "Anonymous"
     ];
@@ -83,12 +87,15 @@ function FilmFestivalController($scope, $sce) {
         "Nick Voicu",
         "Cristina Teodorescu",
         "Anca Ionescu",
+        "Ioana Pop",
+        "Yuko Mera",
         "Anonymous (2)"
     ];
     $scope.donorsC = [
         "Lisa Friedli",
         "Smaranda Lieuallen",
-        "Seattle2Europe"
+        "Seattle2Europe",
+        "Calin Popa"
     ];
     $scope.donorsS = [
         "Maryna Ajaja",
@@ -113,6 +120,10 @@ function FilmFestivalController($scope, $sce) {
         {
             link: "http://www.traduterra.com/",
             imagePath: "TraduTerra.png"
+        },
+        {
+            link: "https://cedarriverah.com/",
+            imagePath: "IMG_logo_Aluas.jpg"
         }
     ];
     $scope.sponsors = [
@@ -123,6 +134,14 @@ function FilmFestivalController($scope, $sce) {
         {
             link: "http://www.drlarhs.com/",
             imagePath: "ad-logo.jpg"
+        },
+        {
+            link: "http://www.mehlinglawfirm.com/",
+            imagePath: "logo2.jpg"
+        },
+        {
+            link: "https://www.redfin.com/",
+            imagePath: "Redfin LOGO.jpg"
         }
     ];
     $scope.guests = [
@@ -172,7 +191,8 @@ function FilmFestivalController($scope, $sce) {
             imagePath: "two lottery tickets - english poster.jpg",
             time: "Friday, November 17, 7:00 PM - 8:35 PM",
             year: "2016",
-            guests: "Director Paul Negoescu"
+            guests: "Director Paul Negoescu",
+            ticketLink: "https://www.siff.net/year-round-cinema/two-lottery-tickets"
         },
         {
             name: "The Rest is Silence",
@@ -182,7 +202,8 @@ function FilmFestivalController($scope, $sce) {
             genres: "Drama",
             imagePath: "Afis Restul e tacere.jpg",
             time: "Saturday, November 18, 11:00 AM - 12:55 PM",
-            year: "2007"
+            year: "2007",
+            ticketLink: "https://www.siff.net/year-round-cinema/the-rest-is-silence"
         },
         {
             name: "This Baba",
@@ -197,7 +218,8 @@ function FilmFestivalController($scope, $sce) {
             imagePath: "thisbabamovie- Poster .jpg",
             time: "Saturday, November 18, 1:20 PM - 1:50 PM",
             year: "2014",
-            guests: "Seattle-based director Bogdan Darev, singer Penka Encheva and producer Mary Sherhart"
+            guests: "Seattle-based director Bogdan Darev, singer Penka Encheva and producer Mary Sherhart",
+            ticketLink: "https://www.siff.net/year-round-cinema/this-baba"
         },
         {
             name: "Sieranevada",
@@ -209,7 +231,8 @@ function FilmFestivalController($scope, $sce) {
             imagePath: "sieranevada_36000482_ps_1_s-high.jpg",
             time: "Saturday, November 18, 2:40 PM - 5:35 PM",
             year: "2016",
-            guests: "Film critic Monica Filimon (Cristi Puiu, University of Illinois Press 2017)"
+            guests: "Film critic Monica Filimon (Cristi Puiu, University of Illinois Press 2017)",
+            ticketLink: "https://www.siff.net/year-round-cinema/sieranevada"
         },
         {
             name: "Breaking News",
@@ -221,7 +244,8 @@ function FilmFestivalController($scope, $sce) {
             imagePath: "breaking-news.jpg",
             time: "Saturday, November 18, 6:20 PM - 7:40 PM",
             year: "2017",
-            guests: "Director Iulia Rugină, actress Ioana Flora"
+            guests: "Director Iulia Rugină, actress Ioana Flora",
+            ticketLink: "https://www.siff.net/year-round-cinema/breaking-news"
         },
         {
             name: "Scarred Hearts",
@@ -230,9 +254,10 @@ function FilmFestivalController($scope, $sce) {
             artist: "Radu Jude",
             length: "2 hours, 21 minutes",
             genres: "Drama",
-            imagePath: "",
+            imagePath: "ScarredHearts2.jpg",
             time: "Sunday, November 19, 11:00 AM - 1:20 PM",
-            year: "2016"
+            year: "2016",
+            ticketLink: "https://www.siff.net/year-round-cinema/scarred-hearts"
         },
         {
             name: "Two Lottery Tickets",
@@ -243,7 +268,8 @@ function FilmFestivalController($scope, $sce) {
             imagePath: "two lottery tickets - english poster.jpg",
             time: "Sunday, November 19, 1:45 PM - 3:10 PM",
             year: "2016",
-            guests: "Director Paul Negoescu"
+            guests: "Director Paul Negoescu",
+            ticketLink: "https://www.siff.net/year-round-cinema/two-lottery-tickets"
         },
         {
             name: "The New Gypsy Kings",
@@ -253,7 +279,8 @@ function FilmFestivalController($scope, $sce) {
             genres: "Documentary",
             imagePath: "Poster_NGK copy.png",
             time: "Sunday, November 19, 3:55 PM - 4:55 PM",
-            year: "2016"
+            year: "2016",
+            ticketLink: "https://www.siff.net/year-round-cinema/the-new-gypsy-kings"
         },
         {
             name: "Back Home",
@@ -264,7 +291,8 @@ function FilmFestivalController($scope, $sce) {
             imagePath: "back-home.jpg",
             time: "Sunday, November 19, 5:35 PM - 7:05 PM",
             year: "2015",
-            guests: "Actress Ioana Flora"
+            guests: "Actress Ioana Flora",
+            ticketLink: "https://www.siff.net/year-round-cinema/back-home"
         },
     ];
 }
