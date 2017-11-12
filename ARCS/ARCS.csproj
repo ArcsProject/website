@@ -231,6 +231,9 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <TypeScriptCompile Include="Scripts\config.ts">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </TypeScriptCompile>
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
     <Content Include="Views\past-events.html" />
     <Content Include="Views\film.html" />
