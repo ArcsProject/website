@@ -231,7 +231,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <TypeScriptCompile Include="Scripts\config.ts">
+    <TypeScriptCompile Include="Config\donors.ts">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </TypeScriptCompile>
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
@@ -282,6 +282,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Config\past-events.ts" />
     <TypeScriptCompile Include="Scripts\arcs.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />

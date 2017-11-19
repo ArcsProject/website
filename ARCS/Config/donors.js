@@ -1,4 +1,4 @@
-﻿let config = {
+var donors = {
     // Donors $500+
     "donorsARCS": [
         "Roxana Arama",
@@ -18,7 +18,6 @@
         "Pierre Loebel",
         "Souren Aghajanyan"
     ],
-
     // Donors $250+
     "donorsA": [
         "Mary Sherhart",
@@ -30,7 +29,6 @@
         "Ioana Miron",
         "Anonymous"
     ],
-
     // Donors $100+
     "donorsR": [
         "Radu Palanca",
@@ -54,7 +52,6 @@
         "Yuko Mera",
         "Anonymous (2)"
     ],
-
     // Donors $50+
     "donorsC": [
         "Lisa Friedli",
@@ -62,7 +59,6 @@
         "Seattle2Europe",
         "Calin Popa"
     ],
-
     // Donors $25+
     "donorsS": [
         "Maryna Ajaja",
@@ -71,7 +67,6 @@
         "Alexander Price",
         "Carol Arnold"
     ],
-
     // Partners $1000+
     "partners": [
         {
@@ -95,7 +90,6 @@
             "imagePath": "IMG_logo_Aluas.jpg"
         }
     ],
-
     // Sponsors $500+
     "sponsors": [
         {
@@ -115,4 +109,5 @@
             "imagePath": "Redfin LOGO.jpg"
         }
     ]
-}
+};
+//# sourceMappingURL=donors.js.map

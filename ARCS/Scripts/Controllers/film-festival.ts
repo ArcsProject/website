@@ -43,18 +43,13 @@ function FilmFestivalController($scope, $sce) {
         }
     ];
 
-    // let request = new XMLHttpRequest();
-    // request.open("GET", "./config.json");
-    // request.onload = function () {
-        $scope.donorsARCS = config["donorsARCS"];
-        $scope.donorsA = config["donorsA"];
-        $scope.donorsR = config["donorsR"];
-        $scope.donorsC = config["donorsC"];
-        $scope.donorsS = config["donorsS"];
-        $scope.partners = config["partners"];
-        $scope.sponsors = config["sponsors"];
-    // };
-    // request.send();
+    $scope.donorsARCS = donors["donorsARCS"];
+    $scope.donorsA = donors["donorsA"];
+    $scope.donorsR = donors["donorsR"];
+    $scope.donorsC = donors["donorsC"];
+    $scope.donorsS = donors["donorsS"];
+    $scope.partners = donors["partners"];
+    $scope.sponsors = donors["sponsors"];
 
     $scope.guests = [
         {
