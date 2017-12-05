@@ -14,8 +14,9 @@ function PastEventsController($scope, $stateParams) {
 
     $scope.years = [
         "All",
-        "2015",
-        "2016"
+        "2017",
+        "2016",
+        "2015"
     ];
 
     $scope.events = pastEvents;
