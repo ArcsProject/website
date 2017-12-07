@@ -94,7 +94,8 @@
         tags: ["stage", "2016"],
         imagePath: "Ebony-Bones-Thumb.jpg",
         description: [
-            "O poveste despre Maria Tanase (Lullaby. A Story about Maria Tanase)"
+            "Iulia Pană has a free reading and book signing event for her latest poetry volume Ebony Bones.",
+            "Reading will be in English."
         ]
     },
     {
@@ -103,7 +104,8 @@
         tags: ["stage", "2016"],
         imagePath: "rigla-seattle-thumb.jpg",
         description: [
-            "O poveste despre Maria Tanase (Lullaby. A Story about Maria Tanase)"
+            "Iulia Pană has a free reading and book signing event for her latest poetry volume Rigla de Aer.",
+            "Reading will be in Romanian."
         ]
     },
     {
@@ -116,7 +118,7 @@
         ]
     },
     {
-        name: "SIFF film sponsored by ARCS",
+        name: "ARCS Sponsors Romanian Films at SIFF",
         date: new Date(2016, 4, 24),
         tags: ["film", "2016"],
         imagePath: "illegitimate.jpg",
@@ -143,6 +145,24 @@
         ]
     },
     {
+        name: "Art Exhibit with Ramona Popliuc",
+        date: new Date(2015, 11, 12),
+        tags: ["community", "2015"],
+        imagePath: "popliuc.jpg",
+        description: [
+            "Ramona Popliuc Art Exhibit & Workshop"
+        ]
+    },
+    {
+        name: "American-Romanian Cultural Intersections",
+        date: new Date(2015, 11, 12),
+        tags: ["community", "2015"],
+        imagePath: "divina2.jpg",
+        description: [
+            "An Evening with Author Florin Lazarescu and Actress Victoria Cocias"
+        ]
+    },
+    {
         name: "Seattle Romanian Film Festival",
         startDate: new Date(2015, 10, 20),
         endDate: new Date(2015, 10, 22),
@@ -156,14 +176,98 @@
         ]
     },
     {
-        name: "SIFF film sponsored by ARCS",
-        date: new Date(2015, 4, 24),
+        name: "Rumenye! Rumenye!",
+        date: new Date(2015, 10, 19),
+        tags: ["film", "2015"],
+        imagePath: "radu_gabrea.jpg",
+        description: [
+            "One of Radu Gabrea's most celebrated documentaries, 'Rumenye! Rumenye!' retraces the inseparable connection between Jewish, Romani (Gypsy) and Romanian culture, through Klezmer music. The director will be present for Q/A"
+        ]
+    },
+    {
+        name: "Book Club: M. Kundera - The Unbearable Lightness of Being",
+        date: new Date(2015, 6, 7),
+        tags: ["community", "2015"],
+        imagePath: "kundera.jpg",
+        description: [
+            "Our Book Club: The Caravan of Eastern European Books"
+        ]
+    },
+    {
+        name: "ARCS Sponsors Romanian Films at SIFF",
+        date: new Date(2015, 4, 25),
         tags: ["film", "2015"],
         imagePath: "chucknorris.jpg",
         description: [
             "Chuck Norris vs Communism",
             "Cartoonists: Foot Soldiers of Democracy",
             "SIFF movies proudly sponsored by ARCS!"
+        ]
+    },
+    {
+        name: "Book Club: Kiki Skagen Munshi, Whisper in Bucharest",
+        date: new Date(2015, 3, 25),
+        tags: ["community", "2015"],
+        imagePath: "whisper-in-bucharest.jpg",
+        description: [
+            "Our Book Club: The Caravan of Eastern European Books"
+        ]
+    },
+    {
+        name: "Wanderlands of Perception",
+        date: new Date(2015, 0, 23),
+        tags: ["community", "2015"],
+        imagePath: "wanderlands.jpg",
+        description: [
+            "This is a party where we'll meet the young artist Gabriela, enjoy her photos from around the world, with music by Bucharest Drinking Team and dancing by Romanian Folkloric Ensemble DATINA Seattle."
+        ]
+    },
+    {
+        name: "Seattle Romanian Film Festival",
+        startDate: new Date(2014, 10, 7),
+        endDate: new Date(2014, 10, 9),
+        tags: ["film", "2014"],
+        imagePath: "fest2.jpg",
+        description: [
+            "One Eye Laughing, One Eye Crying"
+        ]
+    },
+    {
+        name: "ARCS Sponsors Romanian Films at SIFF",
+        date: new Date(2014, 4, 28),
+        tags: ["film", "2014"],
+        imagePath: "jap.jpg",
+        description: [
+            "The Japanese Dog",
+            "SIFF movie proudly sponsored by ARCS!"
+        ]
+    },
+    {
+        name: "ARCS Sponsors Romanian Films at SIFF",
+        date: new Date(2014, 4, 28),
+        tags: ["film", "2014"],
+        imagePath: "qed.jpg",
+        description: [
+            "Quod Erat Demonstrandum",
+            "SIFF movie proudly sponsored by ARCS!"
+        ]
+    },
+    {
+        name: "Photo exhibit by Daniel Man and Gabriel Ghizila",
+        date: new Date(2014, 3, 1),
+        tags: ["community", "2014"],
+        imagePath: "thumb-expo.jpg",
+        description: [
+            "American Romanian Collage brings together two cultural spaces that for many seem quite different."
+        ]
+    },
+    {
+        name: "Book Club: Filip Florian, The Days of the King",
+        date: new Date(2014, 1, 20),
+        tags: ["community", "2014"],
+        imagePath: "thumb-florian.jpg",
+        description: [
+            "Our Book Club: The Caravan of Eastern European Books"
         ]
     },
 ];

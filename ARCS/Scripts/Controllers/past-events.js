@@ -14,7 +14,8 @@ function PastEventsController($scope, $stateParams) {
         "All",
         "2017",
         "2016",
-        "2015"
+        "2015",
+        "2014"
     ];
     $scope.events = pastEvents;
     $scope.setSelectedFilter = function (filter) {

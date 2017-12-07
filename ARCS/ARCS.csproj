@@ -135,10 +135,12 @@
     <Content Include="Resources\Images\DanaCozmei.jpg" />
     <Content Include="Resources\Images\DaniellaDrader.jpg" />
     <Content Include="Resources\Images\DanielMan.jpg" />
+    <Content Include="Resources\Images\divina2.jpg" />
     <Content Include="Resources\Images\Ebony-Bones-Thumb.jpg" />
     <Content Include="Resources\Images\Education %28Photo by Daniel Man%29.jpg" />
     <Content Include="Resources\Images\edwards.png" />
     <Content Include="Resources\Images\fest.jpg" />
+    <Content Include="Resources\Images\fest2.jpg" />
     <Content Include="Resources\Images\film-festival-poster.jpg" />
     <Content Include="Resources\Images\Florin Lazarescu %28Photo by Daniel Zilcsak%29.jpg" />
     <Content Include="Resources\Images\GloriaMan.jpg" />
@@ -153,8 +155,10 @@
     <Content Include="Resources\Images\IoanaMiron.jpg" />
     <Content Include="Resources\Images\Iulia Rugina_2017_foto credit Claudiu Dumitru.jpg" />
     <Content Include="Resources\Images\IulianCalinov.png" />
+    <Content Include="Resources\Images\jap.jpg" />
     <Content Include="Resources\Images\JimAugerot.jpg" />
     <Content Include="Resources\Images\jones.png" />
+    <Content Include="Resources\Images\kundera.jpg" />
     <Content Include="Resources\Images\Logo-Schmieder.jpg" />
     <Content Include="Resources\Images\logo2.jpg" />
     <Content Include="Resources\Images\LoriWalls.jpg" />
@@ -166,7 +170,10 @@
     <Content Include="Resources\Images\photo pn.jpg" />
     <Content Include="Resources\Images\piticot-easter.jpg" />
     <Content Include="Resources\Images\piticot-martisoare.jpg" />
+    <Content Include="Resources\Images\popliuc.jpg" />
     <Content Include="Resources\Images\Poster_NGK copy.png" />
+    <Content Include="Resources\Images\qed.jpg" />
+    <Content Include="Resources\Images\radu_gabrea.jpg" />
     <Content Include="Resources\Images\Redfin LOGO.jpg" />
     <Content Include="Resources\Images\rigla-seattle-thumb.jpg" />
     <Content Include="Resources\Images\ScarredHearts2.jpg" />
@@ -175,7 +182,11 @@
     <Content Include="Resources\Images\tanase_0.jpg" />
     <Content Include="Resources\Images\ThisBabaFBprofile.jpg" />
     <Content Include="Resources\Images\thisbabamovie- Poster .jpg" />
+    <Content Include="Resources\Images\thumb-expo.jpg" />
+    <Content Include="Resources\Images\thumb-florian.jpg" />
     <Content Include="Resources\Images\two lottery tickets - english poster.jpg" />
+    <Content Include="Resources\Images\wanderlands.jpg" />
+    <Content Include="Resources\Images\whisper-in-bucharest.jpg" />
     <Content Include="Resources\Press\CALIU &amp; TARAF DE HAIDOUKS.jpg" />
     <Content Include="Resources\Press\doua lozuri 1.jpg" />
     <Content Include="Resources\Press\Lucian_BAN_press_3.jpg" />
