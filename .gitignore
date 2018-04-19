@@ -243,3 +243,8 @@ ModelManifest.xml
 
 #TypeScript map
 *js.map
+
+#Generated scripts
+ARCS/Scripts/Controllers/*.js
+ARCS/Config/*.js
+ARCS/Scripts/arcs.js
