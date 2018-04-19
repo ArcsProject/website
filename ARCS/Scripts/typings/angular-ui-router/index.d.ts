@@ -1,11 +1,15 @@
-// Type definitions for Angular JS 1.1.5+ (ui.router module)
+// Type definitions for Angular JS (ui.router module) 1.1.38
 // Project: https://github.com/angular-ui/ui-router
 // Definitions by: Michel Salib <https://github.com/michelsalib>
+//                 Ivan Matiishyn <https://github.com/matiishyn>
+//                 Mike Haas <https://github.com/mikehaas763>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// TypeScript Version: 2.3
 
 import * as angular from 'angular';
 
-export default "ui.router";
+declare const exportedString: "ui.router";
+export default exportedString;
 
 export type IState = angular.ui.IState;
 export type IStateProvider = angular.ui.IStateProvider;
@@ -94,6 +98,13 @@ declare module 'angular' {
              * Boolean (default true). If false will reload state on everytransitions. Useful for when you'd like to restore all data  to its initial state.
              */
             cache?: boolean;
+
+            /**
+             * string | function | object
+             * Synchronously or asynchronously redirects Transitions to a different state/params
+             */
+            redirectTo?: string | Function | IState;
+
         }
 
         interface IUnfoundState {
@@ -264,16 +275,13 @@ declare module 'angular' {
             is(state: IState, params?: {}): boolean;
             href(state: IState, params?: {}, options?: IHrefOptions): string;
             href(state: string, params?: {}, options?: IHrefOptions): string;
-            get(state: string, context?: string): IState;
-            get(state: IState, context?: string): IState;
-            get(state: string, context?: IState): IState;
-            get(state: IState, context?: IState): IState;
+            get(state: string | IState, context?: string | IState): IState;
             get(): IState[];
             /** A reference to the state's config object. However you passed it in. Useful for accessing custom data. */
             current: IState;
             /** A param object, e.g. {sectionId: section.id)}, that you'd like to test against the current active state. */
             params: IStateParamsService;
-            reload(): angular.IPromise<any>;
+            reload(reloadState?: string | IState): angular.IPromise<any>;
 
             /** Currently pending transition. A promise that'll resolve or reject. */
             transition: angular.IPromise<{}>;
