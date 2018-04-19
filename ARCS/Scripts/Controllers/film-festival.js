@@ -128,7 +128,8 @@ function FilmFestivalController($scope, $sce) {
         {
             name: "Sieranevada",
             description: [
-                $sce.trustAsHtml("Considered by most to be the godfather of New Wave Romanian Cinema, director Cristi Puiu directs the follow up film to his critically acclaimed 2005 drama, <i>The Death of Mr. Lăzărescu</i>. <i>Sieranevada</i> takes place three days after the terrorist attack on the offices of the Parisian weekly Charlie Hebdo and forty days after the death of his Lary’s father. Lary, spends the Saturday at a family gathering commemorating the deceased, but the occasion does not go according to his expectations. Lary, a middle-aged doctor, is forced to confront his fears and past, to rethink the place he holds within the family, and constraint to tell his version of the truth.")],
+                $sce.trustAsHtml("Considered by most to be the godfather of New Wave Romanian Cinema, director Cristi Puiu directs the follow up film to his critically acclaimed 2005 drama, <i>The Death of Mr. Lăzărescu</i>. <i>Sieranevada</i> takes place three days after the terrorist attack on the offices of the Parisian weekly Charlie Hebdo and forty days after the death of his Lary’s father. Lary, spends the Saturday at a family gathering commemorating the deceased, but the occasion does not go according to his expectations. Lary, a middle-aged doctor, is forced to confront his fears and past, to rethink the place he holds within the family, and constraint to tell his version of the truth.")
+            ],
             artist: "Cristi Puiu",
             length: "2 hours, 53 minutes",
             genres: "Drama",
@@ -141,7 +142,8 @@ function FilmFestivalController($scope, $sce) {
         {
             name: "Breaking News",
             description: [
-                $sce.trustAsHtml("Reporter Alex Mazilu is working on an in memoriam piece for a colleague, whose tragic death he indirectly caused.  In a small town on the Black Sea, just three days before Christmas, Alex fits together the puzzle pieces of this man’s life, with help from his troubled 15 year old daughter. Trying to redeem the dead father, he slowly starts taking his place.  Winner of the Special Jury Mention for the Best Newcomer at Karlovy Vary IFF 2017.")],
+                $sce.trustAsHtml("Reporter Alex Mazilu is working on an in memoriam piece for a colleague, whose tragic death he indirectly caused.  In a small town on the Black Sea, just three days before Christmas, Alex fits together the puzzle pieces of this man’s life, with help from his troubled 15 year old daughter. Trying to redeem the dead father, he slowly starts taking his place.  Winner of the Special Jury Mention for the Best Newcomer at Karlovy Vary IFF 2017.")
+            ],
             artist: "Iulia Rugină",
             length: "1 hour, 21 minutes",
             genres: "Drama",
@@ -154,7 +156,8 @@ function FilmFestivalController($scope, $sce) {
         {
             name: "Scarred Hearts",
             description: [
-                $sce.trustAsHtml("During the summer of 1937, Emanuel, a young man in his early twenties, is committed to a sanatorium on the Black Sea coast for treatment of his bone tuberculosis. The treatment consists of painful spine punctures that confine him to a body cast on a stretcher-bed. Little by little, as Emanuel gets accustomed to the limitations of his new life, he discovers that inside the sanatorium there is still a life to be lived to the fullest. He makes friends and engages in conversations, political for the most part. He reads, he writes, he smokes and drinks, interacts with doctors, nurses and stretcher-bearers. He observes how healing seems to happen transiently, following mysterious laws: some patients get better, some worse, others die. He even has a romantic relationship, while Romania outside the sanatorium doesn‘t have much to offer him, turning more and more into an extreme right- wing society... Radu Jude’s fourth feature film has won acclaim on the world film festival circuit since its premiere in Locarno last year—notably for its frank approach (reflecting that of the film’s subject, the writer Max Blecher) to illness and death. Despite the subject matter, the film is anything but a “downer,” depicting both the absurdist humor of the protagonist’s situation and the zest with which he and his compatriots embrace life, limited though it may be.")],
+                $sce.trustAsHtml("During the summer of 1937, Emanuel, a young man in his early twenties, is committed to a sanatorium on the Black Sea coast for treatment of his bone tuberculosis. The treatment consists of painful spine punctures that confine him to a body cast on a stretcher-bed. Little by little, as Emanuel gets accustomed to the limitations of his new life, he discovers that inside the sanatorium there is still a life to be lived to the fullest. He makes friends and engages in conversations, political for the most part. He reads, he writes, he smokes and drinks, interacts with doctors, nurses and stretcher-bearers. He observes how healing seems to happen transiently, following mysterious laws: some patients get better, some worse, others die. He even has a romantic relationship, while Romania outside the sanatorium doesn‘t have much to offer him, turning more and more into an extreme right- wing society... Radu Jude’s fourth feature film has won acclaim on the world film festival circuit since its premiere in Locarno last year—notably for its frank approach (reflecting that of the film’s subject, the writer Max Blecher) to illness and death. Despite the subject matter, the film is anything but a “downer,” depicting both the absurdist humor of the protagonist’s situation and the zest with which he and his compatriots embrace life, limited though it may be.")
+            ],
             artist: "Radu Jude",
             length: "2 hours, 21 minutes",
             genres: "Drama",

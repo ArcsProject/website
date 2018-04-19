@@ -61,7 +61,17 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         url: "^/high-school",
         template: "<high-school></high-school>"
     };
-    states["donate"] = {
+	states["high-school-ongoing"] = {
+        name: "high-school-ongoing",
+        url: "^/high-school-ongoing",
+        template: "<high-school-ongoing></high-school-ongoing>"
+    };
+    states["excellence-center"] = {
+        name: "excellence-center",
+        url: "^/excellence-center",
+        template: "<excellence-center></excellence-center>"
+    };
+	states["donate"] = {
         name: "donate",
         url: "^/donate",
         template: "<donate></press>"

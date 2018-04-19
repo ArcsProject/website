@@ -1,0 +1,46 @@
+﻿.vtop {
+   display: inline-block;
+   vertical-align: top;
+   float: none;
+}
+
+.read-more
+{	
+	margin-bottom:10px !important;
+	color:#e95420;
+	cursor:pointer;
+}
+
+.read-more[aria-expanded=true]
+{
+	display:none;
+}
+
+.rounded {
+  border-radius: 5px;
+  background: #000; // without a background or border applied you won't be able to see if its rounded
+}
+
+.text-inline-img
+{
+	width:350px;margin:10px;
+}
+
+.item-grey
+{
+	background-color:#dedede;
+}
+
+.h3_margins
+{
+	margin-left:30px;
+}
+
+.img-portrait
+{
+	border:1px solid #ccc;
+	background-color:#f1f1f1;
+	padding:7px;
+	margin-bottom:5px !important;
+	box-shadow : 3px 3px rgba(102,102,102,.1);
+}
