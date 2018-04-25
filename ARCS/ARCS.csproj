@@ -119,6 +119,8 @@
     <Content Include="Resources\Images\Brittany Boulding, jpg.jpg" />
     <Content Include="Resources\Images\burton.png" />
     <Content Include="Resources\Images\carti.jpg" />
+    <Content Include="Resources\Images\centre_of_excellence_banner.jpg" />
+    <Content Include="Resources\Images\centre_of_excellence_img2.jpg" />
     <Content Include="Resources\Images\chucknorris.jpg" />
     <Content Include="Resources\Images\Club-Piticot2.jpg" />
     <Content Include="Resources\Images\comedia-remix.jpg" />
@@ -132,12 +134,15 @@
     <Content Include="Resources\Images\Ebony-Bones-Thumb.jpg" />
     <Content Include="Resources\Images\Education %28Photo by Daniel Man%29.jpg" />
     <Content Include="Resources\Images\edwards.png" />
+    <Content Include="Resources\Images\ElizabetaIliescu.jpg" />
+    <Content Include="Resources\Images\excellence_center.jpg" />
     <Content Include="Resources\Images\fest.jpg" />
     <Content Include="Resources\Images\fest2.jpg" />
     <Content Include="Resources\Images\film-festival-poster.jpg" />
     <Content Include="Resources\Images\Florin Lazarescu %28Photo by Daniel Zilcsak%29.jpg" />
     <Content Include="Resources\Images\GloriaMan.jpg" />
     <Content Include="Resources\Images\grads.jpg" />
+    <Content Include="Resources\Images\GratielaAlbisor.jpg" />
     <Content Include="Resources\Images\highschool1.jpg" />
     <Content Include="Resources\Images\highschool2.jpg" />
     <Content Include="Resources\Images\IleanaMarin.jpg" />
@@ -157,6 +162,7 @@
     <Content Include="Resources\Images\LoriWalls.jpg" />
     <Content Include="Resources\Images\lucian-ban-poster.png" />
     <Content Include="Resources\Images\lucian-ban.jpg" />
+    <Content Include="Resources\Images\MadalinaTonciu.jpg" />
     <Content Include="Resources\Images\martisor.jpg" />
     <Content Include="Resources\Images\Mary with Flowers in Varna.jpg" />
     <Content Include="Resources\Images\pacala2_0.png" />
@@ -180,6 +186,7 @@
     <Content Include="Resources\Images\two lottery tickets - english poster.jpg" />
     <Content Include="Resources\Images\wanderlands.jpg" />
     <Content Include="Resources\Images\whisper-in-bucharest.jpg" />
+    <Content Include="Resources\Press\ARCS on Stage.jpg" />
     <Content Include="Resources\Press\CALIU &amp; TARAF DE HAIDOUKS.jpg" />
     <Content Include="Resources\Press\doua lozuri 1.jpg" />
     <Content Include="Resources\Press\Lucian_BAN_press_3.jpg" />
@@ -223,6 +230,21 @@
     <Content Include="Resources\Press\ScarredHearts2.jpg" />
     <Content Include="Resources\Press\Sieranevada still 2.jpg" />
     <Content Include="Resources\Press\ThisBabaNoText.jpg" />
+    <Content Include="Scripts\Controllers\contact.js" />
+    <Content Include="Scripts\Controllers\donate.js" />
+    <Content Include="Scripts\Controllers\event.js" />
+    <Content Include="Scripts\Controllers\events.js" />
+    <Content Include="Scripts\Controllers\film-festival.js" />
+    <Content Include="Scripts\Controllers\film.js" />
+    <Content Include="Scripts\Controllers\high-school.js" />
+    <Content Include="Scripts\Controllers\mission-statement.js" />
+    <Content Include="Scripts\Controllers\mission.js" />
+    <Content Include="Scripts\Controllers\partners.js" />
+    <Content Include="Scripts\Controllers\past-events.js" />
+    <Content Include="Scripts\Controllers\piticot.js" />
+    <Content Include="Scripts\Controllers\press.js" />
+    <Content Include="Scripts\Controllers\songs-from-afar.js" />
+    <Content Include="Scripts\Controllers\staff.js" />
     <Content Include="Scripts\External\angular-appinsights.min.js" />
     <Content Include="Scripts\External\angular-ui-router.min.js" />
     <Content Include="Scripts\External\angular.min.js" />
@@ -252,6 +274,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </TypeScriptCompile>
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
+    <Content Include="Views\excellence-center.html" />
+    <Content Include="Views\footer.html" />
+    <Content Include="Views\high-school-ongoing.html" />
     <Content Include="Views\past-events.html" />
     <Content Include="Views\film.html" />
     <Content Include="Resources\Press\Fall 2017 Events Press Release.pdf" />
@@ -284,6 +309,7 @@
     <Content Include="Views\piticot.html" />
     <Content Include="Views\press.html" />
     <Content Include="Views\songs-from-afar.html" />
+    <Content Include="Views\sponsors.html" />
     <Content Include="Views\staff.html" />
     <Content Include="Views\mission.html" />
     <Content Include="Views\partners.html" />
@@ -303,6 +329,7 @@
     <TypeScriptCompile Include="Scripts\arcs.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\excellence-center.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\past-events.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\event.ts" />
