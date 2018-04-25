@@ -1,7 +1,4 @@
-language: csharp
-solution: ARCS.sln
-before_script:
-- ". set-deploy-env.sh"
+script: ". set-deploy-env.sh"
 deploy:
   provider: azure_web_apps
   verbose: true
