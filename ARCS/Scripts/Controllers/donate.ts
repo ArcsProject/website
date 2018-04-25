@@ -11,7 +11,8 @@ function DonateController($scope) {
         "Romanian Film Festival",
         "General Donation",
         "Club Piticot",
-        "Romanian in High School"
+        "Romanian in High School",
+        "The Center of Excellence Romanian in Action"
     ];
 
     $scope.setSelectedPurpose = function ($event, purpose) {
