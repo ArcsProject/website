@@ -128,3 +128,24 @@ body .press-image {
 body .center-text {
   text-align: center;
 }
+body #mainCarousel > .carousel-indicators > li {
+  background-color: red;
+}
+body #mainCarousel > .carousel-inner > .item {
+  background: white;
+  margin-bottom: 30px;
+}
+body #mainCarousel > .carousel-inner > .item img {
+  margin: auto;
+}
+@media (max-width: 767px) {
+  body #mainCarousel > .carousel-inner > .item {
+    margin-bottom: 20px;
+  }
+  body #mainCarousel-filmfest {
+    content: url("../Resources/Images/film_festival/BNNFEST_414x736.jpg");
+  }
+  body #mainCarousel-siff {
+    content: url("../Resources/Images/siff_content/siff2018_414x736.jpg");
+  }
+}
