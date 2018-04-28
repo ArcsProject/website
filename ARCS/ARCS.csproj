@@ -234,6 +234,7 @@
     <Content Include="Scripts\Controllers\donate.js" />
     <Content Include="Scripts\Controllers\event.js" />
     <Content Include="Scripts\Controllers\events.js" />
+    <Content Include="Scripts\Controllers\excellence-center.js" />
     <Content Include="Scripts\Controllers\film-festival.js" />
     <Content Include="Scripts\Controllers\film.js" />
     <Content Include="Scripts\Controllers\high-school.js" />
@@ -275,12 +276,29 @@
     </TypeScriptCompile>
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
     <Content Include="Views\excellence-center.html" />
+    <Content Include="Views\film-festival.html" />
     <Content Include="Views\footer.html" />
     <Content Include="Views\high-school-ongoing.html" />
     <Content Include="Views\past-events.html" />
     <Content Include="Views\film.html" />
     <Content Include="Resources\Press\Fall 2017 Events Press Release.pdf" />
     <Content Include="Resources\Press\Romanian Film Fest Press Release.pdf" />
+    <Content Include="Scripts\Controllers\contact.js.map" />
+    <Content Include="Scripts\Controllers\donate.js.map" />
+    <Content Include="Scripts\Controllers\event.js.map" />
+    <Content Include="Scripts\Controllers\events.js.map" />
+    <Content Include="Scripts\Controllers\excellence-center.js.map" />
+    <Content Include="Scripts\Controllers\film-festival.js.map" />
+    <Content Include="Scripts\Controllers\film.js.map" />
+    <Content Include="Scripts\Controllers\high-school.js.map" />
+    <Content Include="Scripts\Controllers\mission-statement.js.map" />
+    <Content Include="Scripts\Controllers\mission.js.map" />
+    <Content Include="Scripts\Controllers\partners.js.map" />
+    <Content Include="Scripts\Controllers\past-events.js.map" />
+    <Content Include="Scripts\Controllers\piticot.js.map" />
+    <Content Include="Scripts\Controllers\press.js.map" />
+    <Content Include="Scripts\Controllers\songs-from-afar.js.map" />
+    <Content Include="Scripts\Controllers\staff.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
