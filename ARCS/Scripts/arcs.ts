@@ -45,6 +45,12 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         template: "<film-festival></film-festival>"
     };
 
+    states["film-festival-2017"] = {
+        name: "film-festival-2017",
+        url: "^/film-festival-2017",
+        template: "<film-festival-2017></film-festival-2017>"
+    };
+
     states["mission"] = {
         name: "mission",
         url: "^/mission",

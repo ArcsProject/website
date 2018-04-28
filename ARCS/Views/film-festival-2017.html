@@ -1,0 +1,101 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h1>Romanian Film Festival (4<sup>th</sup> Edition)</h1>
+            <h2>One Eye Laughing, One Eye Crying: Tales from Afar</h2>
+            <p>November 17-19, 2017</p>
+            <p>Opening Night Gala: November 17, 9:00 PM - 10:00 PM at SIFF Cinema Uptown</p>
+            <p>In a city with a long and dynamic tradition of film-related events, ARCS is thrilled to announce the 4th Romanian Film Festival in the Pacific Northwest: “One Eye Laughing, One Eye Crying: Tales from Afar”, preceded by an extraordinary fusion concert, “Songs from Afar”, cross-listed with <a href="https://www.earshot.org" target="_blank">Earshot Jazz Festival.</a></p>
+            <p>Through a variety of genres (documentary, comedy, drama), we will explore the ways in which Romania’s most recent films relate to the other arts, such as music and literature, thawing conceptual borders and enhancing the old art of storytelling with riveting cinematic makeovers. Local and international special guests will present the movies and interact with the audience at the festival gala.</p>
+            <div class="row map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.129774620879!2d-122.35923238436895!3d47.62360857918578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901546d31fd5ff%3A0x66ddf48da16f8726!2sSIFF+Cinema+Uptown!5e0!3m2!1sen!2sus!4v1500855895683" width="400" height="300" frameborder="0" style="border:0"></iframe>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <img class="poster" src="../Resources/Images/28_Poster_2017_11X17=FNL_no-bleed.jpg" alt="Romanian film festival poster"/>
+            <p>Poster by Daniel Ursache</p>
+        </div>
+    </div>
+    <h2>Pre-Events</h2>
+    <event event="event" ng-repeat="event in events | orderBy: 'date'"></event>
+    <h2>Guests</h2>
+    <div ng-repeat="guest in guests">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="media-object guest" src="../Resources/Images/{{guest.imagePath}}" alt="Image of {{guest.name}}">
+            </div>
+            <div class="col-sm-9">
+                <h4 class="media-heading">{{guest.name}}</h4>
+                <p ng-bind-html="guest.details"></p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <h2>Films</h2>
+    <p>All films have English subtitles</p>
+    <film film="film" ng-repeat="film in films"></film>
+    <h2>Supporters</h2>
+    <h3>Partners ($1000+)</h3>
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-repeat="partner in partners">
+            <a href="{{partner.link}}" class="thumbnail" target="_blank">
+                <img ng-src="../Resources/Images/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image">
+            </a>
+        </div>
+    </div>
+    <h3>Sponsors ($500+)</h3>
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-repeat="sponsor in sponsors">
+            <a href="{{sponsor.link}}" class="thumbnail" target="_blank">
+                <img ng-src="../Resources/Images/{{sponsor.imagePath}}" alt="Logo for {{sponsor.link}}" class="sponsor-image">
+            </a>
+        </div>
+    </div>
+    <h3>Private Donors</h3>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level ARCS ($500+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsARCS">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level A ($250+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsA">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level R ($100+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsR">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level C ($50+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsC">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Level S ($25+)</div>
+                <ul class="list-group">
+                    <li class="list-group-item" ng-repeat="donor in donorsS">{{donor}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

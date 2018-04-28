@@ -79,9 +79,9 @@ function EventsController($scope, $stateParams) {
         },
         {
             name: "Romanian Film Festival",
-            description: ["The fourth edition of the Romanian Film Festival"],
-            startDate: new Date(2017, 10, 17),
-            endDate: new Date(2017, 10, 19),
+            description: ["The fifth edition of the Romanian Film Festival"],
+            startDate: new Date(2018, 10, 2),
+            endDate: new Date(2018, 10, 4),
             location: "SIFF Cinema Uptown",
             locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
             tags: ["community", "film", "stage"],
