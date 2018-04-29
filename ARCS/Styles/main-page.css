@@ -2,6 +2,15 @@
   background-color: #eeeeee;
   background-image: url("../Resources/Images/absurdity.png");
 }
+body .navbar-default {
+  background-color: #f29d38;
+  border-color: #f29d38;
+}
+body .btn-info {
+  color: #ffffff;
+  background-color: #d95d34;
+  border-color: #d95d34;
+}
 body #donate-button {
   font-size: 16px;
   padding-top: 11px;
