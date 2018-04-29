@@ -63,6 +63,18 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         template: "<partners></partners>"
     };
 
+    states["consulate_en"] = {
+        name: "consulate_en",
+        url: "^/consulate_en",
+        template: "<consulate_en></consulate_en>"
+    };
+
+    states["consulate_ro"] = {
+        name: "consulate_ro",
+        url: "^/consulate_ro",
+        template: "<consulate_ro></consulate_ro>"
+    };
+
     states["press"] = {
         name: "press",
         url: "^/press",

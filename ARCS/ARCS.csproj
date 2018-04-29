@@ -254,6 +254,8 @@
     <Content Include="Resources\Press\Sieranevada still 2.jpg" />
     <Content Include="Resources\Press\ThisBabaNoText.jpg" />
     <Content Include="Resources\favicon\safari-pinned-tab.svg" />
+    <Content Include="Scripts\Controllers\consulate_en.js" />
+    <Content Include="Scripts\Controllers\consulate_ro.js" />
     <Content Include="Scripts\Controllers\contact.js" />
     <Content Include="Scripts\Controllers\donate.js" />
     <Content Include="Scripts\Controllers\event.js" />
@@ -328,10 +330,13 @@
     <Content Include="Scripts\Controllers\press.js.map" />
     <Content Include="Scripts\Controllers\songs-from-afar.js.map" />
     <Content Include="Scripts\Controllers\staff.js.map" />
+    <Content Include="Scripts\Controllers\consulate_en.js.map" />
+    <Content Include="Scripts\Controllers\consulate_ro.js.map" />
     <Content Include="Scripts\Controllers\high-school-ongoing.js.map" />
     <Content Include="Resources\favicon\site.webmanifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -343,6 +348,8 @@
     <Content Include="Styles\External\bootstrap.min.css" />
     <Content Include="index.html" />
     <Content Include="Views\contact.html" />
+    <Content Include="Views\consulate_ro.html" />
+    <Content Include="Views\consulate_en.html" />
     <Content Include="Views\donate.html" />
     <Content Include="Views\event.html" />
     <Content Include="Views\events.html" />
@@ -373,6 +380,8 @@
   <ItemGroup>
     <TypeScriptCompile Include="Config\past-events.ts" />
     <TypeScriptCompile Include="Scripts\arcs.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\consulate_ro.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\consulate_en.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\excellence-center.ts" />
