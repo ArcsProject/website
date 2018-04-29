@@ -210,6 +210,7 @@
     <Content Include="Resources\Images\JimAugerot.jpg" />
     <Content Include="Resources\Images\jones.png" />
     <Content Include="Resources\Images\kundera.jpg" />
+    <Content Include="Resources\Images\loading.gif" />
     <Content Include="Resources\Images\Logo-Schmieder.jpg" />
     <Content Include="Resources\Images\logo2.jpg" />
     <Content Include="Resources\Images\LoriWalls.jpg" />
