@@ -20,13 +20,6 @@ function StaffController($scope) {
             details: "Prior to her coming to the United States in 2005, Ileana Marin held the faculty position of Associate Professor at Ovidius University of Constanta (equivalent to an American liberal arts college), where she taught a variety of courses in literature and published three books and several articles. In 2004, as a Fulbright scholar, she discovered the Textual Studies Program at the University of Washington, a field that she always wanted to pursue, but which does not exist as such in Romania. She earned her second Ph.D. in Textual Studies and Comparative Literature from the University of Washington in 2011. Recently she has taught interdisciplinary courses for the Honors Program at the University of Washington. She initiated the fund for Romanian Studies, hoping that Romanian language will be taught regularly at the UW. It is her belief that her training in Textual Studies has given her an important understanding of the historicity and materiality of texts from all the arts, a perspective she wants to integrate into her scholarship and teaching and which she hopes to bring to ARCS."
         },
         {
-            name: "Alexandra Dorca",
-            title: "Fundraiser",
-            email: "alexandra.dorca@arcsproject.org",
-            imagePath: "AlexandraDorca.jpg",
-            details: "Alexandra Dorca is an anthropologist born in Romania. Before moving to Seattle in late 2013, she lived in Montreal for ten years. Her previous work experience includes teaching and consulting in social anthropology, intercultural communication, and international cooperation—in Canada and various European countries. Alexandra has a strong background in project management for nonprofit associations—a valuable asset to ARCS. At present, she teaches French classes at l’Alliance française de Seattle, with a special focus on contemporary culture and society, lifestyle, media, and cinema. She is helping ARCS with fundraising, project implementation, and event organization."
-        },
-        {
             name: "Jim Augerot",
             title: "Community Outreach",
             email: "jim.augerot@arcsproject.org",
@@ -51,12 +44,6 @@ function StaffController($scope) {
 
     $scope.advisoryBoard = [
         {
-            name: "Angela Draghicescu",
-            title: "Music Programs Coordinator",
-            imagePath: "AngelaDraghicescu.jpg",
-            details: "Pianist Angela Drăghicescu has quickly established a reputation as a much sought-after collaborative artist and chamber musician. Recent engagements have included performances at Carnegie Hall, Kennedy Center, Benaroya Hall, Rudolfinium Prague, George Enescu Philharmonic, Behague Palace, Hindemith Institute, Mahidol Auditorium, as well as many other venues in Europe, the US, and Asia. Currently Collaborative Pianist at University of Puget Sound, Angela Drăghicescu is also one of the official pianists of the prestigious George Enescu International Competition. Her doctoral thesis “Nicolae Bretan: A Guide to Romanian Art Song” is the first textbook for Romanian diction for singers and has become an invaluable source for non-native speakers wishing to perform Romanian Art Song. Through her work with the world-renowned leading artists of the international music scene, Angela hopes to further promote the Romanian musical heritage and continue to reinforce ARCS’s mission to reach the hearts of all music lovers throughout the world."
-        },
-        {
             name: "Elizabeta Iliescu",
             title: "Children's Program Coordinator",
             email: "elizabeta.iliescu@arcsproject.org",
@@ -66,6 +53,20 @@ function StaffController($scope) {
     ];
 
     $scope.alumni = [
+        {
+            name: "Angela Draghicescu",
+            title: "Music Programs Coordinator",
+            imagePath: "AngelaDraghicescu.jpg",
+            details: "Pianist Angela Drăghicescu has quickly established a reputation as a much sought-after collaborative artist and chamber musician. Recent engagements have included performances at Carnegie Hall, Kennedy Center, Benaroya Hall, Rudolfinium Prague, George Enescu Philharmonic, Behague Palace, Hindemith Institute, Mahidol Auditorium, as well as many other venues in Europe, the US, and Asia. Currently Collaborative Pianist at University of Puget Sound, Angela Drăghicescu is also one of the official pianists of the prestigious George Enescu International Competition. Her doctoral thesis “Nicolae Bretan: A Guide to Romanian Art Song” is the first textbook for Romanian diction for singers and has become an invaluable source for non-native speakers wishing to perform Romanian Art Song. Through her work with the world-renowned leading artists of the international music scene, Angela hopes to further promote the Romanian musical heritage and continue to reinforce ARCS’s mission to reach the hearts of all music lovers throughout the world.",
+            years: "2017"
+        },
+        {
+            name: "Alexandra Dorca",
+            title: "Fundraiser",
+            imagePath: "AlexandraDorca.jpg",
+            years: "2015 - 2017",
+            details: "Alexandra Dorca is an anthropologist born in Romania. Before moving to Seattle in late 2013, she lived in Montreal for ten years. Her previous work experience includes teaching and consulting in social anthropology, intercultural communication, and international cooperation—in Canada and various European countries. Alexandra has a strong background in project management for nonprofit associations—a valuable asset to ARCS. At present, she teaches French classes at l’Alliance française de Seattle, with a special focus on contemporary culture and society, lifestyle, media, and cinema. She is helping ARCS with fundraising, project implementation, and event organization."
+        },
         {
             name: "Gloria Man",
             title: "Visuals Coordinator",
