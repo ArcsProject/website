@@ -1,6 +1,8 @@
 ﻿/// <reference path="typings/angularjs/angular.d.ts" />
 /// <reference path="typings/angular-ui-router/index.d.ts" />
 
+let IsDev = (<any>window).IsDev
+
 let app = angular.module("arcsApp", ["ui.router", "angular-appinsights"]);
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insightsProvider) {
@@ -136,25 +138,26 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         $stateProvider.state(stateName, states[stateName]);
     }
 
-    insightsProvider.start("c7f965bc-f81a-4152-861a-3be30bda3623");
-});
-
-app.factory('myGoogleAnalytics', [
-        '$rootScope', '$window', '$location',
-        function ($rootScope, $window, $location) {
-            var myGoogleAnalytics = {};
-            var sendPageview = function () {
-                if ($window.ga) {
-                    $window.ga('set', 'page', $location.path());
-                    $window.ga('send', 'pageview');
+    if (!IsDev) {
+        insightsProvider.start("c7f965bc-f81a-4152-861a-3be30bda3623");
+        app.factory('myGoogleAnalytics', [
+            '$rootScope', '$window', '$location',
+            function ($rootScope, $window, $location) {
+                var myGoogleAnalytics = {};
+                var sendPageview = function () {
+                    if ($window.ga) {
+                        $window.ga('set', 'page', $location.path());
+                        $window.ga('send', 'pageview');
+                    }
                 }
+                $rootScope.$on('$viewContentLoaded', sendPageview);
+                return myGoogleAnalytics;
             }
-            $rootScope.$on('$viewContentLoaded', sendPageview);
-            return myGoogleAnalytics;
-        }
-    ])
-    .run([
-        'myGoogleAnalytics',
-        function (myGoogleAnalytics) {
-        }
-    ]);
+            ])
+            .run([
+                'myGoogleAnalytics',
+                function (myGoogleAnalytics) {
+                }
+            ]);
+    }
+});
