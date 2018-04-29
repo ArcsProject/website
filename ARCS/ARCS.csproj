@@ -114,6 +114,8 @@
     <Content Include="Resources\Images\ban.png" />
     <Content Include="Resources\Images\bass.jpg" />
     <Content Include="Resources\Images\Billy Hart %28ECM Records%29.jpg" />
+    <Content Include="Resources\Images\excellence\BNNExcellence_1300x312.jpg" />
+    <Content Include="Resources\Images\excellence\BNNExcellence_414x736.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1024x1366.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1300x312.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1366x768.jpg" />
