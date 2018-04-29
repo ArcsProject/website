@@ -1,6 +1,23 @@
-﻿body {
+﻿@main-background-color: #f29d38;//#e95420;
+@main-border-color: #f29d38; //#d34615;
+@main-btn-info-color: #ffffff;
+@main-btn-info-background-color: #d95d34; //#772953;
+@main-btn-info-border-color: #d95d34; //#772953;
+
+body {
     background-color: #eeeeee;
     background-image: url("../Resources/Images/absurdity.png");
+
+    .navbar-default {
+        background-color: @main-background-color;
+        border-color: @main-border-color;
+    }
+
+    .btn-info {
+        color: @main-btn-info-color;
+        background-color: @main-btn-info-background-color;
+        border-color: @main-btn-info-border-color;
+    }
 
     #donate-button {
         font-size: 16px;
