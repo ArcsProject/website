@@ -1,50 +1,34 @@
 ﻿<div class="container">
     <div class="row">
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail education-thumbnail">
                 <div class="caption">
-                    <h3>ARCS in film</h3>
-                    <p>Film events</p>
-                    <p><a ui-sref="events({filterBy: 'Film'})" class="btn btn-primary" role="button">Learn more</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <div class="caption">
-                    <h3>ARCS on stage</h3>
-                    <p>Stage events</p>
-                    <p><a ui-sref="events({filterBy: 'Stage'})" class="btn btn-primary" role="button">Learn more</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <div class="caption">
-                    <h3>ARCS at work</h3>
-                    <p>Work events</p>
-                    <p><a ui-sref="events({filterBy: 'Work'})" class="btn btn-primary" role="button">Learn more</a></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-                <div class="caption">
-                    <h3>ARCS in education</h3>
-                    <p>Heritage Programs</p>
-                    <p>
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" id="heritage-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                Select
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="heritage-dropdown">                                
-                                <li role="menuitem"><a ui-sref="high-school">Kids 14 and up<br />(Romanian in High School)</a></li>
-								<li role="menuitem"><a ui-sref="excellence-center">The Center of Excellence<br />(Romanian in Action)</a></li>
-                                <li role="menuitem"><a ui-sref="piticot">Kids 13 and under<br />(Club Piticot)</a></li>
-                            </ul>
-                        </div>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle caption-btn" type="button" id="heritage-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Education
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="heritage-dropdown">
+                            <li role="menuitem"><a ui-sref="high-school">Kids 14 and up<br />(Romanian in High School)</a></li>
+                            <li role="menuitem"><a ui-sref="excellence-center">The Center of Excellence<br />(Romanian in Action)</a></li>
+                            <li role="menuitem"><a ui-sref="piticot">Kids 13 and under<br />(Club Piticot)</a></li>
+                        </ul>
+                    </div>
                     </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail film-thumbnail">
+                <div class="caption">
+                    <p><a ui-sref="events({filterBy: 'Film'})" class="btn btn-primary caption-btn" role="button">Film Festival</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail stage-thumbnail">
+                <div class="caption">
+                    <p><a ui-sref="events({filterBy: 'Stage'})" class="btn btn-primary caption-btn" role="button">Stage Events</a></p>
                 </div>
             </div>
         </div>
