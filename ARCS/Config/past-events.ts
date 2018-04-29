@@ -30,6 +30,17 @@
         moreInfoPath: "piticot"
     },
     {
+        name: "Romanian Film Festival",
+        description: ["The fourth edition of the Romanian Film Festival"],
+        startDate: new Date(2017, 10, 17),
+        endDate: new Date(2017, 10, 19),
+        location: "SIFF Cinema Uptown",
+        locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
+        tags: ["community", "film", "stage"],
+        imagePath: "rffs_0_0.png",
+        moreInfoPath: "film-festival-2017"
+    },
+    {
         name: "Lucian Ban & Elevation: Songs From Afar",
         description: ["Celebrating the music of Romania this concert event is an amalgamation of Transylvanian folk with jazz and improvisation. Featuring Lucian Ban’s ELEVATION Quartet; master saxophonist  Abraham Burton; Transylvanian singer Gavril Tărmure; and the Angela Drăghicescu Ensemble paying tribute to famed  composer George Enescu with a new arrangement of the Romanian Rhapsody."],
         date: new Date(2017, 10, 10),
