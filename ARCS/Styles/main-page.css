@@ -129,7 +129,7 @@ body .center-text {
   text-align: center;
 }
 body #mainCarousel > .carousel-indicators > li {
-  background-color: red;
+  background-color: #e95420;
 }
 body #mainCarousel > .carousel-inner > .item {
   background: white;
