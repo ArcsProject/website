@@ -4,6 +4,9 @@
 @main-btn-info-background-color: #d95d34; //#772953;
 @main-btn-info-border-color: #d95d34; //#772953;
 
+@main-thumbnail-height: 230px;
+@main-thumbnail-width: 360px;
+
 body {
     background-color: #eeeeee;
     background-image: url("../Resources/Images/absurdity.png");
@@ -189,7 +192,7 @@ body {
         margin: auto;
     }
 
-    #mainCarousel-excelence-center-container{
+    #mainCarousel-excelence-center-container {
         background-color: #ebc51a !important;
     }
 
@@ -209,5 +212,38 @@ body {
         #mainCarousel-excelence-center {
             content: url("../Resources/Images/excellence/BNNExcellence_414x736.jpg");
         }
+
+        .thumbnail > .caption {
+            right: 60px !important;
+        }
+    }
+
+    .thumbnail {
+        background-size: @main-thumbnail-width;
+        height: @main-thumbnail-height;
+        background-repeat: no-repeat;
+    }
+
+    .thumbnail > .caption {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .caption-btn {
+        background-color: @main-background-color;
+        border-color: @main-border-color;
+    }
+
+    .education-thumbnail {
+        background-image: url("../Resources/Images/thumbnails/education.jpg");
+    }
+
+    .film-thumbnail {
+        background-image: url("../Resources/Images/thumbnails/film.jpg");
+    }
+
+    .stage-thumbnail {
+        background-image: url("../Resources/Images/thumbnails/stage.jpg");
     }
 }

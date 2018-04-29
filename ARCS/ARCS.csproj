@@ -205,6 +205,9 @@
     <Content Include="Resources\Images\thisbabamovie- Poster .jpg" />
     <Content Include="Resources\Images\thumb-expo.jpg" />
     <Content Include="Resources\Images\thumb-florian.jpg" />
+    <Content Include="Resources\Images\thumbnails\education.jpg" />
+    <Content Include="Resources\Images\thumbnails\film.jpg" />
+    <Content Include="Resources\Images\thumbnails\stage.jpg" />
     <Content Include="Resources\Images\two lottery tickets - english poster.jpg" />
     <Content Include="Resources\Images\wanderlands.jpg" />
     <Content Include="Resources\Images\whisper-in-bucharest.jpg" />
