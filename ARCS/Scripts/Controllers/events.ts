@@ -21,8 +21,7 @@ function EventsController($scope, $stateParams) {
             location: "SIFF Cinema Uptown",
             locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
             tags: ["community", "film", "stage"],
-            imagePath: "siff_content/siff2018.png",
-            moreInfoPath: "film-festival-2017"
+            imagePath: "siff_content/siff2018.png"
         },
         {
             name: "Club Piticot",
