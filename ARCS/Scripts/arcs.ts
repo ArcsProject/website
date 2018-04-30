@@ -18,6 +18,12 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         template: "<staff></staff>"
     };
 
+    states["alumni"] = {
+        name: "alumni",
+        url: "^/alumni",
+        template: "<alumni></alumni>"
+    };
+
     states["sponsors"] = {
         name: "sponsors",
         url: "^/sponsors",

@@ -1,0 +1,16 @@
+﻿<div class="container">
+    <h2>Alumni</h2>
+    <div ng-repeat="member in alumni">
+        <div class="media">
+            <div class="col-sm-3">
+                <img class="media-object" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+            </div>
+            <div class="col-sm-9">
+                <h4 class="media-heading">{{member.name}} ({{member.years}})</h4>
+                <h5 ng-if="member.email"><a ng-href="mailto:{{member.email}}">{{member.email}}</a></h5>
+                <p>{{member.details}}</p>
+            </div>
+        </div>
+        <hr />
+    </div>
+</div>

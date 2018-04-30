@@ -257,6 +257,7 @@
     <Content Include="Resources\Press\Sieranevada still 2.jpg" />
     <Content Include="Resources\Press\ThisBabaNoText.jpg" />
     <Content Include="Resources\favicon\safari-pinned-tab.svg" />
+    <Content Include="Scripts\Controllers\alumni.js" />
     <Content Include="Scripts\Controllers\consulate_en.js" />
     <Content Include="Scripts\Controllers\consulate_ro.js" />
     <Content Include="Scripts\Controllers\contact.js" />
@@ -309,6 +310,7 @@
     <Content Include="Styles\main-page.min.css">
       <DependentUpon>main-page.css</DependentUpon>
     </Content>
+    <Content Include="Views\alumni.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-festival.html" />
     <Content Include="Views\footer.html" />
@@ -337,6 +339,7 @@
     <Content Include="Scripts\Controllers\consulate_ro.js.map" />
     <Content Include="Scripts\Controllers\high-school-ongoing.js.map" />
     <Content Include="Resources\favicon\site.webmanifest" />
+    <Content Include="Scripts\Controllers\alumni.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -383,6 +386,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="Config\past-events.ts" />
     <TypeScriptCompile Include="Scripts\arcs.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\alumni.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\consulate_ro.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\consulate_en.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
