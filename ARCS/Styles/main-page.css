@@ -11,6 +11,41 @@ body .btn-info {
   background-color: #d95d34;
   border-color: #d95d34;
 }
+body .vtop {
+  display: inline-block;
+  vertical-align: top;
+  float: none;
+}
+body .read-more {
+  margin-bottom: 10px !important;
+  color: #e95420;
+  cursor: pointer;
+}
+body .read-more[aria-expanded=true] {
+  display: none;
+}
+body .rounded {
+  border-radius: 5px;
+  background: #000;
+  /*without a background or border applied you won't be able to see if its rounded*/
+}
+body .text-inline-img {
+  width: 350px;
+  margin: 10px;
+}
+body .item-grey {
+  background-color: #dedede;
+}
+body .h3_margins {
+  margin-left: 30px;
+}
+body .img-portrait {
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  padding: 7px;
+  margin-bottom: 5px !important;
+  box-shadow: 3px 3px rgba(102, 102, 102, 0.1);
+}
 body #donate-button {
   font-size: 16px;
   padding-top: 11px;
