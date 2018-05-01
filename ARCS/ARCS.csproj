@@ -26,6 +26,7 @@
     <ApplicationInsightsResourceId>/subscriptions/7a97b205-845b-4802-9eb7-49a049f32ad9/resourcegroups/arcsproject/providers/microsoft.insights/components/ARCS</ApplicationInsightsResourceId>
     <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
     <Use64BitIISExpress />
+    <TypeScriptOutFile>Scripts/controllers.js</TypeScriptOutFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -228,7 +229,7 @@
     <Content Include="Resources\Images\OtiliaBaraboi.jpg" />
     <Content Include="Resources\Images\paint.jpg" />
     <Content Include="Resources\Images\piticot.jpg" />
-    <Content Include="Resources\Images\Poster R Royalty Seattle 2.png" />
+    <Content Include="Resources\Images\Poster R Royalty Seattle 2.jpg" />
     <Content Include="Resources\Images\Rajan Krishnawami, cello .jpg" />
     <Content Include="Resources\Images\rciny_logo_Kb.png" />
     <Content Include="Resources\Images\RFFSPoster2017_11X17=FINAL.jpg" />
@@ -257,27 +258,7 @@
     <Content Include="Resources\Press\Sieranevada still 2.jpg" />
     <Content Include="Resources\Press\ThisBabaNoText.jpg" />
     <Content Include="Resources\favicon\safari-pinned-tab.svg" />
-    <Content Include="Scripts\Controllers\alumni.js" />
-    <Content Include="Scripts\Controllers\consulate_en.js" />
-    <Content Include="Scripts\Controllers\consulate_ro.js" />
-    <Content Include="Scripts\Controllers\contact.js" />
-    <Content Include="Scripts\Controllers\donate.js" />
-    <Content Include="Scripts\Controllers\event.js" />
-    <Content Include="Scripts\Controllers\events.js" />
-    <Content Include="Scripts\Controllers\excellence-center.js" />
-    <Content Include="Scripts\Controllers\film-festival-2017.js" />
-    <Content Include="Scripts\Controllers\film-festival.js" />
-    <Content Include="Scripts\Controllers\film.js" />
-    <Content Include="Scripts\Controllers\high-school-ongoing.js" />
-    <Content Include="Scripts\Controllers\high-school.js" />
-    <Content Include="Scripts\Controllers\mission-statement.js" />
-    <Content Include="Scripts\Controllers\mission.js" />
-    <Content Include="Scripts\Controllers\partners.js" />
-    <Content Include="Scripts\Controllers\past-events.js" />
-    <Content Include="Scripts\Controllers\piticot.js" />
-    <Content Include="Scripts\Controllers\press.js" />
-    <Content Include="Scripts\Controllers\songs-from-afar.js" />
-    <Content Include="Scripts\Controllers\staff.js" />
+    <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\External\angular-appinsights.min.js" />
     <Content Include="Scripts\External\angular-ui-router.min.js" />
     <Content Include="Scripts\External\angular.min.js" />
@@ -319,27 +300,7 @@
     <Content Include="Views\film.html" />
     <Content Include="Resources\Press\Fall 2017 Events Press Release.pdf" />
     <Content Include="Resources\Press\Romanian Film Fest Press Release.pdf" />
-    <Content Include="Scripts\Controllers\contact.js.map" />
-    <Content Include="Scripts\Controllers\donate.js.map" />
-    <Content Include="Scripts\Controllers\event.js.map" />
-    <Content Include="Scripts\Controllers\events.js.map" />
-    <Content Include="Scripts\Controllers\excellence-center.js.map" />
-    <Content Include="Scripts\Controllers\film-festival-2017.js.map" />
-    <Content Include="Scripts\Controllers\film-festival.js.map" />
-    <Content Include="Scripts\Controllers\high-school.js.map" />
-    <Content Include="Scripts\Controllers\mission-statement.js.map" />
-    <Content Include="Scripts\Controllers\mission.js.map" />
-    <Content Include="Scripts\Controllers\partners.js.map" />
-    <Content Include="Scripts\Controllers\past-events.js.map" />
-    <Content Include="Scripts\Controllers\piticot.js.map" />
-    <Content Include="Scripts\Controllers\press.js.map" />
-    <Content Include="Scripts\Controllers\songs-from-afar.js.map" />
-    <Content Include="Scripts\Controllers\staff.js.map" />
-    <Content Include="Scripts\Controllers\consulate_en.js.map" />
-    <Content Include="Scripts\Controllers\consulate_ro.js.map" />
-    <Content Include="Scripts\Controllers\high-school-ongoing.js.map" />
     <Content Include="Resources\favicon\site.webmanifest" />
-    <Content Include="Scripts\Controllers\alumni.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>

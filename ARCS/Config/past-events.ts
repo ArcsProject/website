@@ -11,7 +11,7 @@
         location: "UW Seattle Campus - 2nd and 3rd Floor Odegaard Library",
         locationLink: "https://www.google.com/maps/place/Odegaard+Undergraduate+Library+(OUG)/@47.656462,-122.31254,17z/data=!3m1!4b1!4m5!3m4!1s0x549014f329bffff7:0x6efe7422cf2f2f93!8m2!3d47.656462!4d-122.310346",
         tags: ["community"],
-        imagePath: "Poster R Royalty Seattle 2.png"
+        imagePath: "Poster R Royalty Seattle 2.jpg"
     },
     {
         name: "Club Piticot Storytime",

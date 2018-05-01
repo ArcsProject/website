@@ -248,3 +248,4 @@ ModelManifest.xml
 ARCS/Scripts/Controllers/*.js
 ARCS/Config/*.js
 ARCS/Scripts/arcs.js
+ARCS/Scripts/controllers.js
