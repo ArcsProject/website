@@ -28,11 +28,11 @@ function EventsController($scope, $stateParams) {
             description: [
                 "Free",
                 "Kids ages 3-13",
-                "Let's get together to celebrate together International Children's Day! Event in Romanian."
+                "Let's get together to celebrate International Children's Day! Event in Romanian."
             ],
             date: new Date(2018, 5, 2),
-            startTime: new Date(2018, 5, 2, 15, 0),
-            endTime: new Date(2017, 5, 2, 17, 0),
+            startTime: new Date(2018, 5, 2, 14, 30),
+            endTime: new Date(2017, 5, 2, 16, 30),
             tags: ["community"],
             location: "Redmond Library",
             locationLink: "https://www.google.com/maps/place/Redmond+Regional+Library/@47.6789086,-122.1302662,17z/data=!3m1!4b1!4m5!3m4!1s0x54900d4d5c384747:0x8d071c2fe5aa28c6!8m2!3d47.6789086!4d-122.1280775",
