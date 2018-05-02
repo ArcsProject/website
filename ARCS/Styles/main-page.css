@@ -180,6 +180,8 @@ body #mainCarousel > .carousel-inner > .item {
   margin-bottom: 30px;
 }
 body #mainCarousel > .carousel-inner > .item img {
+  width: 90vw;
+  max-width: 1300px;
   margin: auto;
 }
 body #mainCarousel-excelence-center-container {
@@ -193,7 +195,7 @@ body #mainCarousel-excelence-center-container {
     content: url("../Resources/Images/film_festival/BNNFEST_414x736.jpg");
   }
   body #mainCarousel-siff {
-    content: url("../Resources/Images/siff_content/siff2018_414x736.jpg");
+    content: url("../Resources/Images/siff_content/siff2018_828x1472.jpg");
   }
   body #mainCarousel-excelence-center {
     content: url("../Resources/Images/excellence/BNNExcellence_414x736.jpg");
