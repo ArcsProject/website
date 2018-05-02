@@ -138,3 +138,23 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
 
     insightsProvider.start("c7f965bc-f81a-4152-861a-3be30bda3623");
 });
+
+app.factory('myGoogleAnalytics', [
+        '$rootScope', '$window', '$location',
+        function ($rootScope, $window, $location) {
+            var myGoogleAnalytics = {};
+            var sendPageview = function () {
+                if ($window.ga) {
+                    $window.ga('set', 'page', $location.path());
+                    $window.ga('send', 'pageview');
+                }
+            }
+            $rootScope.$on('$viewContentLoaded', sendPageview);
+            return myGoogleAnalytics;
+        }
+    ])
+    .run([
+        'myGoogleAnalytics',
+        function (myGoogleAnalytics) {
+        }
+    ]);
