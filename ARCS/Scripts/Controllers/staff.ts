@@ -46,6 +46,13 @@ function StaffController($scope) {
             email: "elizabeta.iliescu@arcsproject.org",
             imagePath: "IMG_20170904_182543.jpg",
             details: "Elizabeta was born in Northern Romania where she grew up very attached to her grandparents. After high school, she moved to Bucharest where she studied physics and worked for an insurance company. She moved to the US with her family in 2008, and spent a few years just playing with her kids. The love of being around children made her look for opportunities to work with them. She worked and volunteered in different early childhood education programs. She is currently working with Bellevue School District in its Early Learning Programs. She obtained an AAS-T in Early Childhood Careers and is enrolled for a BA in Mathematics."
+        },
+        {
+            name: "Iulian Calinov",
+            title: "Honorary Consul",
+            email: "iulian.calinov@arcsproject.org",
+            imagePath: "board/IulianCalinov.jpg",
+            details: "Iulian Calinov was born in Bucharest Romania. Iulian holds a masters degree in Electrical Engineering from the Politehnica University of Bucharest and a Masters of Business Administration in Corporate Finance jointly from Bucharest School of Economics and Université du Québec à Montréal. Iulian has worked as an Assistant Professor with the Politechnica University of Bucharest for 6 years after graduation, teaching Control Theory, Digital Control, Microprocessor Systems, Electric Drives and Microeconomics. After a brief stint as a Treasurer for Philip Moris in Romania, Iulian moved to the United States to work for Microsoft in Redmond, WA in 1998. Currently, Iulian is a Program Manager with Facebook, and serves the Romanian community in Seattle as a Honorary Consul on Romania as well as the Secretary of Romanian American Society of Washington State."
         }
     ];
 
