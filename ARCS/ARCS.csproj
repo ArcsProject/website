@@ -29,6 +29,8 @@
     <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
     <Use64BitIISExpress />
     <TypeScriptOutFile>Scripts/controllers.js</TypeScriptOutFile>
+    <LessMinifyOutput Condition="'$(Configuration)'=='Release'">True</LessMinifyOutput>
+    <LessForceRun>True</LessForceRun>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -314,10 +316,7 @@
     <Content Include="Fonts\External\glyphicons-halflings-regular.ttf" />
     <Content Include="Fonts\External\glyphicons-halflings-regular.woff" />
     <Content Include="Fonts\External\glyphicons-halflings-regular.woff2" />
-    <Content Include="Styles\main-page.css">
-      <DependentUpon>main-page.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\main-page.less" />
+    <DotLess Include="Styles\main-page.less" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -326,9 +325,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </TypeScriptCompile>
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
-    <Content Include="Styles\main-page.min.css">
-      <DependentUpon>main-page.css</DependentUpon>
-    </Content>
+    <Content Include="Styles\main-page.css" />
     <Content Include="Views\alumni.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-festival.html" />
@@ -460,8 +457,25 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.7.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.7.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets'))" />
+    <Error Condition="!Exists('..\packages\LessMsbuildTasks.1.0.10\build\LessMsbuildTasks.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\LessMsbuildTasks.1.0.10\build\LessMsbuildTasks.targets'))" />
   </Target>
   <Target Name="BeforeBuild">
     <TransformXml Source="Web.config" Transform="Web.$(Configuration).config" Destination="Web.config" />
   </Target>
+  <Target Name="AfterBuild" DependsOnTargets="Minify">
+  </Target>
+  <Target Name="Minify" Condition="'$(Configuration)'=='Release'">
+    <ItemGroup>
+      <JavaScriptFiles Include="Scripts\*.js" Exclude="Scripts\*.min.js" />
+    </ItemGroup>
+    <JsCompress Files="@(JavaScriptFiles)">
+      <Output TaskParameter="CompressedFiles" ItemName="CompressedFiles" />
+    </JsCompress>
+    <ItemGroup>
+      <Content Include="@(CompressedFiles)" />
+    </ItemGroup>
+  </Target>
+  <Import Project="..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets" Condition="Exists('..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" />
+  <Import Project="..\packages\LessMsbuildTasks.1.0.10\build\LessMsbuildTasks.targets" Condition="Exists('..\packages\LessMsbuildTasks.1.0.10\build\LessMsbuildTasks.targets')" />
 </Project>
