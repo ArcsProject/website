@@ -5,7 +5,7 @@
     <div ng-repeat="member in boardMembers">
         <div class="row">
             <div class="col-sm-3">
-                <img class="media-object" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+                <img class="media-object staff-img" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
             </div>
             <div class="col-sm-9">
                 <h4 class="media-heading">{{member.name}}<span class="spacer">|</span>{{member.title}}</h4>
@@ -15,12 +15,11 @@
         </div>
         <hr />
     </div>
-    <!--
     <h3 class="extra-margin">Advisory Board</h3>
     <div ng-repeat="member in advisoryBoard">
         <div class="media">
             <div class="col-sm-3">
-                <img class="media-object" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+                <img class="media-object staff-img" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
             </div>
             <div class="col-sm-9">
                 <h4 class="media-heading">{{member.name}}<span class="spacer" ng-if="member.title">|</span>{{member.title}}</h4>
@@ -30,5 +29,4 @@
         </div>
         <hr />
     </div>
-        -->
 </div>

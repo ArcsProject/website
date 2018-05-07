@@ -161,7 +161,16 @@
     <Content Include="Resources\Images\ban.png" />
     <Content Include="Resources\Images\bass.jpg" />
     <Content Include="Resources\Images\Billy Hart %28ECM Records%29.jpg" />
+    <Content Include="Resources\Images\board\AdrianaGuiman.jpg" />
+    <Content Include="Resources\Images\board\DanielPravat.jpg" />
+    <Content Include="Resources\Images\board\GratielaAlbisor.jpg" />
+    <Content Include="Resources\Images\board\IoanaDanciu.jpg" />
+    <Content Include="Resources\Images\board\IoanaPop.jpg" />
     <Content Include="Resources\Images\board\IulianCalinov.jpg" />
+    <Content Include="Resources\Images\board\MarinaLyons.jpg" />
+    <Content Include="Resources\Images\board\MarySherhart.jpg" />
+    <Content Include="Resources\Images\board\RaduSimionescu.jpg" />
+    <Content Include="Resources\Images\board\RalucaHera.jpg" />
     <Content Include="Resources\Images\excellence\BNNExcellence_1300x312.jpg" />
     <Content Include="Resources\Images\excellence\BNNExcellence_414x736.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1024x1366.jpg" />
@@ -332,9 +341,6 @@
     </TypeScriptCompile>
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
     <Content Include="Styles\main-page.css" />
-    <Content Include="Styles\main-page.min.css">
-      <DependentUpon>main-page.css</DependentUpon>
-    </Content>
     <Content Include="Views\alumni.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-festival.html" />
