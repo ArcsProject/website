@@ -238,6 +238,8 @@
     <Content Include="Resources\Images\lucian-ban-poster.png" />
     <Content Include="Resources\Images\lucian-ban.jpg" />
     <Content Include="Resources\Images\MadalinaTonciu.jpg" />
+    <Content Include="Resources\Images\main_page\BN_expo_1300x312.jpg" />
+    <Content Include="Resources\Images\main_page\BN_expo_414x736.jpg" />
     <Content Include="Resources\Images\martisor.jpg" />
     <Content Include="Resources\Images\Mary with Flowers in Varna.jpg" />
     <Content Include="Resources\Images\pacala2_0.png" />
