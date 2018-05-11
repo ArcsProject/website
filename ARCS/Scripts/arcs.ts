@@ -161,6 +161,12 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         template: "<heritage-awards-2017></heritage-awards-2017>"
     };
 
+    states["summer-camp"] = {
+        name: "summer-camp",
+        url: "^/summer-camp",
+        template: "<summer-camp></summer-camp>"
+    };
+
 
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(true);
