@@ -46,8 +46,76 @@ function StaffController($scope) {
             email: "elizabeta.iliescu@arcsproject.org",
             imagePath: "IMG_20170904_182543.jpg",
             details: "Elizabeta was born in Northern Romania where she grew up very attached to her grandparents. After high school, she moved to Bucharest where she studied physics and worked for an insurance company. She moved to the US with her family in 2008, and spent a few years just playing with her kids. The love of being around children made her look for opportunities to work with them. She worked and volunteered in different early childhood education programs. She is currently working with Bellevue School District in its Early Learning Programs. She obtained an AAS-T in Early Childhood Careers and is enrolled for a BA in Mathematics."
+        },
+        {
+            name: "Iulian Calinov",
+            title: "Honorary Consul",
+            email: "iulian.calinov@arcsproject.org",
+            imagePath: "board/IulianCalinov.jpg",
+            details: "Iulian Calinov was born in Bucharest Romania. Iulian holds a masters degree in Electrical Engineering from the Politehnica University of Bucharest and a Masters of Business Administration in Corporate Finance jointly from Bucharest School of Economics and Université du Québec à Montréal. Iulian has worked as an Assistant Professor with the Politechnica University of Bucharest for 6 years after graduation, teaching Control Theory, Digital Control, Microprocessor Systems, Electric Drives and Microeconomics. After a brief stint as a Treasurer for Philip Moris in Romania, Iulian moved to the United States to work for Microsoft in Redmond, WA in 1998. Currently, Iulian is a Program Manager with Facebook, and serves the Romanian community in Seattle as a Honorary Consul on Romania as well as the Secretary of Romanian American Society of Washington State."
         }
     ];
 
-    $scope.advisoryBoard = [];
+    $scope.advisoryBoard = [
+        {
+            name: "Grațiela Albișor",
+            email: "gratiela.albisor@arcsproject.org",
+            imagePath: "board/GratielaAlbisor.jpg",
+            details: "Graţiela Albişor is a licensed clinical and counseling psychologist, specialized in gifted education. She graduated the Faculty of Psychology and Educational Sciences at the University of Bucharest in 2004. She earned an MA and a PhD in Psychology from the same university. In her pursuit of excellence and cross-cultural understanding she attended specialization courses by leading specialists working across Europe and the US. Since 2008 Grațiela has worked in private practice and held training workshops for psychologists and school teachers. In Romania, she initiated the PsyArt Center project – a center for creative development of children and adults alike. Exploring the multicultural environment of Luxembourg, where she lived before relocating to the US, Grațiela gained a better understanding of the importance of cultural-educational programs for youth in Romanian communities. Grațiela is focused on facilitating Romanian heritage as well as raising awareness about the harmonious integration of Romanian roots in the American socio-cultural context."
+        },
+        {
+            name: "Ioana Danciu",
+            email: "ioana.danciu@arcsproject.org",
+            imagePath: "board/IoanaDanciu.jpg",
+            details: "Ioana grew up in Constanta, Romania, spending her summer breaks on the streets of Old Town Bucharest and the movie sets of Romanian director Dan Pița. Despite her early dream of becoming a movie director, she went on to graduate from Romania’s prestigious Polytechnic University of Bucharest with a degree in Electrical Engineering. After moving to the United States and completing a Master’s Degree in Computer Science, she embarked on a successful 20-year career with Adobe Systems and was granted multiple patents for innovative work in image processing and color science. In 2016, Ioana retired from Adobe to dedicate more time to photography, digital image editing, and her long-held interest in volunteering. Aside from extensive visual communication experience, Ioana will bring to ARCS a quirky creative side and well-honed project management and people skills."
+        },
+        {
+            name: "Adriana Guiman",
+            email: "adriana.guiman@arcsproject.org",
+            imagePath: "board/AdrianaGuiman.jpg",
+            details: "Adriana Guiman was born in Piatra Neamț, a small town in North of Romania. She moved to Seattle in 2017, after she graduated a master program in Transmedia storytelling and Crossmedia Production in Estonia. She is currently researching cinematic virtual experiences, being enrolled in a PhD program in Helsinki, Finland.  She was involved in numerous corporate media projects as a producer and on multiple personal projects as a film director and media artist."
+        },
+        {
+            name: "Raluca Hera",
+            email: "raluca.hera@arcsproject.org",
+            imagePath: "board/RalucaHera.jpg",
+            details: "Born and raised in Bucharest, Romania, Raluca moved to the United States in 1996. She fell in love with beautiful Pacific Northwest, but continued to keep close ties with her birth country and it’s culture. A graduate of the Polytechnic Institute of Bucharest, Computer Science, she has spent all of her adult life around computers, but has always cultivated other interests like art, fashion and travel. Raluca is at the beginning of her ARCS journey, but brings enthusiasm and a will to get things done supporting various projects such as the Romanian Film Festival in Seattle."
+        },
+        /*{
+            name: "Adreea Isac",
+            email: "andreea.isac@arcsproject.org",
+            imagePath: "board/AndreeaIsac.jpg",
+            details: ""
+        },*/
+        {
+            name: "Marina Lyons",
+            email: "marina.lyons@arcsproject.org",
+            imagePath: "board/MarinaLyons.jpg",
+            details: "Marina moved from the small village of Bucsani, Romania to Orange County, California, when she was eight years old.  While she spoke no English at first, she quickly assimilated into the American culture, but she spent her summers with her grandparents in Romania.  She now practices business litigation at the law firm Carson & Noel PLLC in Issaquah, Washington.  Since moving to Washington, she has been searching for ways to get more involved in the Romanian community, and she was fortunate to discover the opportunities offered by ARCS.  Given her legal background, she hopes to assist ARCS with its business growth and development.  But perhaps more importantly, she looks forward to meeting more Romanian Americans, learning from each other’s experiences, and celebrating our culture."
+        },
+        {
+            name: "Ioana Pop",
+            email: "ioana.pop@arcsproject.org",
+            imagePath: "board/IoanaPop.jpg",
+            details: "Ioana is passionate about sharing the richness of Romanian folklore, both with the Romanian community and with the larger multi-cultural local community. She comes from a computer science background (MS in Computer Science at University of Washington, BS in Computer Science at Polytechnica University of Bucharest) and is currently working as a software engineer for Microsoft. A community coordinator for Northwest Folklife festival, she is also the co-founder of Datina Folk Ensemble, a Seattle-based non-profit that promotes traditional Romanian dance and music."
+        },
+        {
+            name: "Daniel Pravăț",
+            email: "daniel.pravat@arcsproject.org",
+            imagePath: "board/DanielPravat.jpg",
+            details: 'Daniel Pravăț is a software engineer manager with Microsoft with more than 20 years of experience driving and managing complex projects. He is the co-author of the highly popular book "Advanced Windows Debugging", covering Windows Operating System Internals and powerful debugging tips and tricks. As the father of two teenager sons, Daniel has taken the time to volunteer in his children’s schools, as well as tutoring in after-school activities with the local library. He and his wife live in Redmond and are deeply invested in the Romanian community in the Seattle area.'
+        },
+        {
+            name: "Mary Sherhart",
+            email: "mary.sherhart@arcsproject.org",
+            imagePath: "board/MarySherhart.jpg",
+            details: "Mary Sherhart is a Seattle-based musician who specializes in traditional singing from the Balkans. She is a performer, teacher, choir director, producer, board member and student."
+        },
+        {
+            name: "Radu Simionescu",
+            email: "radu.simionescu@arcsproject.org",
+            imagePath: "board/RaduSimionescu.jpg",
+            details: "Radu is Principal Software Engineer at Microsoft. He is passionate about history and politics. ARCS’s legacy to the next generation makes him a fervent supporter. Also, he brings to our group his IT expertise by organizing and managing our technical needs."
+        }
+    ];
 };

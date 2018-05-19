@@ -131,6 +131,37 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
         template: "<songs-from-afar></songs-from-afar>"
     };
 
+    states["heritage-mission"] = {
+        name: "heritage-mission",
+        url: "^/heritage-mission",
+        template: "<heritage-mission></heritage-mission>"
+    };
+
+    states["heritage-competition-rules"] = {
+        name: "heritage-competition-rules",
+        url: "^/heritage-competition-rules",
+        template: "<heritage-competition-rules></heritage-competition-rules>"
+    };
+
+    states["heritage-application"] = {
+        name: "heritage-application",
+        url: "^/heritage-application",
+        template: "<heritage-application></heritage-application>"
+    };
+
+    states["heritage-contest-2018"] = {
+        name: "heritage-contest-2018",
+        url: "^/heritage-contest-2018",
+        template: "<heritage-contest-2018></heritage-contest-2018>"
+    };
+
+    states["heritage-awards-2017"] = {
+        name: "heritage-awards-2017",
+        url: "^/heritage-awards-2017",
+        template: "<heritage-awards-2017></heritage-awards-2017>"
+    };
+
+
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(true);
 
