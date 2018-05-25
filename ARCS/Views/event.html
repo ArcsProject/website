@@ -6,6 +6,7 @@
             </div>
             <div class="col-xs-3">
                 <button ng-if="$ctrl.event.moreInfoPath" class="btn btn-info btn-sm event-button" ui-sref="{{$ctrl.event.moreInfoPath}}">More Info</button>
+                <a ng-if="$ctrl.event.externalUrl" href="{{$ctrl.event.externalUrl}}" target="_blank"><button class="btn btn-info btn-sm event-button">More Info</button></a>
                 <a ng-if="$ctrl.event.links" class="btn btn-info btn-sm event-button" ng-repeat="link in $ctrl.event.links" href="{{link.href}}" target="_blank">{{link.text}}</a>
             </div>
         </div>
