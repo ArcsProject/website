@@ -3,9 +3,9 @@
 
 let IsDev = (<any>window).IsDev
 
-let app = angular.module("arcsApp", ["ui.router", "angular-appinsights"]);
+let app = angular.module("arcsApp", ["ui.router"]);
 
-app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insightsProvider) {
+app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     let states = [];
 
     states["main"] = {
@@ -176,7 +176,6 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider, insi
     }
 
     if (!IsDev) {
-        insightsProvider.start("c7f965bc-f81a-4152-861a-3be30bda3623");
         app.factory('myGoogleAnalytics', [
             '$rootScope', '$window', '$location',
             function ($rootScope, $window, $location) {
