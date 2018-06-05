@@ -45,7 +45,7 @@ namespace ARCS.Api
                     return response;
                 }
 
-                var mail = new MailMessage(contactEmail, contactEmail, emailSubject, emailBody);
+                var mail = new MailMessage(smtpUser, contactEmail, emailSubject, emailBody);
 
                 SmtpClient client = new SmtpClient(smtpHost, smtpPort)
                 {
