@@ -16,24 +16,28 @@
         <div class="col-sm-6">
             <div class="form-group">
                 <label for="name">Name (optional):</label>
-                <input type="text" id="name" class="form-control" ng-model="name" ng-disabled="sent || true">
+                <input type="text" id="name" class="form-control" ng-model="name" ng-disabled="sent">
             </div>
             <div class="form-group">
                 <label for="email">Email Address (optional):</label>
-                <input type="text" id="email" class="form-control" ng-model="email" ng-disabled="sent || true">
+                <input type="text" id="email" class="form-control" ng-model="email" ng-disabled="sent">
             </div>
             <div class="checkbox" ng-if="email">
-                <label><input type="checkbox" ng-model="mailingList" ng-disabled="sent">Please check this box if you'd like to be added to our mailing list. We promise to never sell or misuse your information.</label>
+                <label><input id="add-mailing-list" type="checkbox" ng-model="mailingList" ng-disabled="sent">Please check this box if you'd like to be added to our mailing list. We promise to never sell or misuse your information.</label>
             </div>
             <div class="form-group">
                 <label for="comment">Comments:</label>
-                <textarea class="form-control" rows="5" id="comment" ng-model="comments" ng-disabled="sent || true"></textarea>
+                <textarea class="form-control" rows="5" id="comment" ng-model="comments" ng-disabled="sent"></textarea>
             </div>
             <div class="form-group">
-                <button type="button" ng-click="submitInformation()" class="btn btn-primary" ng-disabled="sent || !comments || true">Submit</button>
+                <button type="button" id="submitInfoBtn" ng-click="submitInformation()" class="btn btn-primary" ng-disabled="sent || !comments">Submit</button>
+                <img id="sendingIcon" alt="Sending" src="Resources/Images/loading.gif" style="display:none;height:60px;"/>
             </div>
-            <div class="form-group" ng-if="sent">
+            <div class="form-group" id="form-success-msg" style="display:none;">
                 <label>Thanks for reaching out to us! We'll read your message and respond (if applicable) as soon as possible.</label>
+            </div>
+            <div class="form-group" id="form-error-msg" style="display:none;">
+                <label>We've encountered a problem while sending your message. Please try again later, or email us directly.</label>
             </div>
         </div>
     </div>
