@@ -37,8 +37,8 @@ namespace ARCS.Api
 
                 var smtpHost = ConfigurationManager.AppSettings.Get("SmtpHost");
                 var smtpPort = Convert.ToInt32(ConfigurationManager.AppSettings.Get("SmtpPort"));
-                var smtpUser = ConfigurationManager.AppSettings.Get("SmtpUser");
-                var smtpPwd = ConfigurationManager.AppSettings.Get("SmtpPwd");
+                var smtpUser = ConfigurationManager.ConnectionStrings["SmtpUser"].ConnectionString;
+                var smtpPwd = ConfigurationManager.ConnectionStrings["SmtpPwd"].ConnectionString;
                 var contactEmail = ConfigurationManager.AppSettings.Get("ContactEmail");
                 if (string.IsNullOrEmpty(smtpHost) || string.IsNullOrEmpty(smtpUser) || string.IsNullOrEmpty(smtpPwd) || string.IsNullOrEmpty(contactEmail))
                 {
