@@ -1,0 +1,348 @@
+html {
+  background-size: cover;
+  background-image: url(../images/background.jpg);
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.none {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #d4a0a0;
+  cursor: pointer;
+  font-size: 20px;
+}
+p {
+  text-align: justify;
+  font-size: 20px;
+  padding: 0 40px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 0px;
+  padding-top: 20px;
+  font: 100 70px/1 'Raleway', sans-serif;
+  letter-spacing: -2px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: ghostwhite;
+}
+
+h1 div {
+  display: inline-block;
+}
+
+
+h2 {
+  font-size: 45px;
+  text-align: left;
+  padding-left: 40px;
+  background: rgba(255, 255, 255, 0.1);  
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.mic {
+  text-transform: none;
+  color: rgba(0,0,0,.5);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.light {
+  color: ghostwhite;
+}
+
+.light-back {
+  background: rgba(255, 255, 255, 0.1);  
+}
+
+.fineprint {
+  font-size: 11px!important;
+}
+
+.third {
+  text-align: right;
+  margin: -100px 35px 0 0;
+}
+
+header {
+  position: relative;
+  background-image: url(../images/camera.png);
+  background-repeat: no-repeat;
+  background-position: 130px 90px;
+  background-size: 110px auto;
+  height: 210px;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#dates {
+  text-align: right;
+  font-size: 30px;
+  margin-top: -60px;
+  margin-right: 30px;
+  color: ghostwhite;
+  font-weight: normal;
+
+}
+
+#sea {
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  width: 1024px;
+  position: relative;
+  background: rgba(9, 20, 179, 0.5);
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.large-text {
+  font-size: 22px;
+}
+
+p.column-text {
+  padding: 0 0 0 20px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 22px;
+  margin-top: 0px;
+}
+
+#footer-space {
+  height: 300px;
+}
+
+.bottom-space {
+  height: 50px;
+}
+
+#footer {
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  margin-top: 80px;
+}
+
+#footer div {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+}
+
+#footer a {
+  font-size: 15px;
+}
+
+#footer p {
+  margin: 0px;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+}
+
+#footer img {
+  height: 80px;
+}
+
+#author {
+  color: white;
+  background-color: #1b2020;
+  font-size: 11px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+}
+#author div {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+h2.page-title {
+  margin: -150px 0 80px 0;
+  text-align: center;
+  background: none;
+  font-size: 55px;
+}
+
+#author a {
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+
+
+#afis {
+  margin-top: 10px;
+  border: 15px solid #ddd;
+}
+
+#afis-label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+
+#carousel {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 450px;
+}
+
+#carousel label {
+  left: 0px;
+  font-size: 20px;
+  color: ghostwhite;
+}
+
+#carousel a {
+  right: 0px;
+}
+
+#carousel a, #carousel label {
+  position: absolute;
+  bottom: 5px;
+  padding: 2px 15px 2px 15px;
+}
+
+#carousel p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+  line-height: 20px; 
+}
+
+#carousel #slide-1 {
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ), url('../images/banners/why-me.jpg');
+  opacity: 1;
+}
+
+#carousel #slide-1:hover {
+  background-image: url(../images/banners/why-me.jpg);
+}
+
+
+/*#carousel #slide-3 #p31 {
+  position: absolute;
+  top: 200px;
+  left: 10px;
+}
+
+#carousel #slide-3 label {
+  position: absolute;
+  left: 220px;
+  font-size: 20px;
+}
+
+#carousel #slide-3 #p32 {
+  position: absolute;
+  top: 15px;
+  left: 470px;
+}*/
+
+#carousel #slide-2 {
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../images/banners/malaele.jpg');
+}
+#carousel #slide-2:hover {
+  background-image: url(../images/banners/malaele.jpg);
+}
+#carousel #slide-2:hover label {
+  color: black;
+}
+
+#carousel #slide-3 {
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) ), url('../images/banners/dogs.jpg');
+}
+
+#carousel #slide-3:hover {
+  background-image: url(../images/banners/dogs.jpg);
+}
+
+#carousel #slide-4 {
+  background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1) ), url('../images/banners/mercy.jpg');
+}
+
+#carousel #slide-4:hover {
+  background-image: url(../images/banners/mercy.jpg);
+}
+
+#carousel>div {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+#carousel-nav {
+  display: block;
+}
+
+#carousel-nav>div {
+  margin: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #799E9E;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+#carousel>div.selected {
+  z-index: 1;
+}
+#carousel-nav>div.selected {
+  background-color: white;
+}
+
+h3 {
+  text-align: left;
+  padding-left: 40px;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+
+#sp-thank {
+  height: 150px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .no-mobile {
+    display: none!important;
+  }
+}
+
+.fts17 {
+  font-size: 17px;
+}
