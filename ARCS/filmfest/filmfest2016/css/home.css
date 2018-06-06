@@ -1,0 +1,158 @@
+#belong, #belong-mobile {
+  padding: 30px 20px 20px 20px;
+  line-height: 1.4;
+  margin: -170px 40px 0 385px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#belong-mobile {
+  display: none
+}
+
+@media only screen and (max-device-width: 480px) {
+  #belong-mobile {
+    display: block;
+  }
+}
+
+#belong i {
+  font-size: 20px;
+}
+
+#join {
+  font-size: 20px;
+}
+
+.subtitle {
+  padding-right: 55px;
+  padding-bottom: 25px;
+  display: inline-block;
+  font-size: 50px;
+  color: #ba252b;
+  line-height: 10px;
+}
+
+.subtitle em {
+  font-style: normal;
+  color: ghostwhite;
+}
+
+#last-year label {
+  display: block;
+}
+
+#last-year div:first-of-type {
+  margin-right: 40px;
+}
+
+#poster-2015 {
+  height: 350px;
+}
+
+#venue {
+  text-align: left;
+  font-size: 20px;
+}
+
+#venue a {
+  display: block;
+  margin-top: 10px;
+}
+
+#venue h3 {
+  padding-left: 0px;
+}
+
+#venue div {
+  margin: 0 40px 0 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#venue label {
+  padding-bottom: 10px;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#venue img {
+  margin: 20px 20px 40px 0;
+  display: inline-block;
+  height: 200px;
+}
+
+section#pics .double img {
+  width: 450px;
+  margin: 10px;
+}
+
+
+section#pics>img.single {
+  width: 920px;
+  margin: 10px 0;
+}
+
+
+#interviews p, #interviews a {
+  font-size: 16px;
+  line-height: 1.4;
+}
+#interviews img {
+  width: 100px;
+}
+
+#interviews .intro p {
+  width: 820px;
+  padding: 0 0 0 10px;
+  margin: 0px;
+  vertical-align: top;
+}
+
+#interviews .intro {
+  text-align: left;
+  padding: 0 40px;
+}
+
+.interview b {
+  display: block;
+  margin-top: 5px;
+}
+
+.interview a {
+  padding-left: 10px;
+}
+
+.arcs {
+  color: ghostwhite;
+  position: absolute;
+  left: 40px;
+  line-height: 1.2;
+  top: 525px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.arcs a {
+  font-size: 18px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .arcs {
+    left: 10px;
+    top: 475px;
+  }
+}
+
+.rir h3 {
+  margin-bottom: 0px;   
+}
+
+.rir {
+  text-align: left; 
+}
+
+.rir audio {
+  margin-left: 40px;
+}

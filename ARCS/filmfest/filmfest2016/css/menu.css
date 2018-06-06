@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.main-menu {
+  display: block;
+  margin-top: 20px;
+  font-family: sans-serif;
+  background-image: url(../images/craca.png);
+  background-repeat: no-repeat;
+  height: 450px;
+  margin-top: -140px;
+  padding-top: 170px;
+  padding-left: 250px;
+  margin-left: -250px;
+}
+
+.main-menu .rotor {
+  display: inline-block;
+}
+
+.main-menu a {
+  color: #d4a0a0;
+  position: relative;
+  margin: 15px 15px;
+  outline: none;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.main-menu .disabled {
+  color: grey;
+  vertical-align: top;
+  line-height: 55px;  
+}
+
+.main-menu .rotor span {
+  position: relative;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  cursor: pointer;
+
+}
+
+.main-menu a.sel {
+  color: ghostwhite;
+}
+
+.main-menu a span::before {
+  color: white;
+  position: absolute;
+  top: 100%;
+  content: attr(data-hover);
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.main-menu .rotor:hover span,
+.main-menu .rotor:focus span {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.tooltip {
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover {
+    color: #6f8686;
+    text-decoration: none;
+}
+
+.tooltip:hover:after {
+    font-size: 12px;
+    background: #111;
+    background: rgba(0,0,0,.5);
+    border-radius: 5px;
+    bottom: 30px;
+    color: #fff;
+    content: attr(title);
+    display: block;
+    left: 30px;
+    padding: 0px 15px;
+    position: absolute;
+    text-shadow: 0 1px 0 #000;
+    white-space: nowrap;
+    z-index: 98;
+}
+
+.tooltip:hover:before {
+    border: solid;
+    border-color: #111 transparent;
+    border-color: rgba(0,0,0,.5) transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: 22px;
+    content: "";
+    display: block;
+    left: 50px;
+    position: absolute;
+    z-index: 99;
+}

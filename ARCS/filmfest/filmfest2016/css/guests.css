@@ -1,0 +1,29 @@
+#guest-list {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+#guest-list li {
+  margin-bottom: 30px;
+}
+
+#guest-list img {
+  vertical-align: top;
+  margin: 5px 0 0 40px;
+}
+
+#guest-list p {
+  display: inline-block;
+  width: 670px;
+  font-size: 18px;
+  /*line-height: 22px;*/
+  margin: 0px;
+  padding-left: 20px;
+}
+
+#guest-list h2 {
+  margin-top: 0px;
+  text-align: left;
+  vertical-align: top;
+}

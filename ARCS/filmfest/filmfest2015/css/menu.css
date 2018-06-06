@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.main-menu {
+  background-color: #aab7b7;
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+.main-menu .rotor {
+  display: inline-block;
+}
+
+.main-menu a {
+  position: relative;
+  margin: 15px 25px;
+  outline: none;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 1.35em;
+  overflow: hidden;
+  padding: 0 4px;
+  height: 1em;
+}
+
+.main-menu .rotor span {
+  color: #6f8686;
+}
+
+.main-menu .sel {
+  color: #0f2626;
+}
+
+.main-menu .disabled {
+  color: #93a6a6;
+  vertical-align: top;
+  line-height: 55px;  
+}
+
+.main-menu .rotor span {
+  position: relative;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  cursor: pointer;
+
+}
+
+.main-menu a span::before {
+  color: #0f2626;
+  position: absolute;
+  top: 100%;
+  content: attr(data-hover);
+  font-weight: 700;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.main-menu .rotor:hover span,
+.main-menu .rotor:focus span {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.tooltip {
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover {
+    color: #6f8686;
+    text-decoration: none;
+}
+
+.tooltip:hover:after {
+    font-size: 12px;
+    background: #111;
+    background: rgba(0,0,0,.5);
+    border-radius: 5px;
+    bottom: 30px;
+    color: #fff;
+    content: attr(title);
+    display: block;
+    left: 30px;
+    padding: 0px 15px;
+    position: absolute;
+    text-shadow: 0 1px 0 #000;
+    white-space: nowrap;
+    z-index: 98;
+}
+
+.tooltip:hover:before {
+    border: solid;
+    border-color: #111 transparent;
+    border-color: rgba(0,0,0,.5) transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: 22px;
+    content: "";
+    display: block;
+    left: 50px;
+    position: absolute;
+    z-index: 99;
+}
