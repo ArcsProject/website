@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="GenerateConstantsCs" AfterTargets="BeforeBuild">
+  <OverwriteConstantsCs />
+  </Target>
+  <UsingTask
+      TaskName="OverwriteConstantsCs"
+      TaskFactory="CodeTaskFactory"
+      AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" >
+        <Task>
+          <Using Namespace="System" />
+          <Using Namespace="System.IO" />
+          <Code Type="Fragment" Language="cs">
+              <![CDATA[
+                File.WriteAllText("Utils\\Constants.cs",
+                "using System;\n"+
+                "namespace Util\n" +
+                "{\n" +
+                "public static class Constants\n" +
+                "{\n" +
+                "public static string BuildTimeToken = DateTime.Now.ToString(\"yyyyMMddHHmmssffff\");\n" +
+                "public static string BuildTimeToken2 = Convert.ToBase64String(Guid.NewGuid().ToByteArray());\n" +
+                "public static string LongLivedResourceToken = \"8RBuyRV3jO7ENpWeZoOs\";\n" +
+                "}\n" +
+                "}\n");
+                return true;
+              ]]>
+            </Code>
+        </Task>
+    </UsingTask>
+</Project>
