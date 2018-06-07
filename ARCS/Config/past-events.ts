@@ -188,7 +188,7 @@
         links: [
             {
                 text: "Full Site",
-                href: "http://filmfest2016.arcsproject.org"
+                href: "./film-festival-2016"
             }
         ],
         description: [
@@ -278,7 +278,7 @@
         links: [
             {
                 text: "Full Site",
-                href: "http://filmfest2015.arcsproject.org"
+                href: "./film-festival-2015"
             }
         ]
     },

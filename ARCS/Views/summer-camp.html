@@ -40,75 +40,64 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12">
-            <h4>Dates &amp; Times</h4>
-            <p>Monday to Friday, 10 AM – 2 PM July 23 – August 3, 2018</p>
-            <p> August 5 – Movie Premiere Night and Special Screening of the Completed Documentary</p>
+        <div class="col-sm-6">
+            <div>
+                <h4>Dates &amp; Times</h4>
+                <p>Monday to Friday, 10 AM – 2 PM July 23 – August 3, 2018</p>
+                <p> August 5 – Movie Premiere Night and Special Screening of the Completed Documentary</p>
+            </div>
+            <div>
+                <h4>Location</h4>
+                <p>University of Washington, Seattle Campus</p>
+            </div>
+            <div>
+                <h4>Participation Fee</h4>
+                <p>$350 /week, M-F ($700 total)</p>
+                <p><b>IMPORTANT:</b> The participation fee will cover the venue, course materials, technical needs, as well as the instructors’ travel expenses, lodging and food. Financial aid is available upon request and depending on the number of students registered. <b>We can award up to 3 scholarships of 50% of the total fee, please email us at <a href="mailto:contact@arcsproject.org">contact@arcsproject.org</a>, if your family would like to be considered.</b></p>
+                <p><b>Second child gets a discount of $200/week or $ 400 total.</b></p>
+                <p>In order to insure the quality of our program, our students need to commit for <b>the entire period of the camp</b>. (Course limit: 20 students)</p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <h4>Location</h4>
-            <p>University of Washington, Seattle Campus</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <h4>Participation Fee</h4>
-            <p>$400 /week, M-F ($800 total)</p>
-            <p><b>IMPORTANT:</b> The participation fee will cover the venue, course materials, technical needs, as well as the instructors’ travel expenses, lodging and food. Financial aid is available upon request and depending on the number of students registered. In order to insure the quality of our program, our students need to commit for the entire period of the camp. (Course limit: 20 students)</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <h4><b>FOLLOW</b> these steps to RESERVE YOUR SPOT</h4>
-            <p><b>Step 1 - Deadline: July 4</b>. Please use the form below to enroll your kids in the ARCS Summer Camp.</p>
+        <div class="col-sm-6">
+            <h4>Follow these steps to RESERVE YOUR SPOT</h4>
+            <p><b>Step 1 - Deadline: June 30</b>. Please use the form below to enroll your kids in the ARCS Summer Camp.</p>
             <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSditopWuKanFUIoJuItiHFibB5LGV0wQmC8EXDzR_gW8NR3WQ/viewform" target="_blank"><button class="btn btn-primary">Pre-registration form</button></a></p>
-            <p><b>Step 2 - Registration and Payment</b></p>
-            <p><b>Option 1:</b> pay the discounted amount before June 4</p>
-            <div class="row" style="padding-bottom:10px;">
-                <div class="col-sm-2">
+            <p><b>Step 2 - Registration and Payment (click on the chosen option)</b></p>
+            <div class="list-group">
+                <button id="pay-opt1" onclick="event.preventDefault();setSelectedPayOption(this)" class="list-group-item"><b>Option 1:</b> Pay the registration fee - full amount before June 30</button>
+                <button id="pay-opt2" onclick="event.preventDefault();setSelectedPayOption(this)" class="list-group-item"><b>Option 2:</b> Make the first payment ($200) before June 17 and the second ($500) before June 30</button>
+                <button id="pay-opt3" onclick="event.preventDefault();setSelectedPayOption(this)" class="list-group-item"><b>Option 3:</b> Pay the discounted amount ($400 total) for your second registered child.</button>
+            </div>
+            <div id="pay-form1" style="visibility:hidden; float:left">
+                <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input id="pay-form1-item-name" type="hidden" name="item_name" value="First payment for ARCS Summer Camp" />
+                    <input id="pay-form1-amount" type="hidden" name="amount" value="200" />
+                    <input type="hidden" name="cmd" value="_xclick">
+                    <input type="hidden" name="add" value="" />
+                    <input id="pay-form1-custom" type="hidden" name="custom" value="First payment for ARCS Summer Camp" />
+                    <input type="hidden" name="business" value="otilia.baraboi@arcsproject.org">
+                    <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    <input id="pay-form1-btn" type="submit" alt="" class="btn btn-primary" value="$200 (PayPal)" />
+                </form>
+            </div>
+            <div>
+                <div id="pay-form2" style="visibility:hidden">
                     <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="item_name" value="Discounted payment for ARCS Summer Camp" />
-                        <input type="hidden" name="amount" value="780" />
+                        <input id="pay-form2-item-name" type="hidden" name="item_name" value="Second payment for ARCS Summer Camp" />
+                        <input id="pay-form2-amount" type="hidden" name="amount" value="" />
                         <input type="hidden" name="cmd" value="_xclick">
-                        <input type="hidden" name="add" value="" />
-                        <input type="hidden" name="custom" value="Discounted payment for ARCS Summer Camp" />
+                        <input type="hidden" name="add" value="200" />
+                        <input id="pay-form2-custom" type="hidden" name="custom" value="Second payment for ARCS Summer Camp" />
                         <input type="hidden" name="business" value="otilia.baraboi@arcsproject.org">
                         <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        <input type="submit" alt="" class="btn btn-primary" value="$780 (PayPal)" />
+                        <input id="pay-form2-btn" type="submit" alt="" class="btn btn-primary" value="$500 (PayPal)" />
                     </form>
                 </div>
             </div>
-            <p><b>Option 2:</b> make the first payment ($200) before June 4 and the second ($600) before July 4</p>
-            <div class="row" style="padding-bottom:10px;">
-                <div class="col-sm-2">
-                    <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="item_name" value="First payment for ARCS Summer Camp" />
-                        <input type="hidden" name="amount" value="200" />
-                        <input type="hidden" name="cmd" value="_xclick">
-                        <input type="hidden" name="add" value="" />
-                        <input type="hidden" name="custom" value="First payment for ARCS Summer Camp" />
-                        <input type="hidden" name="business" value="otilia.baraboi@arcsproject.org">
-                        <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        <input type="submit" alt="" class="btn btn-primary" value="$200 (PayPal)" />
-                    </form>
-                </div>
-            </div>
-            <div class="row" style="padding-bottom:10px;">
-                <div class="col-sm-2">
-                    <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                        <input type="hidden" name="item_name" value="Second payment for ARCS Summer Camp" />
-                        <input type="hidden" name="amount" value="600" />
-                        <input type="hidden" name="cmd" value="_xclick">
-                        <input type="hidden" name="add" value="" />
-                        <input type="hidden" name="custom" value="Second payment for ARCS Summer Camp" />
-                        <input type="hidden" name="business" value="otilia.baraboi@arcsproject.org">
-                        <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                        <input type="submit" alt="" class="btn btn-primary" value="$600 (PayPal)" />
-                    </form>
-                </div>
-            </div>
-            </div>
+        </div>
     </div>
 </div>
+
+<script type="text/javascript">$(function () {
+        setSelectedPayOption($("#pay-opt2")[0]);
+    });</script>
