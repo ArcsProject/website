@@ -14,17 +14,6 @@ function EventsController($scope, $stateParams) {
 
     $scope.events = [
         {
-            name: "Romanian Films at SIFF 2018, sponsored by ARCS",
-            description: ["Stay tuned for more details!"],
-            startDate: new Date(2018, 4, 3),
-            endDate: new Date(2018, 5, 10),
-            location: "SIFF Cinema Uptown",
-            locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
-            tags: ["community", "film", "stage"],
-            imagePath: "siff_content/siff2018.png",
-            externalUrl: "https://www.siff.net/festival/film-guide?country=Romania"
-        },
-        {
             name: "Inauguration of the Romanian Center of Excellence ROACT (Romanian In Action)",
             description: ["Location to be determined"],
             startDate: new Date(2018, 9),
