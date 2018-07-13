@@ -368,11 +368,16 @@
     <Content Include="Resources\Images\MadalinaTonciu.jpg" />
     <Content Include="Resources\Images\main_page\BN_expo_1300x312.jpg" />
     <Content Include="Resources\Images\main_page\BN_expo_414x736.jpg" />
+    <Content Include="Resources\Images\main_page\maryhill_1300x312.png" />
+    <Content Include="Resources\Images\main_page\maryhill_414x736.png" />
+    <Content Include="Resources\Images\main_page\maryhill_bkg_1300x312.jpg" />
+    <Content Include="Resources\Images\main_page\maryhill_bkg_414x736.jpg" />
     <Content Include="Resources\Images\main_page\summer_camp_1_1300x312.jpg" />
     <Content Include="Resources\Images\main_page\summer_camp_2_1300x312.jpg" />
     <Content Include="Resources\Images\main_page\summer_camp_414x736.jpg" />
     <Content Include="Resources\Images\martisor.jpg" />
     <Content Include="Resources\Images\Mary with Flowers in Varna.jpg" />
+    <Content Include="Resources\Images\maryhill_event.png" />
     <Content Include="Resources\Images\pacala2_0.png" />
     <Content Include="Resources\Images\photo pn.jpg" />
     <Content Include="Resources\Images\piticot-easter.jpg" />
@@ -474,6 +479,7 @@
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
     <Content Include="Styles\main-page.css" />
     <Content Include="Views\alumni.html" />
+    <Content Include="Views\cultural-festival-maryhill.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-festival.html" />
     <Content Include="Views\footer.html" />
@@ -544,6 +550,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\consulate_ro.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\consulate_en.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\cultural-festival-maryhill.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\excellence-center.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival.ts" />
