@@ -8,7 +8,7 @@ function EventsController($scope, $stateParams) {
         "All",
         "Film",
         "Stage",
-        "Community",
+        "Heritage",
         "Work"
     ];
 
@@ -20,7 +20,7 @@ function EventsController($scope, $stateParams) {
             endDate: new Date(2018, 8, 22),
             location: "Maryhill Museum of Art Goldendale, WA",
             locationLink: "https://www.google.com/maps/place/Maryhill+Museum+of+Art/@45.6774618,-120.8669593,17z/data=!3m1!4b1!4m5!3m4!1s0x549627fc553924c9:0xb881dc90af6e15a5!8m2!3d45.6774581!4d-120.8647706",
-            tags: ["community"],
+            tags: ["heritage"],
             imagePath: "maryhill_event.png",
             moreInfoPath: "cultural-festival-maryhill"
         },
@@ -29,7 +29,7 @@ function EventsController($scope, $stateParams) {
             description: ["Location to be determined"],
             startDate: new Date(2018, 9),
             endDate: new Date(2018, 9),
-            tags: ["community"],
+            tags: ["heritage"],
             imagePath: "excellence_center.jpg",
             moreInfoPath: "excellence-center"
         },
@@ -40,7 +40,7 @@ function EventsController($scope, $stateParams) {
             endDate: new Date(2018, 10, 4),
             location: "SIFF Cinema Uptown",
             locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
-            tags: ["community", "film", "stage"],
+            tags: ["heritage", "film", "stage"],
             imagePath: "rffs_0_0.png",
             moreInfoPath: "film-festival"
         }
