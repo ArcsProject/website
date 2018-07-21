@@ -7,9 +7,9 @@ function EventsController($scope, $stateParams) {
     $scope.filters = [
         "All",
         "Film",
-        "Stage",
+        "Education",
         "Heritage",
-        "Education"
+        "Stage",
     ];
 
     $scope.events = [
