@@ -6,7 +6,7 @@
         endDate: new Date(2018, 5, 10),
         location: "SIFF Cinema Uptown",
         locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
-        tags: ["heritage", "film", "stage"],
+        tags: ["heritage", "film", "stage", "2018"],
         imagePath: "siff_content/siff2018.png",
         externalUrl: "https://www.siff.net/festival/film-guide?country=Romania"
     },
@@ -20,7 +20,7 @@
         date: new Date(2018, 5, 2),
         startTime: new Date(2018, 5, 2, 14, 30),
         endTime: new Date(2017, 5, 2, 16, 30),
-        tags: ["heritage"],
+        tags: ["heritage", "education", "2018"],
         location: "Redmond Library",
         locationLink: "https://www.google.com/maps/place/Redmond+Regional+Library/@47.6789086,-122.1302662,17z/data=!3m1!4b1!4m5!3m4!1s0x54900d4d5c384747:0x8d071c2fe5aa28c6!8m2!3d47.6789086!4d-122.1280775",
         imagePath: "Club-Piticot2.jpg",
@@ -37,7 +37,7 @@
         endDate: new Date(2017, 10, 27),
         location: "UW Seattle Campus - 2nd and 3rd Floor Odegaard Library",
         locationLink: "https://www.google.com/maps/place/Odegaard+Undergraduate+Library+(OUG)/@47.656462,-122.31254,17z/data=!3m1!4b1!4m5!3m4!1s0x549014f329bffff7:0x6efe7422cf2f2f93!8m2!3d47.656462!4d-122.310346",
-        tags: ["heritage"],
+        tags: ["heritage", "2017"],
         imagePath: "Poster R Royalty Seattle 2.jpg"
     },
     {
@@ -52,7 +52,7 @@
         endTime: new Date(2017, 9, 14, 17, 0),
         location: "Bellevue Library",
         locationLink: "https://www.google.com/maps/place/Bellevue+Library/@47.6201601,-122.196526,17z/data=!3m1!4b1!4m5!3m4!1s0x54906c8c6badfd01:0xba3faf4f02e64232!8m2!3d47.6201601!4d-122.1943373?q=Bellevue+Library+Bellevue,+WA+98004&biw=1069&bih=570&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjB4O-HjZ_WAhVI72MKHTKjD2gQ_AUICigB",
-        tags: ["heritage"],
+        tags: ["heritage", "education", "2017"],
         imagePath: "Club-Piticot2.jpg",
         moreInfoPath: "piticot"
     },
@@ -63,7 +63,7 @@
         endDate: new Date(2017, 10, 19),
         location: "SIFF Cinema Uptown",
         locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
-        tags: ["heritage", "film", "stage"],
+        tags: ["heritage", "film", "stage", "2017"],
         imagePath: "rffs_0_0.png",
         moreInfoPath: "film-festival-2017"
     },
@@ -74,7 +74,7 @@
         startTime: new Date(2017, 8, 20, 19, 30),
         location: "Seattle Art Museum",
         locationLink: "https://www.google.com/maps/place/Seattle+Art+Museum/",
-        tags: ["stage"],
+        tags: ["stage", "2017"],
         imagePath: "lucian-ban.jpg",
         moreInfoPath: "songs-from-afar"
     },
@@ -88,7 +88,7 @@
         startTime: new Date(2017, 10, 16, 18, 30),
         location: "UW Seattle Campus, The Ellison Center - Thomson Hall Room 317",
         locationLink: "https://www.google.com/maps/place/The+Henry+M.+Jackson+School+of+International+Studies/@47.6559675,-122.3068937,17z/data=!4m8!1m2!2m1!1sThe+Ellison+Center!3m4!1s0x0:0xd952a116a281984!8m2!3d47.6566!4d-122.3058899",
-        tags: ["heritage"],
+        tags: ["heritage", "2017"],
         imagePath: "9780252082276.jpg",
         links: [
             {
@@ -114,13 +114,13 @@
         endTime: new Date(2017, 11, 8, 17, 30),
         location: "Bellevue Library",
         locationLink: "https://www.google.com/maps/place/Bellevue+Library/@47.6201601,-122.196526,17z/data=!3m1!4b1!4m5!3m4!1s0x54906c8c6badfd01:0xba3faf4f02e64232!8m2!3d47.6201601!4d-122.1943373?q=Bellevue+Library+Bellevue,+WA+98004&biw=1069&bih=570&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjB4O-HjZ_WAhVI72MKHTKjD2gQ_AUICigB",
-        tags: ["heritage"],
+        tags: ["heritage", "2017"],
         imagePath: "c_mile_end_mare.jpg"
     },
     {
         name: "Ion Creanga and His Literary Characters",
         date: new Date(2017, 5, 3),
-        tags: ["stage", "2017"],
+        tags: ["stage", "2017", "education"],
         imagePath: "pacala2_0.png",
         description: [
             "Illustrations by Ary Murnu and Puppet Theater",
@@ -148,7 +148,7 @@
     {
         name: "Club Piticot - Waiting for the Easter Bunny",
         date: new Date(2017, 3, 9),
-        tags: ["heritage", "2017"],
+        tags: ["heritage", "2017", "education"],
         imagePath: "piticot-easter.jpg",
         description: [
             "Club Piticot invites all children of Romanian heritage at a creative workshop where they learn about Romanian Easter traditions and prepare for the arrival of the beloved Easter Bunny: In asteptarea Iepurasului.", 
@@ -161,7 +161,7 @@
     {
         name: "Comedia Remix",
         date: new Date(2017, 2, 25),
-        tags: ["stage", "2017"],
+        tags: ["stage", "2017", "education"],
         imagePath: "comedia-remix.jpg",
         description: [
             "Legendary actor George Mihăiță, together with theater critic and curator Cristina Modreanu, are coming to Seattle to present a documentary about the Golden Age of Romanian theater."
@@ -194,7 +194,7 @@
         name: "Seattle Romanian Film Festival",
         startDate: new Date(2016, 10, 18),
         endDate: new Date(2016, 10, 20),
-        tags: ["film", "2016"],
+        tags: ["film", "2016", "education"],
         imagePath: "rffs_0_0.png",
         links: [
             {
@@ -209,7 +209,7 @@
     {
         name: "Iuliana Pana reads from Ebony Bones",
         date: new Date(2016, 9, 12),
-        tags: ["stage", "2016"],
+        tags: ["stage", "2016", "heritage"],
         imagePath: "Ebony-Bones-Thumb.jpg",
         description: [
             "Iulia Pană has a free reading and book signing event for her latest poetry volume Ebony Bones.",
@@ -219,7 +219,7 @@
     {
         name: "Iuliana Pana reads from Rigla de Aur",
         date: new Date(2016, 9, 11),
-        tags: ["stage", "2016"],
+        tags: ["stage", "2016", "heritage"],
         imagePath: "rigla-seattle-thumb.jpg",
         description: [
             "Iulia Pană has a free reading and book signing event for her latest poetry volume Rigla de Aer.",
@@ -229,7 +229,7 @@
     {
         name: "Cântec de leagan",
         date: new Date(2016, 9, 8),
-        tags: ["stage", "2016"],
+        tags: ["stage", "2016", "heritage"],
         imagePath: "tanase_0.jpg",
         description: [
             "O poveste despre Maria Tanase (Lullaby. A Story about Maria Tanase)"

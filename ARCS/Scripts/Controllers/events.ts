@@ -9,7 +9,7 @@ function EventsController($scope, $stateParams) {
         "Film",
         "Stage",
         "Heritage",
-        "Work"
+        "Education"
     ];
 
     $scope.events = [
@@ -29,7 +29,7 @@ function EventsController($scope, $stateParams) {
             description: ["Location to be determined"],
             startDate: new Date(2018, 9),
             endDate: new Date(2018, 9),
-            tags: ["heritage"],
+            tags: ["heritage", "education"],
             imagePath: "excellence_center.jpg",
             moreInfoPath: "excellence-center"
         },
