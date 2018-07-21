@@ -533,6 +533,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\Donate.cs" />
     <Compile Include="Api\SendController.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
