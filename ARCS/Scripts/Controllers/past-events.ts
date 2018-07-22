@@ -7,13 +7,14 @@ function PastEventsController($scope, $stateParams) {
     $scope.filters = [
         "All",
         "Film",
-        "Stage",
-        "Community",
-        "Work"
+        "Education",
+        "Heritage",
+        "Stage"
     ];
 
     $scope.years = [
         "All",
+        "2018",
         "2017",
         "2016",
         "2015",
