@@ -519,7 +519,6 @@
     <Content Include="Views\jumbotron.html" />
     <Content Include="Views\main.html" />
     <Content Include="Views\mission-statement.html" />
-    <Content Include="Views\navbar.html" />
     <Content Include="Views\piticot.html" />
     <Content Include="Views\press.html" />
     <Content Include="Views\songs-from-afar.html" />
