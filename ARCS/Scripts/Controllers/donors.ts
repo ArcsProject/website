@@ -8,6 +8,7 @@
     controller: DonorsController
 });
 
+
 function DonorsController($scope, $element, $attrs) {
     var ctrl = this;
     ctrl.dataLoaded = false;

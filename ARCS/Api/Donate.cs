@@ -8,6 +8,8 @@ using System.Collections.Specialized;
 using System.Net;
 using System.Threading;
 using System.Web;
+using System.Web.Configuration;
+
 
 namespace ARCS.Api
 {
@@ -19,7 +21,8 @@ namespace ARCS.Api
         {
             if (target == "filmfest2018")
             {
-                return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors");
+                var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
+                return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors?Camapain="+ campaign);
             }
             if (StaticContent.JsonContent.TryGetValue("donors_" + target, out var content))
             {
@@ -34,10 +37,13 @@ namespace ARCS.Api
         {
             if (target != _targetFilmFest2018)
             {
+
                 return await NotFound().ExecuteAsync(new CancellationToken());
             }
+         
+            var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
+            var goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal?campaignId="+ campaign);
 
-            var goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal");
             if (goal.Current > goal.Max)
             {
                 goal.Current = goal.Max;
