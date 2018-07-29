@@ -541,6 +541,7 @@
     <Content Include="Views\heritage-contest-2018.html" />
     <Content Include="Views\pie-chart.html" />
     <Content Include="Views\press_resource.html" />
+    <Content Include="Views\volunteering.html" />
     <Content Include="Views\summer-camp.html" />
     <Content Include="Views\heritage-mission.html" />
     <Content Include="Views\high-school-ongoing.html" />
@@ -621,6 +622,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\cultural-festival-maryhill.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donors.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\volunteering.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\excellence-center.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-fest-donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival.ts" />
