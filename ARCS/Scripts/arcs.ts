@@ -203,24 +203,3 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             ]);
     }
 });
-
-(<any>window).GetDonationProgress = function (target, onDataReceived) {
-    var onError = function (err) {
-        onDataReceived({
-            Max: 15000,
-            Current: 0,
-            Percent: 0
-        });
-    }
-    $.get({
-        url: "api/donate/progress?target=" + target,
-        success: function (result) {
-            if (result == null || result.Max == null || result.Current == null || result.Percent == null || result.Max == 0) {
-                onError(null);
-            } else {
-                onDataReceived(result);
-            }
-        },
-        error: onError
-    });
-};

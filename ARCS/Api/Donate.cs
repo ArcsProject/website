@@ -42,7 +42,7 @@ namespace ARCS.Api
                 {
                     Current = Max;
                 }
-                Percent = Math.Round((Current / Max) * 100,2);
+                Percent = Math.Round((Current / Max) * 100,0);
             }
 
             public double Max { get => _max; private set => _max = NormalizeValue(value); }

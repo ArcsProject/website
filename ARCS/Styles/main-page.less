@@ -7,6 +7,11 @@
 @main-thumbnail-height: 230px;
 @main-thumbnail-width: 360px;
 
+@pie-chart-bkg: #e95420;
+@pie-chart-completed-bkg: @main-background-color;
+@pie-chart-diameter: 201;
+@pie-chart-circumference: 629;
+
 body {
     background-color: #eeeeee;
     background-image: url("../Resources/Images/absurdity.png");
@@ -328,5 +333,64 @@ body {
 
     .staff-img {
         width: 200px;
+    }
+
+    .progress-pie {
+        padding: 20px;
+    }
+
+    .progress-pie > svg {
+        display: block;
+        margin: 10px auto 10px auto;
+        width: 75%;
+        transform: scaleX(-1) rotate(-90deg);
+        background: @pie-chart-bkg;
+        border-radius: 50%;
+    }
+
+    .progress-pie > p {
+        font-weight: bold;
+        padding-left: 50px;
+    }
+
+    .progress-pie > p > span {
+        padding-left: 10px;
+        vertical-align: middle;
+    }
+
+    .progress-pie > p > svg {
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+
+    .progress-pie-raised > svg > rect {
+        fill: @pie-chart-completed-bkg;
+    }
+
+    .progress-pie-goal > svg > rect {
+        fill: @pie-chart-bkg;
+    }
+
+    .progress-pie > svg > circle {
+        fill: @pie-chart-completed-bkg;
+        stroke: @pie-chart-bkg;
+        stroke-width: @pie-chart-diameter;
+        -webkit-animation: progress-pie-fillup 5s 1;
+        animation: progress-pie-fillup 5s 1;
+    }
+
+    @-webkit-keyframes progress-pie-fillup {
+        from {
+            stroke-dasharray: @pie-chart-circumference @pie-chart-circumference;
+        }
+    }
+
+    @keyframes progress-pie-fillup {
+        from {
+            stroke-dasharray: @pie-chart-circumference @pie-chart-circumference;
+        }
     }
 }

@@ -6,8 +6,6 @@
 function DonateController($scope) {
     $scope.selectedPurpose = "Romanian Film Festival";
     $scope.selectedAmount = "$25";
-    $scope.donationProgressMax = 15000;
-    $scope.donationProgressCurrent = 0;
 
     $scope.purposes = [
         "Romanian Film Festival",
@@ -119,13 +117,5 @@ function DonateController($scope) {
                 return $scope.selectedAmount;
             }
         }
-    }
-
-    $scope.initFilmFest2018DonationProgress = function () {
-        (<any>window).GetDonationProgress("film2018", function (result) {
-            $scope.donationProgressMax = result.Max;
-            $scope.donationProgressCurrent = result.Current;
-            $scope.$apply();
-        })
     }
 };

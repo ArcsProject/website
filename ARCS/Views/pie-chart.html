@@ -1,0 +1,25 @@
+﻿<div class="progress-pie" ng-controller="PieChartController" data-ng-init="initPieChartData()">
+    <!-- spinner -->
+    <div ng-if="progressDataLoaded != true" class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+    </div>
+
+    <svg viewBox="0 0 200 200" ng-if="progressDataLoaded">
+        <circle style="stroke-dasharray: {{progressLeftPercentage}} 629 !important;" r="100" cx="100" cy="100" />
+        <title>${{progressCurrent}} / ${{progressMax}}</title>
+    </svg>
+    <p ng-if="progressDataLoaded" class="progress-pie-raised"><svg><rect x="0" y="0" width="50" height="50"/></svg><span> {{goalPercentage}}% from the amount raised: ${{progressCurrent}}</span></p>
+    <p ng-if="progressDataLoaded" class="progress-pie-goal"><svg><rect x="0" y="0" width="50" height="50" /></svg><span>Goal: ${{progressMax}}</span></p>
+
+</div>

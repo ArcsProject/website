@@ -114,12 +114,4 @@ function FilmFestivalController($scope) {
             }
         }
     }
-
-    $scope.initFilmFest2018DonationProgress = function () {
-        (<any>window).GetDonationProgress("film2018", function (result) {
-            $scope.donationProgressMax = result.Max;
-            $scope.donationProgressCurrent = result.Current;
-            $scope.$apply();
-        })
-    }
 };
