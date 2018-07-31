@@ -487,6 +487,7 @@
     <Content Include="Views\heritage-awards-2017.html" />
     <Content Include="Views\heritage-competition-rules.html" />
     <Content Include="Views\heritage-contest-2018.html" />
+    <Content Include="Views\pie-chart.html" />
     <Content Include="Views\summer-camp.html" />
     <Content Include="Views\heritage-mission.html" />
     <Content Include="Views\high-school-ongoing.html" />
@@ -560,6 +561,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\heritage-awards-2017.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-competition-rules.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-contest-2018.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\pie-chart.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\summer-camp.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-mission.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\high-school-ongoing.ts" />
