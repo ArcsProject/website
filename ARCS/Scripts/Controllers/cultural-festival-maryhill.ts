@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("culturalFestivalMaryhill", {
-    templateUrl: "../../Views/cultural-festival-maryhill.html",
+    templateUrl: GetUrlWithVersion("../../Views/cultural-festival-maryhill.html"),
     controller: CulturalFestivalMaryhill
 });
 

@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("songsFromAfar", {
-    templateUrl: "../../Views/songs-from-afar.html",
+    templateUrl: GetUrlWithVersion("../../Views/songs-from-afar.html"),
     controller: SongsFromAfarController
 });
 

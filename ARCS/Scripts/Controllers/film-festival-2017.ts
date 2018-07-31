@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("filmFestival2017", {
-    templateUrl: "../../Views/film-festival-2017.html",
+    templateUrl: GetUrlWithVersion("../../Views/film-festival-2017.html"),
     controller: FilmFestival2017Controller
 });
 

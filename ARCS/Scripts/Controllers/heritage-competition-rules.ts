@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("heritageCompetitionRules", {
-    templateUrl: "../../Views/heritage-competition-rules.html",
+    templateUrl: GetUrlWithVersion("../../Views/heritage-competition-rules.html"),
     controller: HeritageCompetitionRules
 });
 

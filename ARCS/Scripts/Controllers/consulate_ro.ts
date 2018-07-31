@@ -1,6 +1,6 @@
 ﻿
 angular.module("arcsApp").component("consulateRo", {
-    templateUrl: "../../Views/consulate_ro.html",
+    templateUrl: GetUrlWithVersion("../../Views/consulate_ro.html"),
     controller: ConsulateRoController
 });
 

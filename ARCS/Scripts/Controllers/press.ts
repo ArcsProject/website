@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("press", {
-    templateUrl: "../../Views/press.html",
+    templateUrl: GetUrlWithVersion("../../Views/press.html"),
     controller: PressController
 });
 

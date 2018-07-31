@@ -3,6 +3,10 @@
 
 let IsDev = (<any>window).IsDev
 
+let GetUrlWithVersion = function (url) {
+    return url + "?v=" + (<any>window).vtkn;
+}
+
 let app = angular.module("arcsApp", ["ui.router"]);
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -11,7 +15,7 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     states["main"] = {
         name: "main",
         url: "^/",
-        templateUrl: "../Views/main.html"
+        templateUrl: GetUrlWithVersion("../Views/main.html")
     };
 
     states["staff"] = {
@@ -203,3 +207,8 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
             ]);
     }
 });
+
+app.run(['$rootScope', '$window',
+    function ($rootScope, $window) {
+        $rootScope.GetUrlWithVersion = $window.GetUrlWithVersion;
+}]);
