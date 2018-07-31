@@ -29,7 +29,7 @@ namespace ARCS.Api
             public DonationProgress(string targetPrefix)
             {
                 Max = Convert.ToDouble(ConfigurationManager.AppSettings.Get(targetPrefix + "_max_goal"));
-                Current = Convert.ToDouble(ConfigurationManager.AppSettings.Get(targetPrefix + "_current_goal_value"));
+                Current = 7895; Convert.ToDouble(ConfigurationManager.AppSettings.Get(targetPrefix + "_current_goal_value"));
                 if (Max <= 0)
                 {
                     Max = 15000;

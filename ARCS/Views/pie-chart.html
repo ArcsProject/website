@@ -15,7 +15,7 @@
         <div class="sk-circle12 sk-child"></div>
     </div>
 
-    <svg viewBox="0 0 200 200" ng-if="progressDataLoaded">
+    <svg viewBox="0 0 200 200" ng-if="progressDataLoaded" style="width:{{chartWidth}}">
         <circle style="stroke-dasharray: {{progressLeftPercentage}} 629 !important;" r="100" cx="100" cy="100" />
         <title>${{progressCurrent}} / ${{progressMax}}</title>
     </svg>

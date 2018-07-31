@@ -342,7 +342,6 @@ body {
     .progress-pie > svg {
         display: block;
         margin: 10px auto 10px auto;
-        width: 75%;
         transform: scaleX(-1) rotate(-90deg);
         background: @pie-chart-bkg;
         border-radius: 50%;
@@ -392,5 +391,9 @@ body {
         from {
             stroke-dasharray: @pie-chart-circumference @pie-chart-circumference;
         }
+    }
+
+    .minimized-list-button {
+        padding: 0 0 0 10px;
     }
 }
