@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("mission", {
-    templateUrl: "../../Views/mission.html",
+    templateUrl: GetUrlWithVersion("../../Views/mission.html"),
     controller: MissionController
 });
 

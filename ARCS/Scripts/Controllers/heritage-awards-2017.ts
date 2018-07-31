@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("heritageAwards2017", {
-    templateUrl: "../../Views/heritage-awards-2017.html",
+    templateUrl: GetUrlWithVersion("../../Views/heritage-awards-2017.html"),
     controller: HeritageAwards2017
 });
 

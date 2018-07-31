@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("contact", {
-    templateUrl: "../../Views/contact.html",
+    templateUrl: GetUrlWithVersion("../../Views/contact.html"),
     controller: ContactController
 });
 

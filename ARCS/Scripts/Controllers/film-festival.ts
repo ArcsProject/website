@@ -1,9 +1,10 @@
 ﻿angular.module("arcsApp").component("filmFestival", {
-    templateUrl: "../../Views/film-festival.html",
+    templateUrl: GetUrlWithVersion("../../Views/film-festival.html"),
     controller: FilmFestivalController
 });
 
 function FilmFestivalController($scope) {
+    $scope.GetUrlWithVersion = GetUrlWithVersion;
     $scope.selectedPurpose = "Romanian Film Festival";
     $scope.selectedAmount = "$25";
 

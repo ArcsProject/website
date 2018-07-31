@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("film", {
-    templateUrl: "../../Views/film.html",
+    templateUrl: GetUrlWithVersion("../../Views/film.html"),
     bindings: {
         film: "="
     }

@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("summerCamp", {
-    templateUrl: "../../Views/summer-camp.html",
+    templateUrl: GetUrlWithVersion("../../Views/summer-camp.html"),
     controller: SummerCamp
 });
 

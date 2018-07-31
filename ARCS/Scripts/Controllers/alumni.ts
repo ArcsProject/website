@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("alumni", {
-    templateUrl: "../../Views/alumni.html",
+    templateUrl: GetUrlWithVersion("../../Views/alumni.html"),
     controller: AlumniController
 });
 

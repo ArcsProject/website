@@ -1,9 +1,10 @@
 ﻿angular.module("arcsApp").component("donate", {
-    templateUrl: "../../Views/donate.html",
+    templateUrl: GetUrlWithVersion("../../Views/donate.html"),
     controller: DonateController
 });
 
 function DonateController($scope) {
+    $scope.GetUrlWithVersion = GetUrlWithVersion;
     $scope.selectedPurpose = "Romanian Film Festival";
     $scope.selectedAmount = "$25";
 

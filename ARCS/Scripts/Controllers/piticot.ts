@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("piticot", {
-    templateUrl: "../../Views/piticot.html",
+    templateUrl: GetUrlWithVersion("../../Views/piticot.html"),
     controller: PiticotController
 });
 

@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("events", {
-    templateUrl: "../../Views/events.html",
+    templateUrl: GetUrlWithVersion("../../Views/events.html"),
     controller: EventsController
 });
 

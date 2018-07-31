@@ -1,5 +1,5 @@
 ﻿angular.module("arcsApp").component("pastEvents", {
-    templateUrl: "../../Views/past-events.html",
+    templateUrl: GetUrlWithVersion("../../Views/past-events.html"),
     controller: PastEventsController
 });
 
