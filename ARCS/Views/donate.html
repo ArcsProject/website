@@ -28,6 +28,7 @@
             </p>
         </div>
         <div class="col-sm-8">
+            <p style="margin-top:20px;">Donating is easy and secure through our website, choose your desired level of donation and click on the <b>Donate</b> button:</p>
             <ng-include src="GetUrlWithVersion('Views/film-fest-donate.html')" ng-init="expanded=true" ng-if="selectedPurpose == 'Romanian Film Festival'"></ng-include>
             <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" ng-if="selectedPurpose != 'Romanian Film Festival'">
                 <input type="hidden" name="item_name" value="{{selectedPurpose}}" />
@@ -52,8 +53,8 @@
                 <div class="form-group">
                     <input type="submit" alt="" class="btn btn-primary" value="Donate (PayPal)" />
                 </div>
-                </form>
-            </div>
+            </form>
+        </div>
     </div>
     <div class="row">
         <div class="col-sm-6">
