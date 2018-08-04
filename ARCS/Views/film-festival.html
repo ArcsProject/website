@@ -44,11 +44,36 @@
             </div>
         </div>
         <hr />
-    </div>
+    </div>-->
     <h2>Films</h2>
     <p>All films have English subtitles</p>
-    <film film="film" ng-repeat="film in films"></film>
-    <h2>Supporters</h2>
+    <div class="panel panel-primary" ng-repeat="film in films">
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-xs-9">
+                    <h3 class="panel-title">{{film.name}} (By {{film.artist}})</h3>
+                </div>
+                <div class="col-xs-3">
+                    <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button" href="{{film.ticketLink}}" target="_blank">Buy Tickets</a>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="media-object film" src="../Resources/Images/film_fest_2018/{{film.imagePath}}" alt="Image for {{film.name}}">
+                </div>
+                <div class="col-sm-9">
+                    <h4 ng-if="film.time">{{film.time}}</h4>
+                    <p ng-if="film.guests"><b>Guests in attendance:</b> {{film.guests}}</p>
+                    <p ng-repeat="line in film.description" ng-bind-html="line"></p>
+                    <p><b>Length:</b> {{film.length}}</p>
+                    <p>{{film.year}}, {{film.genres}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<h2>Supporters</h2>
     <h3>Partners ($1000+)</h3>
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="partner in partners">
