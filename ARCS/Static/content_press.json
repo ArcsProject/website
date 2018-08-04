@@ -1,0 +1,60 @@
+﻿{
+  "pressResources": [
+    {
+      "year": 2018,
+      "title": "Romanian Film Festival",
+      "description": [ "In tune with the Halloween spirit of the first week in November, take an imaginary  journey to Romania, and its <b>\"Uncanny Worlds\"</b>. We plan to challenge values and beliefs in relation to the unusual, unfamiliar, ineffable, incomprehensible, unfathomable, inscrutable, or the unclear, inviting you to a visual feast of mesmerizing film features and documentaries. You will find out that Romanian films, more than ever, reflect the uncanny aspects of reality, history, politics, everyday life, as well as spirituality, folklore, and traditions; in a word, the uncanny essence of human nature." ],
+      "imagePath": "film_festival/flyer2018.jpg",
+      "imageAlt": "Romanian film festival 2018 flyer",
+      "moreInfoPath": "film-festival",
+      "mediaResourcesPath": "https://arcsproject.sharepoint.com/:f:/s/arcs/EioThvqzGn9KpNY4pPc3b38BeCbOhbcnx7IB4pElzCgi5Q?e=3SFbvc"
+    },
+    {
+      "year": 2018,
+      "title": "ARCS Summer Camp",
+      "description": [
+        "ARCS Summer Camp was the pilot project for the Center of Excellence \"Romanian in Action\" that showcased the Center’s future plans regarding educational models for children with bicultural and bilingual background.",
+        "The project was organized by the American Romanian Cultural Society from Seattle in partnership with Asociația Culturală Control N from Bucharest and with the support of Washington University. On August 5th, 2018, the results of the first edition of ARCS Summer Camp were presented to the public. The event took place at the Romanian Cultural Center from the Three Holy Hierarchs Church."
+      ],
+      "imagePath": "press/summer-camp2018.jpg",
+      "imageAlt": "ARCS Summer Camp",
+      "moreInfoPath": "summer-camp",
+      "mediaResourcesPath": "https://arcsproject.sharepoint.com/:f:/s/arcs/EjaWioj5JfNAkRK-4yXh_58B3a-4oArsmJECFRDTjXjOzg?e=b76yCo"
+    },
+    {
+      "year": 2017,
+      "title": "Romanian Film Festival",
+      "description": [ "Through a variety of genres (documentary, comedy, drama), we explored the ways in which Romania's most recent films relate to the other arts, such as music and literature, thawing conceptual borders and enhancing the old art of storytelling with riveting cinematic makeovers. Local and international special guests presented the movies and interacted with the audience at the festival gala." ],
+      "imagePath": "28_Poster_2017_11X17=FNL_no-bleed.jpg",
+      "imageAlt": "Romanian film festival 2017 poster",
+      "moreInfoPath": "film-festival-2017",
+      "mediaResourcesPath": "https://arcsproject.sharepoint.com/:f:/s/arcs/Ev4vjtHvLnBEiJQFAtvih8sBy5EmdiZmHTbJ8TI65wRgmQ?e=1yGZdF"
+    },
+    {
+      "year": 2016,
+      "title": "Romanian Film Festival",
+      "description": [ "In tune with our title <b>One Eye Laughing, One Eye Crying</b> we played along with the Romanian taste for dark humor and selected award-winning films that will stir up questions, emotions, and will challenge your sense of belonging to or longing for a given country, culture, ethnic group or generation. Through a variety of genres (animation, documentary, comedy, drama), we will explore the ways in which we relate to others and the world." ],
+      "imagePath": "film_festival/poster_2016.jpg",
+      "imageAlt": "Romanian film festival 2016 poster",
+      "moreInfoHref": "./film-festival-2016",
+      "mediaResourcesPath": "https://arcsproject.sharepoint.com/:f:/s/arcs/EuVNIKbmDZNCv8fXAWX4Dd4BMkBzdMXLpbx0REjgAD-CdA?e=eGS0zE"
+    },
+    {
+      "year": 2015,
+      "title": "Romanian Film Festival",
+      "description": [ "We grew tremendously since the previous edition, experiencing a 75% increase in audience numbers. Thanks to your generous support, we are on our way to becoming a staple of Seattle\\'s diverse film scene." ],
+      "imagePath": "film_festival/poster_2015.jpg",
+      "imageAlt": "Romanian film festival 2015 poster",
+      "moreInfoHref": "./film-festival-2015",
+      "mediaResourcesPath": "https://arcsproject.sharepoint.com/:f:/s/arcs/ElhpvEgVQAFMmXMXYAa1ufcBNUFjDHy8Ausx0U8MGQm3ow?e=MjaZkp"
+    },
+    {
+      "year": 2014,
+      "title": "Romanian Film Festival",
+      "description": [ "We brought <i>New Romanian Cinema</i> to Seattle, and the public loved it. The festival\\'s first edition presented feature films, shorts, and documentaries on a sold out venue at the SIFF Film Center. The Q&A sessions with the guest-speakers engaged the public in lively conversations that continued over good wine and Romanian food at the opening and closing-night galas. Great reviews in the media and the energized community carried on the buzz with hopes of a bigger return in the following years." ],
+      "imagePath": "film_festival/poster_2014.jpg",
+      "imageAlt": "Romanian film festival 2014 poster",
+      "mediaResourcesPath": "https://arcsproject.sharepoint.com/:f:/s/arcs/Essrt41GQPtMsldpbuQbbX8BqEAHQ7_VTpwOevFPW_Tehg?e=hPsVcH"
+    }
+  ]
+}
