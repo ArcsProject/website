@@ -5,28 +5,28 @@
         <div class="col-sm-8" style="text-align:justify;margin-top:10px;">
             <p>Join us on an exploration of the blurred frontiers of reality through Romanian films, celebrating the <b>5th Edition</b> of the <b>Romanian Film Festival in Seattle</b>.</p>
             <p>In tune with the Halloween spirit of the first week in November, take an imaginary  journey to Romania, and its <b>"Uncanny Worlds"</b>. We plan to challenge values and beliefs in relation to the unusual, unfamiliar, ineffable, incomprehensible, unfathomable, inscrutable, or the unclear, inviting you to a visual feast of mesmerizing film features and documentaries. You will find out that Romanian films, more than ever, reflect the uncanny aspects of reality, history, politics, everyday life, as well as spirituality, folklore, and traditions; in a word, the uncanny essence of human nature.</p>
-            <p>For this celebratory 5th edition, we are thrilled to share the work of an outstanding guest and artist, <a href="http://daniel-ursache.com/" target="_blank">Daniel Ursache</a>. His exhibition, <b>"Uncanny Figments"</b>, will be hosted by <b>A/NT Gallery</b> throughout November. Opening Night and Launch on <b>November 3rd @ 8:00pm</b>.</p>
 
             <div style="margin-bottom: 20px;">
                 <img id="film-fest-flyer" src="../Resources/Images/film_festival/flyer2018.jpg" style="width:100%" alt="ARCS presents: The Romanian Film Festival Seattle (5h edition)" />
 
                 <p style="text-align:justify;">Let us know if you would like to become our business <b>partner ($1,000 +)</b> or <b>sponsor ($500+)</b>. In case you decide to support our beautiful project and fundraising endeavors, ARCS will acknowledge your contribution on all promotional materials – <b>website, Facebook, poster, flyers, and before each screening.</b></p>
                 <p style="text-align:justify;">DO NOT MISS this one of a kind opportunity to gain more visibility, grow, have an impact, and let your community know that you care and belong!</p>
-                <p style="text-align:center;">
-                    Checks are welcome. Please address them to:<br />
-                    <span>American Romanian Cultural Society</span><br />
-                    <span>1931 E Lynn St</span><br />
-                    <span>Seattle, WA 98112</span><br />
-                </p>
             </div>
         </div>
         <div class="col-sm-4">
+            <p><iframe class="embedded-video" style="display:block;margin:auto" src="https://player.vimeo.com/video/283203964" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
             <div style="padding-left:15px;text-align:justify;">
                 <p><b>CROWDFUNDING Campaign</b></p>
                 <p><b>Please support</b> the 5th edition of the Romanian Film Festival. Donating is easy and secure through our website, choose your desired level of donation and click on the <b>Donate</b> button:</p>
             </div>
             <ng-include src="GetUrlWithVersion('Views/pie-chart.html')" ng-init="targetDonation='film2018';chartWidth='50%';"></ng-include>
             <ng-include src="GetUrlWithVersion('Views/film-fest-donate.html')" ng-init="expanded=false"></ng-include>
+            <p style="text-align:center;">
+                Checks are welcome. Please address them to:<br />
+                <span>American Romanian Cultural Society</span><br />
+                <span>1931 E Lynn St</span><br />
+                <span>Seattle, WA 98112</span><br />
+            </p>
         </div>
     </div>
     <!--
@@ -73,6 +73,8 @@
             </div>
         </div>
     </div>
+    <h2>Special Events</h2>
+    <event event="event" ng-repeat="event in specialEvents | orderBy: 'date'"></event>
     <!--<h2>Supporters</h2>
     <h3>Partners ($1000+)</h3>
     <div class="row">

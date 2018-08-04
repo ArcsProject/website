@@ -6,6 +6,18 @@
 function FilmFestivalController($scope, $sce) {
     $scope.GetUrlWithVersion = GetUrlWithVersion;
 
+    $scope.specialEvents = [
+        {
+            name: "Uncanny Figments",
+            descriptionHtml: [$sce.trustAsHtml('For this celebratory 5th edition, we are thrilled to share the work of an outstanding guest and artist,<a href="http://daniel-ursache.com/" target="_blank">Daniel Ursache</a>. His exhibition, <b>"Uncanny Figments"</b>, will be hosted by <b>A/NT Gallery</b> throughout November.')],
+            date: new Date(2018, 10, 3),
+            startTime: new Date(2018, 10, 3, 20, 0),
+            location: "A/NT Gallery",
+            imagePath: "film_fest_2018/uncanny_figments.jpg",
+            locationLink: "https://goo.gl/maps/631CakMwHTm"
+        },
+    ];
+    /*
     $scope.events = [
     ];
 
@@ -16,9 +28,10 @@ function FilmFestivalController($scope, $sce) {
     $scope.donorsS = donors["donorsS"];
     $scope.partners = donors["partners"];
     $scope.sponsors = donors["sponsors"];
-
+    
     $scope.guests = [
     ];
+    */
 
     $scope.films = [
         {
