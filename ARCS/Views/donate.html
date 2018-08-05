@@ -9,68 +9,52 @@
         </div>
     </div>
     <div class="row">
-        <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <input type="hidden" name="item_name" value="{{selectedPurpose}}" />
-            <input type="hidden" name="amount" value="{{getSelectedAmount()}}" />
-            <input type="hidden" name="cmd" value="{{recurring ? '_xclick-subscriptions' : '_donations'}}">
-            <input type="hidden" name="business" value="otilia.baraboi@arcsproject.org">
-            <input type="hidden" name="no_note" ng-if="recurring" value="1" />
-            <input type="hidden" name="a3" ng-if="recurring" value="{{getSelectedAmount()}}" />
-            <input type="hidden" name="t3" ng-if="recurring" value="M" />
-            <input type="hidden" name="p3" ng-if="recurring" value="1" />
-            <input type="hidden" name="src" ng-if="recurring" value="1" />
-            <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-
-            <div class="col-sm-4">
-                <div class="form-group">
-                    <label for="purpose">Purpose:</label>
-                    <div class="list-group">
-                        <button ng-repeat="purpose in purposes" ng-click="setSelectedPurpose($event, purpose)" ng-class="{'active': selectedPurpose == purpose}" class="list-group-item">{{purpose}}</button>
-                    </div>
+        <div class="col-sm-4">
+            <div class="form-group">
+                <label for="purpose">Purpose:</label>
+                <div class="list-group">
+                    <button ng-repeat="purpose in purposes" ng-click="setSelectedPurpose($event, purpose)" ng-class="{'active': selectedPurpose == purpose}" class="list-group-item">{{purpose}}</button>
                 </div>
-                <ng-include src="GetUrlWithVersion('Views/pie-chart.html')" ng-init="targetDonation='film2018'" ng-if="selectedPurpose == 'Romanian Film Festival'"></ng-include>
-                <p>
-                    Check out the <a ui-sref="film-festival">Film Festival</a> page to see donors, events, and more!
-                </p>
-                <p>
-                    Checks are welcome. Please address them to:<br />
-                    <span class="address">American Romanian Cultural Society</span><br />
-                    <span class="address">1931 E Lynn St</span><br />
-                    <span class="address">Seattle, WA 98112</span><br />
-                </p>
             </div>
-            <div class="col-sm-8">
+            <ng-include src="GetUrlWithVersion('Views/pie-chart.html')" ng-init="targetDonation='film2018';chartWidth='75%';" ng-if="selectedPurpose == 'Romanian Film Festival'"></ng-include>
+            <p>
+                Check out the <a ui-sref="film-festival">Film Festival</a> page to see donors, events, and more!
+            </p>
+            <p>
+                Checks are welcome. Please address them to:<br />
+                <span class="address">American Romanian Cultural Society</span><br />
+                <span class="address">1931 E Lynn St</span><br />
+                <span class="address">Seattle, WA 98112</span><br />
+            </p>
+        </div>
+        <div class="col-sm-8">
+            <p style="margin-top:20px;">Donating is easy and secure through our website, choose your desired level of donation and click on the <b>Donate</b> button:</p>
+            <ng-include src="GetUrlWithVersion('Views/film-fest-donate.html')" ng-init="expanded=true" ng-if="selectedPurpose == 'Romanian Film Festival'"></ng-include>
+            <form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" ng-if="selectedPurpose != 'Romanian Film Festival'">
+                <input type="hidden" name="item_name" value="{{selectedPurpose}}" />
+                <input type="hidden" name="amount" value="{{getSelectedAmount()}}" />
+                <input type="hidden" name="cmd" value="{{recurring ? '_xclick-subscriptions' : '_donations'}}">
+                <input type="hidden" name="business" value="otilia.baraboi@arcsproject.org">
+                <input type="hidden" name="no_note" ng-if="recurring" value="1" />
+                <input type="hidden" name="a3" ng-if="recurring" value="{{getSelectedAmount()}}" />
+                <input type="hidden" name="t3" ng-if="recurring" value="M" />
+                <input type="hidden" name="p3" ng-if="recurring" value="1" />
+                <input type="hidden" name="src" ng-if="recurring" value="1" />
+                <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 <div class="form-group">
                     <label for="purpose">Amount:</label>
-                    <div class="list-group" ng-if="selectedPurpose != 'Romanian Film Festival'">
+                    <div class="list-group">
                         <button ng-repeat="amount in amounts" ng-click="setSelectedAmount($event, amount)" ng-class="{'active': selectedAmount == amount}" class="list-group-item">{{amount == "Custom amount" ? amount : "$" + amount}}</button>
-                    </div>
-                    <div class="list-group" ng-if="selectedPurpose == 'Romanian Film Festival'">
-                        <button ng-repeat="amount in filmFestivalAmounts" ng-click="setSelectedFilmFestivalAmount($event, amount)" ng-class="{'active': selectedFilmFestivalAmount == amount}" class="list-group-item">
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <h5>{{amount.dollars == "Custom amount" ? amount.dollars : "$" + amount.dollars}}</h5>
-                                    <h6>{{amount.level}}</h6>
-                                </div>
-                                <div class="col-sm-10">
-                                    <p>{{amount.benefits}}</p>
-                                </div>
-                            </div>
-                        </button>
                     </div>
                 </div>
                 <div class="checkbox" ng-show="showRecurringCheckbox()">
                     <label><input type="checkbox" ng-model="recurring">Please check this box if you'd like to make this a recurring monthly donation.</label>
                 </div>
-                <!--div class="form-group">
-                    <label for="honor">In Honor Of (optional):</label>
-                    <input type="text" id="honor" class="form-control" ng-model="honor">
-                </div-->
                 <div class="form-group">
-                    <input type="submit" alt="" class="btn btn-primary" value="Donate (PayPal)"/>
+                    <input type="submit" alt="" class="btn btn-primary" value="Donate (PayPal)" />
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
     <div class="row">
         <div class="col-sm-6">

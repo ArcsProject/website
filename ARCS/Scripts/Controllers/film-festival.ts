@@ -3,116 +3,45 @@
     controller: FilmFestivalController
 });
 
-function FilmFestivalController($scope) {
+function FilmFestivalController($scope, $sce) {
     $scope.GetUrlWithVersion = GetUrlWithVersion;
-    $scope.selectedPurpose = "Romanian Film Festival";
-    $scope.selectedAmount = "$25";
 
-    $scope.purposes = [
-        "Romanian Film Festival"
+    $scope.specialEvents = [
+        {
+            name: "Uncanny Figments",
+            descriptionHtml: [$sce.trustAsHtml('For this celebratory 5th edition, we are thrilled to share the work of an outstanding guest and artist,<a href="http://daniel-ursache.com/" target="_blank">Daniel Ursache</a>. His exhibition, <b>"Uncanny Figments"</b>, will be hosted by <b>A/NT Gallery</b> throughout November.')],
+            date: new Date(2018, 10, 3),
+            startTime: new Date(2018, 10, 3, 20, 0),
+            location: "A/NT Gallery",
+            imagePath: "film_fest_2018/uncanny_figments.jpg",
+            locationLink: "https://goo.gl/maps/631CakMwHTm"
+        },
+    ];
+    /*
+    $scope.events = [
     ];
 
-    $scope.setSelectedPurpose = function ($event, purpose) {
-        $event.preventDefault();
-        $scope.selectedPurpose = purpose;
-    }
-
-    $scope.amounts = [
-        "1000",
-        "500",
-        "250",
-        "100",
-        "50",
-        "25",
-        "Custom amount"
+    $scope.donorsARCS = donors["donorsARCS"];
+    $scope.donorsA = donors["donorsA"];
+    $scope.donorsR = donors["donorsR"];
+    $scope.donorsC = donors["donorsC"];
+    $scope.donorsS = donors["donorsS"];
+    $scope.partners = donors["partners"];
+    $scope.sponsors = donors["sponsors"];
+    
+    $scope.guests = [
     ];
+    */
 
-    $scope.selectedAmount = $scope.amounts[3];
-
-    $scope.setSelectedAmount = function ($event, amount) {
-        $event.preventDefault();
-        $scope.selectedAmount = amount;
-
-        if (amount === "Custom amount") {
-            $scope.recurring = false;
-        }
-    }
-
-    $scope.filmFestivalAmounts = [
+    $scope.films = [
         {
-            dollars: "1000",
-            level: "Partner",
-            benefits: "Become a Festival Partner and join our team! If you are a local business, this is a wonderful opportunity to enhance your visibility within our diverse multicultural community."
+            name: "Untamed Romania",
+            description: [$sce.trustAsHtml("\"Untamed Romania\" explores \"one of the wildest and most beautiful parts of Europe\", from the mysterious Danube Delta to the unknown Carpathian forests. Wolves, bears, and lynx roam the vast forests where almost all the original flora and fauna still exist left untouched since time immemorial. There is no other location of comparable size with such pristine nature in Europe. This unique documentary is narrated by award-winning Romanian film and stage actor Victor Rebengiuc.")],
+            artist: "Tom Barton-Humphreys",
+            length: "90 minutes",
+            genres: "Documentary",
+            imagePath: "romania_neimblanzita1.jpg",
+            year: "2018"
         },
-        {
-            dollars: "500",
-            level: "Level ARCS",
-            benefits: "Get a pair of festival passes, the festival poster, credit at the screenings, and credit on the website. A surprise thank-you gift will wait for you at the festival venue."
-        },
-        {
-            dollars: "250",
-            level: "Level A",
-            benefits: "Get a pair of day passes, the festival poster, and credit on the website. A surprise thank-you gift will wait for you at the festival venue."
-        },
-        {
-            dollars: "100",
-            level: "Level R",
-            benefits: "Get a pair of tickets, the festival poster, and credit on the website."
-        },
-        {
-            dollars: "50",
-            level: "Level C",
-            benefits: "Get the festival poster and credit on the website."
-        },
-        {
-            dollars: "25",
-            level: "Level S",
-            benefits: "Get credit on the website."
-        },
-        {
-            dollars: "Custom amount",
-            level: "",
-            benefits: ""
-        }
     ];
-
-    $scope.setSelectedFilmFestivalAmount = function ($event, amount) {
-        $event.preventDefault();
-        $scope.selectedFilmFestivalAmount = amount;
-
-        if (amount.dollars === "Custom amount") {
-            $scope.recurring = false;
-        }
-    }
-
-    $scope.selectedFilmFestivalAmount = $scope.filmFestivalAmounts[3];
-
-    $scope.showRecurringCheckbox = function () {
-        if ($scope.selectedPurpose == "Romanian Film Festival") {
-            return $scope.selectedFilmFestivalAmount.dollars != "Custom amount";
-        }
-        else {
-            return $scope.selectedAmount != "Custom amount";
-        }
-    }
-
-    $scope.getSelectedAmount = function () {
-        let returnedValue;
-        if ($scope.selectedPurpose == "Romanian Film Festival") {
-            if ($scope.selectedFilmFestivalAmount.dollars == "Custom amount") {
-                return 0;
-            }
-            else {
-                return $scope.selectedFilmFestivalAmount.dollars;
-            }
-        }
-        else {
-            if ($scope.selectedAmount == "Custom amount") {
-                return 0;
-            }
-            else {
-                return $scope.selectedAmount;
-            }
-        }
-    }
 };

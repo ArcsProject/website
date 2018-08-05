@@ -19,7 +19,8 @@
             <div class="col-sm-9">
                 <h4 ng-if="$ctrl.event.date">{{$ctrl.event.date | date: 'fullDate'}}<span ng-if="$ctrl.event.startTime">, {{$ctrl.event.startTime | date: 'shortTime'}}</span><span ng-if="$ctrl.event.endTime"> - {{$ctrl.event.endTime | date: 'shortTime'}}</span></h4>
                 <h4 ng-if="$ctrl.event.startDate">{{$ctrl.event.startDate | date: 'fullDate'}}<span ng-if="$ctrl.event.endDate"> - {{$ctrl.event.endDate | date: 'fullDate'}}</span></h4>
-                <p ng-repeat="line in $ctrl.event.description">{{line}}</p>
+                <p ng-if="$ctrl.event.description" ng-repeat="line in $ctrl.event.description">{{line}}</p>
+                <p ng-if="$ctrl.event.descriptionHtml" ng-repeat="line in $ctrl.event.descriptionHtml" ng-bind-html="line"></p>
                 <a href="{{$ctrl.event.locationLink}}" target="_blank">{{$ctrl.event.location}}</a>
             </div>
         </div>

@@ -335,6 +335,8 @@
     <Content Include="Resources\Images\fest2.jpg" />
     <Content Include="Resources\Images\film-festival-poster.jpg" />
     <Content Include="Resources\Images\film_festival\flyer2018.jpg" />
+    <Content Include="Resources\Images\film_fest_2018\romania_neimblanzita1.jpg" />
+    <Content Include="Resources\Images\film_fest_2018\uncanny_figments.jpg" />
     <Content Include="Resources\Images\Florin Lazarescu %28Photo by Daniel Zilcsak%29.jpg" />
     <Content Include="Resources\Images\GloriaMan.jpg" />
     <Content Include="Resources\Images\grads.jpg" />
@@ -481,6 +483,7 @@
     <Content Include="Views\alumni.html" />
     <Content Include="Views\cultural-festival-maryhill.html" />
     <Content Include="Views\excellence-center.html" />
+    <Content Include="Views\film-fest-donate.html" />
     <Content Include="Views\film-festival.html" />
     <Content Include="Views\footer.html" />
     <Content Include="Views\heritage-application.html" />
@@ -556,6 +559,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\cultural-festival-maryhill.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\excellence-center.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\film-fest-donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-application.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-awards-2017.ts" />
