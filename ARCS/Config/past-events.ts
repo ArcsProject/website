@@ -1,5 +1,16 @@
 ﻿let pastEvents = [
     {
+        name: "Documentary screening and celebration",
+        description: ['You are warmly invited to the final screening of the documentary "Romanian in Seattle", filmed during ARCS Summer Camp (July 23-Aug 4) with director Iulia Rugină and actress Ioana Flora.'],
+        startTime: new Date(2018, 7, 5, 14, 0),
+        endTime: new Date(2017, 7, 5, 16, 0),
+        location: "Three Holy Hierarchs Church Romanian Center",
+        locationLink: "https://goo.gl/maps/Kf2MLWAxeGF2",
+        tags: ["education", "heritage", "film"],
+        imagePath: "summer_camp.png",
+        moreInfoPath: "summer-camp"
+    },
+    {
         name: "Romanian Films at SIFF 2018, sponsored by ARCS",
         description: ["Thank you all for attending!"],
         startDate: new Date(2018, 4, 3),
