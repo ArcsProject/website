@@ -12,7 +12,7 @@
 
     <div class="form-group">
         <label for="purpose">Amount:</label>
-        <div class="list-group">
+        <div id="donate" class="list-group">
             <button ng-repeat="amount in filmFestivalAmounts" ng-click="setSelectedFilmFestivalAmount($event, amount)" ng-class="{'active': selectedFilmFestivalAmount == amount, 'minimized-list-button': isItemExpanded(amount)==false}" class="list-group-item">
                 <div class="row">
                     <div ng-if="isItemExpanded(amount)==false" class="col-sm-12">
