@@ -15,48 +15,44 @@ namespace ARCS.Api
     {
         [HttpGet]
         [ActionName("progress")]
-        public async Task<object> GetDonationProgress(string target)
+        public async Task<Campaign> GetDonationProgress(string target)
         {
-            if (target != _targetFilmFest2018)
-            {
-                return await NotFound().ExecuteAsync(new CancellationToken());
-            }
-            return await Task.FromResult<DonationProgress>(new DonationProgress(target));
+            return await DonationProgress.LastValue(target);
+        }
+
+        public class Campaign
+        {
+            public int Max { get; set; }
+            public int Current { get; set; }
+            public double Percent { get; set; }
         }
 
         public class DonationProgress
         {
-            public DonationProgress(string targetPrefix)
+            static HttpClient client = new HttpClient();
+
+            static async Task<Campaign> GetCampaignGoalAsync(string path)
             {
-                Max = Convert.ToDouble(ConfigurationManager.AppSettings.Get(targetPrefix + "_max_goal"));
-                Current = Convert.ToDouble(ConfigurationManager.AppSettings.Get(targetPrefix + "_current_goal_value"));
-                if (Max <= 0)
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+                Campaign campaign = null;
+                HttpResponseMessage response = await client.GetAsync(path);
+                if (response.IsSuccessStatusCode)
                 {
-                    Max = 15000;
+                    campaign = await response.Content.ReadAsAsync<Campaign>();
                 }
-                if (Current < 0)
-                {
-                    Current = 0;
-                }
-                if (Current > Max)
-                {
-                    Current = Max;
-                }
-                Percent = Math.Round((Current / Max) * 100,0);
+                return campaign;
             }
 
-            public double Max { get => _max; private set => _max = NormalizeValue(value); }
+            public static async Task<Campaign> LastValue(string targetPrefix)
+            {
+                var goal = await GetCampaignGoalAsync("https://arcsproject.secure.force.com/services/apexrest/Goal");
 
-            public double Current { get => _current; private set => _current = NormalizeValue(value); }
+                goal.Percent= (goal.Current*100) / goal.Max;
+                
+                return goal;
 
-            public double Percent { get => _percent; private set => _percent = NormalizeValue(value); }
+            }
 
-            private double NormalizeValue(double value) => Math.Round(value, 2);
-            private double _max;
-            private double _current;
-            private double _percent;
         }
-
-        private static readonly string _targetFilmFest2018 = "film2018";
     }
 }

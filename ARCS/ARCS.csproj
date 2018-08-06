@@ -26,7 +26,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <ApplicationInsightsResourceId>/subscriptions/7a97b205-845b-4802-9eb7-49a049f32ad9/resourcegroups/arcsproject/providers/microsoft.insights/components/ARCS</ApplicationInsightsResourceId>
-    <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
     <Use64BitIISExpress />
     <TypeScriptOutFile>Scripts/controllers.js</TypeScriptOutFile>
     <LessMinifyOutput Condition="'$(Configuration)'=='Release'">True</LessMinifyOutput>
