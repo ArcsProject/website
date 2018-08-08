@@ -17,21 +17,24 @@ function FilmFestivalController($scope, $sce) {
             locationLink: "https://goo.gl/maps/631CakMwHTm"
         },
     ];
-    /*
-    $scope.events = [
+
+    $scope.partners = [
+        {
+            "link": "http://www.icrny.org/",
+            "imagePath": "icr_ny.png"
+        },
+        {
+            "link": "http://www.4culture.org/",
+            "imagePath": "4culture.png"
+        }
     ];
 
-    $scope.donorsARCS = donors["donorsARCS"];
-    $scope.donorsA = donors["donorsA"];
-    $scope.donorsR = donors["donorsR"];
-    $scope.donorsC = donors["donorsC"];
-    $scope.donorsS = donors["donorsS"];
-    $scope.partners = donors["partners"];
-    $scope.sponsors = donors["sponsors"];
-    
-    $scope.guests = [
+    $scope.donors250 = [
+        "Raluca & Gabriel Hera"
     ];
-    */
+    $scope.donors50 = [
+        "Michele Aoki"
+    ];
 
     $scope.films = [
         {

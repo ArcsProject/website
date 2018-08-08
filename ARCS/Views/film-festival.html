@@ -75,16 +75,16 @@
     </div>
     <h2>Special Events</h2>
     <event event="event" ng-repeat="event in specialEvents | orderBy: 'date'"></event>
-    <!--<h2>Supporters</h2>
+    <h2>Supporters</h2>
     <h3>Partners ($1000+)</h3>
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="partner in partners">
-            <a href="{{partner.link}}" class="thumbnail" target="_blank">
-                <img ng-src="../Resources/Images/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image">
+            <a href="{{partner.link}}" class="thumbnail" style="position:relative" target="_blank">
+                <img ng-src="../Resources/Images/film_fest_2018/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image-new">
             </a>
         </div>
     </div>
-    <h3>Sponsors ($500+)</h3>
+    <!--<h3>Sponsors ($500+)</h3>
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="sponsor in sponsors">
             <a href="{{sponsor.link}}" class="thumbnail" target="_blank">
@@ -103,16 +103,17 @@
             </div>
         </div>
     </div>
+        -->
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-12">
             <div class="panel panel-primary">
-                <div class="panel-heading">Level A ($250+)</div>
+                <div class="panel-heading">Festival Friend ($250)</div>
                 <ul class="list-group">
-                    <li class="list-group-item" ng-repeat="donor in donorsA">{{donor}}</li>
+                    <li class="list-group-item" ng-repeat="donor in donors250">{{donor}}</li>
                 </ul>
             </div>
         </div>
-        <div class="col-sm-6">
+        <!--<div class="col-sm-6">
             <div class="panel panel-primary">
                 <div class="panel-heading">Level R ($100+)</div>
                 <ul class="list-group">
@@ -120,17 +121,18 @@
                 </ul>
             </div>
         </div>
+            -->
     </div>
     <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-12">
             <div class="panel panel-primary">
-                <div class="panel-heading">Level C ($50+)</div>
+                <div class="panel-heading">ARCS Friend ($50)</div>
                 <ul class="list-group">
-                    <li class="list-group-item" ng-repeat="donor in donorsC">{{donor}}</li>
+                    <li class="list-group-item" ng-repeat="donor in donors50">{{donor}}</li>
                 </ul>
             </div>
         </div>
-        <div class="col-sm-6">
+        <!--<div class="col-sm-6">
             <div class="panel panel-primary">
                 <div class="panel-heading">Level S ($25+)</div>
                 <ul class="list-group">
@@ -138,6 +140,6 @@
                 </ul>
             </div>
         </div>
+            -->
     </div>
-        -->
 </div>
