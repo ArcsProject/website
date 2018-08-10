@@ -12,6 +12,7 @@ namespace ARCS
     {
         protected void Application_Start()
         {
+            StaticContent.LoadContent();
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
