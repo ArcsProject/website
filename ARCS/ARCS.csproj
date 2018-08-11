@@ -485,6 +485,7 @@
     <Content Include="Styles\main-page.css" />
     <Content Include="Views\alumni.html" />
     <Content Include="Views\cultural-festival-maryhill.html" />
+    <Content Include="Views\donors.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-fest-donate.html" />
     <Content Include="Views\film-festival.html" />
@@ -565,6 +566,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\cultural-festival-maryhill.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\donors.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\excellence-center.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-fest-donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival.ts" />

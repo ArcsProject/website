@@ -6,6 +6,14 @@
 function FilmFestivalController($scope, $sce) {
     $scope.GetUrlWithVersion = GetUrlWithVersion;
 
+    $scope.donorGroupTitles = {
+        donors500: "Visitor of the Romanian \"Uncanny Worlds\" ($500)",
+        donors250: "Festival Friend ($250)",
+        donors100: "Festival Supporter ($100)",
+        donors50: "ARCS Friend ($50)",
+        donors25: "Special Thanks ($25)"
+    };
+
     $scope.specialEvents = [
         {
             name: "Uncanny Figments",
@@ -27,16 +35,6 @@ function FilmFestivalController($scope, $sce) {
             "link": "http://www.4culture.org/",
             "imagePath": "4culture.png"
         }
-    ];
-
-    $scope.donors500 = [
-        "Mary Sherhart"
-    ];
-    $scope.donors250 = [
-        "Raluca & Gabriel Hera"
-    ];
-    $scope.donors50 = [
-        "Michele Aoki"
     ];
 
     $scope.films = [
