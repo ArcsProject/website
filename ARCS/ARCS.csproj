@@ -260,6 +260,7 @@
     <Content Include="filmfest\filmfest2016\rir.mp3" />
     <Content Include="filmfest\filmfest2016\supporters.html" />
     <Content Include="Global.asax" />
+    <Content Include="Resources\adlogo.jpg" />
     <Content Include="Resources\favicon\android-chrome-192x192.png" />
     <Content Include="Resources\favicon\android-chrome-512x512.png" />
     <Content Include="Resources\favicon\apple-touch-icon.png" />
@@ -273,7 +274,6 @@
     <Content Include="Resources\Images\9780252082276.jpg" />
     <Content Include="Resources\Images\Aaron Conitz, jpg.jpg" />
     <Content Include="Resources\Images\absurdity.png" />
-    <Content Include="Resources\Images\ad-logo.jpg" />
     <Content Include="Resources\Images\Affiche_Francophone_film_fridays.jpg" />
     <Content Include="Resources\Images\Afis Restul e tacere.jpg" />
     <Content Include="Resources\Images\Afis_Lipatti_Seattlet.jpg" />
@@ -475,9 +475,6 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <TypeScriptCompile Include="Config\donors.ts">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </TypeScriptCompile>
     <Content Include="filmfest\filmfest2015\fonts\leaguegothic-regular-webfont.eot" />
     <Content Include="filmfest\filmfest2015\fonts\leaguegothic-regular-webfont.ttf" />
     <Content Include="filmfest\filmfest2015\fonts\leaguegothic-regular-webfont.woff" />
@@ -505,6 +502,8 @@
     <Content Include="Resources\favicon\site.webmanifest" />
     <Content Include="Static\donors_filmfest2017.json" />
     <Content Include="Static\donors_filmfest2018.json" />
+    <Content Include="Static\content_filmfest2017.json" />
+    <Content Include="Static\content_filmfest2018.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -544,6 +543,7 @@
   <ItemGroup>
     <Compile Include="Api\DependenciesCache.cs" />
     <Compile Include="Api\Donate.cs" />
+    <Compile Include="Api\ContentController.cs" />
     <Compile Include="Api\SendController.cs" />
     <Compile Include="Api\StaticContent.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />

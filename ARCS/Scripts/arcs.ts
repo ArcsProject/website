@@ -208,6 +208,44 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     }
 });
 
+app.service('asyncContent', function ($http) {
+    return {
+        getContent: function (target, $sce, htmlItems) {
+            return $http.get('/api/content/' + target)
+                .then(function (result) {
+                    var obj = $.parseJSON(result.data);
+                    if (htmlItems != null) {
+                        for (var item in obj) {
+                            var itemVal = obj[item];
+                            if ($.isArray(itemVal)) {
+                                for (var i = 0; i < itemVal.length; i++) {
+                                    var arrItem = itemVal[i];
+                                    for (var o in arrItem) {
+                                        if ($.inArray(o, htmlItems) != -1) {
+                                            if (!$.isArray(arrItem[o])) {
+                                                arrItem[o] = $sce.trustAsHtml(arrItem[o]);
+                                            }
+                                            else {
+                                                var contentArr = arrItem[o];
+                                                for (var j = 0; j < contentArr.length; j++) {
+                                                    contentArr[j] = $sce.trustAsHtml(contentArr[j]);
+                                                }
+                                                arrItem[o] = contentArr;
+                                            }
+                                        }
+                                    }
+                                    itemVal[i] = arrItem;
+                                }
+                            }
+                            obj[item] = itemVal;
+                        }
+                    }
+                    return obj;
+                });
+        }
+    }
+});
+
 app.run(['$rootScope', '$window',
     function ($rootScope, $window) {
         $rootScope.GetUrlWithVersion = $window.GetUrlWithVersion;
