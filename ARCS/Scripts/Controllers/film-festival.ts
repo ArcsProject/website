@@ -29,6 +29,9 @@ function FilmFestivalController($scope, $sce) {
         }
     ];
 
+    $scope.donors500 = [
+        "Mary Sherhart"
+    ];
     $scope.donors250 = [
         "Raluca & Gabriel Hera"
     ];
