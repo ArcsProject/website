@@ -70,6 +70,7 @@
     <Reference Include="System.Net.Http.Formatting, Version=5.2.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.5\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
+    <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -484,6 +485,7 @@
     <Content Include="Styles\main-page.css" />
     <Content Include="Views\alumni.html" />
     <Content Include="Views\cultural-festival-maryhill.html" />
+    <Content Include="Views\donors.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-fest-donate.html" />
     <Content Include="Views\film-festival.html" />
@@ -501,6 +503,8 @@
     <Content Include="Resources\Press\Fall 2017 Events Press Release.pdf" />
     <Content Include="Resources\Press\Romanian Film Fest Press Release.pdf" />
     <Content Include="Resources\favicon\site.webmanifest" />
+    <Content Include="Static\donors_filmfest2017.json" />
+    <Content Include="Static\donors_filmfest2018.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -538,8 +542,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\DependenciesCache.cs" />
     <Compile Include="Api\Donate.cs" />
     <Compile Include="Api\SendController.cs" />
+    <Compile Include="Api\StaticContent.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -560,6 +566,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\cultural-festival-maryhill.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\donors.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\excellence-center.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-fest-donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival.ts" />

@@ -43,11 +43,14 @@ function FilmFestival2017Controller($scope, $sce) {
         }
     ];
 
-    $scope.donorsARCS = donors["donorsARCS"];
-    $scope.donorsA = donors["donorsA"];
-    $scope.donorsR = donors["donorsR"];
-    $scope.donorsC = donors["donorsC"];
-    $scope.donorsS = donors["donorsS"];
+    $scope.donorGroupTitles = {
+        donors500: "Level ARCS ($500+)",
+        donors250: "Level A ($250+)",
+        donors100: "Level R ($100+)",
+        donors50: "Level C ($50+)",
+        donors25: "Level S ($25+)"
+    };
+
     $scope.partners = donors["partners"];
     $scope.sponsors = donors["sponsors"];
 

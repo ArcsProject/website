@@ -14,10 +14,31 @@ namespace ARCS.Api
     public class DonateController : ApiController
     {
         [HttpGet]
-        [ActionName("progress")]
-        public async Task<Campaign> GetDonationProgress(string target)
+        [ActionName("donors")]
+        public async Task<object> GetDonoros(string target)
         {
-            return await DonationProgress.LastValue(target);
+            if (StaticContent.JsonContent.TryGetValue("donors_" + target, out var content))
+            {
+                return await Task.FromResult<string>(content);
+            }
+            //TODO: for target==filmfest2018 we should use the dependencies cache
+            // donors = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Donors");
+            return await NotFound().ExecuteAsync(new CancellationToken());
+        }
+
+        [HttpGet]
+        [ActionName("progress")]
+        public async Task<object> GetDonationProgress(string target)
+        {
+            if (target != _targetFilmFest2018)
+            {
+                return await NotFound().ExecuteAsync(new CancellationToken());
+            }
+
+            var goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal");
+            goal.Percent = (goal.Current * 100) / goal.Max;
+
+            return goal;
         }
 
         public class Campaign
@@ -27,32 +48,6 @@ namespace ARCS.Api
             public double Percent { get; set; }
         }
 
-        public class DonationProgress
-        {
-            static HttpClient client = new HttpClient();
-
-            static async Task<Campaign> GetCampaignGoalAsync(string path)
-            {
-                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-                Campaign campaign = null;
-                HttpResponseMessage response = await client.GetAsync(path);
-                if (response.IsSuccessStatusCode)
-                {
-                    campaign = await response.Content.ReadAsAsync<Campaign>();
-                }
-                return campaign;
-            }
-
-            public static async Task<Campaign> LastValue(string targetPrefix)
-            {
-                var goal = await GetCampaignGoalAsync("https://arcsproject.secure.force.com/services/apexrest/Goal");
-
-                goal.Percent= (goal.Current*100) / goal.Max;
-                
-                return goal;
-
-            }
-
-        }
+        private static readonly string _targetFilmFest2018 = "film2018";
     }
 }
