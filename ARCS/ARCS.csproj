@@ -475,9 +475,6 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <TypeScriptCompile Include="Config\donors.ts">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </TypeScriptCompile>
     <Content Include="filmfest\filmfest2015\fonts\leaguegothic-regular-webfont.eot" />
     <Content Include="filmfest\filmfest2015\fonts\leaguegothic-regular-webfont.ttf" />
     <Content Include="filmfest\filmfest2015\fonts\leaguegothic-regular-webfont.woff" />
