@@ -1,0 +1,35 @@
+{
+
+  "specialEvents": [
+    {
+      "name": "Uncanny Figments",
+      "descriptionHtml": [ "For this celebratory 5th edition, we are thrilled to share the work of an outstanding guest and artist, <a href=\"http://daniel-ursache.com/\" target=\"_blank\">Daniel Ursache</a>. His exhibition, <b>\"Uncanny Figments\"</b>, will be hosted by <b>A/NT Gallery</b> throughout November." ],
+      "date": "2018-11-03T07:00:00.000Z",
+      "startTime": "2018-11-04T03:00:00.000Z",
+      "location": "A/NT Gallery",
+      "imagePath": "film_fest_2018/uncanny_figments.jpg",
+      "locationLink": "https://goo.gl/maps/631CakMwHTm"
+    }
+  ],
+  "partners": [
+    {
+      "link": "http://www.icrny.org/",
+      "imagePath": "icr_ny.png"
+    },
+    {
+      "link": "http://www.4culture.org/",
+      "imagePath": "4culture.png"
+    }
+  ],
+  "films": [
+    {
+      "name": "Untamed Romania",
+      "description": [ "\"Untamed Romania\" explores \"one of the wildest and most beautiful parts of Europe\", from the mysterious Danube Delta to the unknown Carpathian forests. Wolves, bears, and lynx roam the vast forests where almost all the original flora and fauna still exist left untouched since time immemorial. There is no other location of comparable size with such pristine nature in Europe. This unique documentary is narrated by award-winning Romanian film and stage actor Victor Rebengiuc." ],
+      "artist": "Tom Barton-Humphreys",
+      "length": "90 minutes",
+      "genres": "Documentary",
+      "imagePath": "romania_neimblanzita1.jpg",
+      "year": "2018"
+    }
+  ]
+}

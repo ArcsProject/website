@@ -505,6 +505,8 @@
     <Content Include="Resources\favicon\site.webmanifest" />
     <Content Include="Static\donors_filmfest2017.json" />
     <Content Include="Static\donors_filmfest2018.json" />
+    <Content Include="Static\content_filmfest2017.json" />
+    <Content Include="Static\content_filmfest2018.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -544,6 +546,7 @@
   <ItemGroup>
     <Compile Include="Api\DependenciesCache.cs" />
     <Compile Include="Api\Donate.cs" />
+    <Compile Include="Api\ContentController.cs" />
     <Compile Include="Api\SendController.cs" />
     <Compile Include="Api\StaticContent.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
