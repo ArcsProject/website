@@ -260,7 +260,6 @@
     <Content Include="filmfest\filmfest2016\rir.mp3" />
     <Content Include="filmfest\filmfest2016\supporters.html" />
     <Content Include="Global.asax" />
-    <Content Include="Resources\adlogo.jpg" />
     <Content Include="Resources\favicon\android-chrome-192x192.png" />
     <Content Include="Resources\favicon\android-chrome-512x512.png" />
     <Content Include="Resources\favicon\apple-touch-icon.png" />
@@ -274,6 +273,7 @@
     <Content Include="Resources\Images\9780252082276.jpg" />
     <Content Include="Resources\Images\Aaron Conitz, jpg.jpg" />
     <Content Include="Resources\Images\absurdity.png" />
+    <Content Include="Resources\Images\adlogo.jpg" />
     <Content Include="Resources\Images\Affiche_Francophone_film_fridays.jpg" />
     <Content Include="Resources\Images\Afis Restul e tacere.jpg" />
     <Content Include="Resources\Images\Afis_Lipatti_Seattlet.jpg" />
