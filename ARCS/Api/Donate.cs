@@ -17,12 +17,14 @@ namespace ARCS.Api
         [ActionName("donors")]
         public async Task<object> GetDonoros(string target)
         {
+            if (target == "filmfest2018")
+            {
+                return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors");
+            }
             if (StaticContent.JsonContent.TryGetValue("donors_" + target, out var content))
             {
                 return await Task.FromResult<string>(content);
             }
-            //TODO: for target==filmfest2018 we should use the dependencies cache
-            // donors = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Donors");
             return await NotFound().ExecuteAsync(new CancellationToken());
         }
 

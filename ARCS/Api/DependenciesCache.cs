@@ -21,14 +21,19 @@ namespace ARCS.Api
                 var response = await client.GetAsync(target);
                 if (response.IsSuccessStatusCode)
                 {
-                    var result = await response.Content.ReadAsAsync<T>();
-                    var newItem = new CacheItem(target, result);
-                    _cache.Add(newItem, new CacheItemPolicy
+                    CacheItem newItem = null;
+                    if (typeof(T) == typeof(string))
                     {
-                        AbsoluteExpiration = DateTime.Now.Add(_expiration)
-                    });
-
-                    return result;
+                        var result = await response.Content.ReadAsStringAsync();
+                        InsertInCache(target, result);
+                        return (T)(object)result;
+                    }
+                    else
+                    {
+                        var result = await response.Content.ReadAsAsync<T>();
+                        InsertInCache(target, result);
+                        return result;
+                    }
                 }
                 else
                 {
@@ -36,6 +41,14 @@ namespace ARCS.Api
                 }
             }
             return (T)item.Value;
+        }
+
+        private void InsertInCache(string key, object value)
+        {
+            _cache.Add(new CacheItem(key, value), new CacheItemPolicy
+            {
+                AbsoluteExpiration = DateTime.Now.Add(_expiration)
+            });
         }
 
         static public readonly DependenciesCache Cache = new DependenciesCache(TimeSpan.FromMinutes(10));
