@@ -53,7 +53,7 @@ function FilmFestDonate($scope) {
         }
     ];
 
-    $scope.selectedFilmFestivalAmount = $scope.filmFestivalAmounts[3];
+    $scope.selectedFilmFestivalAmount = $scope.filmFestivalAmounts[4];
 
     $scope.getSelectedFilmFestivalAmount = function () {
         if ($scope.selectedFilmFestivalAmount.dollars == "Custom amount") {
