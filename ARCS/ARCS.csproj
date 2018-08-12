@@ -504,6 +504,11 @@
     <Content Include="Static\donors_filmfest2018.json" />
     <Content Include="Static\content_filmfest2017.json" />
     <Content Include="Static\content_filmfest2018.json" />
+    <Content Include="Static\content_board.json" />
+    <Content Include="Static\content_mission.json" />
+    <Content Include="Static\content_alumni.json" />
+    <Content Include="Static\content_partners.json" />
+    <Content Include="Static\content_songs-from-afar.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>

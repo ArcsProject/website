@@ -1,4 +1,18 @@
-﻿<div class="container partners">
+﻿<div ng-if="DataLoaded != true" class="sk-circle">
+    <div class="sk-circle1 sk-child"></div>
+    <div class="sk-circle2 sk-child"></div>
+    <div class="sk-circle3 sk-child"></div>
+    <div class="sk-circle4 sk-child"></div>
+    <div class="sk-circle5 sk-child"></div>
+    <div class="sk-circle6 sk-child"></div>
+    <div class="sk-circle7 sk-child"></div>
+    <div class="sk-circle8 sk-child"></div>
+    <div class="sk-circle9 sk-child"></div>
+    <div class="sk-circle10 sk-child"></div>
+    <div class="sk-circle11 sk-child"></div>
+    <div class="sk-circle12 sk-child"></div>
+</div>
+<div ng-if="DataLoaded" class="container partners">
     <h2>Partners</h2>
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="partner in sponsors">
@@ -25,6 +39,6 @@
     </div>
     <h3>International Resources</h3>
     <div class="row list-group">
-        <a ng-repeat="partner in international" ng-href="{{partner.link}}" class="list-group-item" target="_blank">{{partner.name}}</a>        
+        <a ng-repeat="partner in international" ng-href="{{partner.link}}" class="list-group-item" target="_blank">{{partner.name}}</a>
     </div>
 </div>
