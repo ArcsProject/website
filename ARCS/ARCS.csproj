@@ -501,7 +501,6 @@
     <Content Include="Resources\Press\Romanian Film Fest Press Release.pdf" />
     <Content Include="Resources\favicon\site.webmanifest" />
     <Content Include="Static\donors_filmfest2017.json" />
-    <Content Include="Static\donors_filmfest2018.json" />
     <Content Include="Static\content_filmfest2017.json" />
     <Content Include="Static\content_filmfest2018.json" />
     <Content Include="Static\content_board.json" />
