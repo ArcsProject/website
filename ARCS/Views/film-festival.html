@@ -30,14 +30,13 @@
             </p>
         </div>
     </div>
-    <!--
-    <h2>Pre-Events</h2>
-    <event event="event" ng-repeat="event in events | orderBy: 'date'"></event>
+    <!--<h2>Pre-Events</h2>
+    <event event="event" ng-repeat="event in events | orderBy: 'date'"></event>-->
     <h2>Guests</h2>
     <div ng-repeat="guest in guests">
         <div class="row">
             <div class="col-sm-3">
-                <img class="media-object guest" src="../Resources/Images/{{guest.imagePath}}" alt="Image of {{guest.name}}">
+                <img class="media-object guest" src="../Resources/Images/film_fest_2018/{{guest.imagePath}}" alt="Image of {{guest.name}}">
             </div>
             <div class="col-sm-9">
                 <h4 class="media-heading">{{guest.name}}</h4>
@@ -45,7 +44,7 @@
             </div>
         </div>
         <hr />
-    </div>-->
+    </div>
     <h2 style="margin-top:-10px;">Films</h2>
     <p>All films have English subtitles</p>
     <div class="panel panel-primary" ng-repeat="film in films">
