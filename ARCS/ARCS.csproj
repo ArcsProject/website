@@ -336,6 +336,9 @@
     <Content Include="Resources\Images\fest2.jpg" />
     <Content Include="Resources\Images\film-festival-poster.jpg" />
     <Content Include="Resources\Images\film_festival\flyer2018.jpg" />
+    <Content Include="Resources\Images\film_festival\poster_2014.jpg" />
+    <Content Include="Resources\Images\film_festival\poster_2015.jpg" />
+    <Content Include="Resources\Images\film_festival\poster_2016.jpg" />
     <Content Include="Resources\Images\film_fest_2018\4culture.png" />
     <Content Include="Resources\Images\film_fest_2018\carsonnoel.jpg" />
     <Content Include="Resources\Images\film_fest_2018\cedar_river.jpg" />
@@ -393,6 +396,7 @@
     <Content Include="Resources\Images\piticot-martisoare.jpg" />
     <Content Include="Resources\Images\popliuc.jpg" />
     <Content Include="Resources\Images\Poster_NGK copy.png" />
+    <Content Include="Resources\Images\press\summer-camp2018.jpg" />
     <Content Include="Resources\Images\qed.jpg" />
     <Content Include="Resources\Images\radu_gabrea.jpg" />
     <Content Include="Resources\Images\Redfin LOGO.jpg" />
@@ -496,6 +500,7 @@
     <Content Include="Views\heritage-competition-rules.html" />
     <Content Include="Views\heritage-contest-2018.html" />
     <Content Include="Views\pie-chart.html" />
+    <Content Include="Views\press_resource.html" />
     <Content Include="Views\summer-camp.html" />
     <Content Include="Views\heritage-mission.html" />
     <Content Include="Views\high-school-ongoing.html" />
@@ -512,6 +517,7 @@
     <Content Include="Static\content_alumni.json" />
     <Content Include="Static\content_partners.json" />
     <Content Include="Static\content_songs-from-afar.json" />
+    <Content Include="Static\content_press.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -583,6 +589,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\heritage-competition-rules.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-contest-2018.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\pie-chart.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\press_resource.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\summer-camp.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-mission.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\high-school-ongoing.ts" />
