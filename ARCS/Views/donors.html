@@ -14,6 +14,16 @@
 </div>
 
 <h3 ng-if="$ctrl.dataLoaded">{{$ctrl.heading}}</h3>
+<div class="row" ng-if="$ctrl.dataLoaded && donorGroups.donors500plus">
+    <div class="col-sm-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading">{{donorGroups.donors500plus.heading}}</div>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="donor in donorGroups.donors500plus">{{donor}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
 <div class="row" ng-if="$ctrl.dataLoaded && donorGroups.donors500">
     <div class="col-sm-12">
         <div class="panel panel-primary">
