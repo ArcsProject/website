@@ -13,6 +13,7 @@ function FilmFestivalController($scope, $sce, asyncContent) {
     });
 
     $scope.donorGroupTitles = {
+        donors500plus: "Supporting Sponsor ($501 - $999)",
         donors500: "Visitor of the Romanian \"Uncanny Worlds\" ($500)",
         donors250: "Festival Friend ($250)",
         donors100: "Festival Supporter ($100)",
