@@ -380,6 +380,8 @@
     <Content Include="Resources\Images\MadalinaTonciu.jpg" />
     <Content Include="Resources\Images\main_page\BN_expo_1300x312.jpg" />
     <Content Include="Resources\Images\main_page\BN_expo_414x736.jpg" />
+    <Content Include="Resources\Images\main_page\maryhill2_1300x312.png" />
+    <Content Include="Resources\Images\main_page\maryhill2_414x736.png" />
     <Content Include="Resources\Images\main_page\maryhill_1300x312.png" />
     <Content Include="Resources\Images\main_page\maryhill_414x736.png" />
     <Content Include="Resources\Images\main_page\maryhill_bkg_1300x312.jpg" />
