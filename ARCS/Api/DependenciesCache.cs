@@ -21,7 +21,6 @@ namespace ARCS.Api
                 var response = await client.GetAsync(target);
                 if (response.IsSuccessStatusCode)
                 {
-                    CacheItem newItem = null;
                     if (typeof(T) == typeof(string))
                     {
                         var result = await response.Content.ReadAsStringAsync();
