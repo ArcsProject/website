@@ -467,6 +467,17 @@
     <Content Include="Resources\Press\Sieranevada still 2.jpg" />
     <Content Include="Resources\Press\ThisBabaNoText.jpg" />
     <Content Include="Resources\favicon\safari-pinned-tab.svg" />
+    <Content Include="Resources\email\arcs.png" />
+    <Content Include="Resources\email\man.png" />
+    <Content Include="Resources\email\facebook.png" />
+    <Content Include="Resources\email\flickr.png" />
+    <Content Include="Resources\email\gplus.png" />
+    <Content Include="Resources\email\instagram.png" />
+    <Content Include="Resources\email\linkedin.png" />
+    <Content Include="Resources\email\rss.png" />
+    <Content Include="Resources\email\twitter.png" />
+    <Content Include="Resources\email\vimeo.png" />
+    <Content Include="Resources\email\youtube.png" />
     <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\External\angular-ui-router.min.js" />
     <Content Include="Scripts\External\angular.min.js" />
