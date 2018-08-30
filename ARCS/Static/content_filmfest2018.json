@@ -23,12 +23,20 @@
     {
       "link": "https://cedarriverah.com/",
       "imagePath": "cedar_river.jpg"
+    },
+    {
+      "link": "https://www.cityartsmagazine.com/",
+      "imagePath": "city_arts.png"
     }
   ],
   "sponsors": [
     {
       "link": "http://www.carsonnoel.com/",
       "imagePath": "carsonnoel.jpg"
+    },
+    {
+      "link": "http://www.nwfamilydental.net/",
+      "imagePath": "nw_family_dental.jpg"
     }
   ],
   "films": [
