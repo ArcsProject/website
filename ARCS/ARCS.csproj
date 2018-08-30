@@ -340,6 +340,7 @@
     <Content Include="Resources\Images\film_festival\poster_2015.jpg" />
     <Content Include="Resources\Images\film_festival\poster_2016.jpg" />
     <Content Include="Resources\Images\film_fest_2018\4culture.png" />
+    <Content Include="Resources\Images\film_fest_2018\advanced_dentistry.jpg" />
     <Content Include="Resources\Images\film_fest_2018\carsonnoel.jpg" />
     <Content Include="Resources\Images\film_fest_2018\cedar_river.jpg" />
     <Content Include="Resources\Images\film_fest_2018\city_arts.png" />
