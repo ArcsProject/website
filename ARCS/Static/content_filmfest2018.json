@@ -8,7 +8,8 @@
       "startTime": "2018-11-04T03:00:00.000Z",
       "location": "A/NT Gallery",
       "imagePath": "film_fest_2018/uncanny_figments.jpg",
-      "locationLink": "https://goo.gl/maps/631CakMwHTm"
+      "locationLink": "https://goo.gl/maps/631CakMwHTm",
+      "id": "uncannyfigments"
     }
   ],
   "partners": [
@@ -47,7 +48,8 @@
       "length": "90 minutes",
       "genres": "Documentary",
       "imagePath": "romania_neimblanzita1.jpg",
-      "year": "2018"
+      "year": "2018",
+      "id":  "untamed"
     },
     {
       "name": "One Step Behind the Seraphim",
@@ -59,14 +61,16 @@
       "length": "150 minutes",
       "genres": "Drama",
       "imagePath": "seraphim_poster.jpg",
-      "year": "2017"
+      "year": "2017",
+      "id": "seraphim"
     }
   ],
   "guests": [
     {
       "name": "Daniel Sandu",
       "imagePath": "daniel_sandu.jpg",
-      "details": "Before starting his career in film, Daniel Sandu studied theology at the Orthodox Seminary \"Saint George\" in the North-East of Romania. He wrote and directed feature films, shorts and TV shows. In 2011, his short \"The Counting Device\", co-produced with Ada Solomon, was selected in official competitions of prestigious film festivals at Sarajevo, Cambridge, Montpellier, Leuven and won the Jury Prize in Leiden. In 2013 he got the Special Prize at the Anonymous Festival in Romania, for his film \"The Second Voice\". \"Horsepower\" was awarded the Prize for the Best Short a year later at the Locarno Film Festival. He continued his collaboration with Ada Solomon for his debut with \"One Step behind the Seraphim\", a film that swept Romania’s Gopo Awards last year. Daniel is now working on a TV series for HBO Romania and on his second feature movie- \"Father Moves Mountains/Tatăl mută munții\" produced by Cristian Mungiu (Mobra Films). This project received the ARTE award at Les Arcs in 2016."
+      "details": "Before starting his career in film, Daniel Sandu studied theology at the Orthodox Seminary \"Saint George\" in the North-East of Romania. He wrote and directed feature films, shorts and TV shows. In 2011, his short \"The Counting Device\", co-produced with Ada Solomon, was selected in official competitions of prestigious film festivals at Sarajevo, Cambridge, Montpellier, Leuven and won the Jury Prize in Leiden. In 2013 he got the Special Prize at the Anonymous Festival in Romania, for his film \"The Second Voice\". \"Horsepower\" was awarded the Prize for the Best Short a year later at the Locarno Film Festival. He continued his collaboration with Ada Solomon for his debut with \"One Step behind the Seraphim\", a film that swept Romania’s Gopo Awards last year. Daniel is now working on a TV series for HBO Romania and on his second feature movie- \"Father Moves Mountains/Tatăl mută munții\" produced by Cristian Mungiu (Mobra Films). This project received the ARTE award at Les Arcs in 2016.",
+      "id": "danielsandu"
     }
   ]
 }
