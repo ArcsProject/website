@@ -53,7 +53,7 @@
       "genres": "Documentary",
       "imagePath": "romania_neimblanzita1.jpg",
       "year": "2018",
-      "id":  "untamed"
+      "id": "untamed"
     },
     {
       "name": "One Step Behind the Seraphim",
@@ -67,6 +67,18 @@
       "imagePath": "seraphim_poster.jpg",
       "year": "2017",
       "id": "seraphim"
+    },
+    {
+      "name": "D-Love",
+      "description": [
+        "A couple with longstanding marital issues lands at LAX after a getaway in Europe. For a few years now, Stefania has been working a job she detests and Dan hasn't worked at all. Their palpable strain is only made worse when a Danish vagabond asks for a ride to the busiest freeway in Los Angeles. Stefania doesn’t want to have anything to do with the hippie looking wanderer, but her husband Dan, much to his wife's horror, offers to bring this total stranger to their home. How will their encounter with this uncanny character affect their marriage? The director invites you on a 3 day journey, seen through Stefania’s eyes, to view and discover that desired change doesn’t always come in the package that we want or expect."
+      ],
+      "artist": "Elena Beuca",
+      "length": "96 minutes",
+      "genres": "Drama",
+      "imagePath": "d_love.jpg",
+      "year": "2018",
+      "id": "d-love"
     }
   ],
   "guests": [
@@ -75,6 +87,12 @@
       "imagePath": "daniel_sandu.jpg",
       "details": "Before starting his career in film, Daniel Sandu studied theology at the Orthodox Seminary \"Saint George\" in the North-East of Romania. He wrote and directed feature films, shorts and TV shows. In 2011, his short \"The Counting Device\", co-produced with Ada Solomon, was selected in official competitions of prestigious film festivals at Sarajevo, Cambridge, Montpellier, Leuven and won the Jury Prize in Leiden. In 2013 he got the Special Prize at the Anonymous Festival in Romania, for his film \"The Second Voice\". \"Horsepower\" was awarded the Prize for the Best Short a year later at the Locarno Film Festival. He continued his collaboration with Ada Solomon for his debut with \"One Step behind the Seraphim\", a film that swept Romania’s Gopo Awards last year. Daniel is now working on a TV series for HBO Romania and on his second feature movie- \"Father Moves Mountains/Tatăl mută munții\" produced by Cristian Mungiu (Mobra Films). This project received the ARTE award at Les Arcs in 2016.",
       "id": "danielsandu"
+    },
+    {
+      "name": "Elena Beuca",
+      "imagePath": "elena_beuca.jpg",
+      "details": "Elena Beuca grew up in a small farm town in Transylvania, Romania. After graduating from Law School in Bucharest and working in real estate for a few years, she became interested in the entertainment industry and decided to move to Hollywood. Elena studied at the American Academy of Dramatic Arts. She studied with Ivanna Chubuck, the famous acting coach for Charlize Theron, Halle Berry, Brad Pitt. She has appeared in the HBO comedy series \"Enlightened\", the Fox Network action drama \"Gang Related\" and Nickelodeon's \"Victorious\". Elena has always loved a good challenge, so when a friend introduced her to the 168-film festival (making a short film in a week ) she decided to jump in and direct her first short film. She loved it so much, that she decided to do it again and again and again.. D-love is her first feature film. She is currently working on another feature film that will be shot in the fall in South Carolina.",
+      "id": "elena-beuca"
     }
   ]
 }
