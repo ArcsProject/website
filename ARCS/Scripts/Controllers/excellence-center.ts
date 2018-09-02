@@ -4,6 +4,10 @@
 });
 
 function ExcellenceCenterController($scope) {
+    var innerPopup = $("#excellence-center-popup");
+    if (innerPopup != null) {
+        innerPopup.parent().hide();
+    }
     $scope.instructors = [
         {
             name: "Otilia Baraboi",
