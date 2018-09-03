@@ -485,6 +485,8 @@
     <Content Include="Resources\email\twitter.png" />
     <Content Include="Resources\email\vimeo.png" />
     <Content Include="Resources\email\youtube.png" />
+    <Content Include="Resources\email\dlove.jpg" />
+    <Content Include="Resources\email\maia_morgenstern1.jpg" />
     <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\External\angular-ui-router.min.js" />
     <Content Include="Scripts\External\angular.min.js" />
