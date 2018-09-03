@@ -251,5 +251,6 @@ app.run(['$rootScope', '$window',
         $rootScope.GetUrlWithVersion = $window.GetUrlWithVersion;
         $(".close-popup").click(function () {
             $(this).parent().hide();
+            return false;
         });
 }]);
