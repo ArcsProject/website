@@ -36,6 +36,14 @@
     {
       "link": "http://www.traduterra.com",
       "imagePath": "traduterra.png"
+    },
+    {
+      "link": "https://www.siff.net",
+      "imagePath": "siff.png"
+    },
+    {
+      "link": "https://www.thestranger.com",
+      "imagePath": "stranger.png"
     }
   ],
   "sponsors": [
