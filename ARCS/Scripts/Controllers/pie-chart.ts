@@ -5,6 +5,7 @@ function PieChartController($scope) {
     $scope.progressCurrent = 0;
     $scope.progressLeftPercentage = 629;
     $scope.goalPercentage = 0;
+    $scope.newGoalMsg = "Thank you! We have reached our first fundraising goal! Let's keep the story going!";
     
     $scope.initPieChartData = function () {
         $scope.GetDonationProgress($scope.targetDonation, function (result) {
@@ -13,6 +14,9 @@ function PieChartController($scope) {
             $scope.progressLeftPercentage = (100 - result.Percent) / 100 * 629;
             $scope.goalPercentage = result.Percent;
             $scope.progressDataLoaded = true;
+            if ($scope.showNewGoalMsg && $scope.progressMax <= 15000) {
+                $scope.showNewGoalMsg = false;
+            }
             $scope.$apply();
         })
     }

@@ -21,5 +21,5 @@
     </svg>
      <p ng-if="progressDataLoaded" class="progress-pie-goal"><svg><rect x="0" y="0" width="50" height="50" /></svg><span>Goal: ${{progressMax}}</span></p>
     <p ng-if="progressDataLoaded" class="progress-pie-raised"><svg><rect x="0" y="0" width="50" height="50"/></svg><span>Raised: ${{progressCurrent}} ({{goalPercentage}}% of our goal)</span></p>
-
+    <p ng-if="showNewGoalMsg && progressDataLoaded" style="padding:15px 0 0 5px;text-align:center;">{{newGoalMsg}}</p>
 </div>
