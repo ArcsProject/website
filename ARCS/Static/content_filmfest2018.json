@@ -113,6 +113,42 @@
       "imagePath": "miss_christina.jpg",
       "year": "2013",
       "id": "miss-christina"
+    },
+    {
+      "name": "The Treasure",
+      "description": [
+        "Costi leads a peaceful life. At night he likes to read his 6-year-old son stories, to help him sleep. Their favourite is Robin Hood. Costi sees himself as the hero - righter of wrongs and defender of the oppressed.One evening, his neighbour pays him an unexpected visit and shares a secret: there's treasure buried in his grandparents' garden, he's sure of it. If Costi will hire a metal detector to help locate it, he'll give him half of whatever they get. Sceptical at first, in the end Costi can't resist. He's on board. The two accomplices have one weekend to locate the loot. Despite every obstacle in their path, Costi refuses to be discouraged. For his wife and son, he's a real hero - nothing and no one are going to stop him."
+      ],
+      "artist": "Corneliu Porumboiu",
+      "length": "89 minutes",
+      "genres": "Comedy",
+      "imagePath": "the_treasure.jpg",
+      "year": "2015",
+      "id": "the-treasure"
+    },
+    {
+      "name": "The Miracle of Tekir",
+      "description": [
+        "Unmarried Mara has mysteriously fallen pregnant. This poses a problem for her fellow residents of the small fishing village on the Danube delta, where Europe's second longest river enters the Black Sea, and religion mixes with superstition like earth with water. Expelled from her village, Mara finds employment at the nearby spa hotel Tekir where infertile women are treated with the sacred Danube mud. When her world collides with that of the well-to-do, eccentric cosmopolitan Lili, magic combines with power and tradition with modernity to become the answer to Lili's desire to have children – and Mara's \"immaculate\" conception."
+      ],
+      "artist": "Ruxandra Zenide",
+      "length": "88 minutes",
+      "genres": "Drama, Mistery",
+      "imagePath": "tekir.jpg",
+      "year": "2015",
+      "id": "tekir"
+    },
+    {
+      "name": "Silence in Petrila",
+      "description": [
+        "As miners in the Romanian town of Petrila go down the mine for the last time, artist and ex-miner Ion Barbu is working on his mission: preserving Petrila's coal mine as cultural heritage. But in accordance with EU agreements on the closure of the mine, the authorities are committed to demolishing it completely. This would bring an abrupt end to a history with which the mining community still feels a deep affinity, but one that doesn't appear to interest the politicians in the slightest. Barbu refuses to back down, doing all he can to keep the memories of the mine and the identity of his hometown alive. He covers the mine buildings in murals and organises performances, street protests, an underground theatre festival and a clandestine film. His resolve is a match for that of his opponents, and his art, which samples freely from art history, is charged with an absurdism well suited to the situation. Nonetheless, his actions prove to be more than just a frivolous protest; they become a channel for the collective mourning of a redundant industry."
+      ],
+      "artist": "Andrei Dăscălescu",
+      "length": "80 minutes",
+      "genres": "Documentary",
+      "imagePath": "petrila.jpg",
+      "year": "2016",
+      "id": "petrila"
     }
   ],
   "guests": [
