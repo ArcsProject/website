@@ -79,6 +79,14 @@
     <h2 id="special-events">Special Events</h2>
     <event event="event" ng-repeat="event in specialEvents | orderBy: 'date'"></event>
     <h2 id="supporters">Supporters</h2>
+    <h3 id="official-partners">Festival Official Partners ($2000+)</h3>
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-repeat="partner in officialPartners">
+            <a href="{{partner.link}}" class="thumbnail" style="position:relative" target="_blank">
+                <img ng-src="../Resources/Images/film_fest_2018/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image-new">
+            </a>
+        </div>
+    </div>
     <h3 id="partners">Partners ($1000+)</h3>
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="partner in partners">
