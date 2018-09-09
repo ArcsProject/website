@@ -134,6 +134,30 @@
       "imagePath": "elena_beuca.jpg",
       "details": "Elena Beuca grew up in a small farm town in Transylvania, Romania. After graduating from Law School in Bucharest and working in real estate for a few years, she became interested in the entertainment industry and decided to move to Hollywood. Elena studied at the American Academy of Dramatic Arts. She studied with Ivanna Chubuck, the famous acting coach for Charlize Theron, Halle Berry, Brad Pitt. She has appeared in the HBO comedy series \"Enlightened\", the Fox Network action drama \"Gang Related\" and Nickelodeon's \"Victorious\". Elena has always loved a good challenge, so when a friend introduced her to the 168-film festival (making a short film in a week ) she decided to jump in and direct her first short film. She loved it so much, that she decided to do it again and again and again.. D-love is her first feature film. She is currently working on another feature film that will be shot in the fall in South Carolina.",
       "id": "elena-beuca"
+    },
+    {
+      "name": "Andrei Dăscălescu",
+      "imagePath": "andrei_dascalescu.jpg",
+      "details": "Andrei Dăscălescu (born 1984) started as a radio DJ in his hometown during his teenage years. He then moved to Bucharest to study Sound and Editing at the Film University, at the same time working as a freelance editor and sound engineer for BBC World Service Romania and on many films, including Francis Ford Coppola's Youth Without Youth, as the assistant of the legendary editor Walter Murch. He moved on to make his own films with the awarded short feature Fly, then made his documentary debut with \"Constantin and Elena\", a film that achieved worldwide recognition through multiple festival selections, awards and broadcasts. Planeta Petrila is his second feature-length documentary.",
+      "id": "andrei-dascalescu"
+    },
+    {
+      "name": "Iulia Paula Niculescu",
+      "imagePath": "paula_niculescu.jpg",
+      "details": "Iulia Paula Niculescu graduated the Acting and Puppeteering Class at the Arts University in Iasi, Romania. In 2015, she organized a campaign for saving the only movie theater in Piatra Neamt, Cinema Dacia. For the past 4 editions, Paula coordinated the Guest and Volunteer departments at Filmul de Piatra film festival. She was an assistant director of the feature documentary Planeta Petrila and is a protagonist of Holy Father, a documentary currently in production.",
+      "id": "iulia-paula-niculescu"
+    },
+    {
+      "name": "Bogdan Darev",
+      "imagePath": "bogdan_darev.jpg",
+      "details": "Seattle-based producer, director and storyteller Bogdan is a Bulgarian emigrant of 23 years who is still very connected to his heritage and recognizes the role of film in preserving and celebrating cultures across the globe. His most recent documentary film endeavor \"Kaval Park\" is far from about and for Bulgarians only, but an important document of authenticity for all cultures. In addition to documentary films, Bogdan continues to express himself in music videos, photography, literature and is currently developing several fictional film projects",
+      "id": "bogdan-darev"
+    },
+    {
+      "name": "Daniel Ursache",
+      "imagePath": "daniel_ursache.jpg",
+      "details": "Daniel Ursache is an illustrator, painter, print-maker and graphic designer. He was born in Romania, in Turnu Severin, a Romanian city on the northern bank of the Danube. He was raised in Constanta, ancient Greek and then Roman colony on the Black Sea coast, explored geology in Iasi, the former capital of the Moldavian kingdom and studied fine arts in Timisoara, briefly the capital of the Austro-Hungarian Empire. In 2004 he got stranded on the island of Montreal, in the middle of St. Lawrence river and did his post-graduate studies there. He has exhibited his work in Canada, Romania, Poland, Yugoslavia, Holland, Germany and Italy.",
+      "id": "daniel-ursache"
     }
   ]
 }
