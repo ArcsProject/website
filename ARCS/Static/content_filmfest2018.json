@@ -12,22 +12,32 @@
       "id": "uncannyfigments"
     }
   ],
-  "partners": [
+  "officialPartners": [
     {
       "link": "http://www.icrny.org/",
       "imagePath": "icr_ny.png"
+    },
+    {
+      "link": "https://www.siff.net",
+      "imagePath": "siff.png"
     },
     {
       "link": "http://www.4culture.org/",
       "imagePath": "4culture.png"
     },
     {
-      "link": "https://cedarriverah.com/",
-      "imagePath": "cedar_river.jpg"
-    },
-    {
       "link": "https://www.cityartsmagazine.com/",
       "imagePath": "city_arts.png"
+    },
+    {
+      "link": "https://www.thestranger.com",
+      "imagePath": "stranger.png"
+    }
+  ],
+  "partners": [
+    {
+      "link": "https://cedarriverah.com/",
+      "imagePath": "cedar_river.jpg"
     },
     {
       "link": "https://www.bhgre.com/Better-Homes-and-Gardens-Real-Estate-Macy-%26-Co.-44181c/Nadia-Schmieder-4989949a",
@@ -36,14 +46,6 @@
     {
       "link": "http://www.traduterra.com",
       "imagePath": "traduterra.png"
-    },
-    {
-      "link": "https://www.siff.net",
-      "imagePath": "siff.png"
-    },
-    {
-      "link": "https://www.thestranger.com",
-      "imagePath": "stranger.png"
     }
   ],
   "sponsors": [
