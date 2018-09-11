@@ -42,7 +42,7 @@
                 </span>
             </div>
             <div class="col-sm-9">
-                <h4 class="media-heading">{{guest.name}}</h4>
+                <h4 class="media-heading" ng-bind-html="guest.name"></h4>
                 <p ng-bind-html="guest.details"></p>
             </div>
         </div>

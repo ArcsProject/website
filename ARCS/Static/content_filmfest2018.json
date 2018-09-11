@@ -137,10 +137,10 @@
       "name": "There",
       "description": [
         "In 1995, Seattle-based director and storyteller Bogdan was a teenager. He is now forty-one. After 23 years as an immigrant in the US, Bogdan comes back to Bulgaria for the first time. Who will he meet and where will his memories take him? Is his feeling truth, or is it just nostalgia?",
-        "<i>This screening will be followed by a Q&A with special guest <a href=\"#bogdan-darev\">Bogdan Darev</a>.</i>"
+        "<i>This screening will be followed by a Q&A with special guest <a href=\"#bogdan-darev\">Bogdan</a>.</i>"
       ],
       "time": "Sunday, November 4, 11:00 AM",
-      "artist": "Bogdan Darev",
+      "artist": "Bogdan",
       "length": "?? minutes",
       "genres": "Documentary",
       "imagePath": "there_poster.jpg",
@@ -205,7 +205,7 @@
       "id": "daniel-sandu"
     },
     {
-      "name": "Bogdan Darev",
+      "name": "Bogdan <span style=\"color:rgba(0,0,0,0);\">Darev🦄</span>",
       "imagePath": "bogdan_darev.jpg",
       "details": "Seattle-based producer, director and storyteller Bogdan is a Bulgarian emigrant of 23 years who is still very connected to his heritage and recognizes the role of film in preserving and celebrating cultures across the globe. His most recent documentary film endeavor \"Kaval Park\" is far from about and for Bulgarians only, but an important document of authenticity for all cultures. In addition to documentary films, Bogdan continues to express himself in music videos, photography, literature and is currently developing several fictional film projects",
       "id": "bogdan-darev"
