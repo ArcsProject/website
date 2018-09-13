@@ -12,22 +12,32 @@
       "id": "uncannyfigments"
     }
   ],
-  "partners": [
+  "officialPartners": [
     {
       "link": "http://www.icrny.org/",
       "imagePath": "icr_ny.png"
+    },
+    {
+      "link": "https://www.siff.net",
+      "imagePath": "siff.png"
     },
     {
       "link": "http://www.4culture.org/",
       "imagePath": "4culture.png"
     },
     {
-      "link": "https://cedarriverah.com/",
-      "imagePath": "cedar_river.jpg"
-    },
-    {
       "link": "https://www.cityartsmagazine.com/",
       "imagePath": "city_arts.png"
+    },
+    {
+      "link": "https://www.thestranger.com",
+      "imagePath": "stranger.png"
+    }
+  ],
+  "partners": [
+    {
+      "link": "https://cedarriverah.com/",
+      "imagePath": "cedar_river.jpg"
     },
     {
       "link": "https://www.bhgre.com/Better-Homes-and-Gardens-Real-Estate-Macy-%26-Co.-44181c/Nadia-Schmieder-4989949a",
@@ -36,14 +46,6 @@
     {
       "link": "http://www.traduterra.com",
       "imagePath": "traduterra.png"
-    },
-    {
-      "link": "https://www.siff.net",
-      "imagePath": "siff.png"
-    },
-    {
-      "link": "https://www.thestranger.com",
-      "imagePath": "stranger.png"
     }
   ],
   "sponsors": [
@@ -58,6 +60,10 @@
     {
       "link": "https://advanceddentistryatcenturysquare.com/",
       "imagePath": "advanced_dentistry.jpg"
+    },
+    {
+      "link": "https://theevergrey.com/",
+      "imagePath": "evergrey.jpg"
     }
   ],
   "films": [
@@ -95,9 +101,28 @@
       "imagePath": "d_love.jpg",
       "year": "2018",
       "id": "d-love"
+    },
+    {
+      "name": "Miss Christina",
+      "description": [
+        "\"Miss Christina\" is the dramatization of a 1936 novella written by the famous Romanian author and historian of religions, Mircea Eliade. Considered the first Romanian title of the Gothic genre, the film brings its distinct supernatural touch, being deeply rooted in East-European folklore and pagan mythology. It tells the love story between a human and the vampire-like character of a gorgeous young woman who died a violent death in the bloody peasant revolts in Romania in 1907. Known in Romanian as a moroi or a strigoi, Miss Christina comes back from the grave to seduce her niece's fiancé, Egor (played by Tudor Istodor), during his first visit to the countryside family mansion. The lady of the house (played by <a href=\"#maia-morgenstern\">Maia Morgenstern</a>) worships her dead sister’s memory, even to the detriment of her own daughter's sanity and safety. When Egor realizes that his fiancé's life is endangered by his unexplainable lust for Miss Cristina, he decides to fight the moroi."
+      ],
+      "artist": "Alexandru Maftei",
+      "length": "101 minutes",
+      "genres": "Gothic Horror, Mystery, Drama",
+      "imagePath": "miss_christina.jpg",
+      "year": "2013",
+      "id": "miss-christina"
     }
   ],
   "guests": [
+    {
+      "name": "Maia Morgenstern",
+      "imagePath": "maia_morgenstern.jpg",
+      "details": "Legendary Maia Morgenstern has often been described as the \"symbol of Romanian theater and film\" (Florin Mitu, AMOS News). Born in a Jewish family in Bucharest, she studied at the Film and Theatre Academy and went on to become a member of the repertory companies of three prominent Romanian theater organizations — the Piatra Neamț National Theatre (1985 – 1988), the State Jewish Theatre (1988 – present) and the National Theatre (1990 – present). She made her film debut in 1983 with <i>Too Hot for May/ Prea cald pentru luna mai</i>. Since then she has appeared in dozens of Romanian feature films, as well as several international productions, including the English-language <i>Nostradamus</i> (1994), starring F. Murray Abraham and Tchéky Karyo; the Hungarian-language <i>Siódmy pokój</i> (1995) , the English/Greek language <i>Ulysses’ Gaze</i> (1995), in which she co-starred with Harvey Keitel, and the French language feature <i>Marie, Nonna, la vierge et moi</i> (2000). Morgenstern also took on a role in the USA Network TV movie <i>Dark Prince: The True Story of Dracula</i> (2000). She is probably best known for the role of Mary, mother of Jesus, in Mel Gibson's <i>The Passion of the Christ</i> (2004). She performed her role in Aramaic, but unlike the other actors in the cast of the film, she simply memorized her lines phonetically. In Romania, she has been nationally known since her 1992 role as Nela in Lucian Pintilie’s <i>Balanța/ The Oak</i>, set during the waning days of Communist Romania.",
+      "photoCaption": "Photo credit: Bogdan Stăncescu",
+      "id": "maia-morgenstern"
+    },
     {
       "name": "Daniel Sandu",
       "imagePath": "daniel_sandu.jpg",

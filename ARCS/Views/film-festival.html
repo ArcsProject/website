@@ -20,7 +20,7 @@
                 <p><b>CROWDFUNDING Campaign</b></p>
                 <p><b>Please support</b> the 5th edition of the Romanian Film Festival. Donating is easy and secure through our website, choose your desired level of donation and click on the <b>Donate</b> button:</p>
             </div>
-            <ng-include src="GetUrlWithVersion('Views/pie-chart.html')" ng-init="targetDonation='film2018';chartWidth='50%';"></ng-include>
+            <ng-include src="GetUrlWithVersion('Views/pie-chart.html')" ng-init="targetDonation='film2018';chartWidth='50%';showNewGoalMsg=true;"></ng-include>
             <ng-include src="GetUrlWithVersion('Views/film-fest-donate.html')" ng-init="expanded=false"></ng-include>
             <p style="text-align:center;">
                 Checks are welcome. Please address them to:<br />
@@ -37,6 +37,9 @@
         <div class="row">
             <div class="col-sm-3" id="{{guest.id}}">
                 <img class="media-object guest" src="../Resources/Images/film_fest_2018/{{guest.imagePath}}" alt="Image of {{guest.name}}">
+                <span ng-if="guest.photoCaption">
+                    <em style="margin-top:-15px;" class="pull-right">{{guest.photoCaption}}</em>
+                </span>
             </div>
             <div class="col-sm-9">
                 <h4 class="media-heading">{{guest.name}}</h4>
@@ -76,6 +79,14 @@
     <h2 id="special-events">Special Events</h2>
     <event event="event" ng-repeat="event in specialEvents | orderBy: 'date'"></event>
     <h2 id="supporters">Supporters</h2>
+    <h3 id="official-partners">Festival Official Partners ($2000+)</h3>
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-repeat="partner in officialPartners">
+            <a href="{{partner.link}}" class="thumbnail" style="position:relative" target="_blank">
+                <img ng-src="../Resources/Images/film_fest_2018/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image-new">
+            </a>
+        </div>
+    </div>
     <h3 id="partners">Partners ($1000+)</h3>
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="partner in partners">
