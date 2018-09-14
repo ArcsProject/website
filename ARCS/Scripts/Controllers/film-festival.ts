@@ -6,7 +6,7 @@
 function FilmFestivalController($scope, $sce, asyncContent) {
     $scope.GetUrlWithVersion = GetUrlWithVersion;
 
-    asyncContent.getContent("filmfest2018", $sce, ['description', 'details', 'descriptionHtml']).then(function (content) {
+    asyncContent.getContent("filmfest2018", $sce, ['name','description', 'details', 'descriptionHtml']).then(function (content) {
         for (var item in content) {
             $scope[item] = content[item];
         }

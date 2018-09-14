@@ -68,8 +68,23 @@
   ],
   "films": [
     {
+      "name": "Miss Christina",
+      "description": [
+        "\"Miss Christina\" is the dramatization of a 1936 novella written by the famous Romanian author and historian of religions, Mircea Eliade. Considered the first Romanian title of the Gothic genre, the film brings its distinct supernatural touch, being deeply rooted in East-European folklore and pagan mythology. It tells the love story between a human and the vampire-like character of a gorgeous young woman who died a violent death in the bloody peasant revolts in Romania in 1907. Known in Romanian as a <i>moroi</i> or a <i>strigoi</i>, Miss Christina comes back from the grave to seduce her niece's fiancé, Egor (played by Tudor Istodor), during his first visit to the countryside family mansion. The lady of the house (played by <a href=\"#maia-morgenstern\">Maia Morgenstern</a>) worships her dead sister’s memory, even to the detriment of her own daughter's sanity and safety. When Egor realizes that his fiancé's life is endangered by his unexplainable lust for Miss Christina, he decides to fight the <i>moroi</i>.",
+        "<i>This screening will be followed by a Q&A with special guest <a href=\"#maia-morgenstern\">Maia Morgenstern</a>.</i>"
+      ],
+      "time": "Friday, November 2, 7:00 PM",
+      "artist": "Alexandru Maftei",
+      "length": "101 minutes",
+      "genres": "Mystery/Gothic Horror",
+      "imagePath": "miss_christina.jpg",
+      "year": "2013",
+      "id": "miss-christina"
+    },
+    {
       "name": "Untamed Romania",
       "description": [ "\"Untamed Romania\" explores \"one of the wildest and most beautiful parts of Europe\", from the mysterious Danube Delta to the unknown Carpathian forests. Wolves, bears, and lynx roam the vast forests where almost all the original flora and fauna still exist left untouched since time immemorial. There is no other location of comparable size with such pristine nature in Europe. This unique documentary is narrated by award-winning Romanian film and stage actor Victor Rebengiuc." ],
+      "time": "Saturday, November 3, 10:00 AM",
       "artist": "Tom Barton-Humphreys",
       "length": "90 minutes",
       "genres": "Documentary",
@@ -78,11 +93,39 @@
       "id": "untamed"
     },
     {
+      "name": "The Miracle of Tekir",
+      "description": [
+        "Unmarried Mara has mysteriously fallen pregnant. This poses a problem for her fellow residents of the small fishing village on the Danube delta, where Europe's second longest river enters the Black Sea, and religion mixes with superstition like earth with water. Expelled from her village, Mara finds employment at the nearby spa hotel Tekir where infertile women are treated with the sacred Danube mud. When her world collides with that of the well-to-do, eccentric cosmopolitan Lili, magic combines with power and tradition with modernity to become the answer to Lili's desire to have children – and Mara's \"immaculate\" conception."
+      ],
+      "time": "Saturday, November 3, 12:20 PM",
+      "artist": "Ruxandra Zenide",
+      "length": "88 minutes",
+      "genres": "Mystery/Drama",
+      "imagePath": "tekir.jpg",
+      "year": "2015",
+      "id": "tekir"
+    },
+    {
+      "name": "The Treasure",
+      "description": [
+        "Costi leads a peaceful life. At night he likes to read stories to his 6-year-old son to help him sleep. Their favorite is Robin Hood, and Costi sees himself as a similar hero - righter of wrongs and defender of the oppressed. One evening, his neighbor Negoescu pays him an unexpected visit and shares a secret. He suspects that his great-grandfather buried a treasure in his garden at the time of the Communist takeover in the 1940s. If Costi hires a metal detector to help locate the treasure, he will give him half of whatever they get. The two accomplices have one weekend to locate the loot and many obstacles in their path. With each layer of soil they unearth, memories of the past and entire chapters of Romanian history come to light. Porumboiu’s film adds intricate touches of the uncanny to everyday life, prompting us to question what unfathomable treasure we are hunting ourselves. Winner of A Certain Regard the 2015 International Federation of Film Critics (FIPRESCI) Prize at Cannes."
+      ],
+      "time": "Saturday, November 3, 2:15 PM",
+      "artist": "Corneliu Porumboiu",
+      "length": "89 minutes",
+      "genres": "Comedy",
+      "imagePath": "the_treasure.jpg",
+      "year": "2015",
+      "id": "the-treasure"
+    },
+    {
       "name": "One Step Behind the Seraphim",
       "description": [
         "The feature tells the story of Gabriel (Stefan Iancu), a teenager who wants to be a priest and has been recently admitted to a theological seminary. Trying to fit in first, he is fast to discover a world of fear and abuse. Lying, cheating and betraying are things the freshmen have to master in order to survive their seniors’ constant bullying and the game of power and manipulation fed by a tough teacher (remarkably played by Vlad Ivanov). This caustic coming of age movie calls to mind boarding-school-set movies where oppression and brutality are widespread.",
-        "After having taken 10 years to film, \"One Step behind the Seraphim\" swept Romania’s Gopo Awards in 2018. It won 8 statuettes, including the most important trophies: Best Film, Best Film Director, Best Script, Best Debut Feature, Best Leading Actor, Best Picture and Young Hope, together with the Award of the Romanian Society of Cinematographers. It also received the Audience Award at Transylvania Film Festival."
+        "After having taken 10 years to film, \"One Step behind the Seraphim\" swept Romania’s Gopo Awards in 2018. It won 8 statuettes, including the most important trophies: Best Film, Best Film Director, Best Script, Best Debut Feature, Best Leading Actor, Best Picture and Young Hope, together with the Award of the Romanian Society of Cinematographers. It also received the Audience Award at Transylvania Film Festival.",
+        "<i>This screening will be followed by a Q&A with special guest <a href=\"#daniel-sandu\">Daniel Sandu</a>.</i>"
       ],
+      "time": "Saturday, November 3, 4:30 PM",
       "artist": "Daniel Sandu",
       "length": "150 minutes",
       "genres": "Drama",
@@ -91,49 +134,104 @@
       "id": "seraphim"
     },
     {
+      "name": "There",
+      "description": [
+        "In 1995, Seattle-based director and storyteller Bogdan was a teenager. He is now forty-one. After 23 years as an immigrant in the US, Bogdan comes back to Bulgaria for the first time. Who will he meet and where will his memories take him? Is his feeling truth, or is it just nostalgia?",
+        "<i>This screening will be followed by a Q&A with special guest <a href=\"#bogdan\">Bogdan</a>.</i>"
+      ],
+      "time": "Sunday, November 4, 11:00 AM",
+      "artist": "Bogdan",
+      "length": "90 minutes",
+      "genres": "Documentary, US Film Premier",
+      "imagePath": "there_poster.jpg",
+      "year": "2018",
+      "id": "there-movie"
+    },
+    {
+      "name": "Planeta Petrila",
+      "description": [
+        "As miners in the Romanian town of Petrila go down the mine for the last time, artist and ex-miner Ion Barbu is working on his mission: preserving Petrila's coal mine as cultural heritage. But in accordance with EU agreements on the closure of the mine, the authorities are committed to demolishing it completely. This would bring an abrupt end to a history with which the mining community still feels a deep affinity, but one that doesn't appear to interest the politicians in the slightest. Barbu refuses to back down, doing all he can to keep the memories of the mine and the identity of his hometown alive. He covers the mine buildings in murals and organizes performances, street protests, an underground theatre festival and a clandestine film. His resolve is a match for that of his opponents, and his art, which samples freely from art history, is charged with an absurdism well suited to the situation. Nonetheless, his actions prove to be more than just a frivolous protest; they become a channel for the collective mourning of a redundant industry.",
+        "<i>This screening will be followed by a Q&A with special guest <a href=\"#andrei-dascalescu\">Andrei Dăscălescu</a> and <a href=\"#iulia-paula-niculescu\">Paula Niculescu</a>.</i>"
+      ],
+      "time": "Sunday, November 4, 1:05 PM",
+      "artist": "Andrei Dăscălescu",
+      "length": "80 minutes",
+      "genres": "Documentary",
+      "imagePath": "petrila.jpg",
+      "year": "2016",
+      "id": "petrila"
+    },
+    {
+      "name": "The Wanderers, The Quest of the Demon Hunter",
+      "description": [
+        "The film follows famed ghost and demon hunter Louis (Armand Assante) as he takes on a new case in modern day Romania. Hired by the mysterious heiress of the Zalesky Castle, the hardened American embarks on this adventure with an Israeli journalist (Lior Ashkenazi), two Korean reality television stars in search of sensational ghost stories, and a young, skeptical guide Sorana (Raluca Aprodu). As he starts hunting the evil lurking in plain daylight in the frightened community around the Transylvanian castle, Louis faces one of the biggest challenges of his career and life."
+      ],
+      "time": "Sunday, November 4, 3:00 PM",
+      "artist": "Dragoș Buliga",
+      "length": "106 minutes",
+      "genres": "Drama/Horror/Thriller",
+      "imagePath": "wanderers.jpg",
+      "year": "2017",
+      "id": "wanderers"
+    },
+    {
       "name": "D-Love",
       "description": [
-        "A couple with longstanding marital issues lands at LAX after a getaway in Europe. For a few years now, Stefania has been working a job she detests and Dan hasn't worked at all. Their palpable strain is only made worse when a Danish vagabond asks for a ride to the busiest freeway in Los Angeles. Stefania doesn’t want to have anything to do with the hippie looking wanderer, but her husband Dan, much to his wife's horror, offers to bring this total stranger to their home. How will their encounter with this uncanny character affect their marriage? The director invites you on a 3 day journey, seen through Stefania’s eyes, to view and discover that desired change doesn’t always come in the package that we want or expect."
+        "A couple with longstanding marital issues lands at LAX after a getaway in Europe. For a few years now, Stefania has been working a job she detests and Dan hasn't worked at all. Their palpable strain is only made worse when a Danish vagabond asks for a ride to the busiest freeway in Los Angeles. Stefania doesn’t want to have anything to do with the hippie looking wanderer, but her husband Dan, much to his wife's horror, offers to bring this total stranger to their home. How will their encounter with this uncanny character affect their marriage? The director invites you on a 3 day journey, seen through Stefania’s eyes, to view and discover that desired change doesn’t always come in the package that we want or expect.",
+        "<i>This screening will be followed by a Q&A with special guest <a href=\"#elena-beuca\">Elena Beuca</a>.</i>"
       ],
+      "time": "Sunday, November 4, 5:25 PM",
       "artist": "Elena Beuca",
       "length": "96 minutes",
-      "genres": "Drama",
+      "genres": "Comedy/Drama",
       "imagePath": "d_love.jpg",
       "year": "2018",
       "id": "d-love"
-    },
-    {
-      "name": "Miss Christina",
-      "description": [
-        "\"Miss Christina\" is the dramatization of a 1936 novella written by the famous Romanian author and historian of religions, Mircea Eliade. Considered the first Romanian title of the Gothic genre, the film brings its distinct supernatural touch, being deeply rooted in East-European folklore and pagan mythology. It tells the love story between a human and the vampire-like character of a gorgeous young woman who died a violent death in the bloody peasant revolts in Romania in 1907. Known in Romanian as a moroi or a strigoi, Miss Christina comes back from the grave to seduce her niece's fiancé, Egor (played by Tudor Istodor), during his first visit to the countryside family mansion. The lady of the house (played by <a href=\"#maia-morgenstern\">Maia Morgenstern</a>) worships her dead sister’s memory, even to the detriment of her own daughter's sanity and safety. When Egor realizes that his fiancé's life is endangered by his unexplainable lust for Miss Cristina, he decides to fight the moroi."
-      ],
-      "artist": "Alexandru Maftei",
-      "length": "101 minutes",
-      "genres": "Gothic Horror, Mystery, Drama",
-      "imagePath": "miss_christina.jpg",
-      "year": "2013",
-      "id": "miss-christina"
     }
   ],
   "guests": [
     {
       "name": "Maia Morgenstern",
-      "imagePath": "maia_morgenstern.jpg",
+      "imagePath": "maia_morgenstern2.jpg",
       "details": "Legendary Maia Morgenstern has often been described as the \"symbol of Romanian theater and film\" (Florin Mitu, AMOS News). Born in a Jewish family in Bucharest, she studied at the Film and Theatre Academy and went on to become a member of the repertory companies of three prominent Romanian theater organizations — the Piatra Neamț National Theatre (1985 – 1988), the State Jewish Theatre (1988 – present) and the National Theatre (1990 – present). She made her film debut in 1983 with <i>Too Hot for May/ Prea cald pentru luna mai</i>. Since then she has appeared in dozens of Romanian feature films, as well as several international productions, including the English-language <i>Nostradamus</i> (1994), starring F. Murray Abraham and Tchéky Karyo; the Hungarian-language <i>Siódmy pokój</i> (1995) , the English/Greek language <i>Ulysses’ Gaze</i> (1995), in which she co-starred with Harvey Keitel, and the French language feature <i>Marie, Nonna, la vierge et moi</i> (2000). Morgenstern also took on a role in the USA Network TV movie <i>Dark Prince: The True Story of Dracula</i> (2000). She is probably best known for the role of Mary, mother of Jesus, in Mel Gibson's <i>The Passion of the Christ</i> (2004). She performed her role in Aramaic, but unlike the other actors in the cast of the film, she simply memorized her lines phonetically. In Romania, she has been nationally known since her 1992 role as Nela in Lucian Pintilie’s <i>Balanța/ The Oak</i>, set during the waning days of Communist Romania.",
       "photoCaption": "Photo credit: Bogdan Stăncescu",
       "id": "maia-morgenstern"
     },
     {
       "name": "Daniel Sandu",
-      "imagePath": "daniel_sandu.jpg",
+      "imagePath": "daniel_sandu2.jpg",
       "details": "Before starting his career in film, Daniel Sandu studied theology at the Orthodox Seminary \"Saint George\" in the North-East of Romania. He wrote and directed feature films, shorts and TV shows. In 2011, his short \"The Counting Device\", co-produced with Ada Solomon, was selected in official competitions of prestigious film festivals at Sarajevo, Cambridge, Montpellier, Leuven and won the Jury Prize in Leiden. In 2013 he got the Special Prize at the Anonymous Festival in Romania, for his film \"The Second Voice\". \"Horsepower\" was awarded the Prize for the Best Short a year later at the Locarno Film Festival. He continued his collaboration with Ada Solomon for his debut with \"One Step behind the Seraphim\", a film that swept Romania’s Gopo Awards last year. Daniel is now working on a TV series for HBO Romania and on his second feature movie- \"Father Moves Mountains/Tatăl mută munții\" produced by Cristian Mungiu (Mobra Films). This project received the ARTE award at Les Arcs in 2016.",
-      "id": "danielsandu"
+      "id": "daniel-sandu"
+    },
+    {
+      "name": "Bogdan <span style=\"color:rgba(0,0,0,0);\">Darev</span>",
+      "imagePath": "bogdan_darev2.jpg",
+      "details": "Seattle-based producer, director and storyteller Bogdan is a Bulgarian emigrant of 23 years who is still very connected to his heritage and recognizes the role of film in preserving and celebrating cultures across the globe. His most recent documentary film endeavor \"Kaval Park\" is far from about and for Bulgarians only, but an important document of authenticity for all cultures. In addition to documentary films, Bogdan continues to express himself in music videos, photography, literature and is currently developing several fictional film projects.",
+      "id": "bogdan"
+    },
+    {
+      "name": "Andrei Dăscălescu",
+      "imagePath": "andrei_dascalescu2.jpg",
+      "details": "Andrei Dăscălescu (born 1984) started as a radio DJ in his hometown during his teenage years. He then moved to Bucharest to study Sound and Editing at the Film University, at the same time working as a freelance editor and sound engineer for BBC World Service Romania and on many films, including Francis Ford Coppola's Youth Without Youth, as the assistant of the legendary editor Walter Murch. He moved on to make his own films with the awarded short feature Fly, then made his documentary debut with \"Constantin and Elena\", a film that achieved worldwide recognition through multiple festival selections, awards and broadcasts. Planeta Petrila is his second feature-length documentary.",
+      "id": "andrei-dascalescu"
+    },
+    {
+      "name": "Iulia Paula Niculescu",
+      "imagePath": "paula_niculescu2.jpg",
+      "details": "Iulia Paula Niculescu graduated the Acting and Puppeteering Class at the Arts University in Iasi, Romania. In 2015, she organized a campaign for saving the only movie theater in Piatra Neamt, Cinema Dacia. For the past 4 editions, Paula coordinated the Guest and Volunteer departments at Filmul de Piatra film festival. She was an assistant director of the feature documentary Planeta Petrila and is a protagonist of Holy Father, a documentary currently in production.",
+      "id": "iulia-paula-niculescu"
     },
     {
       "name": "Elena Beuca",
-      "imagePath": "elena_beuca.jpg",
+      "imagePath": "elena_beuca2.jpg",
       "details": "Elena Beuca grew up in a small farm town in Transylvania, Romania. After graduating from Law School in Bucharest and working in real estate for a few years, she became interested in the entertainment industry and decided to move to Hollywood. Elena studied at the American Academy of Dramatic Arts. She studied with Ivanna Chubuck, the famous acting coach for Charlize Theron, Halle Berry, Brad Pitt. She has appeared in the HBO comedy series \"Enlightened\", the Fox Network action drama \"Gang Related\" and Nickelodeon's \"Victorious\". Elena has always loved a good challenge, so when a friend introduced her to the 168-film festival (making a short film in a week ) she decided to jump in and direct her first short film. She loved it so much, that she decided to do it again and again and again.. D-love is her first feature film. She is currently working on another feature film that will be shot in the fall in South Carolina.",
       "id": "elena-beuca"
+    },
+    {
+      "name": "Daniel Ursache",
+      "imagePath": "daniel_ursache2.jpg",
+      "details": "Daniel Ursache is an illustrator, painter, print-maker and graphic designer. He was born in Romania, in Turnu Severin, a Romanian city on the northern bank of the Danube. He was raised in Constanta, ancient Greek and then Roman colony on the Black Sea coast, explored geology in Iasi, the former capital of the Moldavian kingdom and studied fine arts in Timisoara, briefly the capital of the Austro-Hungarian Empire. In 2004 he got stranded on the island of Montreal, in the middle of St. Lawrence river and did his post-graduate studies there. He has exhibited his work in Canada, Romania, Poland, Yugoslavia, Holland, Germany and Italy.",
+      "id": "daniel-ursache"
     }
   ]
 }
