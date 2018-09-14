@@ -38,6 +38,10 @@ namespace ARCS.Api
             }
 
             var goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal");
+            if (goal.Current > goal.Max)
+            {
+                goal.Current = goal.Max;
+            }
             goal.Percent = (goal.Current * 100) / goal.Max;
 
             return goal;
