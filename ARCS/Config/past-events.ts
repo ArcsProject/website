@@ -1,5 +1,16 @@
 ﻿let pastEvents = [
     {
+        name: 'Evaluation Day "Româna la Liceu"',
+        description: ["The exact location will be anounced at a later date."],
+        startTime: new Date(2018, 8, 15, 9, 30),
+        endTime: new Date(2017, 8, 15, 12, 30),
+        location: "University of Washington",
+        locationLink: "https://goo.gl/maps/3WK3shnnM7B2",
+        tags: ["education", "heritage"],
+        imagePath: "highschool1.jpg",
+        moreInfoPath: "high-school"
+    },
+    {
         name: "Documentary screening and celebration",
         description: ['You are warmly invited to the final screening of the documentary "Romanian in Seattle", filmed during ARCS Summer Camp (July 23-Aug 4) with director Iulia Rugină and actress Ioana Flora.'],
         startTime: new Date(2018, 7, 5, 14, 0),
