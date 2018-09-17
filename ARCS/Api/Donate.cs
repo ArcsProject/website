@@ -22,7 +22,7 @@ namespace ARCS.Api
             if (target == "filmfest2018")
             {
                 var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
-                return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors?Camapain="+ campaign);
+                return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors?campaignId="+ campaign);
             }
             if (StaticContent.JsonContent.TryGetValue("donors_" + target, out var content))
             {
