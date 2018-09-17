@@ -14,17 +14,6 @@ function EventsController($scope, $stateParams) {
 
     $scope.events = [
         {
-            name: 'Evaluation Day "Româna la Liceu"',
-            description: ["The exact location will be anounced at a later date."],
-            startTime: new Date(2018, 8, 15, 9, 30),
-            endTime: new Date(2017, 8, 15, 12, 30),
-            location: "University of Washington",
-            locationLink: "https://goo.gl/maps/3WK3shnnM7B2",
-            tags: ["education", "heritage"],
-            imagePath: "highschool1.jpg",
-            moreInfoPath: "high-school"
-        },
-        {
             name: "Romanian Cultural Festival",
             description: ["Romanian Cultural Festival"],
             startDate: new Date(2018, 8, 22),
