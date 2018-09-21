@@ -83,7 +83,8 @@
       "genres": "Mystery/Gothic Horror",
       "imagePath": "miss_christina.jpg",
       "year": "2013",
-      "id": "miss-christina"
+      "id": "miss-christina",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47443"
     },
     {
       "name": "Untamed Romania",
@@ -94,7 +95,8 @@
       "genres": "Documentary",
       "imagePath": "romania_neimblanzita1.jpg",
       "year": "2018",
-      "id": "untamed"
+      "id": "untamed",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47444"
     },
     {
       "name": "The Miracle of Tekir",
@@ -107,7 +109,8 @@
       "genres": "Mystery/Drama",
       "imagePath": "tekir.jpg",
       "year": "2015",
-      "id": "tekir"
+      "id": "tekir",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47445"
     },
     {
       "name": "The Treasure",
@@ -120,7 +123,8 @@
       "genres": "Comedy",
       "imagePath": "the_treasure.jpg",
       "year": "2015",
-      "id": "the-treasure"
+      "id": "the-treasure",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47446"
     },
     {
       "name": "One Step Behind the Seraphim",
@@ -135,7 +139,8 @@
       "genres": "Drama",
       "imagePath": "seraphim_poster.jpg",
       "year": "2017",
-      "id": "seraphim"
+      "id": "seraphim",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47447"
     },
     {
       "name": "There",
@@ -149,7 +154,8 @@
       "genres": "Documentary, US Film Premier",
       "imagePath": "there_poster.jpg",
       "year": "2018",
-      "id": "there-movie"
+      "id": "there-movie",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47448"
     },
     {
       "name": "Planeta Petrila",
@@ -163,7 +169,8 @@
       "genres": "Documentary",
       "imagePath": "petrila.jpg",
       "year": "2016",
-      "id": "petrila"
+      "id": "petrila",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47449"
     },
     {
       "name": "The Wanderers, The Quest of the Demon Hunter",
@@ -176,7 +183,8 @@
       "genres": "Drama/Horror/Thriller",
       "imagePath": "wanderers.jpg",
       "year": "2017",
-      "id": "wanderers"
+      "id": "wanderers",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47450"
     },
     {
       "name": "D-Love",
@@ -190,7 +198,8 @@
       "genres": "Comedy/Drama",
       "imagePath": "d_love.jpg",
       "year": "2018",
-      "id": "d-love"
+      "id": "d-love",
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47451"
     }
   ],
   "guests": [
