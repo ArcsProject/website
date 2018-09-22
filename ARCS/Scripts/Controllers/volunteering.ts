@@ -9,6 +9,6 @@ function VolunteeringController($scope, $stateParams, $sce) {
         $scope.iframe = $sce.trustAsResourceUrl('https://arcsproject.secure.force.com/GW_Volunteers__PersonalSiteContactInfo?contactId=' + encodeURIComponent($stateParams['contactId']));
     }
     else {
-        $scope.iframe = $sce.trustAsResourceUrl('https://arcsproject.secure.force.com/GW_Volunteers__PersonalSiteJobCalendar');
+        $scope.iframe = $sce.trustAsResourceUrl('https://arcsproject.secure.force.com/GW_Volunteers__PersonalSiteJobListing');
     }
 }
