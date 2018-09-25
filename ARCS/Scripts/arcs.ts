@@ -254,8 +254,4 @@ app.service('asyncContent', function ($http) {
 app.run(['$rootScope', '$window',
     function ($rootScope, $window) {
         $rootScope.GetUrlWithVersion = $window.GetUrlWithVersion;
-        $(".close-popup").click(function () {
-            $(this).parent().hide();
-            return false;
-        });
 }]);
