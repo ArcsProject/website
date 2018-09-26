@@ -54,7 +54,7 @@
             <div class="row" style="padding:10px;">
                 <div class="col-sm-6">
                     <p>Make the Most out of Halloween weekend this year with our Romanian Film Festival Passes:</p>
-                    <p><a href="http://myaccount.siff.net/pass/index.aspx?pid=1665" target="_blank" class="btn btn-primary">Get your Romanian Film Festival Full Pass</a></p>
+                    <p><a href="http://myaccount.siff.net/pass/index.aspx?pid=1665" target="_blank" class="btn btn-info buy-ticket-button">Get your Romanian Film Festival Full Pass</a></p>
 </div>
                 <div class="col-sm-6">
                     <p>Early Bird General Admission - $10 (Sept 19th to Oct 10th)</p>
@@ -76,7 +76,7 @@
                     <h3 class="panel-title">{{film.name}} (By {{film.artist}})</h3>
                 </div>
                 <div class="col-xs-3">
-                    <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank">Buy Tickets</a>
+                    <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank">BUY TICKETS</a>
                 </div>
             </div>
         </div>
@@ -91,6 +91,7 @@
                     <p ng-repeat="line in film.description" ng-bind-html="line"></p>
                     <p><b>Length:</b> {{film.length}}</p>
                     <p>{{film.year}}, {{film.genres}}</p>
+                    <p><a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank">BUY TICKETS</a></p>
                 </div>
             </div>
         </div>
