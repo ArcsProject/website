@@ -76,7 +76,7 @@
                     <h3 class="panel-title">{{film.name}} (By {{film.artist}})</h3>
                 </div>
                 <div class="col-xs-3">
-                    <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank">BUY TICKETS</a>
+                    <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank"><strong>BUY TICKETS</strong></a>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
                     <p ng-repeat="line in film.description" ng-bind-html="line"></p>
                     <p><b>Length:</b> {{film.length}}</p>
                     <p>{{film.year}}, {{film.genres}}</p>
-                    <p><a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank">BUY TICKETS</a></p>
+                    <p><a ng-if="film.ticketLink" class="btn btn-info buy-ticket-button" href="{{film.ticketLink}}" target="_blank"><strong>BUY TICKETS</strong></a></p>
                 </div>
             </div>
         </div>
