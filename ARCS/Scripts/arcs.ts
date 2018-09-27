@@ -197,6 +197,15 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
                 var myGoogleAnalytics = {};
                 var sendPageview = function () {
                     if ($window.ga) {
+
+                        $('a[href^="http://"], a[href^="https://"]').click(function () {
+                            $window.ga('send', 'event', {
+                                eventCategory: 'Outbound Link',
+                                eventAction: 'click',
+                                eventLabel: $(this).attr('href')
+                            });
+                        });
+
                         $window.ga('set', 'page', $location.path());
                         $window.ga('send', 'pageview');
                     }
