@@ -15,6 +15,7 @@ let TrackOutboundRequests = function () {
             ga('send', 'event', {
                 eventCategory: 'Outbound Link',
                 eventAction: 'click',
+                transport: 'beacon',
                 eventLabel: $(this).attr('href')
             });
         });
