@@ -7,6 +7,20 @@ let GetUrlWithVersion = function (url) {
     return url + "?v=" + (<any>window).vtkn;
 }
 
+let TrackOutboundRequests = function () {
+    let ga = (<any>window).ga;
+    if (ga) {
+        $('a').off("click.trackOutbound");
+        $('a[href^="http://"], a[href^="https://"]').on("click.trackOutbound",function () {
+            ga('send', 'event', {
+                eventCategory: 'Outbound Link',
+                eventAction: 'click',
+                eventLabel: $(this).attr('href')
+            });
+        });
+    }
+}
+
 let app = angular.module("arcsApp", ["ui.router"]);
 
 app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
@@ -197,15 +211,6 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
                 var myGoogleAnalytics = {};
                 var sendPageview = function () {
                     if ($window.ga) {
-
-                        $('a[href^="http://"], a[href^="https://"]').click(function () {
-                            $window.ga('send', 'event', {
-                                eventCategory: 'Outbound Link',
-                                eventAction: 'click',
-                                eventLabel: $(this).attr('href')
-                            });
-                        });
-
                         $window.ga('set', 'page', $location.path());
                         $window.ga('send', 'pageview');
                     }
@@ -263,4 +268,5 @@ app.service('asyncContent', function ($http) {
 app.run(['$rootScope', '$window',
     function ($rootScope, $window) {
         $rootScope.GetUrlWithVersion = $window.GetUrlWithVersion;
+        $rootScope.TrackOutboundRequests = $window.TrackOutboundRequests;
 }]);

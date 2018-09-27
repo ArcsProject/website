@@ -5,6 +5,7 @@
 
 function FilmFestivalController($scope, $sce, asyncContent) {
     $scope.GetUrlWithVersion = GetUrlWithVersion;
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 
     asyncContent.getContent("filmfest2018", $sce, ['name','description', 'details', 'descriptionHtml']).then(function (content) {
         for (var item in content) {
