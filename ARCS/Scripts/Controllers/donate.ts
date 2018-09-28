@@ -4,6 +4,7 @@
 });
 
 function DonateController($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     $scope.GetUrlWithVersion = GetUrlWithVersion;
     $scope.selectedPurpose = "Romanian Film Festival";
     $scope.selectedAmount = "$25";

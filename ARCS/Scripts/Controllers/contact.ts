@@ -4,6 +4,7 @@
 });
 
 function ContactController($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     var onSubmitError = function () {
         $scope.error = true;
         $scope.sent = false;

@@ -4,6 +4,7 @@
 });
 
 function FilmFestival2017Controller($scope, $sce, asyncContent) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     asyncContent.getContent("filmfest2017", $sce, ['description', 'details']).then(function (content) {
         for (var item in content) {
             $scope[item] = content[item];

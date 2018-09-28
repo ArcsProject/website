@@ -4,6 +4,7 @@
 });
 
 function PartnersController($scope, asyncContent) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     asyncContent.getContent("partners").then(function (content) {
         for (var item in content) {
             $scope[item] = content[item];

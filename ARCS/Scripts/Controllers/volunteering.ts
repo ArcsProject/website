@@ -4,6 +4,7 @@
 });
 
 function VolunteeringController($scope, $stateParams, $sce) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     $scope.param1 = $stateParams['contactId'];
     if ($scope.param1) {
         $scope.iframe = $sce.trustAsResourceUrl('https://arcsproject.secure.force.com/GW_Volunteers__PersonalSiteContactInfo?contactId=' + encodeURIComponent($stateParams['contactId']));

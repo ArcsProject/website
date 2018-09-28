@@ -4,4 +4,5 @@
 });
 
 function HeritageApplication($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

@@ -4,4 +4,5 @@
 });
 
 function HeritageMission($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

@@ -4,6 +4,7 @@
 });
 
 function HighSchoolOngoingController($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     $scope.instructors = [
         {
             name: "Otilia Baraboi",

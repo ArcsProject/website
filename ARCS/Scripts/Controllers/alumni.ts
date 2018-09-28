@@ -10,4 +10,5 @@ function AlumniController($scope, asyncContent) {
         }
         $scope.DataLoaded = true;
     });
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

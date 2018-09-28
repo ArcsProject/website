@@ -4,4 +4,5 @@
 });
 
 function HeritageContest2018($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

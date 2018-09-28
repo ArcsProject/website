@@ -4,6 +4,7 @@
 });
 
 function MissionController($scope, asyncContent) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     asyncContent.getContent("mission").then(function (content) {
         for (var item in content) {
             $scope[item] = content[item];

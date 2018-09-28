@@ -4,4 +4,5 @@
 });
 
 function SummerCamp($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

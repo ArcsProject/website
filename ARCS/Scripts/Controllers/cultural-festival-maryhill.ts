@@ -4,4 +4,5 @@
 });
 
 function CulturalFestivalMaryhill($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

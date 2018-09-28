@@ -4,6 +4,7 @@
 });
 
 function PastEventsController($scope, $stateParams) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     $scope.filters = [
         "All",
         "Film",

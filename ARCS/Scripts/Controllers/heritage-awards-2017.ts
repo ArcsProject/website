@@ -4,6 +4,7 @@
 });
 
 function HeritageAwards2017($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     $scope.awardees = [
         {
             name: "Silvia Calinov",

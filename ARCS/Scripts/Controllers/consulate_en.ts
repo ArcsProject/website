@@ -4,4 +4,5 @@
 });
 
 function ConsulateEnController($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

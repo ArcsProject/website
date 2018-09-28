@@ -4,4 +4,5 @@
 });
 
 function HeritageCompetitionRules($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

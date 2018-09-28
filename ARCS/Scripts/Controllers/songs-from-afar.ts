@@ -4,6 +4,7 @@
 });
 
 function SongsFromAfarController($scope, $sce, asyncContent) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     asyncContent.getContent("songs-from-afar", $sce, ['details']).then(function (content) {
         for (var item in content) {
             $scope[item] = content[item];

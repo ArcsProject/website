@@ -5,4 +5,5 @@ angular.module("arcsApp").component("consulateRo", {
 });
 
 function ConsulateRoController($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 };

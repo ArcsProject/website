@@ -4,6 +4,7 @@
 });
 
 function ExcellenceCenterController($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     var innerPopup = $("#excellence-center-popup");
     if (innerPopup != null) {
         innerPopup.parent().hide();

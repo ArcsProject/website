@@ -4,4 +4,5 @@
 });
 
 function PiticotController($scope) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
 }

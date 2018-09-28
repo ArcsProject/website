@@ -4,6 +4,7 @@
 });
 
 function PressController($scope, $sce, asyncContent) {
+    $scope.TrackOutboundRequests = TrackOutboundRequests;
     asyncContent.getContent("press", $sce, ['description']).then(function (content) {
         for (var item in content) {
             $scope[item] = content[item];
