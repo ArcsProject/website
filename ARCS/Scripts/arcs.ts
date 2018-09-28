@@ -28,7 +28,6 @@ let TrackOutboundRequests = function () {
             ga('send', 'event', {
                 eventCategory: 'Outbound Link',
                 eventAction: evntAction,
-                transport: 'beacon',
                 eventLabel: evntLabel,
                 eventValue: evntValue
             });
