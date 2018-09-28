@@ -11,12 +11,26 @@ let TrackOutboundRequests = function () {
     let ga = (<any>window).ga;
     if (ga) {
         $('a').off("click.trackOutbound");
-        $('a[href^="http://"], a[href^="https://"]').on("click.trackOutbound",function () {
+        $('a[href^="http://"], a[href^="https://"]').on("click.trackOutbound", function () {
+            var evntAction = 'click';
+            var evntLabel = $(this).attr('href');
+            var evntValue = '';
+            if ($(this).attr('track-action') != null) {
+                var evntAction = $(this).attr('track-action');
+            }
+            if ($(this).attr('track-target') != null) {
+                var evntLabel = $(this).attr('track-target');
+            }
+            if ($(this).attr('track-custom') != null) {
+                var evntValue = $(this).attr('track-custom');
+            }
+
             ga('send', 'event', {
                 eventCategory: 'Outbound Link',
-                eventAction: 'click',
+                eventAction: evntAction,
                 transport: 'beacon',
-                eventLabel: $(this).attr('href')
+                eventLabel: evntLabel,
+                eventValue: evntValue
             });
         });
     }
