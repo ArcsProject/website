@@ -29,8 +29,7 @@ let TrackOutboundRequests = function () {
                 eventCategory: 'Outbound Link',
                 eventAction: evntAction,
                 transport: 'beacon',
-                eventLabel: evntLabel,
-                eventValue: evntValue
+                eventLabel: evntLabel
             });
         });
     }
