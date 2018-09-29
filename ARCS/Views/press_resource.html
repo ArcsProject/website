@@ -6,7 +6,7 @@
             </div>
             <div class="col-xs-3">
                 <button ng-if="$ctrl.resource.moreInfoPath" class="btn btn-info btn-sm event-button" ui-sref="{{$ctrl.resource.moreInfoPath}}">More Info</button>
-                <a ng-if="$ctrl.resource.moreInfoHref" href="{{$ctrl.resource.moreInfoHref}}" target="_blank" track-target="[MoreInfo] {{$ctrl.resource.title}}"><button class="btn btn-info btn-sm event-button">More Info</button></a>
+                <a ng-if="$ctrl.resource.moreInfoHref" href="{{$ctrl.resource.moreInfoHref}}" target="_blank" track-action="[MoreInfo] {{$ctrl.resource.title}}"><button class="btn btn-info btn-sm event-button">More Info</button></a>
             </div>
         </div>
     </div>
@@ -17,7 +17,7 @@
             </div>
             <div class="col-sm-9">
                 <p ng-if="$ctrl.resource.description" ng-bind-html="desc" ng-repeat="desc in $ctrl.resource.description"></p>
-                <a href="{{$ctrl.resource.mediaResourcesPath}}" target="_blank" track-target="[MediaResources] {{$ctrl.resource.title}}">Media Resources</a>
+                <a href="{{$ctrl.resource.mediaResourcesPath}}" target="_blank" track-action="[MediaResources] {{$ctrl.resource.title}}">Media Resources</a>
             </div>
         </div>
     </div>

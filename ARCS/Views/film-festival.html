@@ -4,13 +4,19 @@
             <h2>The Romanian Film Festival (5th Edition): "One Eye Laughing, One Eye Crying: Uncanny Worlds"</h2>
             <h4><b>November 2-4, 2018, SIFF Cinema Uptown</b></h4>
             <p>Join us on an exploration of the blurred frontiers of reality through Romanian films, celebrating the <b>5th Edition</b> of the <b>Romanian Film Festival in Seattle</b>.</p>
-            <p>In tune with the Halloween spirit of the first week in November, take an imaginary  journey to Romania, and its <b>"Uncanny Worlds"</b>. We plan to challenge values and beliefs in relation to the unusual, unfamiliar, ineffable, incomprehensible, unfathomable, inscrutable, or the unclear, inviting you to a visual feast of mesmerizing film features and documentaries. You will find out that Romanian films, more than ever, reflect the uncanny aspects of reality, history, politics, everyday life, as well as spirituality, folklore, and traditions; in a word, the uncanny essence of human nature.</p>
+            <p>In tune with the Halloween spirit of the first week in November, take an imaginary journey to Romania, and its <b>"Uncanny Worlds"</b>. We plan to challenge values and beliefs in relation to the unusual, unfamiliar, ineffable, incomprehensible,
+                unfathomable, inscrutable, or the unclear, inviting you to a visual feast of mesmerizing film features and documentaries. You will find out that Romanian films, more than ever, reflect the uncanny aspects of reality, history, politics,
+                everyday life, as well as spirituality, folklore, and traditions; in a word, the uncanny essence of human nature.</p>
 
             <div style="margin-bottom: 20px;">
                 <img id="film-fest-flyer" src="../Resources/Images/film_fest_2018/poster.jpg" style="width:100%" alt="ARCS presents: The Romanian Film Festival Seattle (5h edition)" />
-                <p>&nbsp;</p><p>&nbsp;</p>
-                <p style="text-align:justify;">We have made history together: from one of the smallest venues in town with 93 seats (in 2014), we have upgraded the festival to the largest auditoriums @ SIFF CINEMA Uptown with 275 seats (between 2015-2017). From about 750 people attending the first edition, last year we reached a record of approximately 2,300 people, including those who attended the pre and post events. From an ethnic film festival, we have succeeded in making it a Seattle festival where people of all backgrounds watch internationally acclaimed films, learn something about Romanian heritage, and laugh and cry together proving that the festival has earned its title "One Eye Laughing, One Eye Crying".</p>
-                <p style="text-align:justify;">Let us know if you would like to become our business <b>partner ($1,000 +)</b> or <b>sponsor ($500+)</b>. In case you decide to support our beautiful project and fundraising endeavors, ARCS will acknowledge your contribution on all promotional materials – <b>website, Facebook, poster, flyers, and before each screening.</b></p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p style="text-align:justify;">We have made history together: from one of the smallest venues in town with 93 seats (in 2014), we have upgraded the festival to the largest auditoriums @ SIFF CINEMA Uptown with 275 seats (between 2015-2017). From about 750 people attending
+                    the first edition, last year we reached a record of approximately 2,300 people, including those who attended the pre and post events. From an ethnic film festival, we have succeeded in making it a Seattle festival where people of all
+                    backgrounds watch internationally acclaimed films, learn something about Romanian heritage, and laugh and cry together proving that the festival has earned its title "One Eye Laughing, One Eye Crying".</p>
+                <p style="text-align:justify;">Let us know if you would like to become our business <b>partner ($1,000 +)</b> or <b>sponsor ($500+)</b>. In case you decide to support our beautiful project and fundraising endeavors, ARCS will acknowledge your contribution on all promotional
+                    materials – <b>website, Facebook, poster, flyers, and before each screening.</b></p>
                 <p style="text-align:justify;">DO NOT MISS this one of a kind opportunity to gain more visibility, grow, have an impact, and let your community know that you care and belong!</p>
             </div>
         </div>
@@ -48,14 +54,16 @@
         </div>
         <hr />
     </div>
-    <div id="tickets"  class="panel panel-primary">
-        <div class="panel-heading" ><h3 class="panel-title">Tickets and Passes</h3></div>
+    <div id="tickets" class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">Tickets and Passes</h3>
+        </div>
         <div class="panel-body">
             <div class="row" style="padding:10px;">
                 <div class="col-sm-6">
                     <p>Make the Most out of Halloween weekend this year with our Romanian Film Festival Passes:</p>
-                    <p><a href="http://myaccount.siff.net/pass/index.aspx?pid=1665" target="_blank" class="btn btn-info buy-ticket-button" track-action="Buy Ticket" track-target="Full Pass">Get your Romanian Film Festival Full Pass</a></p>
-</div>
+                    <p><a href="http://myaccount.siff.net/pass/index.aspx?pid=1665" target="_blank" class="btn btn-info buy-ticket-button" track-category="Buy Ticket" track-action="Full Pass">Get your Romanian Film Festival Full Pass</a></p>
+                </div>
                 <div class="col-sm-6">
                     <p>Early Bird General Admission - $10 (Sept 19th to Oct 10th)</p>
                     <p>General Admission - $12 (from Oct 11th)</p>
@@ -63,9 +71,9 @@
                     <p>Student - $7</p>
                     <p>Senior - $10</p>
                     <p>Opening Gala + Ticket - $22</p>
-                    </div>
                 </div>
             </div>
+        </div>
     </div>
     <h2 id="films" style="margin-top:-10px;">Films</h2>
     <p>All films have English subtitles</p>
@@ -76,7 +84,7 @@
                     <h3 class="panel-title">{{film.name}} (By {{film.artist}})</h3>
                 </div>
                 <div class="col-xs-3">
-                    <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-action="Buy Ticket" track-target="{{film.name}}" track-custom="title"><strong>BUY TICKETS</strong></a>
+                    <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-category="Buy Ticket" track-action="{{film.name}}" track-custom="title"><strong>BUY TICKETS</strong></a>
                 </div>
             </div>
         </div>
@@ -91,7 +99,7 @@
                     <p ng-repeat="line in film.description" ng-bind-html="line"></p>
                     <p><b>Length:</b> {{film.length}}</p>
                     <p>{{film.year}}, {{film.genres}}</p>
-                    <p><a ng-if="film.ticketLink" class="btn btn-info buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-action="Buy Ticket" track-target="{{film.name}}" track-custom="content"><strong>BUY TICKETS</strong></a></p>
+                    <p><a ng-if="film.ticketLink" class="btn btn-info buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-category="Buy Ticket" track-action="{{film.name}}" track-custom="content"><strong>BUY TICKETS</strong></a></p>
                 </div>
             </div>
         </div>
