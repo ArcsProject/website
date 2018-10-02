@@ -10,7 +10,19 @@
       "imagePath": "film_fest_2018/uncanny_figments.jpg",
       "locationLink": "https://goo.gl/maps/631CakMwHTm",
       "id": "uncannyfigments"
+    },
+    {
+      "name": "Special Screening - Contantin and Elena",
+      "descriptionHtml": [ "A bittersweet love story between the <a href=\"#andrei-dascalescu\">author's</a> grandparents which he followed with his camera over a year. After 55 years of marriage, their love is still strong, despite its \"bitter\" taste that comes with old age. Come see this cinematic tribute to an almost extinct way of life, winner of several prestigious awards among which IDFA, First Appearance Award in 2008 at Amsterdam; Special Jury Mention, in 2009 at Sarajevo Film festival and Best Debut in 2009 at Transilvania Film Festival" ],
+      "date": "2018-10-27T07:00:00.000Z",
+      "startTime": "2018-10-27T16:30:00.000Z",
+      "endTime": "2018-10-27T18:30:00.000Z",
+      "location": "The Romanian Center at The Three Holy Hierarchs Church - 6402 226th St SW, Mountlake Terrace, WA 98043",
+      "imagePath": "film_fest_2018/constantin_elena.jpeg",
+      "locationLink": "https://goo.gl/maps/UU8hNEdJ1mq",
+      "id": "constantin-and-elena"
     }
+
   ],
   "officialPartners": [
     {
