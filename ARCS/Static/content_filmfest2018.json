@@ -5,18 +5,21 @@
       "name": "Uncanny Figments",
       "descriptionHtml": [ "For this celebratory 5th edition, we are thrilled to share the work of an outstanding guest and artist, <a href=\"http://daniel-ursache.com/\" target=\"_blank\">Daniel Ursache</a>. His exhibition, <b>\"Uncanny Figments\"</b>, will be hosted by <b>A/NT Gallery</b> throughout November." ],
       "date": "2018-11-03T07:00:00.000Z",
-      "startTime": "2018-11-04T03:00:00.000Z",
+      "startTime": "2018-11-04T20:00:00.000",
       "location": "A/NT Gallery",
       "imagePath": "film_fest_2018/uncanny_figments.jpg",
       "locationLink": "https://goo.gl/maps/631CakMwHTm",
       "id": "uncannyfigments"
     },
     {
-      "name": "Special Screening - Contantin and Elena",
-      "descriptionHtml": [ "A bittersweet love story between the <a href=\"#andrei-dascalescu\">author's</a> grandparents which he followed with his camera over a year. After 55 years of marriage, their love is still strong, despite its \"bitter\" taste that comes with old age. Come see this cinematic tribute to an almost extinct way of life, winner of several prestigious awards among which IDFA, First Appearance Award in 2008 at Amsterdam; Special Jury Mention, in 2009 at Sarajevo Film festival and Best Debut in 2009 at Transilvania Film Festival" ],
+      "name": "Special Screening - Constantin and Elena (By Andrei Dăscălescu)",
+      "descriptionHtml": [
+        "A bittersweet love story between the <a href=\"#andrei-dascalescu\">author's</a> grandparents which he followed with his camera over a year. After 55 years of marriage, their love is still strong, despite its \"bitter\" taste that comes with old age. Come see this cinematic tribute to an almost extinct way of life, winner of several prestigious awards among which IDFA, First Appearance Award in 2008 at Amsterdam; Special Jury Mention, in 2009 at Sarajevo Film festival and Best Debut in 2009 at Transilvania Film Festival",
+        "<b>Length:</b> 102 minutes"
+      ],
       "date": "2018-10-27T07:00:00.000Z",
-      "startTime": "2018-10-27T16:30:00.000Z",
-      "endTime": "2018-10-27T18:30:00.000Z",
+      "startTime": "2018-10-27T16:30:00.000",
+      "endTime": "2018-10-27T18:30:00.000",
       "location": "The Romanian Center at The Three Holy Hierarchs Church - 6402 226th St SW, Mountlake Terrace, WA 98043",
       "imagePath": "film_fest_2018/constantin_elena.jpeg",
       "locationLink": "https://goo.gl/maps/UU8hNEdJ1mq",
