@@ -100,6 +100,7 @@
                     <p ng-repeat="line in film.description" ng-bind-html="line"></p>
                     <p><b>Length:</b> {{film.length}}</p>
                     <p>{{film.year}}, {{film.genres}}</p>
+                    <p ng-if="film.trailerLink"><a ng-if="film.trailerLink" href="{{film.trailerLink}}" target="_blank" track-category="View Trailer" track-action="{{film.name}}">View Trailer</a></p>
                     <p><a ng-if="film.ticketLink" class="btn btn-info buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-category="Buy Ticket" track-action="{{film.name}}" track-custom="content"><strong>BUY TICKETS</strong></a></p>
                 </div>
             </div>
