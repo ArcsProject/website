@@ -179,7 +179,8 @@
       "imagePath": "there_poster.jpg",
       "year": "2018",
       "id": "there-movie",
-      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47448"
+      "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47448",
+      "trailerLink": "https://www.youtube.com/watch?v=hxzVG3o-7CE"
     },
     {
       "name": "Planeta Petrila",
