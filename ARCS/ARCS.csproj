@@ -605,6 +605,7 @@
     <Compile Include="Api\ContentController.cs" />
     <Compile Include="Api\SendController.cs" />
     <Compile Include="Api\StaticContent.cs" />
+    <Compile Include="Api\StructuredData.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
