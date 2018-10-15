@@ -9,7 +9,11 @@
       "location": "A/NT Gallery",
       "imagePath": "film_fest_2018/uncanny_figments.jpg",
       "locationLink": "https://goo.gl/maps/631CakMwHTm",
-      "id": "uncannyfigments"
+      "id": "uncannyfigments",
+      "structuredStartDate": "2018-11-04T20:00",
+      "structuredEndDate": "2018-11-30",
+      "structuredLocation": "ANT",
+      "structuredPerformers": [ "daniel-ursache" ]
     },
     {
       "name": "Special Screening - Constantin and Elena (By Andrei Dăscălescu)",
@@ -23,7 +27,11 @@
       "location": "The Romanian Center at The Three Holy Hierarchs Church - 6402 226th St SW, Mountlake Terrace, WA 98043",
       "imagePath": "film_fest_2018/constantin_elena.jpeg",
       "locationLink": "https://goo.gl/maps/UU8hNEdJ1mq",
-      "id": "constantin-and-elena"
+      "id": "constantin-and-elena",
+      "structuredStartDate": "2018-10-27T16:30",
+      "structuredEndDate": "2018-10-27T18:30",
+      "structuredLocation": "RomanianCenter",
+      "structuredPerformers": [ "andrei-dascalescu" ]
     }
 
   ],
@@ -104,7 +112,10 @@
       "year": "2013",
       "id": "miss-christina",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47443",
-      "trailerLink": "https://www.youtube.com/watch?v=2aLiNF1NyUo"
+      "trailerLink": "https://www.youtube.com/watch?v=2aLiNF1NyUo",
+      "startDate": "2018-11-2T19:00",
+      "endDate": "2018-11-2T20:40",
+      "structuredPerformers": [ "maia-morgenstern" ]
     },
     {
       "name": "Untamed Romania",
@@ -117,7 +128,9 @@
       "year": "2018",
       "id": "untamed",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47444",
-      "trailerLink": "https://www.youtube.com/watch?v=ZmbCcl52uzA"
+      "trailerLink": "https://www.youtube.com/watch?v=ZmbCcl52uzA",
+      "startDate": "2018-11-3T10:00",
+      "endDate": "2018-11-3T11:30"
     },
     {
       "name": "The Miracle of Tekir",
@@ -132,7 +145,9 @@
       "year": "2015",
       "id": "tekir",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47445",
-      "trailerLink": "https://www.youtube.com/watch?v=ZCv4y0sPjd8"
+      "trailerLink": "https://www.youtube.com/watch?v=ZCv4y0sPjd8",
+      "startDate": "2018-11-3T12:20",
+      "endDate": "2018-11-3T13:50"
     },
     {
       "name": "The Treasure",
@@ -147,7 +162,9 @@
       "year": "2015",
       "id": "the-treasure",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47446",
-      "trailerLink": "https://www.youtube.com/watch?v=t__zAeu66g8"
+      "trailerLink": "https://www.youtube.com/watch?v=t__zAeu66g8",
+      "startDate": "2018-11-3T14:15",
+      "endDate": "2018-11-3T15:45"
     },
     {
       "name": "One Step Behind the Seraphim",
@@ -164,7 +181,10 @@
       "year": "2017",
       "id": "seraphim",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47447",
-      "trailerLink": "https://www.youtube.com/watch?v=i4R1cN7J_Ms"
+      "trailerLink": "https://www.youtube.com/watch?v=i4R1cN7J_Ms",
+      "startDate": "2018-11-3T16:30",
+      "endDate": "2018-11-3T19:00",
+      "structuredPerformers": [ "daniel-sandu" ]
     },
     {
       "name": "There",
@@ -180,7 +200,10 @@
       "year": "2018",
       "id": "there-movie",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47448",
-      "trailerLink": "https://www.youtube.com/watch?v=hxzVG3o-7CE"
+      "trailerLink": "https://www.youtube.com/watch?v=hxzVG3o-7CE",
+      "startDate": "2018-11-4T11:00",
+      "endDate": "2018-11-4T12:30",
+      "structuredPerformers": [ "bogdan" ]
     },
     {
       "name": "Planeta Petrila",
@@ -196,7 +219,10 @@
       "year": "2016",
       "id": "petrila",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47449",
-      "trailerLink": "https://www.youtube.com/watch?v=yO71EdMHbEA"
+      "trailerLink": "https://www.youtube.com/watch?v=yO71EdMHbEA",
+      "startDate": "2018-11-4T13:05",
+      "endDate": "2018-11-4T14:30",
+      "structuredPerformers": [ "andrei-dascalescu", "iulia-paula-niculescu" ]
     },
     {
       "name": "The Wanderers, The Quest of the Demon Hunter",
@@ -211,7 +237,9 @@
       "year": "2017",
       "id": "wanderers",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47450",
-      "trailerLink": "https://www.youtube.com/watch?v=kLCoixTgY3Q"
+      "trailerLink": "https://www.youtube.com/watch?v=kLCoixTgY3Q",
+      "startDate": "2018-11-4T15:00",
+      "endDate": "2018-11-4T16:45"
     },
     {
       "name": "D-Love",
@@ -227,7 +255,10 @@
       "year": "2018",
       "id": "d-love",
       "ticketLink": "https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47451",
-      "trailerLink": "https://www.youtube.com/watch?v=rAjDjPQAVO8"
+      "trailerLink": "https://www.youtube.com/watch?v=rAjDjPQAVO8",
+      "startDate": "2018-11-4T17:25",
+      "endDate": "2018-11-4T19:00",
+      "structuredPerformers": [ "elena-beuca" ]
     }
   ],
   "guests": [
