@@ -1,7 +1,23 @@
 ﻿angular.module("arcsApp").component("filmFestival", {
     templateUrl: GetUrlWithVersion("../../Views/film-festival.html"),
     controller: ['$scope', '$sce', 'asyncContent', FilmFestivalController]
-});
+}).directive('jsonld', ['$filter', '$sce', 'asyncContent', function($filter, $sce, asyncContent) {
+  return {
+    restrict: 'E',
+    template: function() {
+      return '<script type="application/ld+json" ng-bind-html="StructuredData"></script>';
+    },
+    scope: {
+      json: '=json'
+    },
+      link: function ($scope, element, attrs) {
+          asyncContent.getContent("structured_filmfest2018", $sce, null).then(function (content) {
+              $scope.StructuredData = $sce.trustAsHtml($filter('json')(content));
+        });
+    },
+    replace: true
+  };
+}]);
 
 function FilmFestivalController($scope, $sce, asyncContent) {
     $scope.GetUrlWithVersion = GetUrlWithVersion;
