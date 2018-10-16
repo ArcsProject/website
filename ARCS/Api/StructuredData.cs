@@ -14,6 +14,11 @@ namespace ARCS
     {
         public static Lazy<StructuredData> Data = new Lazy<StructuredData>();
 
+        public static string RemoveHtmlTags(string input)
+        {
+            return Regex.Replace(input, "<.*?>", String.Empty);
+        }
+
         public StructuredData()
         {
             try
@@ -117,7 +122,9 @@ namespace ARCS
 
         private struct FilmFestEvent
         {
-            public string Name { get; set; }
+            public string Name { get { return _name; } set { _name = RemoveHtmlTags(value); } }
+
+            private string _name;
 
             public List<string> Description { private get; set; }
 
@@ -142,7 +149,7 @@ namespace ARCS
                 var ret = "";
                 foreach (var d in Description)
                 {
-                    var sanitized = Regex.Replace(d, "<.*?>", String.Empty);
+                    var sanitized = RemoveHtmlTags(d);
                     if (ret == "")
                     {
                         ret += sanitized;
@@ -158,7 +165,9 @@ namespace ARCS
 
         private struct SpecialEvent
         {
-            public string Name { get; set; }
+            public string Name { get { return _name; } set { _name = RemoveHtmlTags(value); } }
+
+            private string _name;
 
             public List<string> DescriptionHtml { private get; set; }
 
@@ -212,7 +221,9 @@ namespace ARCS
 
         private struct GuestItem
         {
-            public string Name { get; set; }
+            public string Name { get { return _name; } set { _name = RemoveHtmlTags(value); } }
+
+            private string _name;
 
             public string Id { get; set; }
 
