@@ -71,6 +71,7 @@ namespace ARCS
                         {
                             Name = film.Name,
                             Description = film.GetShortDescription(),
+                            Url = film.Url,
                             Location = Structured.LocationType.SiffUptown,
                             StartDate = film.StartDate,
                             EndDate = film.EndDate,
@@ -101,6 +102,7 @@ namespace ARCS
                         {
                             Name = specialEvent.Name,
                             Description = specialEvent.GetShortDescription(),
+                            Url = specialEvent.Url,
                             Location = specialEvent.GetLocation(),
                             Image = specialEvent.ImagePath,
                             StartDate = specialEvent.StructuredStartDate,
@@ -128,6 +130,10 @@ namespace ARCS
             public string TicketLink { get; set; }
 
             private string _imgUrl;
+
+            public string Id { get; set; }
+
+            public string Url { get { return "https://arcsproject.org/film-festival#" + Id; } }
 
             public List<string> structuredPerformers { get; set; }
 
@@ -165,6 +171,10 @@ namespace ARCS
             public string ImagePath { get { return _imgUrl; } set { _imgUrl = "https://arcsproject.org/Resources/Images/" + value; } }
 
             private string _imgUrl;
+
+            public string Id { get; set; }
+
+            public string Url { get { return "https://arcsproject.org/film-festival#" + Id; } }
 
             public List<string> structuredPerformers { get; set; }
 
@@ -226,6 +236,8 @@ namespace ARCS
                 public string Name { get; set; }
 
                 public string Description { get; set; }
+
+                public string Url { get; set; }
 
                 public LocationType Location { get; set; }
 
