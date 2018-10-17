@@ -376,6 +376,7 @@
     <Content Include="Resources\Images\film_fest_2018\constantin_elena.jpeg" />
     <Content Include="Resources\Images\film_fest_2018\vivian_hua.jpg" />
     <Content Include="Resources\Images\film_fest_2018\kingfm.jpg" />
+    <Content Include="Resources\Images\film_fest_2018\nwff.jpg" />
     <Content Include="Resources\Images\Florin Lazarescu %28Photo by Daniel Zilcsak%29.jpg" />
     <Content Include="Resources\Images\GloriaMan.jpg" />
     <Content Include="Resources\Images\grads.jpg" />
@@ -517,6 +518,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Resources\Images\logo.png" />
+    <Content Include="Resources\Images\logo_white_bkg.png" />
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Fonts\External\glyphicons-halflings-regular.eot" />
     <Content Include="Fonts\External\glyphicons-halflings-regular.ttf" />
