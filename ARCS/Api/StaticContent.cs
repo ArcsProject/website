@@ -17,7 +17,7 @@ namespace ARCS
                 _json.Add(fileInfo.Name.Substring(0, fileInfo.Name.LastIndexOf('.')), MinifyJson(LoadContent(file)));
             }
 
-            _json["content_structured_filmfest2018"] = StructuredData.Data.Value.FilmFest2018;
+            _json["content_structured_filmfest2018"] = StructuredData.Generator.Data.Value.FilmFest2018;
         }
 
         public static IDictionary<string, string> JsonContent
