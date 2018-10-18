@@ -607,7 +607,18 @@
     <Compile Include="Api\ContentController.cs" />
     <Compile Include="Api\SendController.cs" />
     <Compile Include="Api\StaticContent.cs" />
-    <Compile Include="Api\StructuredData.cs" />
+    <Compile Include="Api\StructuredData\Event.cs" />
+    <Compile Include="Api\StructuredData\Generator.cs" />
+    <Compile Include="Api\StructuredData\Location.cs" />
+    <Compile Include="Api\StructuredData\Offer.cs" />
+    <Compile Include="Api\StructuredData\Organization.cs" />
+    <Compile Include="Api\StructuredData\Person.cs" />
+    <Compile Include="Utils\Utils.cs" />
+    <Compile Include="Api\WebsiteData\CommonContentProperties.cs" />
+    <Compile Include="Api\WebsiteData\Constants.cs" />
+    <Compile Include="Api\WebsiteData\Film.cs" />
+    <Compile Include="Api\WebsiteData\FilmFestEvent.cs" />
+    <Compile Include="Api\WebsiteData\FilmFestGuest.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
