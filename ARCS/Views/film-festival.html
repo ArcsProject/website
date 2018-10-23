@@ -4,24 +4,27 @@
             <h2>The Romanian Film Festival (5th Edition): "One Eye Laughing, One Eye Crying: Uncanny Worlds"</h2>
             <h4><b>November 2-4, 2018, SIFF Cinema Uptown</b></h4>
             <p>Join us on an exploration of the blurred frontiers of reality through Romanian films, celebrating the <b>5th Edition</b> of the <b>Romanian Film Festival in Seattle</b>.</p>
-            <p>In tune with the Halloween spirit of the first week in November, take an imaginary journey to Romania, and its <b>"Uncanny Worlds"</b>. We plan to challenge values and beliefs in relation to the unusual, unfamiliar, ineffable, incomprehensible,
+            <p>
+                In tune with the Halloween spirit of the first week in November, take an imaginary journey to Romania, and its <b>"Uncanny Worlds"</b>. We plan to challenge values and beliefs in relation to the unusual, unfamiliar, ineffable, incomprehensible,
                 unfathomable, inscrutable, or the unclear, inviting you to a visual feast of mesmerizing film features and documentaries. You will find out that Romanian films, more than ever, reflect the uncanny aspects of reality, history, politics,
-                everyday life, as well as spirituality, folklore, and traditions; in a word, the uncanny essence of human nature.</p>
+                everyday life, as well as spirituality, folklore, and traditions; in a word, the uncanny essence of human nature.
+            </p>
 
             <div style="margin-bottom: 20px;">
-                <img id="film-fest-flyer" src="../Resources/Images/film_fest_2018/poster.jpg" style="width:100%" alt="ARCS presents: The Romanian Film Festival Seattle (5h edition)" />
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p style="text-align:justify;">We have made history together: from one of the smallest venues in town with 93 seats (in 2014), we have upgraded the festival to the largest auditoriums @ SIFF CINEMA Uptown with 275 seats (between 2015-2017). From about 750 people attending
+                <p><iframe class="embedded-video" src="https://player.vimeo.com/video/295873453?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+                <p style="text-align:justify;">
+                    We have made history together: from one of the smallest venues in town with 93 seats (in 2014), we have upgraded the festival to the largest auditoriums @ SIFF CINEMA Uptown with 275 seats (between 2015-2017). From about 750 people attending
                     the first edition, last year we reached a record of approximately 2,300 people, including those who attended the pre and post events. From an ethnic film festival, we have succeeded in making it a Seattle festival where people of all
-                    backgrounds watch internationally acclaimed films, learn something about Romanian heritage, and laugh and cry together proving that the festival has earned its title "One Eye Laughing, One Eye Crying".</p>
-                <p style="text-align:justify;">Let us know if you would like to become our business <b>partner ($1,000 +)</b> or <b>sponsor ($500+)</b>. In case you decide to support our beautiful project and fundraising endeavors, ARCS will acknowledge your contribution on all promotional
-                    materials – <b>website, Facebook, poster, flyers, and before each screening.</b></p>
+                    backgrounds watch internationally acclaimed films, learn something about Romanian heritage, and laugh and cry together proving that the festival has earned its title "One Eye Laughing, One Eye Crying".
+                </p>
+                <p style="text-align:justify;">
+                    Let us know if you would like to become our business <b>partner ($1,000 +)</b> or <b>sponsor ($500+)</b>. In case you decide to support our beautiful project and fundraising endeavors, ARCS will acknowledge your contribution on all promotional
+                    materials – <b>website, Facebook, poster, flyers, and before each screening.</b>
+                </p>
                 <p style="text-align:justify;">DO NOT MISS this one of a kind opportunity to gain more visibility, grow, have an impact, and let your community know that you care and belong!</p>
             </div>
         </div>
         <div class="col-sm-4" style="margin-top:25px;">
-            <p><iframe class="embedded-video" src="https://player.vimeo.com/video/295873453?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
             <div style="padding-left:15px;text-align:justify;margin-top:20px;">
                 <p><b>CROWDFUNDING Campaign</b></p>
                 <p><b>Please support</b> the 5th edition of the Romanian Film Festival. Donating is easy and secure through our website, choose your desired level of donation and click on the <b>Donate</b> button:</p>
@@ -110,8 +113,14 @@
     </div>
     <h2 id="special-events">Special Events</h2>
     <event event="event" ng-repeat="event in specialEvents | orderBy: 'date'"></event>
+    <div class="row">
+        <div class="col-sm-12">
+            <img id="film-fest-flyer" src="../Resources/Images/film_fest_2018/poster.jpg" style="display:block;max-width:100%;margin:auto;" alt="ARCS presents: The Romanian Film Festival Seattle (5h edition)" />
+        </div>
+    </div>
     <h2 id="supporters">Supporters</h2>
     <h3 id="official-partners">Festival Official Partners ($2000+)</h3>
+
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="partner in officialPartners">
             <a href="{{partner.link}}" class="thumbnail" style="position:relative" target="_blank">
@@ -119,6 +128,7 @@
             </a>
         </div>
     </div>
+
     <h3 id="partners">Partners ($1000+)</h3>
     <div class="row">
         <div class="col-sm-6 col-md-4" ng-repeat="partner in partners">
