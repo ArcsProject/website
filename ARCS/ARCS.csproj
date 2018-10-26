@@ -341,6 +341,7 @@
     <Content Include="Resources\Images\film_festival\poster_2014.jpg" />
     <Content Include="Resources\Images\film_festival\poster_2015.jpg" />
     <Content Include="Resources\Images\film_festival\poster_2016.jpg" />
+    <Content Include="Resources\Images\film_fest_2018\connect_lounge.png" />
     <Content Include="Resources\Images\film_fest_2018\poster1email.jpg" />
     <Content Include="Resources\Images\film_fest_2018\poster.jpg" />
     <Content Include="Resources\Images\film_fest_2018\4culture.png" />

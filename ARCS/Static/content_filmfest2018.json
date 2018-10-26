@@ -114,6 +114,10 @@
     {
       "link": "https://nwfilmforum.org",
       "imagePath": "nwff.jpg"
+    },
+    {
+      "link": "http://www.connectloungeseattle.com/",
+      "imagePath": "connect_lounge.png"
     }
   ],
   "films": [
