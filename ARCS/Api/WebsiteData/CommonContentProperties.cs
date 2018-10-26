@@ -8,7 +8,7 @@ namespace ARCS.WebsiteData
 
         public string Id { get; set; }
 
-        public string ImagePath { get { return _imgUrl.AbsoluteUri; } set { _imgUrl = new Uri(GetImageBaseUrl(), value); } }
+        public string ImagePath { get { return _imgUrl != null? _imgUrl.AbsoluteUri: ""; } set { _imgUrl = new Uri(GetImageBaseUrl(), value); } }
 
         public string Url { get { return $"{GetWebPageBaseUrl().AbsoluteUri}#{Id}"; } }
 

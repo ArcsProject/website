@@ -2,6 +2,22 @@
 
   "specialEvents": [
     {
+      "name": "Opening Gala",
+      "descriptionHtml": [
+        "The Opening Gala will take place @ SIFF FILM CENTER , within walking distance from SIFF Cinema Uptown. Please purchase your ticket of only $10 to be admitted to the Opening Gala and meet in person our festival guests.",
+        "<a class=\"btn btn-info buy-ticket-button\" href=\"https://myaccount.siff.net/tickets/buy.aspx?fid=317&id=47443\" target=\"_blank\" track-category=\"Buy Ticket\" track-action=\"Gala\"><strong>BUY TICKETS</strong></a>"
+      ],
+      "date": "2018-11-02T07:00:00.000Z",
+      "startTime": "2018-11-02T21:30:00.000",
+      "endTime": "2018-11-02T22:30:00.000",
+      "location": "SIFF Film Center - 305 Harrison St, Seattle, WA 98109",
+      "locationLink": "https://goo.gl/maps/KYZhZWeUTMz",
+      "id": "opening-gala",
+      "structuredStartDate": "2018-11-02T21:30",
+      "structuredEndDate": "2018-11-02T22:30",
+      "structuredLocation": "SiffFilmCenter"
+    },
+    {
       "name": "Uncanny Figments",
       "descriptionHtml": [ "For this celebratory 5th edition, we are thrilled to share the work of an outstanding guest and artist, <a href=\"http://daniel-ursache.com/\" target=\"_blank\">Daniel Ursache</a>. His exhibition, <b>\"Uncanny Figments\"</b>, will be hosted by <b>A/NT Gallery</b> throughout November." ],
       "date": "2018-11-03T07:00:00.000Z",
@@ -33,7 +49,6 @@
       "structuredLocation": "RomanianCenter",
       "structuredPerformers": [ "andrei-dascalescu" ]
     }
-
   ],
   "officialPartners": [
     {
