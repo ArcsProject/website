@@ -341,6 +341,7 @@
     <Content Include="Resources\Images\film_festival\poster_2014.jpg" />
     <Content Include="Resources\Images\film_festival\poster_2015.jpg" />
     <Content Include="Resources\Images\film_festival\poster_2016.jpg" />
+    <Content Include="Resources\Images\film_fest_2018\connect_lounge.png" />
     <Content Include="Resources\Images\film_fest_2018\poster1email.jpg" />
     <Content Include="Resources\Images\film_fest_2018\poster.jpg" />
     <Content Include="Resources\Images\film_fest_2018\4culture.png" />
@@ -378,6 +379,7 @@
     <Content Include="Resources\Images\film_fest_2018\kingfm.jpg" />
     <Content Include="Resources\Images\film_fest_2018\nwff.jpg" />
     <Content Include="Resources\Images\film_fest_2018\maryna_ajaja.jpg" />
+    <Content Include="Resources\Images\film_fest_2018\gala.jpg" />
     <Content Include="Resources\Images\Florin Lazarescu %28Photo by Daniel Zilcsak%29.jpg" />
     <Content Include="Resources\Images\GloriaMan.jpg" />
     <Content Include="Resources\Images\grads.jpg" />
@@ -556,7 +558,6 @@
     <Content Include="Views\film.html" />
     <Content Include="Resources\Press\Fall 2017 Events Press Release.pdf" />
     <Content Include="Resources\Press\Romanian Film Fest Press Release.pdf" />
-    <Content Include="Resources\favicon\site.webmanifest" />
     <Content Include="Static\donors_filmfest2017.json" />
     <Content Include="Static\content_filmfest2017.json" />
     <Content Include="Static\content_filmfest2018.json" />
@@ -566,6 +567,7 @@
     <Content Include="Static\content_partners.json" />
     <Content Include="Static\content_songs-from-afar.json" />
     <Content Include="Static\content_press.json" />
+    <None Include="site.webmanifest.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>

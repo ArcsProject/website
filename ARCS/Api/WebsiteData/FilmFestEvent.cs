@@ -31,6 +31,10 @@ namespace ARCS.WebsiteData.FilmFest
             {
                 return Location.RomanianCenter;
             }
+            if (StructuredLocation == "SiffFilmCenter")
+            {
+                return Location.SiffFilmCenter;
+            }
             return default(Location);
         }
 

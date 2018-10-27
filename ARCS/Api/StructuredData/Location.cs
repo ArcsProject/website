@@ -6,6 +6,8 @@ namespace ARCS.StructuredData
     {
         public static readonly Location SiffUptown = new Location() { Name = "SIFF Cinema Uptown", Address = new AddressType() { StreetAddress = "511 Queen Anne Avenue N", AddressLocality = "Seattle", PostalCode = "98109", AddressRegion = "WA", AddressCountry = "US" } };
 
+        public static readonly Location SiffFilmCenter = new Location() { Name = "SIFF Film Center", Address = new AddressType() { StreetAddress = "305 Harrison St", AddressLocality = "Seattle", PostalCode = "98109", AddressRegion = "WA", AddressCountry = "US" } };
+
         public static readonly Location AntGallery = new Location() { Name = "A/NT Gallery", Address = new AddressType() { StreetAddress = "305 Harrison Street", AddressLocality = "Seattle", PostalCode = "98109", AddressRegion = "WA", AddressCountry = "US" } };
 
         public static readonly Location RomanianCenter = new Location() { Name = "The Romanian Center at The Three Holy Hierarchs Church", Address = new AddressType() { StreetAddress = "6402 226th Street SW", AddressLocality = "Mountlake Terrace", PostalCode = "98043", AddressRegion = "WA", AddressCountry = "US" } };
