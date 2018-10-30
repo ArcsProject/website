@@ -81,6 +81,10 @@
         {
             "link": "http://www.traduterra.com",
             "imagePath": "traduterra.png"
+        },
+        {
+            "link": "https://www.mediterranean-inn.com",
+            "imagePath": "medinn.jog"
         }
     ],
     "sponsors": [{
