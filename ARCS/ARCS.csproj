@@ -303,6 +303,8 @@
     <Content Include="Resources\Images\excellence\BNNExcellence_414x736.jpg" />
     <Content Include="Resources\Images\excellence\IoanaFlora.jpg" />
     <Content Include="Resources\Images\excellence\IuliaRugina.jpg" />
+    <Content Include="Resources\Images\excellence\uw.png" />
+    <Content Include="Resources\Images\excellence\xr-journeys.png" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1024x1366.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1300x312.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1366x768.jpg" />
