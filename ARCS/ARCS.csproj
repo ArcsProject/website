@@ -297,7 +297,10 @@
     <Content Include="Resources\Images\board\MarySherhart.jpg" />
     <Content Include="Resources\Images\board\RaduSimionescu.jpg" />
     <Content Include="Resources\Images\board\RalucaHera.jpg" />
+    <Content Include="Resources\Images\excellence\around_the_world.jpg" />
     <Content Include="Resources\Images\excellence\BNNExcellence_1300x312.jpg" />
+    <Content Include="Resources\Images\excellence\calendar.jpg" />
+    <Content Include="Resources\Images\excellence\Otilia_Baraboi.jpg" />
     <Content Include="Resources\Images\excellence\popup.png" />
     <Content Include="Resources\Images\excellence\popup_mob.png" />
     <Content Include="Resources\Images\excellence\BNNExcellence_414x736.jpg" />
@@ -305,7 +308,11 @@
     <Content Include="Resources\Images\excellence\BNNExcellence_2019_414x736.jpg" />
     <Content Include="Resources\Images\excellence\IoanaFlora.jpg" />
     <Content Include="Resources\Images\excellence\IuliaRugina.jpg" />
+    <Content Include="Resources\Images\excellence\povesti.jpg" />
+    <Content Include="Resources\Images\excellence\secret_society.jpg" />
+    <Content Include="Resources\Images\excellence\songs_and_poems.jpg" />
     <Content Include="Resources\Images\excellence\uw.png" />
+    <Content Include="Resources\Images\excellence\volunteering.jpg" />
     <Content Include="Resources\Images\excellence\xr-journeys.png" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1024x1366.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_1300x312.jpg" />
