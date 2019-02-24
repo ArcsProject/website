@@ -314,6 +314,8 @@
     <Content Include="Resources\Images\excellence\uw.png" />
     <Content Include="Resources\Images\excellence\volunteering.jpg" />
     <Content Include="Resources\Images\excellence\xr-journeys.png" />
+    <Content Include="Resources\Images\summer_camp_2019\main_page_desktop.png" />
+    <Content Include="Resources\Images\summer_camp_2019\main_page_mobile.png" />
     <Content Include="Resources\Images\summer_camp_2019\BannerDesktopSummerCamp.png" />
     <Content Include="Resources\Images\summer_camp_2019\img1.png" />
     <Content Include="Resources\Images\summer_camp_2019\img2.png" />
