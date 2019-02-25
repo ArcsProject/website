@@ -198,6 +198,11 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         url: "^/summer-camp",
         template: "<summer-camp></summer-camp>"
     };
+    states["summer-camp-2018"] = {
+        name: "summer-camp-2018",
+        url: "^/summer-camp-2018",
+        template: "<summer-camp2018></summer-camp2018>"
+    };
 
     states["cultural-festival-maryhill"] = {
         name: "cultural-festival-maryhill",

@@ -6,8 +6,8 @@
 function DonateController($scope) {
     $scope.TrackOutboundRequests = TrackOutboundRequests;
     $scope.GetUrlWithVersion = GetUrlWithVersion;
-    $scope.selectedPurpose = "Romanian Film Festival";
-    $scope.selectedAmount = "$25";
+    $scope.selectedPurpose = "The Center of Excellence Romanian in Action";
+    $scope.selectedAmount = "$50";
 
     $scope.purposes = [
         "Romanian Film Festival",
@@ -32,7 +32,7 @@ function DonateController($scope) {
         "Custom amount"
     ];
 
-    $scope.selectedAmount = $scope.amounts[3];
+    $scope.selectedAmount = $scope.amounts[4];
 
     $scope.setSelectedAmount = function ($event, amount) {
         $event.preventDefault();
