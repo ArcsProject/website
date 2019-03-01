@@ -144,6 +144,11 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
         url: "^/excellence-center",
         template: "<excellence-center></excellence-center>"
     };
+    states["roact"] = {
+        name: "excellence-center-roact",
+        url: "^/roact",
+        template: "<excellence-center></excellence-center>"
+    };
 
     states["donate"] = {
         name: "donate",
