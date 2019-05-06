@@ -316,7 +316,9 @@
     <Content Include="Resources\Images\excellence\xr-journeys.png" />
     <Content Include="Resources\Images\siff_content\siff2019_2600x624.png" />
     <Content Include="Resources\Images\siff_content\siff2019_828x1472.png" />
+    <Content Include="Resources\Images\summer_camp_2019\BannerDesktopSummerCamp2.png" />
     <Content Include="Resources\Images\summer_camp_2019\main_page_desktop.png" />
+    <Content Include="Resources\Images\summer_camp_2019\main_page_desktop2.png" />
     <Content Include="Resources\Images\summer_camp_2019\main_page_mobile.png" />
     <Content Include="Resources\Images\summer_camp_2019\BannerDesktopSummerCamp.png" />
     <Content Include="Resources\Images\summer_camp_2019\img1.png" />
@@ -464,6 +466,7 @@
     <Content Include="Resources\Images\siff_content\siff2018_2600x624.jpg" />
     <Content Include="Resources\Images\siff_content\siff2018_828x1472.jpg" />
     <Content Include="Resources\Images\summer_camp.png" />
+    <Content Include="Resources\Images\summer_camp_2019\main_page_mobile2.png" />
     <Content Include="Resources\Images\tanase_0.jpg" />
     <Content Include="Resources\Images\ThisBabaFBprofile.jpg" />
     <Content Include="Resources\Images\thisbabamovie- Poster .jpg" />
