@@ -1,14 +1,7 @@
-﻿using System;
-using System.Net.Http;
-using System.Web.Http;
-using System.Net.Mail;
-using System.Configuration;
-using System.Threading.Tasks;
-using System.Collections.Specialized;
-using System.Net;
+﻿using System.Configuration;
 using System.Threading;
-using System.Web;
-using System.Web.Configuration;
+using System.Threading.Tasks;
+using System.Web.Http;
 
 
 namespace ARCS.Api
@@ -19,15 +12,15 @@ namespace ARCS.Api
         [ActionName("donors")]
         public async Task<object> GetDonoros(string target)
         {
-            if (target == "filmfest2018")
-            {
-                var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
-                return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors?campaignId="+ campaign);
-            }
             if (StaticContent.JsonContent.TryGetValue("donors_" + target, out var content))
             {
                 return await Task.FromResult<string>(content);
             }
+            //if (target == "filmfest2019")
+            //{
+            //    var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
+            //    return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors?campaignId=" + campaign);
+            //}
             return await NotFound().ExecuteAsync(new CancellationToken());
         }
 
@@ -35,15 +28,29 @@ namespace ARCS.Api
         [ActionName("progress")]
         public async Task<object> GetDonationProgress(string target)
         {
-            if (target != _targetFilmFest2018)
+            Campaign goal = new Campaign();
+
+            switch (target)
             {
-
-                return await NotFound().ExecuteAsync(new CancellationToken());
+                case _targetFilmFest2018:
+                    {
+                        goal.Max = 20000;
+                        goal.Current = 18951;
+                        break;
+                    }
+                case _targetFilmFest2019:
+                    {
+                        goal.Max = 20000;
+                        goal.Current = 0;
+                        //var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
+                        //goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal?campaignId=" + campaign);
+                        break;
+                    }
+                default:
+                    {
+                        return await NotFound().ExecuteAsync(new CancellationToken());
+                    }
             }
-         
-            var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
-            var goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal?campaignId="+ campaign);
-
             if (goal.Current > goal.Max)
             {
                 goal.Current = goal.Max;
@@ -60,6 +67,7 @@ namespace ARCS.Api
             public double Percent { get; set; }
         }
 
-        private static readonly string _targetFilmFest2018 = "film2018";
+        private const string _targetFilmFest2018 = "film2018";
+        private const string _targetFilmFest2019 = "film2019";
     }
 }

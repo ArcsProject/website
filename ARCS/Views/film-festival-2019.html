@@ -1,0 +1,115 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-sm-8" style="text-align:justify;margin-top:10px;">
+            <h2>Romanian Film Festival - 6th Edition</h2>
+            <h4><b>(SIFF Cinema Uptown, November 15-17, 2019)</b></h4>
+            <h2><b>STORIES OFF THE WALL</b></h2>
+
+            <p>
+                Join us in celebrating 30 years since the Fall of the Berlin Wall! The 6th edition of the Romanian Film Festival, entitled "One Eye Laughing, One Eye Crying: Stories OFF the Wall", brings you Romanian and Eastern European cinema echoing the political, economic and existential dilemmas that have reshaped Europe in the aftermath of the Cold War.
+                Bounced OFF a wall that divided families, generations and nations, these stories harness the unfying power of film to create new bridges, in a universal quest for shared meaning.
+            </p>
+
+            <div style="margin-bottom: 20px;">
+                <img class="media-object" src="../Resources/Images/film_fest_2019/rff_flyer.jpg" alt="Romanian Film Festival - 6th edition flyer" />
+            </div>
+        </div>
+        <div class="col-sm-4" style="margin-top:25px;">
+            <div style="padding-left:15px;text-align:justify;margin-top:20px;">
+                <p><b>CROWDFUNDING Campaign</b></p>
+                <p><b>Please support</b> the 6th edition of the Romanian Film Festival. Donating is easy and secure through our website, choose your desired level of donation and click on the <b>Donate</b> button:</p>
+            </div>
+            <ng-include src="GetUrlWithVersion('Views/pie-chart.html')" ng-init="targetDonation='film2019';chartWidth='50%';showNewGoalMsg=true;"></ng-include>
+            <ng-include src="GetUrlWithVersion('Views/film-fest-donate.html')" ng-init="expanded=false"></ng-include>
+            <p style="text-align:center;">
+                Checks are welcome. Please address them to:<br />
+                <span>American Romanian Cultural Society</span><br />
+                <span>1931 E Lynn St</span><br />
+                <span>Seattle, WA 98112</span><br />
+            </p>
+        </div>
+    </div>
+    <!--<h2>Pre-Events</h2>
+    <event event="event" ng-repeat="event in events | orderBy: 'date'"></event>-->
+   <!-- <h2 id="guests">Guests</h2>
+    <div ng-repeat="guest in guests">
+        <div class="row">
+            <div class="col-sm-3" id="{{guest.id}}">
+                <img class="media-object guest" src="../Resources/Images/film_fest_2019/{{guest.imagePath}}" alt="Image of {{guest.name}}">
+                <span ng-if="guest.photoCaption">
+                    <em style="margin-top:-15px;" class="pull-right">{{guest.photoCaption}}</em>
+                </span>
+            </div>
+            <div class="col-sm-9">
+                <h4 class="media-heading" ng-bind-html="guest.name"></h4>
+                <p ng-bind-html="guest.details"></p>
+            </div>
+        </div>
+        <hr />
+    </div>
+       -->
+   <!-- <h2 id="films" style="margin-top:-10px;">Films</h2>
+    <p>All films have English subtitles</p>
+    <div class="panel panel-primary" ng-repeat="film in films">
+        <div class="panel-heading" id="{{film.id}}">
+            <div class="row">
+                <div class="col-xs-9">
+                    <h3 class="panel-title">{{film.name}} (By {{film.artist}})</h3>
+                </div>
+                <div class="col-xs-3">
+                    <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-category="Buy Ticket" track-action="{{film.name}}" track-custom="title"><strong>BUY TICKETS</strong></a>
+                </div>
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img class="media-object film" src="../Resources/Images/film_fest_2019/{{film.imagePath}}" alt="Image for {{film.name}}">
+                </div>
+                <div class="col-sm-9">
+                    <h4 ng-if="film.time">{{film.time}}</h4>
+                    <p ng-if="film.guests"><b>Guests in attendance:</b> {{film.guests}}</p>
+                    <p ng-repeat="line in film.description" ng-bind-html="line"></p>
+                    <p><b>Length:</b> {{film.length}}</p>
+                    <p>{{film.year}}, {{film.genres}}</p>
+                    <p ng-if="film.trailerLink"><a ng-if="film.trailerLink" href="{{film.trailerLink}}" target="_blank" track-category="View Trailer" track-action="{{film.name}}">View Trailer</a></p>
+                    <p><a ng-if="film.ticketLink" class="btn btn-info buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-category="Buy Ticket" track-action="{{film.name}}" track-custom="content"><strong>BUY TICKETS</strong></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+       -->
+    <h2 id="special-events">Special Events</h2>
+    <event event="event" ng-repeat="event in specialEvents | orderBy: 'date'"></event>
+    <!--<h2 id="supporters">Supporters</h2>
+    <h3 id="official-partners">Festival Official Partners ($2000+)</h3>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-repeat="partner in officialPartners">
+            <a href="{{partner.link}}" class="thumbnail" style="position:relative" target="_blank">
+                <img ng-src="../Resources/Images/film_fest_2019/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image-new">
+            </a>
+        </div>
+    </div>
+
+    <h3 id="partners">Partners ($1000+)</h3>
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-repeat="partner in partners">
+            <a href="{{partner.link}}" class="thumbnail" style="position:relative" target="_blank">
+                <img ng-src="../Resources/Images/film_fest_2019/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image-new">
+            </a>
+        </div>
+    </div>
+    <h3 id="sponsors">Sponsors ($500+)</h3>
+    <div class="row">
+        <div class="col-sm-6 col-md-4" ng-repeat="sponsor in sponsors">
+            <a href="{{sponsor.link}}" class="thumbnail" style="position:relative" target="_blank">
+                <img ng-src="../Resources/Images/film_fest_2019/{{sponsor.imagePath}}" alt="Logo for {{sponsor.link}}" class="sponsor-image-new">
+            </a>
+        </div>
+    </div>
+    <donors campaign="filmfest2019" heading="Private Donors" titles="donorGroupTitles"></donors>
+        -->
+</div>
+<jsonld data-json="jsonId2"></jsonld>
+{{TrackOutboundRequests()}}

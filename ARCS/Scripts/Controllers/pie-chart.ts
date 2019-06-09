@@ -5,7 +5,7 @@ function PieChartController($scope) {
     $scope.progressCurrent = 0;
     $scope.progressLeftPercentage = 629;
     $scope.goalPercentage = 0;
-    $scope.newGoalMsg = "Thank you! We have reached our first fundraising goal! Let's keep the story going!";
+    $scope.newGoalMsg = "Thank you! Let's keep the story going!";
     
     $scope.initPieChartData = function () {
         $scope.GetDonationProgress($scope.targetDonation, function (result) {
@@ -28,6 +28,9 @@ function PieChartController($scope) {
                 Current: 0,
                 Percent: 0
             });
+        }
+        if (target == "film2018") {
+            $scope.newGoalMsg = "Thank you! We have reached our first fundraising goal! Let's keep the story going!";
         }
         $.get({
             url: "api/donate/progress?target=" + target,

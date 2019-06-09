@@ -1,5 +1,25 @@
 ﻿let pastEvents = [
     {
+        name: "Inauguration of the Romanian Center of Excellence ROACT (Romanian In Action)",
+        description: ["Location to be determined"],
+        startDate: new Date(2018, 9),
+        endDate: new Date(2018, 9),
+        tags: ["heritage", "education"],
+        imagePath: "excellence_center.jpg",
+        moreInfoPath: "excellence-center"
+    },
+    {
+        name: "Romanian Film Festival",
+        description: ["The fifth edition of the Romanian Film Festival"],
+        startDate: new Date(2018, 10, 2),
+        endDate: new Date(2018, 10, 4),
+        location: "SIFF Cinema Uptown",
+        locationLink: "https://www.google.com/maps/place/SIFF+Cinema+Uptown",
+        tags: ["heritage", "film", "stage"],
+        imagePath: "rffs_0_0.png",
+        moreInfoPath: "film-festival-2018"
+    },
+    {
         name: "Romanian Cultural Festival",
         description: ["Romanian Cultural Festival"],
         startDate: new Date(2018, 8, 22),

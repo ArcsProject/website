@@ -1,6 +1,6 @@
-﻿angular.module("arcsApp").component("filmFestival", {
-    templateUrl: GetUrlWithVersion("../../Views/film-festival.html"),
-    controller: ['$scope', '$sce', 'asyncContent', FilmFestivalController]
+﻿angular.module("arcsApp").component("filmFestival2018", {
+    templateUrl: GetUrlWithVersion("../../Views/film-festival-2018.html"),
+    controller: ['$scope', '$sce', 'asyncContent', FilmFestival2018Controller]
 }).directive('jsonld', ['$filter', '$sce', 'asyncContent', function($filter, $sce, asyncContent) {
   return {
     restrict: 'E',
@@ -19,7 +19,7 @@
   };
 }]);
 
-function FilmFestivalController($scope, $sce, asyncContent) {
+function FilmFestival2018Controller($scope, $sce, asyncContent) {
     $scope.GetUrlWithVersion = GetUrlWithVersion;
     $scope.TrackOutboundRequests = TrackOutboundRequests;
 
