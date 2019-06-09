@@ -80,9 +80,15 @@ app.config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     };
 
     states["film-festival"] = {
-        name: "film-festival",
+        name: "film-festival-2019",
         url: "^/film-festival",
-        template: "<film-festival></film-festival>"
+        template: "<film-festival-2019></film-festival-2019>"
+    };
+
+    states["film-festival-2018"] = {
+        name: "film-festival-2018",
+        url: "^/film-festival-2018",
+        template: "<film-festival-2018></film-festival-2018>"
     };
 
     states["film-festival-2017"] = {

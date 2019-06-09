@@ -16,7 +16,7 @@
                     <button ng-repeat="purpose in purposes" ng-click="setSelectedPurpose($event, purpose)" ng-class="{'active': selectedPurpose == purpose}" class="list-group-item">{{purpose}}</button>
                 </div>
             </div>
-            <ng-include src="GetUrlWithVersion('Views/pie-chart.html')" ng-init="targetDonation='film2018';chartWidth='75%';showNewGoalMsg=false;" ng-if="selectedPurpose == 'Romanian Film Festival'"></ng-include>
+            <ng-include src="GetUrlWithVersion('Views/pie-chart.html')" ng-init="targetDonation='film2019';chartWidth='75%';showNewGoalMsg=false;" ng-if="selectedPurpose == 'Romanian Film Festival'"></ng-include>
             <p>
                 Check out the <a ui-sref="film-festival">Film Festival</a> page to see donors, events, and more!
             </p>

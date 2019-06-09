@@ -333,6 +333,10 @@
     <Content Include="Resources\Images\film_festival\BNNFEST_375x667.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_414x736.jpg" />
     <Content Include="Resources\Images\film_festival\BNNFEST_768x1024.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\rff_banner_414x736.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\rff_banner_1300x312.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\Dennis_Deletant.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\rff_flyer.jpg" />
     <Content Include="Resources\Images\BogdanDarev.jpg" />
     <Content Include="Resources\Images\breaking-news.jpg" />
     <Content Include="Resources\Images\Brittany Boulding, jpg.jpg" />
@@ -566,7 +570,8 @@
     <Content Include="Views\donors.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-fest-donate.html" />
-    <Content Include="Views\film-festival.html" />
+    <Content Include="Views\film-festival-2018.html" />
+    <Content Include="Views\film-festival-2019.html" />
     <Content Include="Views\footer.html" />
     <Content Include="Views\heritage-application.html" />
     <Content Include="Views\heritage-awards-2017.html" />
@@ -593,6 +598,8 @@
     <Content Include="Static\content_songs-from-afar.json" />
     <Content Include="Static\content_press.json" />
     <None Include="site.webmanifest.json" />
+    <Content Include="Static\donors_filmfest2018.json" />
+    <Content Include="Static\content_filmfest2019.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>
@@ -668,11 +675,12 @@
     <TypeScriptCompile Include="Scripts\Controllers\cultural-festival-maryhill.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donors.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\film-festival-2019.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\summer-camp-2018.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\volunteering.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\excellence-center.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-fest-donate.ts" />
-    <TypeScriptCompile Include="Scripts\Controllers\film-festival.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\film-festival-2018.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-application.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-awards-2017.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\heritage-competition-rules.ts" />
