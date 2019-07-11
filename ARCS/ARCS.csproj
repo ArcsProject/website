@@ -597,6 +597,9 @@
     <Content Include="Static\content_partners.json" />
     <Content Include="Static\content_songs-from-afar.json" />
     <Content Include="Static\content_press.json" />
+    <Content Include="Resources\Images\film_fest_2019\RFF_Sponsorship_Festival_Ambassador.pdf" />
+    <Content Include="Resources\Images\film_fest_2019\RFF_Sponsorship_Festival_Custom.pdf" />
+    <Content Include="Resources\Images\film_fest_2019\RFF_Sponsorship_Festival_Partner.pdf" />
     <None Include="site.webmanifest.json" />
     <Content Include="Static\donors_filmfest2018.json" />
     <Content Include="Static\content_filmfest2019.json" />
