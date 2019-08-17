@@ -14,7 +14,21 @@
 </div>
 <div ng-if="DataLoaded" class="container">
     <h2>Team</h2>
-    <h3>Board Members</h3>
+    <h3>Staff</h3>
+    <div ng-repeat="member in staffMembers">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="media-object staff-img" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
+            </div>
+            <div class="col-sm-9">
+                <h4 class="media-heading">{{member.name}}<span class="spacer" ng-if="member.title">|</span>{{member.title}}</h4>
+                <h5><a ng-href="mailto:{{member.email}}">{{member.email}}</a></h5>
+                <p>{{member.details}}</p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <h3 class="extra-margin">Board</h3>
     <p>Our Board of Directors assembles American citizens of Romanian descent and Americans of many cultural and professional backgrounds with valuable lifetime experience and expertise in non-profit management, community outreach programs, and cross-cultural dialogue.</p>
     <div ng-repeat="member in boardMembers">
         <div class="row">
@@ -22,7 +36,7 @@
                 <img class="media-object staff-img" src="../Resources/Images/{{member.imagePath}}" alt="Image of {{member.name}}">
             </div>
             <div class="col-sm-9">
-                <h4 class="media-heading">{{member.name}}<span class="spacer">|</span>{{member.title}}</h4>
+                <h4 class="media-heading">{{member.name}}<span class="spacer" ng-if="member.title">|</span>{{member.title}}</h4>
                 <h5><a ng-href="mailto:{{member.email}}">{{member.email}}</a></h5>
                 <p>{{member.details}}</p>
             </div>
