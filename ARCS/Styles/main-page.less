@@ -1,13 +1,36 @@
-﻿@main-background-color: #f29d38;//#e95420;
-@main-border-color: #f29d38; //#d34615;
-@main-btn-info-color: #ffffff;
-@main-btn-info-background-color: #d95d34; //#772953;
-@main-btn-info-border-color: #d95d34; //#772953;
+﻿@pallete-color1: #337ca0;
+@pallete-color2: #2b6a8a;
+@pallete-color3: #104d6b;
+@pallete-color4: #08364c;
+@pallete-color5: #031a25;
+@pallete-color6: #ffffff;
+
+@main-background-color: @pallete-color1; //#e95420;
+@main-border-color: @pallete-color2; //#d34615;
+
+@main-btn-info-color: @pallete-color6;
+
+@main-btn-info-background-color: @pallete-color1; //#772953;
+@main-btn-info-border-color: @pallete-color2; //#772953;
+
+@panel-heading-bkg-color: @pallete-color3;
+@panel-heading-border-color: @pallete-color4; //#772953;
+
+@btn-bkg-color: @pallete-color1; //#772953;
+@btn-border-color: @pallete-color2; //#772953;
+
+@btn-hover-bkg-color: @pallete-color2;
+@btn-hover-border-color: @pallete-color2;
+
+@btn-active-bkg-color: @pallete-color5;
+@btn-active-border-color: @pallete-color5;
 
 @main-thumbnail-height: 230px;
 @main-thumbnail-width: 360px;
 
-@pie-chart-bkg: #e95420;
+@read-more-color: @pallete-color3; //#e95420;
+
+@pie-chart-bkg: @pallete-color5;
 @pie-chart-completed-bkg: @main-background-color;
 @pie-chart-diameter: 201;
 @pie-chart-circumference: 629;
@@ -15,558 +38,638 @@
 body {
     background-color: #eeeeee;
     background-image: url("../Resources/Images/absurdity.png");
+}
 
-    .navbar-default {
-        background-color: @main-background-color;
-        border-color: @main-border-color;
-    }
+.panel-primary > .panel-heading {
+    background-color: @panel-heading-bkg-color !important;
+    border-color: @panel-heading-border-color !important;
+}
 
-    .btn-info {
-        color: @main-btn-info-color;
-        background-color: @main-btn-info-background-color;
-        border-color: @main-btn-info-border-color;
-    }
+.navbar-default {
+    background-color: @main-background-color !important;
+    border-color: @main-border-color !important;
+}
 
-    .vtop {
-        display: inline-block;
-        vertical-align: top;
-        float: none;
-    }
+.btn-info, .btn-info:visited {
+    color: @main-btn-info-color;
+    background-color: @main-btn-info-background-color !important;
+    border-color: @main-btn-info-border-color !important;
+}
 
-    .read-more {
-        margin-bottom: 10px !important;
-        color: #e95420;
-        cursor: pointer;
-    }
+.btn-info:hover, .btn-info:focus {
+    background-color: @btn-hover-bkg-color !important;
+    border-color: @btn-hover-border-color !important;
+}
 
-    .read-more[aria-expanded=true] {
-        display: none;
-    }
+.btn-info:active {
+    background-color: @btn-active-bkg-color !important;
+    border-color: @btn-active-border-color !important;
+}
 
-    .rounded {
-        border-radius: 5px;
-        background: #000; /*without a background or border applied you won't be able to see if its rounded*/
-    }
+.btn-primary, .btn-primary:visited {
+    color: @main-btn-info-color !important;
+    background-color: @btn-bkg-color !important;
+    border-color: @btn-border-color !important;
+}
 
-    .text-inline-img {
-        width: 350px;
-        margin: 10px;
-    }
+.btn-primary:focus, .btn-primary:hover {
+    background-color: @btn-hover-bkg-color !important;
+    border-color: @btn-hover-border-color !important;
+}
 
-    .item-grey {
-        background-color: #dedede;
-    }
+.btn-primary:active {
+    background-color: @btn-active-bkg-color !important;
+    border-color: @btn-active-border-color !important;
+}
 
-    .h3_margins {
-        margin-left: 30px;
-    }
+.btn-primary.disabled:focus, .btn-primary.disabled:hover {
+    background-color: @btn-hover-bkg-color !important;
+    border-color: @btn-hover-border-color !important;
+}
 
-    .img-portrait {
-        border: 1px solid #ccc;
-        background-color: #f1f1f1;
-        padding: 7px;
-        margin-bottom: 5px !important;
-        box-shadow: 3px 3px rgba(102,102,102,.1);
-    }
+.list-group-item.active, .list-group-item.active:visited {
+    background-color: @main-btn-info-background-color !important;
+    border-color: @main-btn-info-border-color !important;
+}
 
-    #donate-button {
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: @main-background-color !important;
+    border-color: @main-background-color !important;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: @btn-hover-bkg-color !important;
+}
+
+#donate-button, #donate-button:visited {
+    color: #ffffff;
+    background-color: @btn-hover-bkg-color !important;
+    border-color: @btn-hover-border-color !important;
+}
+
+#donate-button:hover, #donate-button:focus {
+    background-color: @btn-active-bkg-color !important;
+    border-color: @btn-active-border-color !important;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:visited {
+    color: #ffffff;
+    background-color: @main-background-color !important;
+    border-color: @main-border-color !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: @panel-heading-bkg-color !important;
+    border-color: @panel-heading-border-color !important;
+}
+
+.navbar-brand > img {
+    height: 60px;
+    margin-top: -15px;
+}
+
+.navbar-toggle, .navbar-toggle:visited {
+    padding: 14px 10px;
+    background-color: @main-background-color !important;
+    border-color: @main-border-color !important;
+}
+
+.navbar-toggle:focus, .navbar-toggle:hover {
+    padding: 14px 10px;
+    background-color: @panel-heading-bkg-color !important;
+    border-color: @panel-heading-border-color !important;
+}
+
+.navbar-default {
+    background-color: @main-background-color !important;
+}
+
+.vtop {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+}
+
+.read-more {
+    margin-bottom: 10px !important;
+    color: @read-more-color;
+    cursor: pointer;
+}
+
+.read-more[aria-expanded=true] {
+    display: none;
+}
+
+.rounded {
+    border-radius: 5px;
+    background: #000; /*without a background or border applied you won't be able to see if its rounded*/
+}
+
+.text-inline-img {
+    width: 350px;
+    margin: 10px;
+}
+
+.item-grey {
+    background-color: #dedede;
+}
+
+.h3_margins {
+    margin-left: 30px;
+}
+
+.img-portrait {
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    padding: 7px;
+    margin-bottom: 5px !important;
+    box-shadow: 3px 3px rgba(102,102,102,.1);
+}
+
+#donate-button {
+    font-size: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
         font-size: 16px;
-        padding-top: 11px;
-        padding-bottom: 11px;
-        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
-    .navbar-brand > img {
-        height: 70px;
-        margin-top: -25px;
+    #mainCarousel-excelence-center-2019-container {
+        background-color: #6C6DD7 !important;
     }
 
-    .navbar-toggle {
-        padding: 14px 10px;
+    #mainCarousel-siff-2019-container {
+        background-color: white !important;
     }
+}
 
-    .navbar-default .navbar-nav > li > a.navbar-btn:hover, .navbar-default .navbar-nav > li > a.navbar-btn:focus {
-        color: #ffffff;
-        background-color: #511c39;
-        border-color: #491933;
+.navbar-right {
+    display: flex;
+    justify-content: center;
+}
+
+.extra-margin {
+    margin-top: 50px;
+}
+
+.events-dropdown {
+    margin-bottom: 20px;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 12px;
+}
+
+.mission-statement {
+    text-align: center;
+    padding: 24px 10%;
+}
+
+.event-button {
+    float: right;
+    margin-left: 10px;
+}
+
+.buy-ticket-button {
+    background-color: #08b2e3;
+    border-color: #08b2e3;
+}
+
+@media (max-width: 768px) {
+    a.event-button:not(:first-child) {
+        margin-top: 10px;
     }
+}
 
-    @media (min-width: 768px) {
-        .navbar-nav > li > a {
-            font-size: 16px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
+.spacer {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-        #mainCarousel-excelence-center-2019-container {
-            background-color: #6C6DD7 !important;
-        }
+.sponsor-image {
+    height: 100px;
+}
 
-        #mainCarousel-siff-2019-container {
-            background-color: white !important;
-        }
-    }
+.sponsor-image-new {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
 
-    .navbar-right {
+.panel .panel-title {
+    font-size: 16px;
+}
+
+.jumbotron {
+    background-color: lightgrey;
+}
+
+.jumbotron-image {
+    width: 100%;
+}
+
+.partners {
+    .thumbnail {
+        height: 150px;
         display: flex;
+        align-items: center;
         justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
     }
+}
 
-    .extra-margin {
-        margin-top: 50px;
-    }
+.list-group {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
-    .events-dropdown {
+.media-left {
+    min-width: 225px;
+}
+
+.guest, .film {
+    max-width: 200px;
+}
+
+.media-object {
+    margin: auto;
+    max-width: 100%;
+    padding-bottom: 15px;
+}
+
+.width-adjustment .media-object {
+    width: 100%;
+}
+
+.address {
+    padding-left: 36px;
+}
+
+.map {
+    justify-content: center;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.poster {
+    max-width: 100%;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.piticot-row {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.modal-body img {
+    max-width: 100%;
+}
+
+.press-image {
+    max-height: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#mainCarousel > .carousel-indicators > li {
+    background-color: #e95420;
+}
+
+#mainCarousel > .carousel-inner > .item {
+    background: white;
+    margin-bottom: 30px;
+}
+
+#mainCarousel > .carousel-inner > .item img {
+    width: 90vw;
+    max-width: 1300px;
+    margin: auto;
+}
+
+#mainCarousel-maryhill-container {
+    background-color: #eee5da !important;
+    background-image: url("../Resources/Images/main_page/maryhill_bkg_1300x312.jpg") !important;
+    background-size: contain !important;
+    background-repeat: repeat-x !important;
+}
+
+.img-summer-camp {
+    width: 75%;
+}
+
+.embedded-video {
+    display: block;
+    margin: auto;
+    width: 100% !important;
+    height: 500px !important;
+}
+
+#mainCarousel-filmfest-2019-container {
+    background-color: #eee !important;
+    background-image: url(../Resources/Images/absurdity.png) !important;
+}
+
+@media (max-width: 767px) {
+    #mainCarousel > .carousel-inner > .item {
         margin-bottom: 20px;
     }
 
-    .tagline {
-        text-align: center;
-        font-size: 48px;
-        padding-top: 12px;
+    #mainCarousel-filmfest-2019 {
+        content: url("../Resources/Images/film_fest_2019/rff_banner_414x736.jpg");
     }
 
-    .mission-statement {
-        text-align: center;
-        padding: 24px 10%;
+    #mainCarousel-siff {
+        content: url("../Resources/Images/siff_content/siff2018_828x1472.jpg");
     }
 
-    .event-button {
-        float: right;
-        margin-left: 10px;
+    #mainCarousel-excelence-center-2019 {
+        content: url("../Resources/Images/excellence/BNNExcellence_2019_414x736.jpg");
     }
 
-    .buy-ticket-button {
-        background-color: #08b2e3;
-        border-color: #08b2e3;
+    #mainCarousel-excelence-center-2019-container {
+        background-color: #F9CD38 !important;
     }
 
-    @media (max-width: 768px) {
-        a.event-button:not(:first-child) {
-            margin-top: 10px;
-        }
+
+    #mainCarousel-siff-2019 {
+        content: url("../Resources/Images/siff_content/siff2019_828x1472.png");
     }
 
-    .spacer {
-        padding-left: 10px;
-        padding-right: 10px;
+
+    #mainCarousel-siff-2019-container {
+        background-color: white !important;
     }
 
-    .sponsor-image {
-        height: 100px;
+    #mainCarousel-summer-camp-2019 {
+        content: url("../Resources/Images/summer_camp_2019/main_page_mobile2.png");
     }
 
-    .sponsor-image-new {
-        max-height: 100%;
-        max-width: 100%;
-        height: auto;
-        width: auto;
-        position: absolute;
-        margin: auto;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-
-    .panel .panel-title {
-        font-size: 16px;
-    }
-
-    .jumbotron {
-        background-color: lightgrey;
-    }
-
-    .jumbotron-image {
-        width: 100%;
-    }
-
-    .partners {
-        .thumbnail {
-            height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            margin-bottom: 0;
-        }
-    }
-
-    .list-group {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .media-left {
-        min-width: 225px;
-    }
-
-    .guest, .film {
-        max-width: 200px;
-    }
-
-    .media-object {
-        margin: auto;
-        max-width: 100%;
-        padding-bottom: 15px;
-    }
-
-    .width-adjustment .media-object {
-        width: 100%;
-    }
-
-    .address {
-        padding-left: 36px;
-    }
-
-    .map {
-        justify-content: center;
-        display: flex;
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
-
-    .poster {
-        max-width: 100%;
-    }
-
-    footer {
-        margin-top: 100px;
-    }
-
-    .piticot-row {
-        align-items: center;
-        justify-content: center;
-        display: flex;
-    }
-
-    .modal-body img {
-        max-width: 100%;
-    }
-
-    .press-image {
-        max-height: 100%;
-    }
-
-    .center-text {
-        text-align: center;
-    }
-
-    #mainCarousel > .carousel-indicators > li {
-        background-color: #e95420;
-    }
-
-    #mainCarousel > .carousel-inner > .item {
-        background: white;
-        margin-bottom: 30px;
-    }
-
-    #mainCarousel > .carousel-inner > .item img {
-        width: 90vw;
-        max-width: 1300px;
-        margin: auto;
+    #mainCarousel-maryhill {
+        content: url("../Resources/Images/main_page/maryhill2_414x736.png");
     }
 
     #mainCarousel-maryhill-container {
-        background-color: #eee5da !important;
-        background-image: url("../Resources/Images/main_page/maryhill_bkg_1300x312.jpg") !important;
-        background-size: contain !important;
-        background-repeat: repeat-x !important;
-    }
-
-    .img-summer-camp {
-        width: 75%;
-    }
-
-    .embedded-video {
-        display: block;
-        margin: auto;
-        width: 100% !important;
-        height: 500px !important;
-    }
-
-    #mainCarousel-filmfest-2019-container {
-        background-color: #eee !important;
-        background-image: url(../Resources/Images/absurdity.png) !important;
-    }
-
-    @media (max-width: 767px) {
-        #mainCarousel > .carousel-inner > .item {
-            margin-bottom: 20px;
-        }
-
-        #mainCarousel-filmfest-2019 {
-            content: url("../Resources/Images/film_fest_2019/rff_banner_414x736.jpg");
-        }
-
-        #mainCarousel-siff {
-            content: url("../Resources/Images/siff_content/siff2018_828x1472.jpg");
-        }
-
-        #mainCarousel-excelence-center-2019 {
-            content: url("../Resources/Images/excellence/BNNExcellence_2019_414x736.jpg");
-        }
-
-        #mainCarousel-excelence-center-2019-container {
-            background-color: #F9CD38 !important;
-        }
-
-
-        #mainCarousel-siff-2019 {
-            content: url("../Resources/Images/siff_content/siff2019_828x1472.png");
-        }
-
-
-        #mainCarousel-siff-2019-container {
-            background-color: white !important;
-        }
-
-        #mainCarousel-summer-camp-2019 {
-            content: url("../Resources/Images/summer_camp_2019/main_page_mobile2.png");
-        }
-
-        #mainCarousel-maryhill {
-            content: url("../Resources/Images/main_page/maryhill2_414x736.png");
-        }
-
-        #mainCarousel-maryhill-container {
-            background-image: url("../Resources/Images/main_page/maryhill_bkg_414x736.jpg") !important;
-        }
-
-        .thumbnail > .caption {
-            right: 60px !important;
-        }
-
-        .img-summer-camp {
-            width: 50%;
-        }
-
-        .embedded-video {
-            height: 200px !important;
-            width: 100% !important;
-        }
-
-        .btn-info-summer-camp {
-            padding: 4px 7px 4px 3px;
-            display: table;
-            margin: auto;
-        }
-    }
-
-    @media (max-width: 1000px) and (min-width:768px) {
-        .embedded-video {
-            height: 300px !important;
-            width: 100% !important;
-        }
-    }
-
-    .thumbnail {
-        background-size: @main-thumbnail-width;
-        height: @main-thumbnail-height;
-        background-repeat: no-repeat;
+        background-image: url("../Resources/Images/main_page/maryhill_bkg_414x736.jpg") !important;
     }
 
     .thumbnail > .caption {
-        position: absolute;
-        bottom: 10px;
-        right: 10px;
+        right: 60px !important;
     }
 
-    .caption-btn {
-        background-color: @main-background-color;
-        border-color: @main-border-color;
+    .img-summer-camp {
+        width: 50%;
     }
 
-    .education-thumbnail {
-        background-image: url("../Resources/Images/thumbnails/education.jpg");
-    }
-
-    .film-thumbnail {
-        background-image: url("../Resources/Images/thumbnails/film.jpg");
-    }
-
-    .stage-thumbnail {
-        background-image: url("../Resources/Images/thumbnails/stage.jpg");
-    }
-
-    .staff-img {
-        width: 200px;
-    }
-
-    .progress-pie {
-        padding: 0 20px 0 20px;
-    }
-
-    .progress-pie > svg {
-        display: block;
-        margin: 10px auto 10px auto;
-        transform: scaleX(-1) rotate(-90deg);
-        background: @pie-chart-bkg;
-        border-radius: 50%;
-    }
-
-    .progress-pie > p {
-        font-weight: bold;
-        padding-left: 50px;
-    }
-
-    .progress-pie > p > span {
-        padding-left: 10px;
-        vertical-align: middle;
-    }
-
-    .progress-pie > p > svg {
-        width: 20px;
-        height: 20px;
-        display: inline-block;
-        border-radius: 50%;
-        vertical-align: middle;
-    }
-
-    .progress-pie-raised > svg > rect {
-        fill: @pie-chart-completed-bkg;
-    }
-
-    .progress-pie-goal > svg > rect {
-        fill: @pie-chart-bkg;
-    }
-
-    .progress-pie > svg > circle {
-        fill: @pie-chart-completed-bkg;
-        stroke: @pie-chart-bkg;
-        stroke-width: @pie-chart-diameter;
-        -webkit-animation: progress-pie-fillup 5s 1;
-        animation: progress-pie-fillup 5s 1;
-    }
-
-    @-webkit-keyframes progress-pie-fillup {
-        from {
-            stroke-dasharray: @pie-chart-circumference @pie-chart-circumference;
-        }
-    }
-
-    @keyframes progress-pie-fillup {
-        from {
-            stroke-dasharray: @pie-chart-circumference @pie-chart-circumference;
-        }
-    }
-
-    .minimized-list-button {
-        padding: 0 0 0 10px;
-    }
-
-
-    .notification {
-        display: none;
-        position: fixed;
-        z-index: 500;
-        bottom: 0;
-        opacity: 0;
-    }
-
-    .close-popup {
-        text-decoration: none;
-        text-align: center;
-        font-weight: bold;
-        line-height: 0px;
-        padding: 11px 3px;
+    .embedded-video {
+        height: 200px !important;
+        width: 100% !important;
     }
 
     .btn-info-summer-camp {
         padding: 4px 7px 4px 3px;
+        display: table;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1000px) and (min-width:768px) {
+    .embedded-video {
+        height: 300px !important;
+        width: 100% !important;
+    }
+}
+
+.thumbnail {
+    background-size: @main-thumbnail-width;
+    height: @main-thumbnail-height;
+    background-repeat: no-repeat;
+}
+
+.thumbnail > .caption {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.caption-btn {
+    background-color: @main-background-color;
+    border-color: @main-border-color;
+}
+
+.education-thumbnail {
+    background-image: url("../Resources/Images/thumbnails/education.jpg");
+}
+
+.film-thumbnail {
+    background-image: url("../Resources/Images/thumbnails/film.jpg");
+}
+
+.stage-thumbnail {
+    background-image: url("../Resources/Images/thumbnails/stage.jpg");
+}
+
+.staff-img {
+    width: 200px;
+}
+
+.progress-pie {
+    padding: 0 20px 0 20px;
+}
+
+.progress-pie > svg {
+    display: block;
+    margin: 10px auto 10px auto;
+    transform: scaleX(-1) rotate(-90deg);
+    background: @pie-chart-bkg;
+    border-radius: 50%;
+}
+
+.progress-pie > p {
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.progress-pie > p > span {
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.progress-pie > p > svg {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.progress-pie-raised > svg > rect {
+    fill: @pie-chart-completed-bkg;
+}
+
+.progress-pie-goal > svg > rect {
+    fill: @pie-chart-bkg;
+}
+
+.progress-pie > svg > circle {
+    fill: @pie-chart-completed-bkg;
+    stroke: @pie-chart-bkg;
+    stroke-width: @pie-chart-diameter;
+    -webkit-animation: progress-pie-fillup 5s 1;
+    animation: progress-pie-fillup 5s 1;
+}
+
+@-webkit-keyframes progress-pie-fillup {
+    from {
+        stroke-dasharray: @pie-chart-circumference @pie-chart-circumference;
+    }
+}
+
+@keyframes progress-pie-fillup {
+    from {
+        stroke-dasharray: @pie-chart-circumference @pie-chart-circumference;
+    }
+}
+
+.minimized-list-button {
+    padding: 0 0 0 10px;
+}
+
+
+.notification {
+    display: none;
+    position: fixed;
+    z-index: 500;
+    bottom: 0;
+    opacity: 0;
+}
+
+.close-popup {
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0px;
+    padding: 11px 3px;
+}
+
+.btn-info-summer-camp {
+    padding: 4px 7px 4px 3px;
+}
+
+.registration-summer-camp {
+    text-align: justify;
+}
+
+.registration-summer-camp h4 {
+    margin-top: 20px;
+}
+
+@media (min-width: 767px) and (min-height: 300px) {
+    .notification {
+        display: block;
+        left: 0;
+        width: 30vw;
+        height: 70vh;
+        max-height: 350px;
+        max-width: 350px;
+        -webkit-animation: notification-fadein 5s 1;
+        -moz-animation: notification-fadein 5s 1;
+        animation: notification-fadein 5s 1;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
 
-    .registration-summer-camp {
-        text-align: justify;
+    .close-popup {
+        color: #f4e350;
+        background-color: #f62959;
+        font-size: 20px;
+        font-weight: bold;
+        display: block;
+        margin: auto;
+        width: 90px;
     }
 
-    .registration-summer-camp h4 {
-        margin-top: 20px;
+    .close-popup:before {
+        content: "CLOSE X"
     }
+}
 
-    @media (min-width: 767px) and (min-height: 300px) {
-        .notification {
-            display: block;
-            left: 0;
-            width: 30vw;
-            height: 70vh;
-            max-height: 350px;
-            max-width: 350px;
-            -webkit-animation: notification-fadein 5s 1;
-            -moz-animation: notification-fadein 5s 1;
-            animation: notification-fadein 5s 1;
-            -webkit-animation-fill-mode: forwards;
-            -moz-animation-fill-mode: forwards;
-            animation-fill-mode: forwards;
-        }
-
-        .close-popup {
-            color: #f4e350;
-            background-color: #f62959;
-            font-size: 20px;
-            font-weight: bold;
-            display: block;
-            margin: auto;
-            width: 90px;
-        }
-
-        .close-popup:before {
-            content: "CLOSE X"
-        }
-    }
-
-    @media (max-width: 767px), (max-height: 300px) {
-        .notification {
-            display: block;
-            opacity: 1;
-            width: 100vw;
-            height: 100px;
-            max-height: 40vh;
-        }
-
-        #excellence-center-popup {
-            background-image: url("../Resources/Images/excellence/popup_mob.png") !important;
-            background-position: center;
-        }
-
-        .close-popup {
-            position: absolute;
-            right: 0;
-            top: -25px;
-            cursor: pointer;
-            color: #ffff55;
-            background-color: #f62959;
-            border-radius: 50%;
-            font-size: 31px;
-            display: inline-block;
-        }
-
-        .close-popup:before {
-            content: "X"
-        }
-    }
-
-    @-webkit-keyframes notification-fadein {
-        to {
-            opacity: 1;
-        }
-    }
-
-    @keyframes notification-fadein {
-        to {
-            opacity: 1;
-        }
+@media (max-width: 767px), (max-height: 300px) {
+    .notification {
+        display: block;
+        opacity: 1;
+        width: 100vw;
+        height: 100px;
+        max-height: 40vh;
     }
 
     #excellence-center-popup {
-        background-image: url("../Resources/Images/excellence/popup.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 100%;
-        height: 100%;
+        background-image: url("../Resources/Images/excellence/popup_mob.png") !important;
+        background-position: center;
     }
 
-    .popup {
-        display: block;
+    .close-popup {
+        position: absolute;
+        right: 0;
+        top: -25px;
+        cursor: pointer;
+        color: #ffff55;
+        background-color: #f62959;
+        border-radius: 50%;
+        font-size: 31px;
+        display: inline-block;
     }
+
+    .close-popup:before {
+        content: "X"
+    }
+}
+
+@-webkit-keyframes notification-fadein {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes notification-fadein {
+    to {
+        opacity: 1;
+    }
+}
+
+#excellence-center-popup {
+    background-image: url("../Resources/Images/excellence/popup.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    display: block;
 }
