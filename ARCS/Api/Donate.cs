@@ -40,7 +40,7 @@ namespace ARCS.Api
                     }
                 case _targetFilmFest2019:
                     {
-                        goal.Max = 20000;
+                        goal.Max = 25000;
                         goal.Current = 0;
                         //var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
                         //goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal?campaignId=" + campaign);
