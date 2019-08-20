@@ -569,6 +569,7 @@
     <Content Include="Styles\main-page.css" />
     <Content Include="Views\alumni.html" />
     <Content Include="Views\cultural-festival-maryhill.html" />
+    <Content Include="Views\donors-new.html" />
     <Content Include="Views\donors.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-fest-donate.html" />
@@ -679,6 +680,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\contact.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\cultural-festival-maryhill.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\donors-new.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donors.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival-2019.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\summer-camp-2018.ts" />

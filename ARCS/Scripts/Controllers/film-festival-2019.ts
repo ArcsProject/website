@@ -35,6 +35,6 @@ function FilmFestival2019Controller($scope, $sce, asyncContent) {
         donors100: "Festival Supporter ($100)",
         donors50: "Festival Friend ($50)",
         donors25: "Special Thanks ($25)",
-        donors10: "Many Thanks ($25)"
+        donors10: "Many Thanks ($10)"
     };
 };
