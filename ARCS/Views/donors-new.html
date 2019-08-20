@@ -1,0 +1,73 @@
+﻿<div ng-if="$ctrl.dataLoaded != true" class="sk-circle">
+    <div class="sk-circle1 sk-child"></div>
+    <div class="sk-circle2 sk-child"></div>
+    <div class="sk-circle3 sk-child"></div>
+    <div class="sk-circle4 sk-child"></div>
+    <div class="sk-circle5 sk-child"></div>
+    <div class="sk-circle6 sk-child"></div>
+    <div class="sk-circle7 sk-child"></div>
+    <div class="sk-circle8 sk-child"></div>
+    <div class="sk-circle9 sk-child"></div>
+    <div class="sk-circle10 sk-child"></div>
+    <div class="sk-circle11 sk-child"></div>
+    <div class="sk-circle12 sk-child"></div>
+</div>
+
+<h3 ng-if="$ctrl.dataLoaded && $ctrl.dataAvailable">{{$ctrl.heading}}</h3>
+<div class="row" ng-if="$ctrl.dataLoaded && donorGroups.donors500plus">
+    <div class="col-sm-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="donors500plus">{{donorGroups.donors500plus.heading}}</div>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="donor in donorGroups.donors500plus">{{donor}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row" ng-if="$ctrl.dataLoaded && donorGroups.donors250">
+    <div class="col-sm-12">
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="donors250">{{donorGroups.donors250.heading}}</div>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="donor in donorGroups.donors250">{{donor}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row" ng-if="$ctrl.dataLoaded && (donorGroups.donors100 || donorGroups.donors50)">
+    <div ng-if="$ctrl.dataLoaded && donorGroups.donors100" ng-class="{'col-sm-6': donorGroups.donors50 != null && donorGroups.donors100 != null, 'col-sm-12' : donorGroups.donors100 != null && donorsGroups.donors50 == null}">
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="donors100">{{donorGroups.donors100.heading}}</div>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="donor in donorGroups.donors100">{{donor}}</li>
+            </ul>
+        </div>
+    </div>
+    <div ng-if="$ctrl.dataLoaded && donorGroups.donors50" ng-class="{'col-sm-6': donorGroups.donors50 != null && donorGroups.donors100 != null, 'col-sm-12' : donorGroups.donors50 != null && donorsGroups.donors100 == null}">
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="donors50">{{donorGroups.donors50.heading}}</div>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="donor in donorGroups.donors50">{{donor}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row" ng-if="$ctrl.dataLoaded && (donorGroups.donors25 || donorGroups.donors10)">
+    <div ng-if="$ctrl.dataLoaded && donorGroups.donors25" ng-class="{'col-sm-6': donorGroups.donors10 != null && donorGroups.donors25 != null, 'col-sm-12' : donorGroups.donors25 != null && donorsGroups.donors10 == null}">
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="donors25">{{donorGroups.donors25.heading}}</div>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="donor in donorGroups.donors25">{{donor}}</li>
+            </ul>
+        </div>
+    </div>
+    <div ng-if="$ctrl.dataLoaded && donorGroups.donors10" ng-class="{'col-sm-6': donorGroups.donors10 != null && donorGroups.donors25 != null, 'col-sm-12' : donorGroups.donors10 != null && donorsGroups.donors25 == null}">
+        <div class="panel panel-primary">
+            <div class="panel-heading" id="donors10">{{donorGroups.donors10.heading}}</div>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="donor in donorGroups.donors10">{{donor}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
