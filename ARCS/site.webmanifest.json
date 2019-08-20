@@ -3,23 +3,23 @@
   "name": "American Romanian Cultural Society",
   "icons": [
     {
-      "src": "/Resources/favicon/favicon-32x32.png",
+      "src": "/Resources/favicon/favicon-32x18.png",
       "type": "image/png",
-      "sizes": "32x32"
+      "sizes": "32x18"
     },
     {
-      "src": "/Resources/favicon/favicon-16x16.png",
+      "src": "/Resources/favicon/favicon-16x9.png",
       "type": "image/png",
-      "sizes": "16x16"
+      "sizes": "16x9"
     },
     {
-      "src": "/Resources/favicon/android-chrome-192x192.png",
-      "sizes": "192x192",
+      "src": "/Resources/favicon/android-chrome-192x108.png",
+      "sizes": "192x108",
       "type": "image/png"
     },
     {
-      "src": "/Resources/favicon/android-chrome-512x512.png",
-      "sizes": "512x512",
+      "src": "/Resources/favicon/android-chrome-512x288.png",
+      "sizes": "512x288",
       "type": "image/png"
     }
   ],
