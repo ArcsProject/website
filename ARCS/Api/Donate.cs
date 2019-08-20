@@ -16,11 +16,11 @@ namespace ARCS.Api
             {
                 return await Task.FromResult<string>(content);
             }
-            //if (target == "filmfest2019")
-            //{
-            //    var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
-            //    return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors?campaignId=" + campaign);
-            //}
+            if (target == "filmfest2019")
+            {
+                var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
+                return await DependenciesCache.Cache.Get<string>("https://arcsproject.secure.force.com/services/apexrest/Donors?campaignId=" + campaign);
+            }
             return await NotFound().ExecuteAsync(new CancellationToken());
         }
 
@@ -40,10 +40,8 @@ namespace ARCS.Api
                     }
                 case _targetFilmFest2019:
                     {
-                        goal.Max = 25000;
-                        goal.Current = 0;
-                        //var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
-                        //goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal?campaignId=" + campaign);
+                        var campaign = ConfigurationManager.ConnectionStrings[target].ConnectionString;
+                        goal = await DependenciesCache.Cache.Get<Campaign>("https://arcsproject.secure.force.com/services/apexrest/Goal?campaignId=" + campaign);
                         break;
                     }
                 default:
