@@ -260,13 +260,14 @@
     <Content Include="filmfest\filmfest2016\rir.mp3" />
     <Content Include="filmfest\filmfest2016\supporters.html" />
     <Content Include="Global.asax" />
-    <Content Include="Resources\favicon\android-chrome-192x192.png" />
-    <Content Include="Resources\favicon\android-chrome-512x512.png" />
+    <Content Include="Resources\favicon\android-chrome-192x108.png" />
+    <Content Include="Resources\favicon\android-chrome-512x288.png" />
     <Content Include="Resources\favicon\apple-touch-icon.png" />
     <Content Include="Resources\favicon\browserconfig.xml" />
-    <Content Include="Resources\favicon\favicon-16x16.png" />
+    <Content Include="Resources\favicon\favicon-16x9.png" />
     <Content Include="Resources\favicon\favicon-32x32.png" />
     <Content Include="Resources\favicon\favicon.ico" />
+    <Content Include="Resources\favicon\mstile-150x84.png" />
     <Content Include="Resources\Images\28_Poster_2017_11X17=CONCERT_no-bleed.jpg" />
     <Content Include="Resources\Images\28_Poster_2017_11X17=FNL_no-bleed.jpg" />
     <Content Include="Resources\Images\4culture.png" />
@@ -484,7 +485,6 @@
     <Content Include="Resources\Images\two lottery tickets - english poster.jpg" />
     <Content Include="Resources\Images\wanderlands.jpg" />
     <Content Include="Resources\Images\whisper-in-bucharest.jpg" />
-    <Content Include="Resources\favicon\mstile-150x150.png" />
     <Content Include="Resources\Press\ARCS on Stage.jpg" />
     <Content Include="Resources\Press\CALIU &amp; TARAF DE HAIDOUKS.jpg" />
     <Content Include="Resources\Press\doua lozuri 1.jpg" />
