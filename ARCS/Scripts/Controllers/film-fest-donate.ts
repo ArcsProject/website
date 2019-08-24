@@ -28,7 +28,7 @@ function FilmFestDonate($scope) {
             benefits: "We are offering a pair of day passes, our festival poster, credit at the screenings from SIFF Cinema Uptown, and special thank you credit on our website."
         },
         {
-            dollars: "Custom amount",
+            dollars: "500",
             visible_value: "$500 and More",
             level: "Festival Ambassador",
             benefits: "We are offering a pair of festival passes, our festival poster, credit at the screenings from SIFF Cinema Uptown, and special thank you credit on our website. A surprise gift will wait for you at the festival venue and you will be invited to a private dinner event with the festival guests and organizers."
@@ -41,7 +41,7 @@ function FilmFestDonate($scope) {
         }
     ];
 
-    $scope.selectedFilmFestivalAmount = $scope.filmFestivalAmounts[4];
+    $scope.selectedFilmFestivalAmount = $scope.filmFestivalAmounts[5];
 
     $scope.getSelectedFilmFestivalAmount = function () {
         if ($scope.selectedFilmFestivalAmount.dollars == "Custom amount") {
