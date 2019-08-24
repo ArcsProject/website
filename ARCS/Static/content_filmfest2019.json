@@ -1,26 +1,45 @@
 ﻿{
-    "specialEvents": [
-        {
-            "name": "Observing the Romanian Revolution: Some Personal Reflections",
-            "descriptionHtml": [
-                "\"The Romanian revolution was for me, my own personal revolution. It brought me – to use Andy Warhol’s expression - my ‘fifteen minutes of fame’ for it catapulted me and Romanian studies at the School of Slavonic and East European Studies of the University of London, into the British public eye. This lecture is based on my experience of the 1989 revolution as a consultant to the BBC at the time, an experience that included visual and audio monitoring of events in Romania in London between 14 December 1989 and 10 January 1990.",
-                "<p class=\"read-more\" data-toggle=\"collapse\" href=\"#dennis-deletant-readmore\" aria-expanded=\"false\" aria-controls=\"collapseExample\">Read more...</p> <div class=\"collapse\" id=\"dennis-deletant-readmore\"> <p> As 'anchor' in London I had access to the reports from the major international news agencies as they came through to the BBC on a teleprinter, as well as to television 'feeds' from camera crews from thirty-six international TV companies dispersed around Romania. Among them were stations from the USSR, Libya, France, West Germany, Hungary, and Britain. I was thus indirect witness to the meetings convoked on 22 December in the central squares of the cities and major towns of Romania – Bucharest, Timișoara, Pitești, Cluj-Napoca, Oradea, Arad, Bacău, Constanța, Suceava - ostensibly to show support for Ceaușescu, and to filmed events that followed.</p> <p> After arriving in Bucharest on 31 December, I accompanied three teams of BBC reporters and cameramen throughout the city, translating interviews carried out by the team with Ion Iliescu, Silviu Brucan, Ion Caramitru, Mircea Dinescu, and many other significant actors in the aftermath of Ceaușescu’s overthrow. The latter included a one-to-one meeting with General Victor Stanculescu. My reflections are based in part on this direct contact.\" </p><p><b>WHO?</b></p><p>Dennis Deletant is Visiting Ion Rațiu Professor of Romanian Studies in the School of Foreign Service at Georgetown University, Washington DC. He is Emeritus Professor of Romanian Studies at University College, London, where he taught in the School of Slavonic and East European Studies, between 1969 and 2011, and was Professor of Romanian Studies at the University of Amsterdam (on secondment from UCL) between 2003 and 2010.</p><p>He was appointed to the board of the British Government's \"Know-How Fund for Central and Eastern Europe\" in 1990 and was actively involved in its work in Romania and in the Republic of Moldova until 1999 when the board was disbanded. For this service he was made an officer of the Order of the British Empire in 1995. He was awarded \"Ordinul pentru merit\" (Order of Merit) with the rank of commander for services to Romanian democracy on 1 December 2000 by President Emil Constantinescu of Romania and \"The Star of Romania\", Romania's highest civilian honour, by President Klaus Iohannis on 26 October 2016 for his activity in the promotion of Romanian history, language and culture.</p><p>He is the author of several monographs on Romanian history, among them <i>Ceauşescu and the Securitate: Coercion and Dissent in Romania, 1965-89</i>, London: Hurst &amp; Co., 1995; New York: M.E. Sharpe, 1995; <i>Hitler’s Forgotten Ally. Ion Antonescu and his Regime, Romania, 1940-1944</i>, London: Palgrave Macmillan, 2006; and <i>British Clandestine Activities in Romania during the Second World War</i>, London: Palgrave Macmillan, 2016 (translated as <i>Activități britanice clandestine</i>(Bucharest: Humanitas, 2019). His most recent study in English, <i>Romania under Communism: Paradox and Degeneration</i>, was published in October 2018 (Oxford; New York:Routledge).</p></div>"
-            ],
-            "date": "2019-10-29T13:30:00.000",
-            "startTime": "2019-10-29T13:30:00.000",
-            "endTime": "2019-10-29T15:00:00.000",
-            "location": "University of Washington, Room Th 317",
-            "imagePath": "film_fest_2019/Dennis_Deletant.jpg",
-            "locationLink": "https://goo.gl/maps/JC3pt4rdPGqhcPM99",
-            "id": "dennis-deletant",
-            "structuredStartDate": "2019-10-29T13:30",
-            "structuredEndDate": "2019-10-29T15:00",
-            "structuredLocation": "University of Washington, Room Th 317"
-        }
-    ],
-    "officialPartners": [],
-    "partners": [],
-    "sponsors": [],
-    "films": [],
-    "guests": []
+  "specialEvents": [
+    {
+      "name": "Observing the Romanian Revolution: Some Personal Reflections",
+      "descriptionHtml": [
+        "\"The Romanian revolution was for me, my own personal revolution. It brought me – to use Andy Warhol’s expression - my ‘fifteen minutes of fame’ for it catapulted me and Romanian studies at the School of Slavonic and East European Studies of the University of London, into the British public eye. This lecture is based on my experience of the 1989 revolution as a consultant to the BBC at the time, an experience that included visual and audio monitoring of events in Romania in London between 14 December 1989 and 10 January 1990.",
+        "<p class=\"read-more\" data-toggle=\"collapse\" href=\"#dennis-deletant-readmore\" aria-expanded=\"false\" aria-controls=\"collapseExample\">Read more...</p> <div class=\"collapse\" id=\"dennis-deletant-readmore\"> <p> As 'anchor' in London I had access to the reports from the major international news agencies as they came through to the BBC on a teleprinter, as well as to television 'feeds' from camera crews from thirty-six international TV companies dispersed around Romania. Among them were stations from the USSR, Libya, France, West Germany, Hungary, and Britain. I was thus indirect witness to the meetings convoked on 22 December in the central squares of the cities and major towns of Romania – Bucharest, Timișoara, Pitești, Cluj-Napoca, Oradea, Arad, Bacău, Constanța, Suceava - ostensibly to show support for Ceaușescu, and to filmed events that followed.</p> <p> After arriving in Bucharest on 31 December, I accompanied three teams of BBC reporters and cameramen throughout the city, translating interviews carried out by the team with Ion Iliescu, Silviu Brucan, Ion Caramitru, Mircea Dinescu, and many other significant actors in the aftermath of Ceaușescu’s overthrow. The latter included a one-to-one meeting with General Victor Stanculescu. My reflections are based in part on this direct contact.\" </p><p><b>WHO?</b></p><p>Dennis Deletant is Visiting Ion Rațiu Professor of Romanian Studies in the School of Foreign Service at Georgetown University, Washington DC. He is Emeritus Professor of Romanian Studies at University College, London, where he taught in the School of Slavonic and East European Studies, between 1969 and 2011, and was Professor of Romanian Studies at the University of Amsterdam (on secondment from UCL) between 2003 and 2010.</p><p>He was appointed to the board of the British Government's \"Know-How Fund for Central and Eastern Europe\" in 1990 and was actively involved in its work in Romania and in the Republic of Moldova until 1999 when the board was disbanded. For this service he was made an officer of the Order of the British Empire in 1995. He was awarded \"Ordinul pentru merit\" (Order of Merit) with the rank of commander for services to Romanian democracy on 1 December 2000 by President Emil Constantinescu of Romania and \"The Star of Romania\", Romania's highest civilian honour, by President Klaus Iohannis on 26 October 2016 for his activity in the promotion of Romanian history, language and culture.</p><p>He is the author of several monographs on Romanian history, among them <i>Ceauşescu and the Securitate: Coercion and Dissent in Romania, 1965-89</i>, London: Hurst &amp; Co., 1995; New York: M.E. Sharpe, 1995; <i>Hitler’s Forgotten Ally. Ion Antonescu and his Regime, Romania, 1940-1944</i>, London: Palgrave Macmillan, 2006; and <i>British Clandestine Activities in Romania during the Second World War</i>, London: Palgrave Macmillan, 2016 (translated as <i>Activități britanice clandestine</i>(Bucharest: Humanitas, 2019). His most recent study in English, <i>Romania under Communism: Paradox and Degeneration</i>, was published in October 2018 (Oxford; New York:Routledge).</p></div>"
+      ],
+      "date": "2019-10-29T13:30:00.000",
+      "startTime": "2019-10-29T13:30:00.000",
+      "endTime": "2019-10-29T15:00:00.000",
+      "location": "University of Washington, Room Th 317",
+      "imagePath": "film_fest_2019/Dennis_Deletant.jpg",
+      "locationLink": "https://goo.gl/maps/JC3pt4rdPGqhcPM99",
+      "id": "dennis-deletant",
+      "structuredStartDate": "2019-10-29T13:30",
+      "structuredEndDate": "2019-10-29T15:00",
+      "structuredLocation": "University of Washington, Room Th 317"
+    }
+  ],
+  "festivalParteners": [
+    {
+      "link": "https://www.uipath.com/company/foundation",
+      "imagePath": "UiPath.jpg"
+    }
+  ],
+  "festivalSponsors": [
+    {
+      "link": "http://www.4culture.org/",
+      "imagePath": "4culture.png"
+    },
+    {
+      "link": "https://www.bhgre.com/Better-Homes-and-Gardens-Real-Estate-Macy-%26-Co.-44181c/Nadia-Schmieder-4989949a",
+      "imagePath": "nadia_schmieder.jpg"
+    },
+    {
+      "link": "http://www.nwfamilydental.net/",
+      "imagePath": "nw_family_dental.jpg"
+    }
+  ],
+  "partners": [],
+  "sponsors": [],
+  "films": [],
+  "guests": []
 }

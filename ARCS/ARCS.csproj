@@ -316,6 +316,10 @@
     <Content Include="Resources\Images\excellence\uw.png" />
     <Content Include="Resources\Images\excellence\volunteering.jpg" />
     <Content Include="Resources\Images\excellence\xr-journeys.png" />
+    <Content Include="Resources\Images\film_fest_2019\4culture.png" />
+    <Content Include="Resources\Images\film_fest_2019\nadia_schmieder.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\nw_family_dental.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\UiPath.jpg" />
     <Content Include="Resources\Images\logo_new.png" />
     <Content Include="Resources\Images\siff_content\siff2019_2600x624.png" />
     <Content Include="Resources\Images\siff_content\siff2019_828x1472.png" />
