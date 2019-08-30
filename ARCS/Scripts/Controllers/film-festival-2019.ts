@@ -30,11 +30,12 @@ function FilmFestival2019Controller($scope, $sce, asyncContent) {
     });
 
     $scope.donorGroupTitles = {
+        donors1000: "Supporting Sponsor ($1000 and more)",
         donors500plus: "Festival Amabassador ($500 and more)",
-        donors250: "Festival Benefactor ($250)",
-        donors100: "Festival Supporter ($100)",
-        donors50: "Festival Friend ($50)",
-        donors25: "Special Thanks ($25)",
-        donors10: "Many Thanks ($10)"
+        donors250: "Festival Benefactor ($250 and more)",
+        donors100: "Festival Supporter ($100 and more)",
+        donors50: "Festival Friend ($50 and more)",
+        donors25: "Special Thanks ($25 and more)",
+        donors10: "Many Thanks ($10 and more)"
     };
 };
