@@ -34,6 +34,12 @@ function FilmFestDonate($scope) {
             benefits: "We are offering a pair of festival passes, our festival poster, credit at the screenings from SIFF Cinema Uptown, and special thank you credit on our website. A surprise gift will wait for you at the festival venue and you will be invited to a private dinner event with the festival guests and organizers."
         },
         {
+            dollars: "1000",
+            visible_value: "$1000 and More",
+            level: "Supporting Sponsor",
+            benefits: "We are offering 4 festival passes, 2 tickets at SIFF 2020, our festival poster, credit at the screenings from SIFF Cinema Uptown, and special thank you credit on our website. A surprise gift will wait for you at the festival venue and you will be invited to a private dinner event with the festival guests and organizers."
+        },
+        {
             dollars: "Custom amount",
             visible_value: "Custom amount",
             level: "",
