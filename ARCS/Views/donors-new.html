@@ -14,12 +14,12 @@
 </div>
 
 <h3 ng-if="$ctrl.dataLoaded && $ctrl.dataAvailable">{{$ctrl.heading}}</h3>
-<div class="row" ng-if="$ctrl.dataLoaded && donorGroups.donors1000plus">
+<div class="row" ng-if="$ctrl.dataLoaded && donorGroups.donors1000">
     <div class="col-sm-12">
         <div class="panel panel-primary">
-            <div class="panel-heading" id="donors1000plus">{{donorGroups.donors1000plus.heading}}</div>
+            <div class="panel-heading" id="donors1000">{{donorGroups.donors1000.heading}}</div>
             <ul class="list-group">
-                <li class="list-group-item" ng-repeat="donor in donorGroups.donors1000plus">{{donor}}</li>
+                <li class="list-group-item" ng-repeat="donor in donorGroups.donors1000">{{donor}}</li>
             </ul>
         </div>
     </div>
