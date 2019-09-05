@@ -299,6 +299,12 @@
     <Content Include="Resources\Images\board\OanaGusatu.jpg" />
     <Content Include="Resources\Images\board\RaduSimionescu.jpg" />
     <Content Include="Resources\Images\board\RalucaHera.jpg" />
+    <Content Include="Resources\Images\education\BNNEducation_2600x623.jpg" />
+    <Content Include="Resources\Images\education\BNNEducation_414x736.jpg" />
+    <Content Include="Resources\Images\education\centre_of_excellence_img2.jpg" />
+    <Content Include="Resources\Images\education\map.jpg" />
+    <Content Include="Resources\Images\education\piticot.jpg" />
+    <Content Include="Resources\Images\education\songs_and_poems.jpg" />
     <Content Include="Resources\Images\excellence\around_the_world.jpg" />
     <Content Include="Resources\Images\excellence\BNNExcellence_1300x312.jpg" />
     <Content Include="Resources\Images\excellence\calendar.jpg" />
@@ -573,10 +579,14 @@
     <Content Include="filmfest\filmfest2015\fonts\leaguegothic-regular-webfont.woff" />
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
     <Content Include="Styles\main-page.css" />
+    <Content Include="Styles\main-page.min.css">
+      <DependentUpon>main-page.css</DependentUpon>
+    </Content>
     <Content Include="Views\alumni.html" />
     <Content Include="Views\cultural-festival-maryhill.html" />
     <Content Include="Views\donors-new.html" />
     <Content Include="Views\donors.html" />
+    <Content Include="Views\education.html" />
     <Content Include="Views\excellence-center.html" />
     <Content Include="Views\film-fest-donate.html" />
     <Content Include="Views\film-festival-2018.html" />
@@ -688,6 +698,7 @@
     <TypeScriptCompile Include="Scripts\Controllers\donate.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donors-new.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\donors.ts" />
+    <TypeScriptCompile Include="Scripts\Controllers\education.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\film-festival-2019.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\summer-camp-2018.ts" />
     <TypeScriptCompile Include="Scripts\Controllers\volunteering.ts" />
