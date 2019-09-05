@@ -580,9 +580,6 @@
     <Content Include="filmfest\filmfest2015\fonts\leaguegothic-regular-webfont.woff" />
     <None Include="Properties\PublishProfiles\arcsproject - Web Deploy.pubxml" />
     <Content Include="Styles\main-page.css" />
-    <Content Include="Styles\main-page.min.css">
-      <DependentUpon>main-page.css</DependentUpon>
-    </Content>
     <Content Include="Views\alumni.html" />
     <Content Include="Views\cultural-festival-maryhill.html" />
     <Content Include="Views\donors-new.html" />
