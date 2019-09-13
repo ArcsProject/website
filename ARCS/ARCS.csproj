@@ -325,8 +325,14 @@
     <Content Include="Resources\Images\excellence\xr-journeys.png" />
     <Content Include="Resources\Images\film_fest_2019\4culture.png" />
     <Content Include="Resources\Images\film_fest_2019\cedar_river.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\FPJr.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\icr.png" />
+    <Content Include="Resources\Images\film_fest_2019\medinn.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\MHK.jpg" />
     <Content Include="Resources\Images\film_fest_2019\nadia_schmieder.jpg" />
     <Content Include="Resources\Images\film_fest_2019\nw_family_dental.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\QED.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\stranger.png" />
     <Content Include="Resources\Images\film_fest_2019\traduterra.png" />
     <Content Include="Resources\Images\film_fest_2019\UiPath.jpg" />
     <Content Include="Resources\Images\logo_new.png" />
