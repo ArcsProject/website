@@ -31,7 +31,7 @@
     },
     {
       "link": "http://www.icrny.org/",
-      "imagePath": "icr.png"
+      "imagePath": "icr.jpg"
     },
     {
       "link": "https://www.bhgre.com/Better-Homes-and-Gardens-Real-Estate-Macy-%26-Co.-44181c/Nadia-Schmieder-4989949a",
@@ -70,7 +70,7 @@
       "imagePath": "MHK.jpg",
       "year": "2018",
       "id": "moon-hotel-kabul",
-      "trailerLink": "https://www.youtube.com/watch?v=hIdFuyqN_PA",
+      "trailerLink": "https://vimeo.com/252998126",
       "structuredPerformers": [ "florin-piersic-jr" ]
     },
     {
@@ -82,7 +82,7 @@
       "imagePath": "QED.jpg",
       "year": "2013",
       "id": "the-escape",
-      "trailerLink": "https://www.youtube.com/watch?v=Xjvo3UQFJeU",
+      "trailerLink": "https://www.youtube.com/watch?v=WdCni63Mbjc",
       "structuredPerformers": [ "florin-piersic-jr" ]
     }
   ],
