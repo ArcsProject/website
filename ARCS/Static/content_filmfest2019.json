@@ -30,6 +30,10 @@
       "imagePath": "4culture.png"
     },
     {
+      "link": "http://www.icrny.org/",
+      "imagePath": "icr.jpg"
+    },
+    {
       "link": "https://www.bhgre.com/Better-Homes-and-Gardens-Real-Estate-Macy-%26-Co.-44181c/Nadia-Schmieder-4989949a",
       "imagePath": "nadia_schmieder.jpg"
     },
@@ -44,10 +48,50 @@
     {
       "link": "http://www.traduterra.com",
       "imagePath": "traduterra.png"
+    },
+    {
+      "link": "https://www.mediterranean-inn.com",
+      "imagePath": "medinn.jpg"
+    },
+    {
+      "link": "https://www.thestranger.com",
+      "imagePath": "stranger.png"
     }
   ],
   "partners": [],
   "sponsors": [],
-  "films": [],
-  "guests": []
+  "films": [
+    {
+      "name": "Moon Hotel Kabul",
+      "description": [ "Ivan Semciuc (played by <a href=\"#florin-piersic-jr\">Florin Piersic Jr.</a>) is a cynical investigative journalist. He is skillfully combining truth and fiction in his reports. Then comes a day when something similar occurs in his own life: at the end of a mission in Kabul, he has a one night stand with Ioana, the translator. The event is seemingly meaningless, but the next day, back to Bucharest, Ivan finds out that Ioana died with her wrists cut. The unshakable routine of his personal life enters a profound revolution, as Ioana is haunting him, more present in her death then she was during life. The film is raising questions about truth, love and the price we decide to pay for them. Winner of The Best Director Warsaw International Film Festival 2018. " ],
+      "artist": "Anca Damian",
+      "length": "100 minutes",
+      "genres": "Drama",
+      "imagePath": "MHK.jpg",
+      "year": "2018",
+      "id": "moon-hotel-kabul",
+      "trailerLink": "https://vimeo.com/252998126",
+      "structuredPerformers": [ "florin-piersic-jr" ]
+    },
+    {
+      "name": "The Escape",
+      "description": [ "Romania, 1984. The decision of a mathematician to publish a paper in a journal of an American university, without asking the permission of the communist authorities, will trigger a chain of events that will change the lives of those around him. After all, there are no decisions without consequences. <a href=\"#florin-piersic-jr\">Florin Piersic Jr.</a> plays the Securitate detective who investigates the case. He received the Best Actor of the Year (Gopo Awards) for his brilliant interpretation. Winner of the Special Jury Prize at Rome Film Fest in 2013." ],
+      "artist": "Andrei Gruzsnickzki",
+      "length": "107 minutes",
+      "genres": "Drama",
+      "imagePath": "QED.jpg",
+      "year": "2013",
+      "id": "the-escape",
+      "trailerLink": "https://www.youtube.com/watch?v=WdCni63Mbjc",
+      "structuredPerformers": [ "florin-piersic-jr" ]
+    }
+  ],
+  "guests": [
+    {
+      "name": "Florin Piersic Jr",
+      "imagePath": "FPJr.jpg",
+      "details": "Born in 1968, Florin Piersic Jr. is a Romanian actor, director and writer. He translated, directed and performed in \"Dice and Cards\" by Sam Henry Kass, \"Opposites Attract\" by Bruce Kane, \"Tom and Jerry\" by Rick Cleveland, \"Sex Drugs Rock and Roll\", by Eric Bogosian, \"Brothers!\" by Dave Williams. In 2013, he wrote and produced the one-man-show entitled \"Freak Show\". His performance (13 characters) has been acclaimed both by the public and the critics. Florin Piersic Jr. is the author of the novel \"Romantic Porno\" (2011), as well as of the collection of short stories entitled \"Complete Works - Volume One\" (2009) and \"Complete Works - Volume Two\" (2015). Currently, Florin Piersic Jr. is working on the feature film called \"Nothing About Love\", written and directed by himself. Florin Piersic Jr. has received numerous prestigious awards, the most recent including the Best Actor of the Year for \"The Escape\" in 2015 at Gopo Awards; the Jury's Prize (for \"Freak Show\")  at Festco Comedy Festival, Bucharest in 2014, the Best Experimental Movie ( for \"Killing Time\")  at UCIN (Romanian Cinematographers' Union) in 2013. Florin Piersic Jr. plays the lead part in Comrade Detective, an American buddy cop series created by Brian Gatewood and Alessandro Tanaka released on Amazon Video in 2017. <a target=\"_blank\" href=\"http://www.piersicjr.com\" >http://www.piersicjr.com</>",
+      "id": "florin-piersic-jr"
+    }
+  ]
 }
