@@ -59,7 +59,16 @@
     }
   ],
   "partners": [],
-  "sponsors": [],
+  "sponsors": [
+    {
+      "link": "https://afseattle.org/",
+      "imagePath": "af.png"
+    },
+    {
+      "link": "https://advanceddentistryatcenturysquare.com/",
+      "imagePath": "advanced_dentistry.jpg"
+    }
+  ],
   "films": [
     {
       "name": "Moon Hotel Kabul",
