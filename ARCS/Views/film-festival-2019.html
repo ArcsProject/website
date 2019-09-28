@@ -67,61 +67,94 @@
          <div class="panel-heading" id="{{film.id}}">
              <div class="row">
                  <div class="col-xs-9">
-                     <h3 class="panel-title">{{film.name}} (By {{film.artist}})</h3>
+                     <h3 class="panel-title">{{film.name}} <span ng-if="film.artist">(By {{film.artist}})</span></h3>
                  </div>
                  <div class="col-xs-3">
                      <a ng-if="film.ticketLink" class="btn btn-info btn-sm event-button buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-category="Buy Ticket" track-action="{{film.name}}" track-custom="title"><strong>BUY TICKETS</strong></a>
                  </div>
              </div>
          </div>
-         <div class="panel-body">
+         <div class="panel-body" ng-if="film.collection" >
              <div class="row">
-                 <div class="col-sm-3">
-                     <img class="media-object film" src="../Resources/Images/film_fest_2019/{{film.imagePath}}" alt="Image for {{film.name}}">
-                 </div>
-                 <div class="col-sm-9">
+                 <div class="col-sm-12">
                      <h4 ng-if="film.time">{{film.time}}</h4>
                      <p ng-if="film.guests"><b>Guests in attendance:</b> {{film.guests}}</p>
-                     <p ng-repeat="line in film.description" ng-bind-html="line"></p>
-                     <p><b>Length:</b> {{film.length}}</p>
-                     <p>{{film.year}}, {{film.genres}}</p>
-                     <p ng-if="film.trailerLink"><a ng-if="film.trailerLink" href="{{film.trailerLink}}" target="_blank" track-category="View Trailer" track-action="{{film.name}}">View Trailer</a></p>
+                 </div>
+             </div>
+
+             <div class="row" ng-repeat="short in film.collection" style="padding:15px">
+                 <div class="row">
+                     <div class="col-sm-12">
+                         <h4 style="margin-top:10px;margin-bottom:10px">{{short.name}} <span ng-if="short.artist">(By {{short.artist}})</span></h4>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-sm-3">
+                         <img ng-if="short.imagePath" class="media-object film" src="../Resources/Images/film_fest_2019/{{short.imagePath}}" alt="Image for {{short.name}}">
+                     </div>
+                     <div class="col-sm-9">
+                         <p ng-repeat="line2 in short.description">{{line2}}</p>
+                         <p><b>Length:</b> {{short.length}}</p>
+                         <p>{{short.year}}, {{short.genres}}</p>
+                         <p ng-if="short.trailerLink"><a ng-if="short.trailerLink" href="{{short.trailerLink}}" target="_blank" track-category="View Trailer" track-action="{{short.name}}">View Trailer</a></p>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="row">
+                 <div class="col-sm-12">
                      <p><a ng-if="film.ticketLink" class="btn btn-info buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-category="Buy Ticket" track-action="{{film.name}}" track-custom="content"><strong>BUY TICKETS</strong></a></p>
                  </div>
              </div>
+             </div>
+                 <div class="panel-body" ng-if="!film.collection" >
+                     <div class="row">
+                         <div class="col-sm-3">
+                             <img ng-if="film.imagePath" class="media-object film" src="../Resources/Images/film_fest_2019/{{film.imagePath}}" alt="Image for {{film.name}}">
+                         </div>
+                         <div class="col-sm-9">
+                             <h4 ng-if="film.time">{{film.time}}</h4>
+                             <p ng-if="film.guests"><b>Guests in attendance:</b> {{film.guests}}</p>
+                             <p ng-repeat="line in film.description" ng-bind-html="line"></p>
+                             <p><b>Length:</b> {{film.length}}</p>
+                             <p>{{film.year}}, {{film.genres}}</p>
+                             <p ng-if="film.trailerLink"><a ng-if="film.trailerLink" href="{{film.trailerLink}}" target="_blank" track-category="View Trailer" track-action="{{film.name}}">View Trailer</a></p>
+                             <p><a ng-if="film.ticketLink" class="btn btn-info buy-ticket-button" href="{{film.ticketLink}}" target="_blank" track-category="Buy Ticket" track-action="{{film.name}}" track-custom="content"><strong>BUY TICKETS</strong></a></p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <h2 id="special-events">Special Events</h2>
+             <event event="event" ng-repeat="event in specialEvents | orderBy: 'date'"></event>
+             <h2 id="supporters">Supporters</h2>
+             <h3 id="festival-partners">Festival Official Partner ($5000 and more)</h3>
+
+             <div class="row">
+                 <div class="col-sm-6 col-md-4" ng-repeat="partner in festivalParteners">
+                     <a href="{{partner.link}}" class="thumbnail" style="position:relative" target="_blank">
+                         <img ng-src="../Resources/Images/film_fest_2019/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image-new">
+                     </a>
+                 </div>
+             </div>
+
+             <h3 id="festival-sponsors">Festival Sponsor ($1000 and more)</h3>
+             <div class="row">
+                 <div class="col-sm-6 col-md-4" ng-repeat="sponsor in festivalSponsors">
+                     <a href="{{sponsor.link}}" class="thumbnail" style="position:relative" target="_blank">
+                         <img ng-src="../Resources/Images/film_fest_2019/{{sponsor.imagePath}}" alt="Logo for {{sponsor.link}}" class="sponsor-image-new">
+                     </a>
+                 </div>
+             </div>
+             <h3 id="sponsors">Community Partners ($250 - $500)</h3>
+             <div class="row">
+                 <div class="col-sm-6 col-md-4" ng-repeat="sponsor in sponsors">
+                     <a href="{{sponsor.link}}" class="thumbnail" style="position:relative" target="_blank">
+                         <img ng-src="../Resources/Images/film_fest_2019/{{sponsor.imagePath}}" alt="Logo for {{sponsor.link}}" class="sponsor-image-new">
+                     </a>
+                 </div>
+             </div>
+
+             <donorsnew campaign="filmfest2019" heading="Private Donors" titles="donorGroupTitles"></donorsnew>
          </div>
-     </div>
-    <h2 id="special-events">Special Events</h2>
-    <event event="event" ng-repeat="event in specialEvents | orderBy: 'date'"></event>
-    <h2 id="supporters">Supporters</h2>
-    <h3 id="festival-partners">Festival Official Partner ($5000 and more)</h3>
-
-    <div class="row">
-        <div class="col-sm-6 col-md-4" ng-repeat="partner in festivalParteners">
-            <a href="{{partner.link}}" class="thumbnail" style="position:relative" target="_blank">
-                <img ng-src="../Resources/Images/film_fest_2019/{{partner.imagePath}}" alt="Logo for {{partner.link}}" class="sponsor-image-new">
-            </a>
-        </div>
-    </div>
-
-    <h3 id="festival-sponsors">Festival Sponsor ($1000 and more)</h3>
-    <div class="row">
-        <div class="col-sm-6 col-md-4" ng-repeat="sponsor in festivalSponsors">
-            <a href="{{sponsor.link}}" class="thumbnail" style="position:relative" target="_blank">
-                <img ng-src="../Resources/Images/film_fest_2019/{{sponsor.imagePath}}" alt="Logo for {{sponsor.link}}" class="sponsor-image-new">
-            </a>
-        </div>
-    </div>
-   <h3 id="sponsors">Community Partners ($250 - $500)</h3>
-    <div class="row">
-        <div class="col-sm-6 col-md-4" ng-repeat="sponsor in sponsors">
-            <a href="{{sponsor.link}}" class="thumbnail" style="position:relative" target="_blank">
-                <img ng-src="../Resources/Images/film_fest_2019/{{sponsor.imagePath}}" alt="Logo for {{sponsor.link}}" class="sponsor-image-new">
-            </a>
-        </div>
-    </div>
-
-    <donorsnew campaign="filmfest2019" heading="Private Donors" titles="donorGroupTitles"></donorsnew>
-</div>
 <jsonld data-json="jsonId2"></jsonld>
 {{TrackOutboundRequests()}}

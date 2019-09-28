@@ -71,8 +71,12 @@
   ],
   "films": [
     {
+      "time": "Friday, November 15, 7:00 PM",
       "name": "Moon Hotel Kabul",
-      "description": [ "Ivan Semciuc (played by <a href=\"#florin-piersic-jr\">Florin Piersic Jr.</a>) is a cynical investigative journalist. He is skillfully combining truth and fiction in his reports. Then comes a day when something similar occurs in his own life: at the end of a mission in Kabul, he has a one night stand with Ioana, the translator. The event is seemingly meaningless, but the next day, back to Bucharest, Ivan finds out that Ioana died with her wrists cut. The unshakable routine of his personal life enters a profound revolution, as Ioana is haunting him, more present in her death then she was during life. The film is raising questions about truth, love and the price we decide to pay for them. Winner of The Best Director Warsaw International Film Festival 2018. " ],
+      "description": [
+        "Ivan Semciuc (played by <a href=\"#florin-piersic-jr\">Florin Piersic Jr.</a>) is a cynical investigative journalist. He is skillfully combining truth and fiction in his reports. Then comes a day when something similar occurs in his own life: at the end of a mission in Kabul, he has a one night stand with Ioana, the translator. The event is seemingly meaningless, but the next day, back to Bucharest, Ivan finds out that Ioana died with her wrists cut. The unshakable routine of his personal life enters a profound revolution, as Ioana is haunting him, more present in her death then she was during life. The film is raising questions about truth, love and the price we decide to pay for them. Winner of The Best Director Warsaw International Film Festival 2018. ",
+        "<i>This screening will be followed by a Q&A with special guest Florin Piersic Jr. </i>"
+      ],
       "artist": "Anca Damian",
       "length": "100 minutes",
       "genres": "Drama",
@@ -83,6 +87,214 @@
       "structuredPerformers": [ "florin-piersic-jr" ]
     },
     {
+      "name": "FOCUS: EDUCATION and HERITAGE SHORTS PROGRAM  + Q&A with Special Guest Teodora Totoiu",
+      "artist": "Teodora Totoiu",
+      "time": "Saturday, November 16, 10:00 AM",
+      "structuredPerformers": [ "teodora-totoiu" ],
+      "id": "short1",
+      "collection": [
+        {
+          "name": "Romanian Role Models: ARCS Summer Camp Shorts",
+          "description": [ "These shorts were made by Romanian American students during ARCS Summer Camp (2nd edition) hosted by Ellison Center at University of Washington, under the instruction of director Iulia Rugină and actress Ioana Flora.  Every group received a prompt for their short, related to four Romanian role models: Nadia Comăneci, Queen Marie, George Enescu and Constantin Brâncusi. Making of by Adriana Guiman." ],
+          "length": "45 minutes",
+          "genres": "Shorts",
+          "year": "2019",
+          "id": "summer-camp",
+          "imagePath": "camp.jpg"
+        },
+        {
+          "name": "A Distance",
+          "description": [ "Three Romanian women reunite on a farm in Transylvania and struggle to reconnect while mourning the death of a loved one. This is a tale about identity, roots, and transgenerational dialogue." ],
+          "artist": "Teodora Totoiu",
+          "length": "26 minutes",
+          "imagePath": "Distance.jpg",
+          "genres": "Drama",
+          "trailerLink": "https://vimeo.com/362906831",
+          "year": "2018"
+        },
+        {
+          "name": "The Call",
+          "artist": "Anca Damian",
+          "description": [ "An aged woman is taking a bath. While entering the water, a new world reveals. The phone, on a chair, connects her with her son and is the only link to the real world. Winner of Best Short Film, Edinburgh International Film Festival 2019, and the Jury Prize, Hong Kong International Film Festival, 2019." ],
+          "length": "10 minutes",
+          "imagePath": "Call.jpg",
+          "genres": "Animation",
+          "trailerLink": "https://www.youtube.com/watch?v=D2z35eSFjHc",
+          "year": "2018"
+        },
+        {
+          "name": "My Father's Shoes/Opinci",
+          "artist": "Anton and Damian Groves",
+          "description": [ "A film based on a true story about a record breaking globetrotter and single father, Dan Dumitru, who attempts to explain death, courage and the absence of her mother to his young daughter, Steliana. Winner of Best Short Film, Transilvania International Film Festival, 2019." ],
+          "length": "18 minutes",
+          "genres": "Animation",
+          "trailerLink": "https://vimeo.com/341384326",
+          "year": "2019",
+          "imagePath": "opinci.jpg"
+        }
+      ]
+    },
+    {
+      "time": "Saturday, November 16, 12:20 PM",
+      "name": "Toto and His Sisters",
+      "description": [
+        "This multi award-winning documentary tells us the story of Toto (10) and his sisters Ana (17) and Andreea (15) who conquer life on their own during their mother's imprisonment. Toto passionately learns dancing, reading, and writing, while his sisters try to keep the family together in a world that has long forgotten what the innocence of childhood should be. What happens when we discover that we can get more from life than our parents have to offer?",
+        "Toto Horvat’s story tells us about the importance of art and education in shaping the future generations and empowering our youth to be change makers, against all odds. Toto came to Seattle for the 2nd edition of ARCS Summer Camp for Romanian heritage students, hosted on UW Campus. His internship was sponsored by the UiPath Foundation. The foundation’s Executive Director Raluca Negulescu-Balaci and Communication Strategist Codruța Iovănaș will attend the screening and lead a discussion about inspiring role models of social change during the Q&A session afterwards."
+      ],
+      "artist": "Alexandru Nanau",
+      "length": "94 minutes",
+      "genres": "Documentary",
+      "imagePath": "Toto.jpg",
+      "year": "2014",
+      "id": "toto",
+      "trailerLink": "https://www.youtube.com/watch?v=MXtjJbB1Oh4"
+    },
+    {
+      "time": "Saturday, November 16, 2:45 PM",
+      "name": "The Father",
+      "description": [
+        "We all wrestle with our past; some more than others. Romanian Jewish avant-garde poet, musician, visual artist, femme fatale, prodigious drinker, and terminal smoker Nina Cassian had more than most to wrestle with: her refuge in the Communist underground during the Fascist 1940s put her first in complicit proximity to the Stalinist regime of the 1950s, then propelled her on a collision course with the Ceaușescu regime in the 1970s, and eventually sent her into an unwanted New York exile in 1985, when her samizdat poems led to a secret police murder. An intensely personal film about art, belief, and politics, The Distance Between Me and Me looks at the friction between individual memory and official records by setting Nina’s words during her last year of life against a rich archive of films, music, poems, television appearances, never-before-seen private recordings, and secret police surveillance materials. ",
+        "<i>This screening will be followed by a Q&A with special guest Mona Nicoară. </i>"
+      ],
+      "artist": "Kristina Grozeva and Petar Valchanov",
+      "length": "87 minutes",
+      "genres": "Comedy/Drama",
+      "imagePath": "Father.jpg",
+      "year": "2019",
+      "id": "father",
+      "trailerLink": "https://vimeo.com/360618238"
+    },
+    {
+      "time": "Saturday, November 16, 4:35 PM",
+      "name": "The Distance Between Me and Me",
+      "description": [
+        "We all wrestle with our past; some more than others. Romanian Jewish avant-garde poet, musician, visual artist, femme fatale, prodigious drinker, and terminal smoker Nina Cassian had more than most to wrestle with: her refuge in the Communist underground during the Fascist 1940s put her first in complicit proximity to the Stalinist regime of the 1950s, then propelled her on a collision course with the Ceaușescu regime in the 1970s, and eventually sent her into an unwanted New York exile in 1985, when her samizdat poems led to a secret police murder. An intensely personal film about art, belief, and politics, The Distance Between Me and Me looks at the friction between individual memory and official records by setting Nina’s words during her last year of life against a rich archive of films, music, poems, television appearances, never-before-seen private recordings, and secret police surveillance materials. ",
+        "<i>This screening will be followed by a Q&A with special guest Mona Nicoară. </i>"
+      ],
+      "artist": "Mona Nicoară and Dana Bunescu",
+      "length": "89 minutes",
+      "genres": "Documentary",
+      "imagePath": "Distance_me.jpg",
+      "year": "2018",
+      "id": "distance",
+      "trailerLink": "https://www.youtube.com/watch?v=oy57OEin4KU"
+    },
+    {
+      "time": "Saturday, November 16, 6:50 PM",
+      "name": "The Whistlers",
+      "description": [
+        "In The Whistlers, not everything is as it seems for Cristi, a police inspector in Bucharest who plays both sides of the law. Embarking with the beautiful Gilda on a high-stakes heist, both will have to navigate the twists and turns of corruption, treachery, and deception. A trip to the Canary Islands to learn a secret whistling language might just be what they need to pull it off. Nominated for a Palme d’Or at Cannes in 2019; Romania’s submission for the 2020 Oscars. ",
+        "<i>This screening will be followed by a Q&A with special guest Monica Filimon</i>"
+      ],
+      "artist": "Corneliu Porumboiu",
+      "length": "97 minutes",
+      "genres": "Drama",
+      "imagePath": "Whistlers.jpg",
+      "year": "2019",
+      "id": "whistlers",
+      "trailerLink": "https://www.youtube.com/watch?v=LRFK2i0FklI"
+    },
+    {
+      "time": "Sunday, November 17, 10:00 AM",
+      "name": "Parking",
+      "description": [
+        "Adrian is a poet, a Romanian immigrant working as a night guard at a car dealership in Cordoba. He speaks Spanish and lives utterly alone -- and all he wants is to write and start a new life. His encounter with Maria during the Night of San Juan seems written in the stars, but their passion will soon be tested by the challenges they must face together. "
+      ],
+      "artist": "Tudor Giurgiu",
+      "length": "110 minutes",
+      "genres": "Drama",
+      "imagePath": "Parking.jpg",
+      "year": "2019",
+      "id": "parking",
+      "trailerLink": "https://youtu.be/2MTBz2UGhb0"
+    },
+    {
+      "time": "Sunday, November 17, 12:10 PM",
+      "name": "That Trip We Took With Dad",
+      "description": [
+        "The turbulent year of 1968 and the “Prague Spring” set the scene for the moving story of this film. A Romanian German family living in the heart of Transylvania starts a journey to the German Democratic Republic. Two brothers with very different personalities take their weary father to have surgery abroad, which they hope would help restore the family’s lost harmony. Caught in the middle of the Soviet invasion of Czechoslovakia and closed in by the Soviet tanks, the men suddenly find themselves in West-Germany. How much sacrifice can they take until they can return back home to the rest of their family? Winner of 8 international prizes, including Federico Fellini Award, Tiburon International Film Festival, 2017. "
+      ],
+      "artist": "Anca Miruna Lazarescu",
+      "length": "111 minutes",
+      "genres": "Comedy/Drama",
+      "imagePath": "Thattrip.jpg",
+      "year": "2016",
+      "id": "that-trip",
+      "trailerLink": "https://www.youtube.com/watch?v=u7FmDoVxnSc"
+    },
+    {
+      "time": "Sunday, November 17, 2:25 PM",
+      "name": "Donbass",
+      "description": [
+        "In the Donbass, a region of Eastern Ukraine, a hybrid war takes place, involving an open armed conflict alongside killings and robberies on a mass scale perpetrated by separatist gangs. War is called peace, propaganda is uttered as truth, and hatred is declared to be love. A journey through the region unfolds as a chain of curious adventures, where the grotesque and dramatic are as intertwined as life and death. This is not a tale of one region, one country, or one political system. It is about a world lost in post-truth and fake identities. It is about each and every one of us. Winner of 9 international prizes, including Un Certain Regard, Cannes, 2018. ",
+        "<i>This screening will be followed by a Q&A with special guest Robert Horton. </i>"
+      ],
+      "artist": "Sergey Loznitsa",
+      "length": "122 minutes",
+      "genres": "Drama",
+      "imagePath": "Donbass.jpg",
+      "year": "2018",
+      "id": "donbass",
+      "trailerLink": "https://www.imdb.com/title/tt8282042/?ref_=fn_al_tt_1"
+    },
+
+    {
+      "name": "MOLDOVAN STORIES SHORTS PROGRAM + Q&A with special guest Ion Borsh. ",
+      "length": "81 minutes",
+      "time": "Sunday, November 17, 5:10 PM",
+      "id": "short2",
+      "collection": [
+        {
+          "name": "Paparuda",
+          "description": [ "In a village hit by drought, Dumitru starts a quest for water. Ioana, the girl who accompanies him in this pursuit, is a silent witness of baseness of people that appear on their road. Instead of this human aridness, Dumitru finds water in the place he least expected." ],
+          "length": "15 minutes",
+          "genres": "Drama",
+          "year": "2015"
+        },
+        {
+          "name": "When Saturn Returns",
+          "description": [ "While working in a store Radu raps to himself, preparing for that night's concert. Everything would have gone smoothly if it were not for the girl he saw; recognizing her after 16 years -- his first love. " ],
+          "artist": "Mihai Bruma",
+          "length": "17 minutes",
+          "genres": "Drama",
+          "trailerLink": "https://vimeo.com/291933274",
+          "year": "2018"
+        },
+        {
+          "name": "One More One Less/Plus Minus Unu",
+          "artist": "Ion Borsh",
+          "description": [ "This film tells the story of a resident doctor who discovers a case of malpractice committed by a more experienced colleague. He decides to fight against a lawless system and take a risk that may mean losing his job." ],
+          "length": "28 minutes",
+          "genres": "Drama",
+          "year": "2018",
+          "imagePath": "Onemore.jpg"
+        },
+        {
+          "name": "Billion/Miliard",
+          "artist": "Evgheni Dudceac",
+          "description": [ "An allegory of the great Moldovan bank robbery -- in 2015, $1 billion has vanished from three of Moldova’s national banks, a mystery that has thrown the already struggling country into an even deeper crisis. " ],
+          "length": "21 minutes",
+          "imagePath": "Bilions.jpg",
+          "genres": "Adventure/Comedy",
+          "year": "2017",
+          "trailerLink": "https://www.youtube.com/watch?v=bT6jdTLCdVA"
+        }
+      ]
+    },
+    {
+      "time": "Sunday, November 17, 7:10 PM",
+      "name": "The Christmas Gift",
+      "description": [ "On the 20th of December, 1989, a few days after Ceausescu's bloody repression in Timisoara, a father’s quiet evening turns to sheer ordeal as he finds out that his young son has mailed a wish list to Santa requesting a present for his father -- his desire to see Ceausescu dead. Winner of numerous prizes, including Best of Fest & Jury Award, Palm Springs International ShortFest, 2019, and Grand Prix, Clermont-Ferrand International Short Film Festival, 2019." ],
+      "artist": "Bogdan Mureșan",
+      "length": "23 minutes",
+      "genres": "Drama/History ",
+      "imagePath": "XMAS.jpg",
+      "year": "2018",
+      "id": "xmas",
+      "trailerLink": "https://www.youtube.com/watch?v=_CYyb2LbGCM"
+    },
+    {
+      "time": "Sunday, November 17, 7:35 PM",
       "name": "The Escape",
       "description": [ "Romania, 1984. The decision of a mathematician to publish a paper in a journal of an American university, without asking the permission of the communist authorities, will trigger a chain of events that will change the lives of those around him. After all, there are no decisions without consequences. <a href=\"#florin-piersic-jr\">Florin Piersic Jr.</a> plays the Securitate detective who investigates the case. He received the Best Actor of the Year (Gopo Awards) for his brilliant interpretation. Winner of the Special Jury Prize at Rome Film Fest in 2013." ],
       "artist": "Andrei Gruzsnickzki",
@@ -101,6 +313,36 @@
       "imagePath": "FPJr.jpg",
       "details": "Born in 1968, Florin Piersic Jr. is a Romanian actor, director and writer. He translated, directed and performed in \"Dice and Cards\" by Sam Henry Kass, \"Opposites Attract\" by Bruce Kane, \"Tom and Jerry\" by Rick Cleveland, \"Sex Drugs Rock and Roll\", by Eric Bogosian, \"Brothers!\" by Dave Williams. In 2013, he wrote and produced the one-man-show entitled \"Freak Show\". His performance (13 characters) has been acclaimed both by the public and the critics. Florin Piersic Jr. is the author of the novel \"Romantic Porno\" (2011), as well as of the collection of short stories entitled \"Complete Works - Volume One\" (2009) and \"Complete Works - Volume Two\" (2015). Currently, Florin Piersic Jr. is working on the feature film called \"Nothing About Love\", written and directed by himself. Florin Piersic Jr. has received numerous prestigious awards, the most recent including the Best Actor of the Year for \"The Escape\" in 2015 at Gopo Awards; the Jury's Prize (for \"Freak Show\")  at Festco Comedy Festival, Bucharest in 2014, the Best Experimental Movie ( for \"Killing Time\")  at UCIN (Romanian Cinematographers' Union) in 2013. Florin Piersic Jr. plays the lead part in Comrade Detective, an American buddy cop series created by Brian Gatewood and Alessandro Tanaka released on Amazon Video in 2017. <a target=\"_blank\" href=\"http://www.piersicjr.com\" >http://www.piersicjr.com</>",
       "id": "florin-piersic-jr"
+    },
+    {
+      "name": "Mona Nicoară",
+      "imagePath": "Mona_Nicoara.jpg",
+      "details": "Mona Nicoară is a filmmaker, curator, writer, and educator. She started working in film in 1997 as an Associate Producer for Children Underground, which received the Special Jury Prize at the 2001 Sundance Film Festival and was nominated for an Academy Award for Best Feature Documentary. Her directorial debut, Our School, premiered in the US at the 2011 Tribeca Film Festival, went on to over 70 festivals worldwide, was awarded the Grand Jury Prize for Best US Feature at AFI SilverDocs. Her latest film, The Distance between Me and Me, received the audience award at Films de Cannes à Bucarest, screened at the Brooklyn Academy of Music and Trieste, and is currently distributed in cinemas in Romania. Nicoară also works as a festival programmer, and has been teaching film, writing, and literature at Columbia University, the Cooper Union, New York University, and Rutgers. Her writings have been published in The Guardian, Decât o revistă, Dilema, and Scena 9, among others. <a target=\"_blank\" href=\"www.monanicoara.com\">http://www.monanicoara.com</>",
+      "id": "mona-nicoara"
+    },
+    {
+      "name": "Teodora Totoiu",
+      "imagePath": "TeodoraTotoiu.jpg",
+      "details": "Teodora Totoiu is a Romanian-American director and cinematographer focusing on documentary and scripted-narrative film. As a member of the International Collective of Female Cinematographers, she has garnered a substantial body of work, including Waterschool (2018), an international collaboration with Swarovski that is currently streaming on Netflix; and Into Moria (2020), a documentary capturing personal stories from one of the largest refugee camps in Greece. Most recently, she has lensed a feature film directed by Academy Award-nominated Evgeny Afineevski. With a passion for visual storytelling, Teodora strives to continue her work by helping shape stories that celebrate all perspectives and embrace multicultural acceptance, respectfully captured through an artistic lens.",
+      "id": "teodora-totoiu"
+    },
+    {
+      "name": "Monica Filimon",
+      "imagePath": "monica_filimon_Seattle.jpg",
+      "details": "Monica Filimon was awarded a PhD in Comparative Literature by Rutgers University. She is Associate Professor of English at Kingsborough Community College, CUNY. She has published articles on French, German, and Romanian films. Her research focuses on the New Romanian Cinema, its sources, evolution, and major representatives. Her first book Cristi Puiu: Ineffable Experiences of the Profane World was published by the University of Illinois Press in February 2017. She is currently working on a second book tentatively titled Corneliu Porumboiu: Notes on the Absurd.",
+      "id": "monica-filimon"
+    },
+    {
+      "name": "Ion Borsh",
+      "imagePath": "Ion_Borsh.jpg",
+      "details": "Ion Borsh was born in 1990 in Chișinău, Moldova. He graduated Acting at the Academy of Fine Arts in Chișinău, in 2013. \"One More, One Less\" is his debut short film as a director. He starred in \"What a Wonderful World\", \"Beautiful Corruption\", \"Salix Caprea\" and \"Opus Nocturn 2\", also he was 1st AD in the short movie \"Now\"<p>Director Statement</p>Through the movie \"One More, One Less\" I want to show the situation of the medical system in my country, the attitude of the medical staff towards their patients, and the conditions imposed on the young resident doctors who try to fight against a corrupted system. The storyline is based on real facts, situations that most of us have had to deal with. The characters resemble us, our confrontation, on a daily basis, with the acute problems of our society. Our national cinematography should reflect more on these matters in order to create positive social change.",
+      "id": "ion-borsh"
+    },
+    {
+      "name": "Robert Horton",
+      "imagePath": "DSC_0021.jpg",
+      "details": "Robert Horton is the film critic for Seattle Weekly and the Everett Herald, and a longtime contributor to Film Comment. He curated the Magic Lantern film-discussion program at the Frye Art Museum for ten years, teaches film at Seattle University, and is a guest speaker for Smithsonian Journeys. His books include Frankenstein (Columbia University Press) and Billy Wilder: Interviews (University Press of Mississippi) as well as the zombie-Western graphic novel Rotten (Moonstone Books), and he blogs on movies at The Crop Duster (<a href=\"roberthorton.wordpress.com\">roberthorton.wordpress.com</a>). He is a member of the Broadcast Film Critics Association. In 2012 he curated the Museum of History & Industry's \"Celluloid",
+      "id": "robert-horton"
     }
   ]
 }
