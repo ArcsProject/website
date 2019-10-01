@@ -336,6 +336,7 @@
     <Content Include="Resources\Images\film_fest_2019\DSC_0021.JPG" />
     <Content Include="Resources\Images\film_fest_2019\Father.jpg" />
     <Content Include="Resources\Images\film_fest_2019\FPJr.jpg" />
+    <Content Include="Resources\Images\film_fest_2019\freak.jpg" />
     <Content Include="Resources\Images\film_fest_2019\icr.jpg" />
     <Content Include="Resources\Images\film_fest_2019\Ion_Borsh.jpg" />
     <Content Include="Resources\Images\film_fest_2019\medinn.jpg" />
@@ -348,7 +349,6 @@
     <Content Include="Resources\Images\film_fest_2019\opinci.JPG" />
     <Content Include="Resources\Images\film_fest_2019\Parking.jpg" />
     <Content Include="Resources\Images\film_fest_2019\QED.jpg" />
-    <Content Include="Resources\Images\film_fest_2019\rff_flyer_old.jpg" />
     <Content Include="Resources\Images\film_fest_2019\stranger.png" />
     <Content Include="Resources\Images\film_fest_2019\TeodoraTotoiu.jpg" />
     <Content Include="Resources\Images\film_fest_2019\Thattrip.jpg" />
