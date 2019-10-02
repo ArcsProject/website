@@ -21,7 +21,10 @@
       "name": "Freak Show",
       "artist": "Writer, Actor and Director Florin Piersic Jr",
       "descriptionHtml": [
-        "<b>FREAK SHOW</b>, written, directed and performed by Florin Piersic Jr, is a dynamic tour de force that keeps the audience with bated breath for almost two hours. Florin Piersic Jr plays 13 characters (a fake billionaire, worker, banker, retiree, TV producer, professor, beggar, among others). You will watch a versatile actor who continuously changes parts in a hallucinatory chain of transformations. Between 2014 and 2017, <b>FREAK SHOW</b> has been selected by several festivals in Romania and has toured abroad in London, Brussels, Calgary, Ottawa, Montreal, Toronto, Toulouse, and Koln. Since the opening night, <b>FREAK SHOW</b> has become a reference point for Romanian theatre. Well-versed then in physical metamorphosis, Piersic is adept in <i>Freak Show</i>. He seems effortlessly to lend his body to his characters, while hats, wigs and fake teeth add the finishing touches. Though they’re a diverse range of types, Piersic’s personae do share one thing: they’re the product of Today and all of them suffer from modern day maladies: deception, insensitivity, loneliness, delusion.” (Camelia Ciobanu, Central and Eastern European London Review, 2015) <p>Freak Show este acel gen de spectacol pe care îți dorești să îl revezi pentru că nu te poți sătura de savoarea interpretării și de artificiile regizorale - Mirela Cara</p>"
+        "<b>FREAK SHOW</b>, written, directed and performed by Florin Piersic Jr, is a dynamic tour de force that keeps the audience with bated breath for almost two hours. Florin Piersic Jr plays 13 characters (a fake billionaire, worker, banker, retiree, TV producer, professor, beggar, among others). You will watch a versatile actor who continuously changes parts in a hallucinatory chain of transformations. Between 2014 and 2017, <b>FREAK SHOW</b> has been selected by several festivals in Romania and has toured abroad in London, Brussels, Calgary, Ottawa, Montreal, Toronto, Toulouse, and Koln. Since the opening night, <b>FREAK SHOW</b> has become a reference point for Romanian theatre.",
+        "\"Well-versed then in physical metamorphosis, Piersic is adept in <i>Freak Show</i>. He seems effortlessly to lend his body to his characters, while hats, wigs and fake teeth add the finishing touches. Though they’re a diverse range of types, Piersic’s personae do share one thing: they’re the product of Today and all of them suffer from modern day maladies: deception, insensitivity, loneliness, delusion.\" (Camelia Ciobanu, Central and Eastern European London Review, 2015)",
+        "\"Freak Show este acel gen de spectacol pe care îți dorești să îl revezi pentru că nu te poți sătura de savoarea interpretării și de artificiile regizorale\" - Mirela Cara",
+        "<i>Tickets on sale soon</i>"
       ],
       "date": "2019-11-18T19:30:00.000",
       "startTime": "2019-11-18T19:30:00.000",
@@ -29,7 +32,7 @@
       "location": "Kirkland Performance Center",
       "imagePath": "film_fest_2019/freak.jpg",
       "locationLink": "https://goo.gl/maps/8PwrJxGQ7za9U3RT7",
-      "id": "dennis-deletant",
+      "id": "freak-show",
       "structuredStartDate": "2019-11-18T19:30",
       "structuredEndDate": "2019-11-18T21:00",
       "structuredLocation": "Kirkland Performance Center"
@@ -156,7 +159,7 @@
       "name": "Toto and His Sisters",
       "description": [
         "This multi award-winning documentary tells us the story of Toto (10) and his sisters Ana (17) and Andreea (15) who conquer life on their own during their mother's imprisonment. Toto passionately learns dancing, reading, and writing, while his sisters try to keep the family together in a world that has long forgotten what the innocence of childhood should be. What happens when we discover that we can get more from life than our parents have to offer?",
-        "Toto Horvat’s story tells us about the importance of art and education in shaping the future generations and empowering our youth to be change makers, against all odds. Toto came to Seattle for the 2nd edition of ARCS Summer Camp for Romanian heritage students, hosted on UW Campus. His internship was sponsored by the UiPath Foundation. The foundation’s Executive Director Raluca Negulescu-Balaci and Communication Strategist Codruța Iovănaș will attend the screening and lead a discussion about inspiring role models of social change during the Q&A session afterwards."
+        "Toto Horvat’s story tells us about the importance of art and education in shaping the future generations and empowering our youth to be change makers, against all odds. Toto came to Seattle for the 2nd edition of ARCS Summer Camp for Romanian heritage students, hosted on UW Campus. His internship was supported by the UiPath Foundation. The foundation’s Executive Director Raluca Negulescu-Balaci and Communication Strategist Codruța Iovănaș will attend the screening and lead a discussion about inspiring role models of social change during the Q&A session afterwards."
       ],
       "artist": "Alexandru Nanau",
       "length": "94 minutes",
@@ -265,7 +268,8 @@
           "description": [ "In a village hit by drought, Dumitru starts a quest for water. Ioana, the girl who accompanies him in this pursuit, is a silent witness of baseness of people that appear on their road. Instead of this human aridness, Dumitru finds water in the place he least expected." ],
           "length": "15 minutes",
           "genres": "Drama",
-          "year": "2015"
+          "year": "2015",
+          "imagePath": "paparuda.jpg"
         },
         {
           "name": "When Saturn Returns",
@@ -274,7 +278,9 @@
           "length": "17 minutes",
           "genres": "Drama",
           "trailerLink": "https://vimeo.com/291933274",
-          "year": "2018"
+          "year": "2018",
+          "imagePath": "saturn.jpg"
+
         },
         {
           "name": "One More One Less/Plus Minus Unu",
