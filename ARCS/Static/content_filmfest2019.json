@@ -313,69 +313,74 @@
       ]
     },
     {
-      "time": "Sunday, November 17, 7:10 PM",
-      "name": "The Christmas Gift",
-      "description": [ "On the 20th of December, 1989, a few days after Ceausescu's bloody repression in Timisoara, a father’s quiet evening turns to sheer ordeal as he finds out that his young son has mailed a wish list to Santa requesting a present for his father -- his desire to see Ceausescu dead. Winner of numerous prizes, including Best of Fest & Jury Award, Palm Springs International ShortFest, 2019, and Grand Prix, Clermont-Ferrand International Short Film Festival, 2019." ],
-      "artist": "Bogdan Mureșan",
-      "length": "23 minutes",
-      "genres": "Drama/History ",
-      "imagePath": "XMAS.jpg",
-      "year": "2018",
-      "id": "xmas",
-      "trailerLink": "https://www.youtube.com/watch?v=_CYyb2LbGCM",
-      "ticketLink": "https://www.siff.net/year-round-cinema/romanian-film-festival-stories-off-the-wall-(6th-edition)"
-    },
-    {
-      "time": "Sunday, November 17, 7:35 PM",
-      "name": "The Escape",
-      "description": [ "Romania, 1984. The decision of a mathematician to publish a paper in a journal of an American university, without asking the permission of the communist authorities, will trigger a chain of events that will change the lives of those around him. After all, there are no decisions without consequences. <a href=\"#florin-piersic-jr\">Florin Piersic Jr.</a> plays the Securitate detective who investigates the case. He received the Best Actor of the Year (Gopo Awards) for his brilliant interpretation. Winner of the Special Jury Prize at Rome Film Fest in 2013." ],
-      "artist": "Andrei Gruzsnickzki",
-      "length": "107 minutes",
-      "genres": "Drama",
-      "imagePath": "QED.jpg",
-      "year": "2013",
-      "id": "the-escape",
-      "trailerLink": "https://www.youtube.com/watch?v=WdCni63Mbjc",
       "ticketLink": "https://www.siff.net/year-round-cinema/romanian-film-festival-stories-off-the-wall-(6th-edition)",
-      "structuredPerformers": [ "florin-piersic-jr" ]
+      "collection": [
+        {
+          "time": "Sunday, November 17, 7:10 PM",
+          "name": "The Christmas Gift",
+          "description": [ "On the 20th of December, 1989, a few days after Ceausescu's bloody repression in Timisoara, a father’s quiet evening turns to sheer ordeal as he finds out that his young son has mailed a wish list to Santa requesting a present for his father -- his desire to see Ceausescu dead. Winner of numerous prizes, including Best of Fest & Jury Award, Palm Springs International ShortFest, 2019, and Grand Prix, Clermont-Ferrand International Short Film Festival, 2019." ],
+          "artist": "Bogdan Mureșan",
+          "length": "23 minutes",
+          "genres": "Drama/History ",
+          "imagePath": "XMAS.jpg",
+          "year": "2018",
+          "id": "xmas",
+          "trailerLink": "https://www.youtube.com/watch?v=_CYyb2LbGCM",
+          "ticketLink": "https://www.siff.net/year-round-cinema/romanian-film-festival-stories-off-the-wall-(6th-edition)"
+        },
+        {
+          "time": "Sunday, November 17, 7:35 PM",
+          "name": "The Escape",
+          "description": [ "Romania, 1984. The decision of a mathematician to publish a paper in a journal of an American university, without asking the permission of the communist authorities, will trigger a chain of events that will change the lives of those around him. After all, there are no decisions without consequences. <a href=\"#florin-piersic-jr\">Florin Piersic Jr.</a> plays the Securitate detective who investigates the case. He received the Best Actor of the Year (Gopo Awards) for his brilliant interpretation. Winner of the Special Jury Prize at Rome Film Fest in 2013." ],
+          "artist": "Andrei Gruzsnickzki",
+          "length": "107 minutes",
+          "genres": "Drama",
+          "imagePath": "QED.jpg",
+          "year": "2013",
+          "id": "the-escape",
+          "trailerLink": "https://www.youtube.com/watch?v=WdCni63Mbjc",
+          "ticketLink": "https://www.siff.net/year-round-cinema/romanian-film-festival-stories-off-the-wall-(6th-edition)",
+          "structuredPerformers": [ "florin-piersic-jr" ]
+        }
+      ]
     }
-  ],
-  "guests": [
-    {
-      "name": "Florin Piersic Jr",
-      "imagePath": "FPJr.jpg",
-      "details": "Born in 1968, Florin Piersic Jr. is a Romanian actor, director and writer. He translated, directed and performed in \"Dice and Cards\" by Sam Henry Kass, \"Opposites Attract\" by Bruce Kane, \"Tom and Jerry\" by Rick Cleveland, \"Sex Drugs Rock and Roll\", by Eric Bogosian, \"Brothers!\" by Dave Williams. In 2013, he wrote and produced the one-man-show entitled \"Freak Show\". His performance (13 characters) has been acclaimed both by the public and the critics. Florin Piersic Jr. is the author of the novel \"Romantic Porno\" (2011), as well as of the collection of short stories entitled \"Complete Works - Volume One\" (2009) and \"Complete Works - Volume Two\" (2015). Currently, Florin Piersic Jr. is working on the feature film called \"Nothing About Love\", written and directed by himself. Florin Piersic Jr. has received numerous prestigious awards, the most recent including the Best Actor of the Year for \"The Escape\" in 2015 at Gopo Awards; the Jury's Prize (for \"Freak Show\")  at Festco Comedy Festival, Bucharest in 2014, the Best Experimental Movie ( for \"Killing Time\")  at UCIN (Romanian Cinematographers' Union) in 2013. Florin Piersic Jr. plays the lead part in Comrade Detective, an American buddy cop series created by Brian Gatewood and Alessandro Tanaka released on Amazon Video in 2017. <a target=\"_blank\" href=\"http://www.piersicjr.com\" >http://www.piersicjr.com</>",
-      "id": "florin-piersic-jr"
-    },
-    {
-      "name": "Mona Nicoară",
-      "imagePath": "Mona_Nicoara.jpg",
-      "details": "Mona Nicoară is a filmmaker, curator, writer, and educator. She started working in film in 1997 as an Associate Producer for Children Underground, which received the Special Jury Prize at the 2001 Sundance Film Festival and was nominated for an Academy Award for Best Feature Documentary. Her directorial debut, Our School, premiered in the US at the 2011 Tribeca Film Festival, went on to over 70 festivals worldwide, was awarded the Grand Jury Prize for Best US Feature at AFI SilverDocs. Her latest film, The Distance between Me and Me, received the audience award at Films de Cannes à Bucarest, screened at the Brooklyn Academy of Music and Trieste, and is currently distributed in cinemas in Romania. Nicoară also works as a festival programmer, and has been teaching film, writing, and literature at Columbia University, the Cooper Union, New York University, and Rutgers. Her writings have been published in The Guardian, Decât o revistă, Dilema, and Scena 9, among others. <a target=\"_blank\" href=\"www.monanicoara.com\">http://www.monanicoara.com</>",
-      "id": "mona-nicoara"
-    },
-    {
-      "name": "Teodora Totoiu",
-      "imagePath": "TeodoraTotoiu.jpg",
-      "details": "Teodora Totoiu is a Romanian-American director and cinematographer focusing on documentary and scripted-narrative film. As a member of the International Collective of Female Cinematographers, she has garnered a substantial body of work, including Waterschool (2018), an international collaboration with Swarovski that is currently streaming on Netflix; and Into Moria (2020), a documentary capturing personal stories from one of the largest refugee camps in Greece. Most recently, she has lensed a feature film directed by Academy Award-nominated Evgeny Afineevski. With a passion for visual storytelling, Teodora strives to continue her work by helping shape stories that celebrate all perspectives and embrace multicultural acceptance, respectfully captured through an artistic lens.",
-      "id": "teodora-totoiu"
-    },
-    {
-      "name": "Monica Filimon",
-      "imagePath": "monica_filimon_Seattle.jpg",
-      "details": "Monica Filimon was awarded a PhD in Comparative Literature by Rutgers University. She is Associate Professor of English at Kingsborough Community College, CUNY. She has published articles on French, German, and Romanian films. Her research focuses on the New Romanian Cinema, its sources, evolution, and major representatives. Her first book Cristi Puiu: Ineffable Experiences of the Profane World was published by the University of Illinois Press in February 2017. She is currently working on a second book tentatively titled Corneliu Porumboiu: Notes on the Absurd.",
-      "id": "monica-filimon"
-    },
-    {
-      "name": "Ion Borsh",
-      "imagePath": "Ion_Borsh.jpg",
-      "details": "Ion Borsh was born in 1990 in Chișinău, Moldova. He graduated Acting at the Academy of Fine Arts in Chișinău, in 2013. \"One More, One Less\" is his debut short film as a director. He starred in \"What a Wonderful World\", \"Beautiful Corruption\", \"Salix Caprea\" and \"Opus Nocturn 2\", also he was 1st AD in the short movie \"Now\"<p>Director Statement</p>Through the movie \"One More, One Less\" I want to show the situation of the medical system in my country, the attitude of the medical staff towards their patients, and the conditions imposed on the young resident doctors who try to fight against a corrupted system. The storyline is based on real facts, situations that most of us have had to deal with. The characters resemble us, our confrontation, on a daily basis, with the acute problems of our society. Our national cinematography should reflect more on these matters in order to create positive social change.",
-      "id": "ion-borsh"
-    },
-    {
-      "name": "Robert Horton",
-      "imagePath": "DSC_0021.jpg",
-      "details": "Robert Horton is the film critic for Seattle Weekly and the Everett Herald, and a longtime contributor to Film Comment. He curated the Magic Lantern film-discussion program at the Frye Art Museum for ten years, teaches film at Seattle University, and is a guest speaker for Smithsonian Journeys. His books include Frankenstein (Columbia University Press) and Billy Wilder: Interviews (University Press of Mississippi) as well as the zombie-Western graphic novel Rotten (Moonstone Books), and he blogs on movies at The Crop Duster (<a href=\"roberthorton.wordpress.com\">roberthorton.wordpress.com</a>). He is a member of the Broadcast Film Critics Association. In 2012 he curated the Museum of History & Industry's \"Celluloid",
-      "id": "robert-horton"
+      ],
+      "guests": [
+        {
+          "name": "Florin Piersic Jr",
+          "imagePath": "FPJr.jpg",
+          "details": "Born in 1968, Florin Piersic Jr. is a Romanian actor, director and writer. He translated, directed and performed in \"Dice and Cards\" by Sam Henry Kass, \"Opposites Attract\" by Bruce Kane, \"Tom and Jerry\" by Rick Cleveland, \"Sex Drugs Rock and Roll\", by Eric Bogosian, \"Brothers!\" by Dave Williams. In 2013, he wrote and produced the one-man-show entitled \"Freak Show\". His performance (13 characters) has been acclaimed both by the public and the critics. Florin Piersic Jr. is the author of the novel \"Romantic Porno\" (2011), as well as of the collection of short stories entitled \"Complete Works - Volume One\" (2009) and \"Complete Works - Volume Two\" (2015). Currently, Florin Piersic Jr. is working on the feature film called \"Nothing About Love\", written and directed by himself. Florin Piersic Jr. has received numerous prestigious awards, the most recent including the Best Actor of the Year for \"The Escape\" in 2015 at Gopo Awards; the Jury's Prize (for \"Freak Show\")  at Festco Comedy Festival, Bucharest in 2014, the Best Experimental Movie ( for \"Killing Time\")  at UCIN (Romanian Cinematographers' Union) in 2013. Florin Piersic Jr. plays the lead part in Comrade Detective, an American buddy cop series created by Brian Gatewood and Alessandro Tanaka released on Amazon Video in 2017. <a target=\"_blank\" href=\"http://www.piersicjr.com\" >http://www.piersicjr.com</>",
+          "id": "florin-piersic-jr"
+        },
+        {
+          "name": "Mona Nicoară",
+          "imagePath": "Mona_Nicoara.jpg",
+          "details": "Mona Nicoară is a filmmaker, curator, writer, and educator. She started working in film in 1997 as an Associate Producer for Children Underground, which received the Special Jury Prize at the 2001 Sundance Film Festival and was nominated for an Academy Award for Best Feature Documentary. Her directorial debut, Our School, premiered in the US at the 2011 Tribeca Film Festival, went on to over 70 festivals worldwide, was awarded the Grand Jury Prize for Best US Feature at AFI SilverDocs. Her latest film, The Distance between Me and Me, received the audience award at Films de Cannes à Bucarest, screened at the Brooklyn Academy of Music and Trieste, and is currently distributed in cinemas in Romania. Nicoară also works as a festival programmer, and has been teaching film, writing, and literature at Columbia University, the Cooper Union, New York University, and Rutgers. Her writings have been published in The Guardian, Decât o revistă, Dilema, and Scena 9, among others. <a target=\"_blank\" href=\"www.monanicoara.com\">http://www.monanicoara.com</>",
+          "id": "mona-nicoara"
+        },
+        {
+          "name": "Teodora Totoiu",
+          "imagePath": "TeodoraTotoiu.jpg",
+          "details": "Teodora Totoiu is a Romanian-American director and cinematographer focusing on documentary and scripted-narrative film. As a member of the International Collective of Female Cinematographers, she has garnered a substantial body of work, including Waterschool (2018), an international collaboration with Swarovski that is currently streaming on Netflix; and Into Moria (2020), a documentary capturing personal stories from one of the largest refugee camps in Greece. Most recently, she has lensed a feature film directed by Academy Award-nominated Evgeny Afineevski. With a passion for visual storytelling, Teodora strives to continue her work by helping shape stories that celebrate all perspectives and embrace multicultural acceptance, respectfully captured through an artistic lens.",
+          "id": "teodora-totoiu"
+        },
+        {
+          "name": "Monica Filimon",
+          "imagePath": "monica_filimon_Seattle.jpg",
+          "details": "Monica Filimon was awarded a PhD in Comparative Literature by Rutgers University. She is Associate Professor of English at Kingsborough Community College, CUNY. She has published articles on French, German, and Romanian films. Her research focuses on the New Romanian Cinema, its sources, evolution, and major representatives. Her first book Cristi Puiu: Ineffable Experiences of the Profane World was published by the University of Illinois Press in February 2017. She is currently working on a second book tentatively titled Corneliu Porumboiu: Notes on the Absurd.",
+          "id": "monica-filimon"
+        },
+        {
+          "name": "Ion Borsh",
+          "imagePath": "Ion_Borsh.jpg",
+          "details": "Ion Borsh was born in 1990 in Chișinău, Moldova. He graduated Acting at the Academy of Fine Arts in Chișinău, in 2013. \"One More, One Less\" is his debut short film as a director. He starred in \"What a Wonderful World\", \"Beautiful Corruption\", \"Salix Caprea\" and \"Opus Nocturn 2\", also he was 1st AD in the short movie \"Now\"<p>Director Statement</p>Through the movie \"One More, One Less\" I want to show the situation of the medical system in my country, the attitude of the medical staff towards their patients, and the conditions imposed on the young resident doctors who try to fight against a corrupted system. The storyline is based on real facts, situations that most of us have had to deal with. The characters resemble us, our confrontation, on a daily basis, with the acute problems of our society. Our national cinematography should reflect more on these matters in order to create positive social change.",
+          "id": "ion-borsh"
+        },
+        {
+          "name": "Robert Horton",
+          "imagePath": "DSC_0021.jpg",
+          "details": "Robert Horton is the film critic for Seattle Weekly and the Everett Herald, and a longtime contributor to Film Comment. He curated the Magic Lantern film-discussion program at the Frye Art Museum for ten years, teaches film at Seattle University, and is a guest speaker for Smithsonian Journeys. His books include Frankenstein (Columbia University Press) and Billy Wilder: Interviews (University Press of Mississippi) as well as the zombie-Western graphic novel Rotten (Moonstone Books), and he blogs on movies at The Crop Duster (<a href=\"roberthorton.wordpress.com\">roberthorton.wordpress.com</a>). He is a member of the Broadcast Film Critics Association. In 2012 he curated the Museum of History & Industry's \"Celluloid",
+          "id": "robert-horton"
+        }
+      ]
     }
-  ]
-}
