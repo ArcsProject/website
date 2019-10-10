@@ -22,6 +22,7 @@
                 <p ng-if="$ctrl.event.description" ng-repeat="line in $ctrl.event.description">{{line}}</p>
                 <p ng-if="$ctrl.event.descriptionHtml" ng-repeat="line in $ctrl.event.descriptionHtml" ng-bind-html="line"></p>
                 <a href="{{$ctrl.event.locationLink}}" target="_blank">{{$ctrl.event.location}}</a>
+                <p><a ng-if="$ctrl.event.ticketLink" class="btn btn-info buy-ticket-button" href="{{$ctrl.event.ticketLink}}" target="_blank" track-category="Buy Ticket" track-custom="content"><strong>BUY TICKETS</strong></a></p>
             </div>
         </div>
     </div>

@@ -23,8 +23,7 @@
       "descriptionHtml": [
         "<b>FREAK SHOW</b>, written, directed and performed by Florin Piersic Jr, is a dynamic tour de force that keeps the audience with bated breath for almost two hours. Florin Piersic Jr plays 13 characters (a fake billionaire, worker, banker, retiree, TV producer, professor, beggar, among others). You will watch a versatile actor who continuously changes parts in a hallucinatory chain of transformations. Between 2014 and 2017, <b>FREAK SHOW</b> has been selected by several festivals in Romania and has toured abroad in London, Brussels, Calgary, Ottawa, Montreal, Toronto, Toulouse, and Koln. Since the opening night, <b>FREAK SHOW</b> has become a reference point for Romanian theatre.",
         "\"Well-versed then in physical metamorphosis, Piersic is adept in <i>Freak Show</i>. He seems effortlessly to lend his body to his characters, while hats, wigs and fake teeth add the finishing touches. Though they’re a diverse range of types, Piersic’s personae do share one thing: they’re the product of Today and all of them suffer from modern day maladies: deception, insensitivity, loneliness, delusion.\" (Camelia Ciobanu, Central and Eastern European London Review, 2015)",
-        "\"Freak Show este acel gen de spectacol pe care îți dorești să îl revezi pentru că nu te poți sătura de savoarea interpretării și de artificiile regizorale\" - Mirela Cara",
-        "<i>Tickets on sale soon</i>"
+        "\"Freak Show este acel gen de spectacol pe care îți dorești să îl revezi pentru că nu te poți sătura de savoarea interpretării și de artificiile regizorale\" - Mirela Cara"
       ],
       "date": "2019-11-18T19:30:00.000",
       "startTime": "2019-11-18T19:30:00.000",
@@ -35,7 +34,8 @@
       "id": "freak-show",
       "structuredStartDate": "2019-11-18T19:30",
       "structuredEndDate": "2019-11-18T21:00",
-      "structuredLocation": "Kirkland Performance Center"
+      "structuredLocation": "Kirkland Performance Center",
+      "ticketLink": "http://www.kpcenter.org/event/freak-show/"
     }
   ],
   "festivalParteners": [
