@@ -279,6 +279,7 @@
           "length": "15 minutes",
           "genres": "Drama",
           "year": "2015",
+          "artist":"Lucia Lupu",
           "imagePath": "paparuda.jpg"
         },
         {
@@ -319,7 +320,7 @@
           "time": "Sunday, November 17, 7:10 PM",
           "name": "The Christmas Gift",
           "description": [ "On the 20th of December, 1989, a few days after Ceausescu's bloody repression in Timisoara, a father’s quiet evening turns to sheer ordeal as he finds out that his young son has mailed a wish list to Santa requesting a present for his father -- his desire to see Ceausescu dead. Winner of numerous prizes, including Best of Fest & Jury Award, Palm Springs International ShortFest, 2019, and Grand Prix, Clermont-Ferrand International Short Film Festival, 2019." ],
-          "artist": "Bogdan Mureșan",
+          "artist": "Bogdan Mureșanu",
           "length": "23 minutes",
           "genres": "Drama/History ",
           "imagePath": "XMAS.jpg",
